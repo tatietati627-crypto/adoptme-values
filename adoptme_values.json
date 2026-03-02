@@ -34,25 +34,25 @@
     "image": "/images/pets/African Wild Dog.png",
     "id": 1,
     "regular": {
-      "value": 80,
-      "no_potion": 80,
-      "ride": 81,
-      "fly": 81,
-      "fly_ride": 82
+      "value": 82,
+      "no_potion": 82,
+      "ride": 83,
+      "fly": 83,
+      "fly_ride": 84
     },
     "neon": {
-      "value": 255,
-      "no_potion": 267,
-      "ride": 254.5,
-      "fly": 254.5,
-      "fly_ride": 255
+      "value": 260,
+      "no_potion": 272,
+      "ride": 259.5,
+      "fly": 259.5,
+      "fly_ride": 260
     },
     "mega": {
-      "value": 890,
-      "no_potion": 940,
-      "ride": 889,
-      "fly": 889,
-      "fly_ride": 890
+      "value": 896,
+      "no_potion": 946,
+      "ride": 895,
+      "fly": 895,
+      "fly_ride": 896
     }
   },
   {
@@ -69,18 +69,18 @@
       "fly_ride": 45
     },
     "neon": {
-      "value": 131,
-      "no_potion": 137,
-      "ride": 130.5,
-      "fly": 130.5,
-      "fly_ride": 131
+      "value": 132,
+      "no_potion": 138,
+      "ride": 131.5,
+      "fly": 131.5,
+      "fly_ride": 132
     },
     "mega": {
-      "value": 445,
-      "no_potion": 475,
-      "ride": 453,
-      "fly": 453,
-      "fly_ride": 445
+      "value": 450,
+      "no_potion": 480,
+      "ride": 458,
+      "fly": 458,
+      "fly_ride": 450
     }
   },
   {
@@ -342,25 +342,25 @@
     "image": "/images/pets/Purple Butterfly.png",
     "id": 12,
     "regular": {
-      "value": 4,
-      "no_potion": 4,
-      "ride": 4.25,
-      "fly": 4.25,
-      "fly_ride": 4.5
+      "value": 3.75,
+      "no_potion": 3.75,
+      "ride": 4,
+      "fly": 4,
+      "fly_ride": 4.25
     },
     "neon": {
-      "value": 20,
-      "no_potion": 19,
-      "ride": 19.5,
-      "fly": 19.5,
-      "fly_ride": 20
+      "value": 18.5,
+      "no_potion": 17.5,
+      "ride": 18,
+      "fly": 18,
+      "fly_ride": 18.5
     },
     "mega": {
-      "value": 88,
-      "no_potion": 86,
-      "ride": 87,
-      "fly": 87,
-      "fly_ride": 88
+      "value": 82,
+      "no_potion": 80,
+      "ride": 81,
+      "fly": 81,
+      "fly_ride": 82
     }
   },
   {
@@ -377,18 +377,18 @@
       "fly_ride": 4.25
     },
     "neon": {
-      "value": 18,
-      "no_potion": 17,
-      "ride": 17.5,
-      "fly": 17.5,
-      "fly_ride": 18
+      "value": 17.5,
+      "no_potion": 16.5,
+      "ride": 17,
+      "fly": 17,
+      "fly_ride": 17.5
     },
     "mega": {
-      "value": 78,
-      "no_potion": 76,
-      "ride": 77,
-      "fly": 77,
-      "fly_ride": 78
+      "value": 76,
+      "no_potion": 74,
+      "ride": 75,
+      "fly": 75,
+      "fly_ride": 76
     }
   },
   {
@@ -510,25 +510,25 @@
     "image": "/images/pets/Kookaburra.png",
     "id": 18,
     "regular": {
-      "value": 3,
-      "no_potion": 3,
-      "ride": 3.25,
-      "fly": 3.25,
-      "fly_ride": 3.5
+      "value": 2.75,
+      "no_potion": 2.75,
+      "ride": 3,
+      "fly": 3,
+      "fly_ride": 3.25
     },
     "neon": {
-      "value": 13,
-      "no_potion": 12,
-      "ride": 12.5,
-      "fly": 12.5,
-      "fly_ride": 13
+      "value": 12,
+      "no_potion": 11,
+      "ride": 11.5,
+      "fly": 11.5,
+      "fly_ride": 12
     },
     "mega": {
-      "value": 56,
-      "no_potion": 54,
-      "ride": 55,
-      "fly": 55,
-      "fly_ride": 56
+      "value": 52,
+      "no_potion": 50,
+      "ride": 51,
+      "fly": 51,
+      "fly_ride": 52
     }
   },
   {
@@ -622,25 +622,25 @@
     "image": "/images/pets/Many Mackerel.png",
     "id": 22,
     "regular": {
-      "value": 4.5,
-      "no_potion": 4.5,
-      "ride": 4.75,
-      "fly": 4.75,
-      "fly_ride": 5
+      "value": 4.75,
+      "no_potion": 4.75,
+      "ride": 5,
+      "fly": 5,
+      "fly_ride": 5.25
     },
     "neon": {
-      "value": 22.5,
-      "no_potion": 21.5,
-      "ride": 22,
-      "fly": 22,
-      "fly_ride": 22.5
+      "value": 23,
+      "no_potion": 22,
+      "ride": 22.5,
+      "fly": 22.5,
+      "fly_ride": 23
     },
     "mega": {
-      "value": 100,
-      "no_potion": 98,
-      "ride": 99,
-      "fly": 99,
-      "fly_ride": 100
+      "value": 102,
+      "no_potion": 100,
+      "ride": 101,
+      "fly": 101,
+      "fly_ride": 102
     }
   },
   {
@@ -769,18 +769,18 @@
       "fly_ride": 4.5
     },
     "neon": {
-      "value": 21,
-      "no_potion": 21,
-      "ride": 20.5,
-      "fly": 20.5,
-      "fly_ride": 21
+      "value": 20.5,
+      "no_potion": 20.5,
+      "ride": 20,
+      "fly": 20,
+      "fly_ride": 20.5
     },
     "mega": {
-      "value": 93,
-      "no_potion": 101,
-      "ride": 92,
-      "fly": 92,
-      "fly_ride": 93
+      "value": 85,
+      "no_potion": 93,
+      "ride": 84,
+      "fly": 84,
+      "fly_ride": 85
     }
   },
   {
@@ -790,25 +790,25 @@
     "image": "/images/pets/Christmas Pudding Pup.png",
     "id": 28,
     "regular": {
-      "value": 3.25,
-      "no_potion": 3.25,
-      "ride": 3.5,
-      "fly": 3.5,
-      "fly_ride": 3.75
+      "value": 3,
+      "no_potion": 3,
+      "ride": 3.25,
+      "fly": 3.25,
+      "fly_ride": 3.5
     },
     "neon": {
-      "value": 16,
-      "no_potion": 15,
-      "ride": 15.5,
-      "fly": 15.5,
-      "fly_ride": 16
+      "value": 15,
+      "no_potion": 14,
+      "ride": 14.5,
+      "fly": 14.5,
+      "fly_ride": 15
     },
     "mega": {
-      "value": 68,
-      "no_potion": 66,
-      "ride": 67,
-      "fly": 67,
-      "fly_ride": 68
+      "value": 64,
+      "no_potion": 62,
+      "ride": 63,
+      "fly": 63,
+      "fly_ride": 64
     }
   },
   {
@@ -1000,11 +1000,11 @@
       "fly_ride": 12
     },
     "mega": {
-      "value": 52,
-      "no_potion": 50,
-      "ride": 51,
-      "fly": 51,
-      "fly_ride": 52
+      "value": 50,
+      "no_potion": 48,
+      "ride": 49,
+      "fly": 49,
+      "fly_ride": 50
     }
   },
   {
@@ -4493,18 +4493,18 @@
       "fly_ride": 1.1
     },
     "neon": {
-      "value": 4,
-      "no_potion": 3,
-      "ride": 3.5,
-      "fly": 3.5,
-      "fly_ride": 4
+      "value": 3.75,
+      "no_potion": 2.75,
+      "ride": 3.25,
+      "fly": 3.25,
+      "fly_ride": 3.75
     },
     "mega": {
-      "value": 17,
-      "no_potion": 15,
-      "ride": 16,
-      "fly": 16,
-      "fly_ride": 17
+      "value": 16,
+      "no_potion": 14,
+      "ride": 15,
+      "fly": 15,
+      "fly_ride": 16
     }
   },
   {
@@ -4934,25 +4934,25 @@
     "image": "/images/pets/Balloon Unicorn.png",
     "id": 176,
     "regular": {
-      "value": 75,
-      "no_potion": 73,
-      "ride": 74,
-      "fly": 74,
-      "fly_ride": 75
+      "value": 77,
+      "no_potion": 75,
+      "ride": 76,
+      "fly": 76,
+      "fly_ride": 77
     },
     "neon": {
-      "value": 250,
-      "no_potion": 255,
-      "ride": 249,
-      "fly": 249,
-      "fly_ride": 250
+      "value": 256,
+      "no_potion": 261,
+      "ride": 255,
+      "fly": 255,
+      "fly_ride": 256
     },
     "mega": {
-      "value": 900,
-      "no_potion": 970,
-      "ride": 899,
-      "fly": 899,
-      "fly_ride": 900
+      "value": 905,
+      "no_potion": 977,
+      "ride": 904,
+      "fly": 904,
+      "fly_ride": 905
     }
   },
   {
@@ -4969,18 +4969,18 @@
       "fly_ride": 48
     },
     "neon": {
-      "value": 175,
-      "no_potion": 180,
-      "ride": 174,
-      "fly": 174,
-      "fly_ride": 175
+      "value": 174,
+      "no_potion": 179,
+      "ride": 173,
+      "fly": 173,
+      "fly_ride": 174
     },
     "mega": {
-      "value": 708,
-      "no_potion": 760,
-      "ride": 707,
-      "fly": 707,
-      "fly_ride": 708
+      "value": 700,
+      "no_potion": 752,
+      "ride": 699,
+      "fly": 699,
+      "fly_ride": 700
     }
   },
   {
@@ -5193,18 +5193,18 @@
       "fly_ride": 17.85
     },
     "neon": {
-      "value": 74,
-      "no_potion": 72,
-      "ride": 73,
-      "fly": 73,
-      "fly_ride": 74
+      "value": 74.5,
+      "no_potion": 72.5,
+      "ride": 73.5,
+      "fly": 73.5,
+      "fly_ride": 74.5
     },
     "mega": {
-      "value": 302,
-      "no_potion": 307,
-      "ride": 301,
-      "fly": 301,
-      "fly_ride": 302
+      "value": 305,
+      "no_potion": 310,
+      "ride": 304,
+      "fly": 304,
+      "fly_ride": 305
     }
   },
   {
@@ -5354,25 +5354,25 @@
     "image": "/images/pets/Haetae.png",
     "id": 191,
     "regular": {
-      "value": 28,
-      "no_potion": 27.5,
-      "ride": 27.5,
-      "fly": 27.5,
-      "fly_ride": 28
+      "value": 28.5,
+      "no_potion": 28,
+      "ride": 28,
+      "fly": 28,
+      "fly_ride": 28.5
     },
     "neon": {
-      "value": 116,
-      "no_potion": 114,
-      "ride": 115,
-      "fly": 115,
-      "fly_ride": 116
+      "value": 118,
+      "no_potion": 116,
+      "ride": 117,
+      "fly": 117,
+      "fly_ride": 118
     },
     "mega": {
-      "value": 470,
-      "no_potion": 480,
-      "ride": 469,
-      "fly": 469,
-      "fly_ride": 470
+      "value": 478,
+      "no_potion": 488,
+      "ride": 477,
+      "fly": 477,
+      "fly_ride": 478
     }
   },
   {
@@ -5417,18 +5417,18 @@
       "fly_ride": 10.35
     },
     "neon": {
-      "value": 42,
-      "no_potion": 40,
-      "ride": 41,
-      "fly": 41,
-      "fly_ride": 42
+      "value": 42.5,
+      "no_potion": 40.5,
+      "ride": 41.5,
+      "fly": 41.5,
+      "fly_ride": 42.5
     },
     "mega": {
-      "value": 176,
-      "no_potion": 186,
-      "ride": 175.5,
-      "fly": 175.5,
-      "fly_ride": 176
+      "value": 178,
+      "no_potion": 188,
+      "ride": 177.5,
+      "fly": 177.5,
+      "fly_ride": 178
     }
   },
   {
@@ -6614,25 +6614,25 @@
     "image": "/images/pets/Shark Puppy.png",
     "id": 236,
     "regular": {
-      "value": 6,
-      "no_potion": 6,
-      "ride": 6.25,
-      "fly": 6.25,
-      "fly_ride": 6.6
+      "value": 6.25,
+      "no_potion": 6.25,
+      "ride": 6.5,
+      "fly": 6.5,
+      "fly_ride": 6.85
     },
     "neon": {
-      "value": 29,
-      "no_potion": 27,
-      "ride": 28,
-      "fly": 28,
-      "fly_ride": 29
+      "value": 29.5,
+      "no_potion": 27.5,
+      "ride": 28.5,
+      "fly": 28.5,
+      "fly_ride": 29.5
     },
     "mega": {
-      "value": 126,
-      "no_potion": 129,
-      "ride": 125,
-      "fly": 125,
-      "fly_ride": 126
+      "value": 128,
+      "no_potion": 131,
+      "ride": 127,
+      "fly": 127,
+      "fly_ride": 128
     }
   },
   {
@@ -6712,11 +6712,11 @@
       "fly_ride": 14
     },
     "mega": {
-      "value": 42,
-      "no_potion": 40,
-      "ride": 41,
-      "fly": 41,
-      "fly_ride": 42
+      "value": 41,
+      "no_potion": 39,
+      "ride": 40,
+      "fly": 40,
+      "fly_ride": 41
     }
   },
   {
@@ -6726,25 +6726,25 @@
     "image": "/images/pets/Field Mouse.png",
     "id": 240,
     "regular": {
-      "value": 7,
-      "no_potion": 7,
-      "ride": 7.25,
-      "fly": 7.25,
-      "fly_ride": 7.6
+      "value": 7.25,
+      "no_potion": 7.25,
+      "ride": 7.5,
+      "fly": 7.5,
+      "fly_ride": 7.85
     },
     "neon": {
-      "value": 32.5,
-      "no_potion": 30.5,
-      "ride": 31.5,
-      "fly": 31.5,
-      "fly_ride": 32.5
+      "value": 33,
+      "no_potion": 31,
+      "ride": 32,
+      "fly": 32,
+      "fly_ride": 33
     },
     "mega": {
-      "value": 140,
-      "no_potion": 138,
-      "ride": 139,
-      "fly": 139,
-      "fly_ride": 140
+      "value": 142,
+      "no_potion": 140,
+      "ride": 141,
+      "fly": 141,
+      "fly_ride": 142
     }
   },
   {
@@ -7146,25 +7146,25 @@
     "image": "/images/pets/Cheetah.png",
     "id": 255,
     "regular": {
-      "value": 1,
-      "no_potion": 1,
-      "ride": 1.25,
-      "fly": 1.25,
-      "fly_ride": 1.6
+      "value": 1.15,
+      "no_potion": 1.15,
+      "ride": 1.4,
+      "fly": 1.4,
+      "fly_ride": 1.75
     },
     "neon": {
-      "value": 8,
-      "no_potion": 6.5,
-      "ride": 7.25,
-      "fly": 7.25,
-      "fly_ride": 8
+      "value": 8.5,
+      "no_potion": 7,
+      "ride": 7.75,
+      "fly": 7.75,
+      "fly_ride": 8.5
     },
     "mega": {
-      "value": 36,
-      "no_potion": 33.5,
-      "ride": 34.75,
-      "fly": 34.75,
-      "fly_ride": 36
+      "value": 39,
+      "no_potion": 36.5,
+      "ride": 37.75,
+      "fly": 37.75,
+      "fly_ride": 39
     }
   },
   {
@@ -13348,11 +13348,11 @@
       "fly_ride": 0.7
     },
     "mega": {
-      "value": 2.5,
-      "no_potion": 2,
-      "ride": 2.25,
-      "fly": 2.25,
-      "fly_ride": 2.5
+      "value": 2.75,
+      "no_potion": 2.25,
+      "ride": 2.5,
+      "fly": 2.5,
+      "fly_ride": 2.75
     }
   },
   {
@@ -16183,11 +16183,11 @@
   },
   {
     "name": "Elf Hat",
-    "type": "pet wear",
-    "rarity": "none",
+    "type": "Pet Wear",
+    "rarity": "rare",
     "image": "/images/pets/Elf Hat.png",
     "id": 603,
-    "value": 3
+    "value": 2.5
   },
   {
     "name": "Pink Cat Ear Headphones",
@@ -23200,11 +23200,11 @@
   },
   {
     "name": "Alien Eyes Hat",
-    "type": "pet wear",
-    "rarity": "none",
+    "type": "Pet Wear",
+    "rarity": "uncommon",
     "image": "/images/pets/Alien Eyes Hat.png",
     "id": 1371,
-    "value": 0.1
+    "value": 0.5
   },
   {
     "name": "Aviators",
@@ -32194,11 +32194,11 @@
       "fly_ride": 0.7
     },
     "mega": {
-      "value": 3,
-      "no_potion": 2.5,
-      "ride": 2.75,
-      "fly": 2.75,
-      "fly_ride": 3
+      "value": 2.5,
+      "no_potion": 2,
+      "ride": 2.25,
+      "fly": 2.25,
+      "fly_ride": 2.5
     }
   },
   {
@@ -32720,25 +32720,25 @@
     "image": "/images/pets/Giant Panda.png",
     "id": 2534,
     "regular": {
-      "value": 57,
-      "no_potion": 56,
-      "ride": 56.5,
-      "fly": 56.5,
-      "fly_ride": 57
+      "value": 68,
+      "no_potion": 67,
+      "ride": 67.5,
+      "fly": 67.5,
+      "fly_ride": 68
     },
     "neon": {
-      "value": 220,
-      "no_potion": 218,
-      "ride": 219,
-      "fly": 219,
-      "fly_ride": 220
+      "value": 261,
+      "no_potion": 259,
+      "ride": 260,
+      "fly": 260,
+      "fly_ride": 261
     },
     "mega": {
-      "value": 900,
-      "no_potion": 898,
-      "ride": 899,
-      "fly": 899,
-      "fly_ride": 900
+      "value": 1040,
+      "no_potion": 1038,
+      "ride": 1039,
+      "fly": 1039,
+      "fly_ride": 1040
     }
   },
   {
@@ -33104,25 +33104,25 @@
     "image": "/images/pets/Cryptid.png",
     "id": 2552,
     "regular": {
-      "value": 60,
-      "no_potion": 58,
-      "ride": 59,
-      "fly": 59,
-      "fly_ride": 60
+      "value": 65,
+      "no_potion": 63,
+      "ride": 64,
+      "fly": 64,
+      "fly_ride": 65
     },
     "neon": {
-      "value": 138,
-      "no_potion": 136,
-      "ride": 137,
-      "fly": 137,
-      "fly_ride": 138
+      "value": 152,
+      "no_potion": 150,
+      "ride": 151,
+      "fly": 151,
+      "fly_ride": 152
     },
     "mega": {
-      "value": 453,
-      "no_potion": 451,
-      "ride": 452,
-      "fly": 452,
-      "fly_ride": 453
+      "value": 470,
+      "no_potion": 468,
+      "ride": 469,
+      "fly": 469,
+      "fly_ride": 470
     }
   },
   {
@@ -33174,11 +33174,11 @@
       "fly_ride": 0.7
     },
     "mega": {
-      "value": 3,
-      "no_potion": 2.5,
-      "ride": 2.75,
-      "fly": 2.75,
-      "fly_ride": 3
+      "value": 2.5,
+      "no_potion": 2,
+      "ride": 2.25,
+      "fly": 2.25,
+      "fly_ride": 2.5
     }
   },
   {
@@ -34592,25 +34592,25 @@
     "image": "/images/pets/Silverback Gorilla.png",
     "id": 2633,
     "regular": {
-      "value": 70,
-      "no_potion": 69,
-      "ride": 69.5,
-      "fly": 69.5,
-      "fly_ride": 70
+      "value": 60,
+      "no_potion": 59,
+      "ride": 59.5,
+      "fly": 59.5,
+      "fly_ride": 60
     },
     "neon": {
-      "value": 300,
-      "no_potion": 298,
-      "ride": 299,
-      "fly": 299,
-      "fly_ride": 300
+      "value": 260,
+      "no_potion": 258,
+      "ride": 259,
+      "fly": 259,
+      "fly_ride": 260
     },
     "mega": {
-      "value": 1300,
-      "no_potion": 1298,
-      "ride": 1299,
-      "fly": 1299,
-      "fly_ride": 1300
+      "value": 1120,
+      "no_potion": 1118,
+      "ride": 1119,
+      "fly": 1119,
+      "fly_ride": 1120
     }
   },
   {
@@ -34628,25 +34628,25 @@
     "image": "/images/pets/Pangolin.png",
     "id": 2635,
     "regular": {
-      "value": 0.27,
-      "no_potion": 0.27,
-      "ride": 0.52,
-      "fly": 0.52,
-      "fly_ride": 0.77
+      "value": 0.25,
+      "no_potion": 0.25,
+      "ride": 0.5,
+      "fly": 0.5,
+      "fly_ride": 0.75
     },
     "neon": {
-      "value": 2.5,
-      "no_potion": 1.5,
-      "ride": 2,
-      "fly": 2,
-      "fly_ride": 2.5
+      "value": 2.25,
+      "no_potion": 1.25,
+      "ride": 1.75,
+      "fly": 1.75,
+      "fly_ride": 2.25
     },
     "mega": {
-      "value": 17,
-      "no_potion": 15,
-      "ride": 16,
-      "fly": 16,
-      "fly_ride": 17
+      "value": 13,
+      "no_potion": 11,
+      "ride": 12,
+      "fly": 12,
+      "fly_ride": 13
     }
   },
   {
@@ -34670,11 +34670,11 @@
       "fly_ride": 2.5
     },
     "mega": {
-      "value": 16,
-      "no_potion": 14,
-      "ride": 15,
-      "fly": 15,
-      "fly_ride": 16
+      "value": 15,
+      "no_potion": 13,
+      "ride": 14,
+      "fly": 14,
+      "fly_ride": 15
     }
   },
   {
@@ -34684,25 +34684,25 @@
     "image": "/images/pets/Blue Whale.png",
     "id": 2637,
     "regular": {
-      "value": 1.5,
-      "no_potion": 1.5,
-      "ride": 1.75,
-      "fly": 1.75,
-      "fly_ride": 2.1
+      "value": 1.15,
+      "no_potion": 1.15,
+      "ride": 1.4,
+      "fly": 1.4,
+      "fly_ride": 1.75
     },
     "neon": {
-      "value": 11,
-      "no_potion": 9,
-      "ride": 10,
-      "fly": 10,
-      "fly_ride": 11
+      "value": 9.5,
+      "no_potion": 7.5,
+      "ride": 8.5,
+      "fly": 8.5,
+      "fly_ride": 9.5
     },
     "mega": {
-      "value": 52,
-      "no_potion": 50,
-      "ride": 51,
-      "fly": 51,
-      "fly_ride": 52
+      "value": 42,
+      "no_potion": 40,
+      "ride": 41,
+      "fly": 41,
+      "fly_ride": 42
     }
   },
   {
@@ -34712,25 +34712,25 @@
     "image": "/images/pets/Sea Turtle.png",
     "id": 2638,
     "regular": {
-      "value": 1.5,
-      "no_potion": 1.5,
-      "ride": 1.75,
-      "fly": 1.75,
-      "fly_ride": 2.1
+      "value": 1.25,
+      "no_potion": 1.25,
+      "ride": 1.5,
+      "fly": 1.5,
+      "fly_ride": 1.85
     },
     "neon": {
-      "value": 11,
-      "no_potion": 9,
-      "ride": 10,
-      "fly": 10,
-      "fly_ride": 11
+      "value": 10,
+      "no_potion": 8,
+      "ride": 9,
+      "fly": 9,
+      "fly_ride": 10
     },
     "mega": {
-      "value": 52,
-      "no_potion": 50,
-      "ride": 51,
-      "fly": 51,
-      "fly_ride": 52
+      "value": 46,
+      "no_potion": 44,
+      "ride": 45,
+      "fly": 45,
+      "fly_ride": 46
     }
   },
   {
@@ -34740,25 +34740,25 @@
     "image": "/images/pets/Mexican Wolf.png",
     "id": 2639,
     "regular": {
-      "value": 0.1,
-      "no_potion": 0.1,
-      "ride": 0.35,
-      "fly": 0.35,
-      "fly_ride": 0.6
+      "value": 0.09,
+      "no_potion": 0.09,
+      "ride": 0.34,
+      "fly": 0.34,
+      "fly_ride": 0.59
     },
     "neon": {
-      "value": 1.75,
-      "no_potion": 1.25,
-      "ride": 1.5,
-      "fly": 1.5,
-      "fly_ride": 1.75
+      "value": 1.5,
+      "no_potion": 1,
+      "ride": 1.25,
+      "fly": 1.25,
+      "fly_ride": 1.5
     },
     "mega": {
-      "value": 8.5,
-      "no_potion": 7.75,
-      "ride": 8,
-      "fly": 8,
-      "fly_ride": 8.5
+      "value": 7,
+      "no_potion": 6.25,
+      "ride": 6.5,
+      "fly": 6.5,
+      "fly_ride": 7
     }
   },
   {
@@ -34768,25 +34768,137 @@
     "image": "/images/pets/Black Rhino.png",
     "id": 2640,
     "regular": {
-      "value": 0.1,
-      "no_potion": 0.1,
-      "ride": 0.35,
-      "fly": 0.35,
-      "fly_ride": 0.6
+      "value": 0.09,
+      "no_potion": 0.09,
+      "ride": 0.34,
+      "fly": 0.34,
+      "fly_ride": 0.59
     },
     "neon": {
-      "value": 1.75,
-      "no_potion": 1.25,
-      "ride": 1.5,
-      "fly": 1.5,
-      "fly_ride": 1.75
+      "value": 1.5,
+      "no_potion": 1,
+      "ride": 1.25,
+      "fly": 1.25,
+      "fly_ride": 1.5
     },
     "mega": {
-      "value": 8,
-      "no_potion": 7.25,
-      "ride": 7.5,
-      "fly": 7.5,
-      "fly_ride": 8
+      "value": 7,
+      "no_potion": 6.25,
+      "ride": 6.5,
+      "fly": 6.5,
+      "fly_ride": 7
+    }
+  },
+  {
+    "name": "Galapagos Sea Lion",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Galapagos Sea Lion.png",
+    "id": 2641,
+    "regular": {
+      "value": 0.05,
+      "no_potion": 0.05,
+      "ride": 0.25,
+      "fly": 0.25,
+      "fly_ride": 0.45
+    },
+    "neon": {
+      "value": 0.8,
+      "no_potion": 0.55,
+      "ride": 0.675,
+      "fly": 0.675,
+      "fly_ride": 0.8
+    },
+    "mega": {
+      "value": 3.5,
+      "no_potion": 3,
+      "ride": 3.25,
+      "fly": 3.25,
+      "fly_ride": 3.5
+    }
+  },
+  {
+    "name": "California Condor",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/California Condor.png",
+    "id": 2642,
+    "regular": {
+      "value": 0.05,
+      "no_potion": 0.05,
+      "ride": 0.25,
+      "fly": 0.25,
+      "fly_ride": 0.45
+    },
+    "neon": {
+      "value": 0.8,
+      "no_potion": 0.55,
+      "ride": 0.675,
+      "fly": 0.675,
+      "fly_ride": 0.8
+    },
+    "mega": {
+      "value": 3.25,
+      "no_potion": 2.75,
+      "ride": 3,
+      "fly": 3,
+      "fly_ride": 3.25
+    }
+  },
+  {
+    "name": "Black Tiger",
+    "type": "pets",
+    "rarity": "uncommon",
+    "image": "/images/pets/Black Tiger.png",
+    "id": 2643,
+    "regular": {
+      "value": 0.07,
+      "no_potion": 0.07,
+      "ride": 0.32,
+      "fly": 0.32,
+      "fly_ride": 0.5700000000000001
+    },
+    "neon": {
+      "value": 1.25,
+      "no_potion": 0.9,
+      "ride": 1.1,
+      "fly": 1.1,
+      "fly_ride": 1.25
+    },
+    "mega": {
+      "value": 5,
+      "no_potion": 4.25,
+      "ride": 4.5,
+      "fly": 4.5,
+      "fly_ride": 5
+    }
+  },
+  {
+    "name": "Kakapo",
+    "type": "pets",
+    "rarity": "uncommon",
+    "image": "/images/pets/Kakapo.png",
+    "id": 2644,
+    "regular": {
+      "value": 0.07,
+      "no_potion": 0.07,
+      "ride": 0.32,
+      "fly": 0.32,
+      "fly_ride": 0.5700000000000001
+    },
+    "neon": {
+      "value": 1.25,
+      "no_potion": 0.9,
+      "ride": 1.1,
+      "fly": 1.1,
+      "fly_ride": 1.25
+    },
+    "mega": {
+      "value": 4.5,
+      "no_potion": 3.75,
+      "ride": 4,
+      "fly": 4,
+      "fly_ride": 4.5
     }
   }
 ]
