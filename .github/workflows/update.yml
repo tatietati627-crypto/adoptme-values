@@ -1,9 +1,19 @@
-name: Auto Update Adopt Me Values
+name: Auto Update Values
 
 on:
   schedule:
     - cron: '0 0 * * 0'
   workflow_dispatch:
+    inputs:
+      target:
+        description: 'Что запустить? (all / adoptme / mm2_setup)'
+        required: true
+        default: 'mm2_setup'
+        type: choice
+        options:
+          - mm2_setup
+          - adoptme
+          - all
 
 permissions:
   contents: write
@@ -20,13 +30,18 @@ jobs:
         with:
           node-version: 20
 
-      - name: Устанавливаем Puppeteer и Chrome
+      - name: Устанавливаем зависимости и Chrome
         run: |
           npm init -y
           npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer
           npx puppeteer browsers install chrome
 
-      - name: Запускаем скрипт обновления
+      - name: Запуск первичной сборки MM2
+        if: "${{ github.event.inputs.target == 'mm2_setup' || github.event.inputs.target == 'all' }}"
+        run: node setup_mm2.js
+
+      - name: Запуск обновления Adopt Me
+        if: "${{ github.event.inputs.target == 'adoptme' || github.event.inputs.target == 'all' }}"
         run: node update_values.js
 
       - name: Коммитим изменения
@@ -34,4 +49,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --staged --quiet || (git commit -m "Auto-update: актуализация валют и данных" && git push)
+          git diff --staged --quiet || (git commit -m "Update: актуализация баз данных и изображений" && git push)
