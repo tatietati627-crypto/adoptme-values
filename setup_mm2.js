@@ -6,7 +6,6 @@ const API_KEY = 'Rbx_aa357d5b65f6d287af4a864ef472ded4066e7a7d91d4f4a4';
 const MM2_JSON_PATH = path.join(__dirname, 'mm2_values.json');
 const WEAPONS_DIR = path.join(__dirname, 'images', 'weapons');
 
-// Скачивание прозрачных PNG
 function downloadImage(url, destPath) {
   return new Promise((resolve) => {
     if (!url || !url.startsWith('http')) return resolve(false);
@@ -27,55 +26,33 @@ function downloadImage(url, destPath) {
   });
 }
 
-// Запрос данных с API RBLXValue с авторизацией
-function fetchCategoryItems(category) {
-  return new Promise((resolve) => {
-    let allItems = [];
-    let offset = 0;
-    const limit = 100;
+function fetchPage(category, offset = 0) {
+  return new Promise((resolve, reject) => {
+    const url = `https://api.rblxvalue.com/v2/items?category=${encodeURIComponent(category)}&limit=100&offset=${offset}`;
 
-    function getBatch() {
-      const url = `https://rblxvalue.com/api/v1/items?category=${encodeURIComponent(category)}&limit=${limit}&offset=${offset}`;
+    const options = {
+      headers: {
+        'X-Api-Key': API_KEY,
+        'User-Agent': 'Mozilla/5.0'
+      }
+    };
 
-      const options = {
-        headers: {
-          'X-Api-Key': API_KEY,
-          'User-Agent': 'Mozilla/5.0'
+    https.get(url, options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data);
+          resolve(parsed);
+        } catch (e) {
+          console.error(`Ошибка парсинга для ${category}:`, data.slice(0, 150));
+          resolve({ items: [] });
         }
-      };
-
-      https.get(url, options, (res) => {
-        let raw = '';
-        res.on('data', chunk => raw += chunk);
-        res.on('end', () => {
-          try {
-            const data = JSON.parse(raw);
-            const items = data.items || (Array.isArray(data) ? data : []);
-            
-            if (!items || items.length === 0) {
-              return resolve(allItems);
-            }
-
-            allItems = allItems.concat(items);
-
-            if (data.total && allItems.length < data.total) {
-              offset += limit;
-              getBatch();
-            } else {
-              resolve(allItems);
-            }
-          } catch (e) {
-            console.error(`Ошибка разбора JSON для ${category}:`, e.message);
-            resolve(allItems);
-          }
-        });
-      }).on('error', (err) => {
-        console.error(`Ошибка сети (${category}):`, err.message);
-        resolve(allItems);
       });
-    }
-
-    getBatch();
+    }).on('error', (err) => {
+      console.error(`Сетевая ошибка для ${category}:`, err.message);
+      resolve({ items: [] });
+    });
   });
 }
 
@@ -85,28 +62,38 @@ async function run() {
       fs.mkdirSync(WEAPONS_DIR, { recursive: true });
     }
 
-    const categories = ['godly', 'ancient', 'vintage', 'chroma', 'unique'];
+    const categories = ['godly', 'ancient', 'vintage', 'unique', 'chroma'];
     const itemsMap = new Map();
 
-    console.log('🚀 Подключаемся к RBLXValue API с твоим API-ключом...');
+    console.log('🚀 Подключение к актуальному API: https://api.rblxvalue.com/v2 ...');
 
     for (const cat of categories) {
-      console.log(`📦 Загрузка категории: [${cat.toUpperCase()}]...`);
-      const items = await fetchCategoryItems(cat);
-      console.log(`-> Получено предметов: ${items.length}`);
+      console.log(`\n📦 Загружаем категорию [${cat.toUpperCase()}]...`);
+      let offset = 0;
+      let total = 0;
 
-      for (const item of items) {
-        const name = item.name;
-        if (name && !itemsMap.has(name.toLowerCase().trim())) {
-          itemsMap.set(name.toLowerCase().trim(), {
-            ...item,
-            customRarity: cat.toUpperCase()
-          });
+      do {
+        const res = await fetchPage(cat, offset);
+        const items = res.items || [];
+        total = res.total || items.length;
+
+        for (const item of items) {
+          if (item.name && !itemsMap.has(item.name.toLowerCase().trim())) {
+            itemsMap.set(item.name.toLowerCase().trim(), {
+              ...item,
+              displayCategory: cat.toUpperCase()
+            });
+          }
         }
-      }
+
+        console.log(`-> Получено ${items.length} шт. (всего в категории: ${total})`);
+        offset += items.length;
+
+        if (items.length === 0 || offset >= total) break;
+      } while (true);
     }
 
-    console.log(`\n🎯 Всего собрано уникального оружия: ${itemsMap.size} шт.`);
+    console.log(`\n🎯 Всего получено уникальных предметов: ${itemsMap.size} шт.`);
 
     const mm2Data = [];
     let idCounter = 1;
@@ -116,39 +103,33 @@ async function run() {
       const fileName = `${safeName}.png`;
       const localImagePath = path.join(WEAPONS_DIR, fileName);
 
-      // Скачиваем чистый PNG
-      const imgUrl = item.image_url || item.imageUrl || item.image;
-      if (imgUrl) {
-        await downloadImage(imgUrl, localImagePath);
-      }
+      // Скачивание картинки по slug
+      const itemSlug = item.slug || item.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
+      const imgUrl = `https://rblxvalue.com/assets/images/items/${itemSlug}.png`;
 
-      // Определяем тип (knife, gun, pet)
-      let type = (item.type || item.category || 'knife').toLowerCase();
-      if (type.includes('pet')) type = 'pet';
-      else if (type.includes('gun') || type.includes('blaster') || type.includes('revolver')) type = 'gun';
-      else type = 'knife';
+      await downloadImage(imgUrl, localImagePath);
 
       mm2Data.push({
         id: idCounter++,
         name: item.name,
-        rarity: item.customRarity,
-        type: type,
+        slug: itemSlug,
+        rarity: item.displayCategory,
+        type: (item.type || 'knife').toLowerCase(),
         value: parseFloat(item.value) || 0,
         demand: parseInt(item.demand) || 5,
-        stability: item.stability || 'stable',
+        stability: item.stability || 'Stable',
         image: `/images/weapons/${fileName}`
       });
 
-      console.log(`🗡️ [${item.customRarity}] ${item.name} | Value: ${item.value}`);
+      console.log(`🗡️ [${item.displayCategory}] ${item.name} | Value: ${item.value}`);
     }
 
     fs.writeFileSync(MM2_JSON_PATH, JSON.stringify(mm2Data, null, 2), 'utf8');
-    console.log(`\n🎉 УСПЕШНО СОЗДАНО!`);
-    console.log(`📄 Сохранено предметов в mm2_values.json: ${mm2Data.length}`);
-    console.log(`📁 Скачано картинок в images/weapons/: ${mm2Data.length}`);
+    console.log(`\n🎉 УСПЕШНО! Создан файл mm2_values.json с ${mm2Data.length} предметами.`);
+    console.log(`📁 Иконки сохранены в images/weapons/`);
 
   } catch (err) {
-    console.error('❌ Фатальная ошибка:', err.message);
+    console.error('❌ Ошибка:', err.message);
     process.exit(1);
   }
 }
