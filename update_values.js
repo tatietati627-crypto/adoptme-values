@@ -1,11 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+
+puppeteer.use(StealthPlugin());
 
 const LOCAL_JSON_PATH = path.join(__dirname, 'adoptme_values.json');
 const PETS_DIR = path.join(__dirname, 'images', 'pets');
 
-// Функция безопасного скачивания картинки
 function downloadImage(url, destPath) {
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
@@ -22,45 +25,8 @@ function downloadImage(url, destPath) {
   });
 }
 
-// Запрос данных с имитацией настоящего браузера
-function fetchWithBrowserHeaders(url) {
-  return new Promise((resolve, reject) => {
-    const urlObj = new URL(url);
-    const options = {
-      hostname: urlObj.hostname,
-      path: urlObj.pathname + urlObj.search,
-      method: 'GET',
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-        'Accept': 'application/json, text/plain, */*',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Referer': 'https://elvebredd.com/'
-      }
-    };
-
-    https.get(options, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => {
-        console.log(`📡 Ответ от сервера: HTTP ${res.statusCode}`);
-        if (res.statusCode !== 200) {
-          console.error(`Фрагмент ответа: ${data.slice(0, 300)}`);
-          return reject(new Error(`Сервер вернул статус HTTP ${res.statusCode}`));
-        }
-
-        try {
-          const parsed = JSON.parse(data);
-          resolve(parsed);
-        } catch (e) {
-          console.error(`Сервер вернул HTML вместо JSON. Первые 300 символов:\n${data.slice(0, 300)}`);
-          reject(new Error('Ответ не является корректным JSON'));
-        }
-      });
-    }).on('error', reject);
-  });
-}
-
 async function run() {
+  let browser;
   try {
     console.log('🔄 Читаем adoptme_values.json...');
     const localData = JSON.parse(fs.readFileSync(LOCAL_JSON_PATH, 'utf8'));
@@ -69,13 +35,51 @@ async function run() {
       fs.mkdirSync(PETS_DIR, { recursive: true });
     }
 
-    console.log('🌐 Загружаем актуальные данные...');
-    // Пробуем запросить данные
-    const remoteData = await fetchWithBrowserHeaders('https://elvebredd.com/api/values');
+    console.log('🚀 Запускаем Chromium с маскировкой под реального пользователя...');
+    browser = await puppeteer.launch({
+      headless: "new",
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-accelerated-2d-canvas',
+        '--disable-gpu',
+        '--window-size=1920,1080'
+      ]
+    });
 
-    if (!Array.isArray(remoteData)) {
-      throw new Error('Данные с сайта получены не в виде списка массивов');
+    const page = await browser.newPage();
+    await page.setViewport({ width: 1920, height: 1080 });
+
+    console.log('🌐 Переходим на страницу Elvebredd...');
+    // Открываем сам сайт, чтобы получить валидные cookies и пройти Cloudflare
+    await page.goto('https://elvebredd.com', {
+      waitUntil: 'networkidle2',
+      timeout: 60000
+    });
+
+    console.log('⏳ Ожидаем завершения проверок защиты...');
+    await new Promise(r => setTimeout(r, 6000));
+
+    console.log('📡 Извлекаем данные о питомцах...');
+    // Забираем данные прямо через контекст страницы в браузере
+    const remoteData = await page.evaluate(async () => {
+      try {
+        const res = await fetch('https://elvebredd.com/api/values');
+        if (!res.ok) return null;
+        return await res.json();
+      } catch (e) {
+        return null;
+      }
+    });
+
+    await browser.close();
+
+    if (!remoteData || !Array.isArray(remoteData)) {
+      throw new Error('Не удалось получить массив данных через браузер. Возможно, изменился внутренний маршрут API.');
     }
+
+    console.log(`✅ Получено предметов с сайта: ${remoteData.length}`);
 
     const localMap = new Map();
     localData.forEach(item => {
@@ -104,7 +108,7 @@ async function run() {
 
         if (remote.imageUrl) {
           try {
-            console.log(`📥 Скачиваем картинку: ${remote.name}`);
+            console.log(`📥 Скачиваем картинку для: ${remote.name}`);
             await downloadImage(remote.imageUrl, localImagePath);
           } catch (e) {
             console.warn(`Не удалось скачать картинку для ${remote.name}:`, e.message);
@@ -125,13 +129,15 @@ async function run() {
         localData.push(newItem);
         localMap.set(key, newItem);
         newCount++;
+        console.log(`✨ Добавлен новый питомец: ${remote.name}`);
       }
     }
 
     fs.writeFileSync(LOCAL_JSON_PATH, JSON.stringify(localData, null, 2), 'utf8');
-    console.log(`\n✅ Успешно! Обновлено: ${updatedCount}, Добавлено: ${newCount}`);
+    console.log(`\n🎉 Финал: обновлено ${updatedCount}, добавлено новых ${newCount}!`);
 
   } catch (err) {
+    if (browser) await browser.close();
     console.error('❌ Ошибка:', err.message);
     process.exit(1);
   }
