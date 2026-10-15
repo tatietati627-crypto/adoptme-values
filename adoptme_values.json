@@ -4683,24 +4683,24 @@
     "id": 167,
     "regular": {
       "value": 1012,
-      "no_potion": 561,
+      "fly_ride": 548,
       "ride": 548,
       "fly": 548,
-      "fly_ride": 548
+      "no_pot": 1012
     },
     "neon": {
-      "value": 1435,
-      "no_potion": 1670,
+      "value": 4250.4,
+      "fly_ride": 1435,
       "ride": 1473,
       "fly": 1511,
-      "fly_ride": 1435
+      "no_pot": 4250.4
     },
     "mega": {
-      "value": 3880,
-      "no_potion": 4070,
+      "value": 17001.6,
+      "fly_ride": 3880,
       "ride": 3937,
       "fly": 3975,
-      "fly_ride": 3880
+      "no_pot": 17001.6
     }
   },
   {
@@ -4739,24 +4739,24 @@
     "id": 169,
     "regular": {
       "value": 474,
-      "no_potion": 256,
+      "fly_ride": 245,
       "ride": 245,
       "fly": 245,
-      "fly_ride": 245
+      "no_pot": 474
     },
     "neon": {
-      "value": 595,
-      "no_potion": 650,
+      "value": 1990.8,
+      "fly_ride": 595,
       "ride": 606,
       "fly": 606,
-      "fly_ride": 595
+      "no_pot": 1990.8
     },
     "mega": {
-      "value": 1950,
-      "no_potion": 2375,
+      "value": 7963.2,
+      "fly_ride": 1950,
       "ride": 1988,
       "fly": 2007,
-      "fly_ride": 1950
+      "no_pot": 7963.2
     }
   },
   {
@@ -4767,24 +4767,24 @@
     "id": 170,
     "regular": {
       "value": 327,
-      "no_potion": 203,
+      "fly_ride": 190,
       "ride": 190,
       "fly": 190,
-      "fly_ride": 190
+      "no_pot": 327
     },
     "neon": {
-      "value": 400,
-      "no_potion": 500,
+      "value": 1373.4,
+      "fly_ride": 400,
       "ride": 406,
       "fly": 406,
-      "fly_ride": 400
+      "no_pot": 1373.4
     },
     "mega": {
-      "value": 1063,
-      "no_potion": 1900,
+      "value": 5493.6,
+      "fly_ride": 1063,
       "ride": 1308,
       "fly": 1253,
-      "fly_ride": 1063
+      "no_pot": 5493.6
     }
   },
   {
@@ -4795,24 +4795,24 @@
     "id": 171,
     "regular": {
       "value": 246.5,
-      "no_potion": 161,
+      "fly_ride": 158,
       "ride": 158,
       "fly": 158,
-      "fly_ride": 158
+      "no_pot": 246.5
     },
     "neon": {
-      "value": 432,
-      "no_potion": 465,
+      "value": 1035.3,
+      "fly_ride": 432,
       "ride": 437,
       "fly": 437,
-      "fly_ride": 432
+      "no_pot": 1035.3
     },
     "mega": {
-      "value": 1538,
-      "no_potion": 1850,
+      "value": 4141.2,
+      "fly_ride": 1538,
       "ride": 1696,
       "fly": 1728,
-      "fly_ride": 1538
+      "no_pot": 4141.2
     }
   },
   {
@@ -4823,24 +4823,24 @@
     "id": 172,
     "regular": {
       "value": 197.5,
-      "no_potion": 127,
+      "fly_ride": 125,
       "ride": 124.5,
       "fly": 124.5,
-      "fly_ride": 125
+      "no_pot": 197.5
     },
     "neon": {
-      "value": 272,
-      "no_potion": 415,
+      "value": 829.5,
+      "fly_ride": 272,
       "ride": 272,
       "fly": 272,
-      "fly_ride": 272
+      "no_pot": 829.5
     },
     "mega": {
-      "value": 890,
-      "no_potion": 1650,
+      "value": 3318,
+      "fly_ride": 890,
       "ride": 928,
       "fly": 947,
-      "fly_ride": 890
+      "no_pot": 3318
     }
   },
   {
@@ -4851,24 +4851,24 @@
     "id": 173,
     "regular": {
       "value": 69,
-      "no_potion": 49,
+      "fly_ride": 47,
       "ride": 47,
       "fly": 47,
-      "fly_ride": 47
+      "no_pot": 69
     },
     "neon": {
-      "value": 154,
-      "no_potion": 152,
+      "value": 289.8,
+      "fly_ride": 154,
       "ride": 153,
       "fly": 153,
-      "fly_ride": 154
+      "no_pot": 289.8
     },
     "mega": {
-      "value": 560,
-      "no_potion": 607,
+      "value": 1159.2,
+      "fly_ride": 560,
       "ride": 560,
       "fly": 559,
-      "fly_ride": 560
+      "no_pot": 1159.2
     }
   },
   {
@@ -4879,24 +4879,24 @@
     "id": 174,
     "regular": {
       "value": 178,
-      "no_potion": 106.5,
+      "fly_ride": 106,
       "ride": 105.5,
       "fly": 105.5,
-      "fly_ride": 106
+      "no_pot": 178
     },
     "neon": {
-      "value": 261,
-      "no_potion": 355,
+      "value": 747.6,
+      "fly_ride": 261,
       "ride": 264,
       "fly": 264,
-      "fly_ride": 261
+      "no_pot": 747.6
     },
     "mega": {
-      "value": 1025,
-      "no_potion": 1410,
+      "value": 2990.4,
+      "fly_ride": 1025,
       "ride": 1082,
       "fly": 1101,
-      "fly_ride": 1025
+      "no_pot": 2990.4
     }
   },
   {
@@ -4907,24 +4907,24 @@
     "id": 175,
     "regular": {
       "value": 114.5,
-      "no_potion": 84.5,
+      "fly_ride": 84,
       "ride": 83.5,
       "fly": 83.5,
-      "fly_ride": 84
+      "no_pot": 114.5
     },
     "neon": {
-      "value": 174,
-      "no_potion": 250,
+      "value": 480.9,
+      "fly_ride": 174,
       "ride": 177,
       "fly": 177,
-      "fly_ride": 174
+      "no_pot": 480.9
     },
     "mega": {
-      "value": 665,
-      "no_potion": 1000,
+      "value": 1923.6,
+      "fly_ride": 665,
       "ride": 703,
       "fly": 722,
-      "fly_ride": 665
+      "no_pot": 1923.6
     }
   },
   {
@@ -4935,24 +4935,24 @@
     "id": 176,
     "regular": {
       "value": 169,
-      "no_potion": 79,
+      "fly_ride": 81,
       "ride": 80,
       "fly": 80,
-      "fly_ride": 81
+      "no_pot": 169
     },
     "neon": {
-      "value": 260,
-      "no_potion": 265,
+      "value": 709.8,
+      "fly_ride": 260,
       "ride": 259,
       "fly": 259,
-      "fly_ride": 260
+      "no_pot": 709.8
     },
     "mega": {
-      "value": 905,
-      "no_potion": 981,
+      "value": 2839.2,
+      "fly_ride": 905,
       "ride": 904,
       "fly": 904,
-      "fly_ride": 905
+      "no_pot": 2839.2
     }
   },
   {
@@ -4963,24 +4963,24 @@
     "id": 177,
     "regular": {
       "value": 202,
-      "no_potion": 46,
+      "fly_ride": 48,
       "ride": 47,
       "fly": 47,
-      "fly_ride": 48
+      "no_pot": 202
     },
     "neon": {
-      "value": 174,
-      "no_potion": 179,
+      "value": 848.4,
+      "fly_ride": 174,
       "ride": 173,
       "fly": 173,
-      "fly_ride": 174
+      "no_pot": 848.4
     },
     "mega": {
-      "value": 700,
-      "no_potion": 752,
+      "value": 3393.6,
+      "fly_ride": 700,
       "ride": 699,
       "fly": 699,
-      "fly_ride": 700
+      "no_pot": 3393.6
     }
   },
   {
@@ -4991,24 +4991,24 @@
     "id": 178,
     "regular": {
       "value": 53.5,
-      "no_potion": 39.5,
+      "fly_ride": 38.5,
       "ride": 38,
       "fly": 38,
-      "fly_ride": 38.5
+      "no_pot": 53.5
     },
     "neon": {
-      "value": 82.5,
-      "no_potion": 104.5,
+      "value": 224.7,
+      "fly_ride": 82.5,
       "ride": 82.5,
       "fly": 82.5,
-      "fly_ride": 82.5
+      "no_pot": 224.7
     },
     "mega": {
-      "value": 292,
-      "no_potion": 438.9,
+      "value": 898.8,
+      "fly_ride": 292,
       "ride": 302,
       "fly": 302,
-      "fly_ride": 292
+      "no_pot": 898.8
     }
   },
   {
@@ -5047,24 +5047,24 @@
     "id": 180,
     "regular": {
       "value": 66,
-      "no_potion": 21,
+      "fly_ride": 20,
       "ride": 20,
       "fly": 20,
-      "fly_ride": 20
+      "no_pot": 66
     },
     "neon": {
-      "value": 68,
-      "no_potion": 85,
+      "value": 277.2,
+      "fly_ride": 68,
       "ride": 68,
       "fly": 68,
-      "fly_ride": 68
+      "no_pot": 277.2
     },
     "mega": {
-      "value": 260,
-      "no_potion": 382.5,
+      "value": 1108.8,
+      "fly_ride": 260,
       "ride": 270,
       "fly": 270,
-      "fly_ride": 260
+      "no_pot": 1108.8
     }
   },
   {
@@ -5075,24 +5075,24 @@
     "id": 181,
     "regular": {
       "value": 25,
-      "no_potion": 20.75,
+      "fly_ride": 23.25,
       "ride": 21.75,
       "fly": 22,
-      "fly_ride": 23.25
+      "no_pot": 25
     },
     "neon": {
-      "value": 49,
-      "no_potion": 48,
+      "value": 105,
+      "fly_ride": 49,
       "ride": 48,
       "fly": 48,
-      "fly_ride": 49
+      "no_pot": 105
     },
     "mega": {
-      "value": 129,
-      "no_potion": 201.25,
+      "value": 420,
+      "fly_ride": 129,
       "ride": 128,
       "fly": 128,
-      "fly_ride": 129
+      "no_pot": 420
     }
   },
   {
@@ -5103,24 +5103,24 @@
     "id": 182,
     "regular": {
       "value": 17.25,
-      "no_potion": 15.25,
+      "fly_ride": 15.5,
       "ride": 15,
       "fly": 15,
-      "fly_ride": 15.5
+      "no_pot": 17.25
     },
     "neon": {
-      "value": 50,
-      "no_potion": 56,
+      "value": 72.45,
+      "fly_ride": 50,
       "ride": 50,
       "fly": 50,
-      "fly_ride": 50
+      "no_pot": 72.45
     },
     "mega": {
-      "value": 182,
-      "no_potion": 270,
+      "value": 289.8,
+      "fly_ride": 182,
       "ride": 183,
       "fly": 183,
-      "fly_ride": 182
+      "no_pot": 289.8
     }
   },
   {
@@ -5131,24 +5131,24 @@
     "id": 183,
     "regular": {
       "value": 17.5,
-      "no_potion": 6.75,
+      "fly_ride": 7.35,
       "ride": 7,
       "fly": 7,
-      "fly_ride": 7.35
+      "no_pot": 17.5
     },
     "neon": {
-      "value": 30.5,
-      "no_potion": 28.5,
+      "value": 73.5,
+      "fly_ride": 30.5,
       "ride": 29.5,
       "fly": 29.5,
-      "fly_ride": 30.5
+      "no_pot": 73.5
     },
     "mega": {
-      "value": 138,
-      "no_potion": 144,
+      "value": 294,
+      "fly_ride": 138,
       "ride": 137,
       "fly": 137,
-      "fly_ride": 138
+      "no_pot": 294
     }
   },
   {
@@ -5187,24 +5187,24 @@
     "id": 185,
     "regular": {
       "value": 39.5,
-      "no_potion": 17.25,
+      "fly_ride": 17.85,
       "ride": 17.5,
       "fly": 17.5,
-      "fly_ride": 17.85
+      "no_pot": 39.5
     },
     "neon": {
-      "value": 74.5,
-      "no_potion": 72.5,
+      "value": 165.9,
+      "fly_ride": 74.5,
       "ride": 73.5,
       "fly": 73.5,
-      "fly_ride": 74.5
+      "no_pot": 165.9
     },
     "mega": {
-      "value": 305,
-      "no_potion": 310,
+      "value": 663.6,
+      "fly_ride": 305,
       "ride": 304,
       "fly": 304,
-      "fly_ride": 305
+      "no_pot": 663.6
     }
   },
   {
@@ -5243,24 +5243,24 @@
     "id": 187,
     "regular": {
       "value": 37.5,
-      "no_potion": 5.75,
+      "fly_ride": 6.35,
       "ride": 6,
       "fly": 6,
-      "fly_ride": 6.35
+      "no_pot": 37.5
     },
     "neon": {
-      "value": 27,
-      "no_potion": 25,
+      "value": 157.5,
+      "fly_ride": 27,
       "ride": 26,
       "fly": 26,
-      "fly_ride": 27
+      "no_pot": 157.5
     },
     "mega": {
-      "value": 120,
-      "no_potion": 123,
+      "value": 630,
+      "fly_ride": 120,
       "ride": 119,
       "fly": 119,
-      "fly_ride": 120
+      "no_pot": 630
     }
   },
   {
@@ -5271,24 +5271,24 @@
     "id": 188,
     "regular": {
       "value": 19,
-      "no_potion": 15.5,
+      "fly_ride": 17,
       "ride": 16.25,
       "fly": 16.25,
-      "fly_ride": 17
+      "no_pot": 19
     },
     "neon": {
-      "value": 36.5,
-      "no_potion": 35.5,
+      "value": 79.8,
+      "fly_ride": 36.5,
       "ride": 35.5,
       "fly": 35.5,
-      "fly_ride": 36.5
+      "no_pot": 79.8
     },
     "mega": {
-      "value": 102,
-      "no_potion": 119,
+      "value": 319.2,
+      "fly_ride": 102,
       "ride": 101,
       "fly": 101,
-      "fly_ride": 102
+      "no_pot": 319.2
     }
   },
   {
@@ -5299,24 +5299,24 @@
     "id": 189,
     "regular": {
       "value": 46.5,
-      "no_potion": 21.75,
+      "fly_ride": 23.25,
       "ride": 22.5,
       "fly": 22.5,
-      "fly_ride": 23.25
+      "no_pot": 46.5
     },
     "neon": {
-      "value": 63,
-      "no_potion": 61,
+      "value": 195.3,
+      "fly_ride": 63,
       "ride": 62,
       "fly": 62,
-      "fly_ride": 63
+      "no_pot": 195.3
     },
     "mega": {
-      "value": 206,
-      "no_potion": 223,
+      "value": 781.2,
+      "fly_ride": 206,
       "ride": 205,
       "fly": 205,
-      "fly_ride": 206
+      "no_pot": 781.2
     }
   },
   {
@@ -5327,24 +5327,24 @@
     "id": 190,
     "regular": {
       "value": 45.5,
-      "no_potion": 19.75,
+      "fly_ride": 21.25,
       "ride": 20.75,
       "fly": 20.75,
-      "fly_ride": 21.25
+      "no_pot": 45.5
     },
     "neon": {
-      "value": 61,
-      "no_potion": 59,
+      "value": 191.1,
+      "fly_ride": 61,
       "ride": 60,
       "fly": 60,
-      "fly_ride": 61
+      "no_pot": 191.1
     },
     "mega": {
-      "value": 203,
-      "no_potion": 216,
+      "value": 764.4,
+      "fly_ride": 203,
       "ride": 202,
       "fly": 202,
-      "fly_ride": 203
+      "no_pot": 764.4
     }
   },
   {
@@ -5355,24 +5355,24 @@
     "id": 191,
     "regular": {
       "value": 150,
-      "no_potion": 31.5,
+      "fly_ride": 32,
       "ride": 31.5,
       "fly": 31.5,
-      "fly_ride": 32
+      "no_pot": 150
     },
     "neon": {
-      "value": 131,
-      "no_potion": 129,
+      "value": 630,
+      "fly_ride": 131,
       "ride": 130,
       "fly": 130,
-      "fly_ride": 131
+      "no_pot": 630
     },
     "mega": {
-      "value": 530,
-      "no_potion": 540,
+      "value": 2520,
+      "fly_ride": 530,
       "ride": 529,
       "fly": 529,
-      "fly_ride": 530
+      "no_pot": 2520
     }
   },
   {
@@ -5383,24 +5383,24 @@
     "id": 192,
     "regular": {
       "value": 15.5,
-      "no_potion": 5.75,
+      "fly_ride": 6.35,
       "ride": 6,
       "fly": 6,
-      "fly_ride": 6.35
+      "no_pot": 15.5
     },
     "neon": {
-      "value": 28,
-      "no_potion": 26,
+      "value": 65.1,
+      "fly_ride": 28,
       "ride": 27,
       "fly": 27,
-      "fly_ride": 28
+      "no_pot": 65.1
     },
     "mega": {
-      "value": 120,
-      "no_potion": 125,
+      "value": 260.4,
+      "fly_ride": 120,
       "ride": 119,
       "fly": 119,
-      "fly_ride": 120
+      "no_pot": 260.4
     }
   },
   {
@@ -5411,24 +5411,24 @@
     "id": 193,
     "regular": {
       "value": 74,
-      "no_potion": 10.5,
+      "fly_ride": 11.1,
       "ride": 10.75,
       "fly": 10.75,
-      "fly_ride": 11.1
+      "no_pot": 74
     },
     "neon": {
-      "value": 45.5,
-      "no_potion": 43.5,
+      "value": 310.8,
+      "fly_ride": 45.5,
       "ride": 44.5,
       "fly": 44.5,
-      "fly_ride": 45.5
+      "no_pot": 310.8
     },
     "mega": {
-      "value": 188,
-      "no_potion": 198,
+      "value": 1243.2,
+      "fly_ride": 188,
       "ride": 187.5,
       "fly": 187.5,
-      "fly_ride": 188
+      "no_pot": 1243.2
     }
   },
   {
@@ -5467,24 +5467,24 @@
     "id": 195,
     "regular": {
       "value": 21.5,
-      "no_potion": 8.5,
+      "fly_ride": 9.1,
       "ride": 8.75,
       "fly": 8.75,
-      "fly_ride": 9.1
+      "no_pot": 21.5
     },
     "neon": {
-      "value": 37,
-      "no_potion": 35,
+      "value": 90.3,
+      "fly_ride": 37,
       "ride": 36,
       "fly": 36,
-      "fly_ride": 37
+      "no_pot": 90.3
     },
     "mega": {
-      "value": 160,
-      "no_potion": 165,
+      "value": 361.2,
+      "fly_ride": 160,
       "ride": 159,
       "fly": 159,
-      "fly_ride": 160
+      "no_pot": 361.2
     }
   },
   {
@@ -5495,24 +5495,24 @@
     "id": 196,
     "regular": {
       "value": 20.5,
-      "no_potion": 13.5,
+      "fly_ride": 14.5,
       "ride": 14,
       "fly": 14,
-      "fly_ride": 14.5
+      "no_pot": 20.5
     },
     "neon": {
-      "value": 54.5,
-      "no_potion": 52.5,
+      "value": 86.1,
+      "fly_ride": 54.5,
       "ride": 53.5,
       "fly": 53.5,
-      "fly_ride": 54.5
+      "no_pot": 86.1
     },
     "mega": {
-      "value": 216,
-      "no_potion": 221,
+      "value": 344.4,
+      "fly_ride": 216,
       "ride": 215,
       "fly": 215,
-      "fly_ride": 216
+      "no_pot": 344.4
     }
   },
   {
@@ -5523,24 +5523,24 @@
     "id": 197,
     "regular": {
       "value": 30.5,
-      "no_potion": 9.5,
+      "fly_ride": 10.75,
       "ride": 10.25,
       "fly": 10.25,
-      "fly_ride": 10.75
+      "no_pot": 30.5
     },
     "neon": {
-      "value": 35.5,
-      "no_potion": 33.5,
+      "value": 128.1,
+      "fly_ride": 35.5,
       "ride": 34.5,
       "fly": 34.5,
-      "fly_ride": 35.5
+      "no_pot": 128.1
     },
     "mega": {
-      "value": 136,
-      "no_potion": 139,
+      "value": 512.4,
+      "fly_ride": 136,
       "ride": 135,
       "fly": 135,
-      "fly_ride": 136
+      "no_pot": 512.4
     }
   },
   {
@@ -5551,24 +5551,24 @@
     "id": 198,
     "regular": {
       "value": 18.5,
-      "no_potion": 4.5,
+      "fly_ride": 5.1,
       "ride": 4.75,
       "fly": 4.75,
-      "fly_ride": 5.1
+      "no_pot": 18.5
     },
     "neon": {
-      "value": 22.5,
-      "no_potion": 20.5,
+      "value": 77.7,
+      "fly_ride": 22.5,
       "ride": 21.5,
       "fly": 21.5,
-      "fly_ride": 22.5
+      "no_pot": 77.7
     },
     "mega": {
-      "value": 97,
-      "no_potion": 102,
+      "value": 310.8,
+      "fly_ride": 97,
       "ride": 96,
       "fly": 96,
-      "fly_ride": 97
+      "no_pot": 310.8
     }
   },
   {
@@ -5663,24 +5663,24 @@
     "id": 202,
     "regular": {
       "value": 28,
-      "no_potion": 12,
+      "fly_ride": 12.6,
       "ride": 12.25,
       "fly": 12.25,
-      "fly_ride": 12.6
+      "no_pot": 28
     },
     "neon": {
-      "value": 50.5,
-      "no_potion": 48.5,
+      "value": 117.6,
+      "fly_ride": 50.5,
       "ride": 49.5,
       "fly": 49.5,
-      "fly_ride": 50.5
+      "no_pot": 117.6
     },
     "mega": {
-      "value": 214,
-      "no_potion": 219,
+      "value": 470.4,
+      "fly_ride": 214,
       "ride": 213,
       "fly": 213,
-      "fly_ride": 214
+      "no_pot": 470.4
     }
   },
   {
@@ -5719,24 +5719,24 @@
     "id": 204,
     "regular": {
       "value": 15,
-      "no_potion": 8,
+      "fly_ride": 8.6,
       "ride": 8.25,
       "fly": 8.25,
-      "fly_ride": 8.6
+      "no_pot": 15
     },
     "neon": {
-      "value": 36,
-      "no_potion": 34,
+      "value": 63,
+      "fly_ride": 36,
       "ride": 35,
       "fly": 35,
-      "fly_ride": 36
+      "no_pot": 63
     },
     "mega": {
-      "value": 158,
-      "no_potion": 163,
+      "value": 252,
+      "fly_ride": 158,
       "ride": 157,
       "fly": 157,
-      "fly_ride": 158
+      "no_pot": 252
     }
   },
   {
@@ -5803,24 +5803,24 @@
     "id": 207,
     "regular": {
       "value": 15.75,
-      "no_potion": 4.25,
+      "fly_ride": 4.85,
       "ride": 4.5,
       "fly": 4.5,
-      "fly_ride": 4.85
+      "no_pot": 15.75
     },
     "neon": {
-      "value": 21,
-      "no_potion": 19,
+      "value": 66.15,
+      "fly_ride": 21,
       "ride": 20,
       "fly": 20,
-      "fly_ride": 21
+      "no_pot": 66.15
     },
     "mega": {
-      "value": 90,
-      "no_potion": 91,
+      "value": 264.6,
+      "fly_ride": 90,
       "ride": 89,
       "fly": 89,
-      "fly_ride": 90
+      "no_pot": 264.6
     }
   },
   {
@@ -5915,24 +5915,24 @@
     "id": 211,
     "regular": {
       "value": 14.25,
-      "no_potion": 5,
+      "fly_ride": 5.6,
       "ride": 5.25,
       "fly": 5.25,
-      "fly_ride": 5.6
+      "no_pot": 14.25
     },
     "neon": {
-      "value": 25,
-      "no_potion": 23,
+      "value": 59.85,
+      "fly_ride": 25,
       "ride": 24,
       "fly": 24,
-      "fly_ride": 25
+      "no_pot": 59.85
     },
     "mega": {
-      "value": 108,
-      "no_potion": 110,
+      "value": 239.4,
+      "fly_ride": 108,
       "ride": 107,
       "fly": 107,
-      "fly_ride": 108
+      "no_pot": 239.4
     }
   },
   {
@@ -6027,24 +6027,24 @@
     "id": 215,
     "regular": {
       "value": 16.5,
-      "no_potion": 3.5,
+      "fly_ride": 4.1,
       "ride": 3.75,
       "fly": 3.75,
-      "fly_ride": 4.1
+      "no_pot": 16.5
     },
     "neon": {
-      "value": 18,
-      "no_potion": 16,
+      "value": 69.3,
+      "fly_ride": 18,
       "ride": 17,
       "fly": 17,
-      "fly_ride": 18
+      "no_pot": 69.3
     },
     "mega": {
-      "value": 80,
-      "no_potion": 85,
+      "value": 277.2,
+      "fly_ride": 80,
       "ride": 79,
       "fly": 79,
-      "fly_ride": 80
+      "no_pot": 277.2
     }
   },
   {
@@ -6055,24 +6055,24 @@
     "id": 216,
     "regular": {
       "value": 38,
-      "no_potion": 4.25,
+      "fly_ride": 4.85,
       "ride": 4.5,
       "fly": 4.5,
-      "fly_ride": 4.85
+      "no_pot": 38
     },
     "neon": {
-      "value": 21,
-      "no_potion": 19,
+      "value": 159.6,
+      "fly_ride": 21,
       "ride": 20,
       "fly": 20,
-      "fly_ride": 21
+      "no_pot": 159.6
     },
     "mega": {
-      "value": 86,
-      "no_potion": 84,
+      "value": 638.4,
+      "fly_ride": 86,
       "ride": 85,
       "fly": 85,
-      "fly_ride": 86
+      "no_pot": 638.4
     }
   },
   {
@@ -6111,24 +6111,24 @@
     "id": 218,
     "regular": {
       "value": 23,
-      "no_potion": 7.5,
+      "fly_ride": 8.1,
       "ride": 7.75,
       "fly": 7.75,
-      "fly_ride": 8.1
+      "no_pot": 23
     },
     "neon": {
-      "value": 35,
-      "no_potion": 33,
+      "value": 96.6,
+      "fly_ride": 35,
       "ride": 34,
       "fly": 34,
-      "fly_ride": 35
+      "no_pot": 96.6
     },
     "mega": {
-      "value": 150,
-      "no_potion": 153,
+      "value": 386.4,
+      "fly_ride": 150,
       "ride": 149,
       "fly": 149,
-      "fly_ride": 150
+      "no_pot": 386.4
     }
   },
   {
@@ -6251,24 +6251,24 @@
     "id": 223,
     "regular": {
       "value": 35,
-      "no_potion": 4.5,
+      "fly_ride": 5.1,
       "ride": 4.75,
       "fly": 4.75,
-      "fly_ride": 5.1
+      "no_pot": 35
     },
     "neon": {
-      "value": 22,
-      "no_potion": 20,
+      "value": 147,
+      "fly_ride": 22,
       "ride": 21,
       "fly": 21,
-      "fly_ride": 22
+      "no_pot": 147
     },
     "mega": {
-      "value": 94,
-      "no_potion": 92,
+      "value": 588,
+      "fly_ride": 94,
       "ride": 93,
       "fly": 93,
-      "fly_ride": 94
+      "no_pot": 588
     }
   },
   {
@@ -6615,24 +6615,24 @@
     "id": 236,
     "regular": {
       "value": 12.5,
-      "no_potion": 6.25,
+      "fly_ride": 6.85,
       "ride": 6.5,
       "fly": 6.5,
-      "fly_ride": 6.85
+      "no_pot": 12.5
     },
     "neon": {
-      "value": 29.5,
-      "no_potion": 27.5,
+      "value": 52.5,
+      "fly_ride": 29.5,
       "ride": 28.5,
       "fly": 28.5,
-      "fly_ride": 29.5
+      "no_pot": 52.5
     },
     "mega": {
-      "value": 128,
-      "no_potion": 131,
+      "value": 210,
+      "fly_ride": 128,
       "ride": 127,
       "fly": 127,
-      "fly_ride": 128
+      "no_pot": 210
     }
   },
   {
@@ -16817,24 +16817,24 @@
     "id": 670,
     "regular": {
       "value": 33.5,
-      "no_potion": 6,
+      "fly_ride": 6.6,
       "ride": 6.25,
       "fly": 6.25,
-      "fly_ride": 6.6
+      "no_pot": 33.5
     },
     "neon": {
-      "value": 29.5,
-      "no_potion": 27.5,
+      "value": 140.7,
+      "fly_ride": 29.5,
       "ride": 28.5,
       "fly": 28.5,
-      "fly_ride": 29.5
+      "no_pot": 140.7
     },
     "mega": {
-      "value": 126,
-      "no_potion": 131,
+      "value": 562.8,
+      "fly_ride": 126,
       "ride": 125,
       "fly": 125,
-      "fly_ride": 126
+      "no_pot": 562.8
     }
   },
   {
@@ -17153,24 +17153,24 @@
     "id": 682,
     "regular": {
       "value": 10.5,
-      "no_potion": 1.25,
+      "fly_ride": 1.85,
       "ride": 1.5,
       "fly": 1.5,
-      "fly_ride": 1.85
+      "no_pot": 10.5
     },
     "neon": {
-      "value": 9,
-      "no_potion": 7.75,
+      "value": 44.1,
+      "fly_ride": 9,
       "ride": 8.25,
       "fly": 8.25,
-      "fly_ride": 9
+      "no_pot": 44.1
     },
     "mega": {
-      "value": 40,
-      "no_potion": 38,
+      "value": 176.4,
+      "fly_ride": 40,
       "ride": 39,
       "fly": 39,
-      "fly_ride": 40
+      "no_pot": 176.4
     }
   },
   {
@@ -18613,24 +18613,24 @@
     "id": 817,
     "regular": {
       "value": 122,
-      "no_potion": 43,
+      "fly_ride": 44,
       "ride": 43.5,
       "fly": 43.5,
-      "fly_ride": 44
+      "no_pot": 122
     },
     "neon": {
-      "value": 180,
-      "no_potion": 178,
+      "value": 512.4,
+      "fly_ride": 180,
       "ride": 179,
       "fly": 179,
-      "fly_ride": 180
+      "no_pot": 512.4
     },
     "mega": {
-      "value": 720,
-      "no_potion": 725,
+      "value": 2049.6,
+      "fly_ride": 720,
       "ride": 719,
       "fly": 719,
-      "fly_ride": 720
+      "no_pot": 2049.6
     }
   },
   {
@@ -21703,24 +21703,24 @@
     "id": 1188,
     "regular": {
       "value": 27,
-      "no_potion": 12.75,
+      "fly_ride": 13.35,
       "ride": 13,
       "fly": 13,
-      "fly_ride": 13.35
+      "no_pot": 27
     },
     "neon": {
-      "value": 53.5,
-      "no_potion": 51.5,
+      "value": 113.4,
+      "fly_ride": 53.5,
       "ride": 52.5,
       "fly": 52.5,
-      "fly_ride": 53.5
+      "no_pot": 113.4
     },
     "mega": {
-      "value": 220,
-      "no_potion": 218,
+      "value": 453.6,
+      "fly_ride": 220,
       "ride": 219,
       "fly": 219,
-      "fly_ride": 220
+      "no_pot": 453.6
     }
   },
   {
@@ -32721,24 +32721,24 @@
     "id": 2534,
     "regular": {
       "value": 219,
-      "no_potion": 77,
+      "fly_ride": 78,
       "ride": 77.5,
       "fly": 77.5,
-      "fly_ride": 78
+      "no_pot": 219
     },
     "neon": {
-      "value": 310,
-      "no_potion": 308,
+      "value": 919.8,
+      "fly_ride": 310,
       "ride": 309,
       "fly": 309,
-      "fly_ride": 310
+      "no_pot": 919.8
     },
     "mega": {
-      "value": 1200,
-      "no_potion": 1198,
+      "value": 3679.2,
+      "fly_ride": 1200,
       "ride": 1199,
       "fly": 1199,
-      "fly_ride": 1200
+      "no_pot": 3679.2
     }
   },
   {
@@ -32909,24 +32909,24 @@
     "id": 2545,
     "regular": {
       "value": 11,
-      "no_potion": 3.5,
+      "fly_ride": 4.1,
       "ride": 3.75,
       "fly": 3.75,
-      "fly_ride": 4.1
+      "no_pot": 11
     },
     "neon": {
-      "value": 17.5,
-      "no_potion": 15.5,
+      "value": 46.2,
+      "fly_ride": 17.5,
       "ride": 16.5,
       "fly": 16.5,
-      "fly_ride": 17.5
+      "no_pot": 46.2
     },
     "mega": {
-      "value": 75,
-      "no_potion": 80,
+      "value": 184.8,
+      "fly_ride": 75,
       "ride": 74,
       "fly": 74,
-      "fly_ride": 75
+      "no_pot": 184.8
     }
   },
   {
@@ -33105,24 +33105,24 @@
     "id": 2552,
     "regular": {
       "value": 152,
-      "no_potion": 68,
+      "fly_ride": 70,
       "ride": 69,
       "fly": 69,
-      "fly_ride": 70
+      "no_pot": 152
     },
     "neon": {
-      "value": 165,
-      "no_potion": 163,
+      "value": 638.4,
+      "fly_ride": 165,
       "ride": 164,
       "fly": 164,
-      "fly_ride": 165
+      "no_pot": 638.4
     },
     "mega": {
-      "value": 525,
-      "no_potion": 523,
+      "value": 2553.6,
+      "fly_ride": 525,
       "ride": 524,
       "fly": 524,
-      "fly_ride": 525
+      "no_pot": 2553.6
     }
   },
   {
@@ -34593,24 +34593,24 @@
     "id": 2633,
     "regular": {
       "value": 15.25,
-      "no_potion": 44,
+      "fly_ride": 45,
       "ride": 44.5,
       "fly": 44.5,
-      "fly_ride": 45
+      "no_pot": 15.25
     },
     "neon": {
-      "value": 200,
-      "no_potion": 198,
+      "value": 64.05,
+      "fly_ride": 200,
       "ride": 199,
       "fly": 199,
-      "fly_ride": 200
+      "no_pot": 64.05
     },
     "mega": {
-      "value": 860,
-      "no_potion": 858,
+      "value": 256.2,
+      "fly_ride": 860,
       "ride": 859,
       "fly": 859,
-      "fly_ride": 860
+      "no_pot": 256.2
     }
   },
   {
@@ -34998,35 +34998,31 @@
     }
   },
   {
-    "name": "Menu\nClose",
-    "type": "pets",
-    "rarity": "common",
-    "image": "/images/pets/Menu_Close.png",
-    "id": 2947,
-    "regular": {
-      "value": 13
-    },
-    "neon": {
-      "value": 0
-    },
-    "mega": {
-      "value": 0
-    }
-  },
-  {
     "name": "Amethyst Penguin",
     "type": "pets",
     "rarity": "common",
     "image": "/images/pets/Amethyst_Penguin.png",
     "id": 2948,
     "regular": {
-      "value": 153
+      "value": 153,
+      "fly_ride": 155,
+      "ride": 153.75,
+      "fly": 154.25,
+      "no_pot": 153
     },
     "neon": {
-      "value": 0
+      "value": 642.6,
+      "fly_ride": 644.1,
+      "ride": 643.35,
+      "fly": 643.85,
+      "no_pot": 642.6
     },
     "mega": {
-      "value": 0
+      "value": 2570.4,
+      "fly_ride": 2573.4,
+      "ride": 2571.9,
+      "fly": 2572.9,
+      "no_pot": 2570.4
     }
   },
   {
@@ -35036,13 +35032,25 @@
     "image": "/images/pets/Strawberry_Tortle.png",
     "id": 2949,
     "regular": {
-      "value": 28.5
+      "value": 28.5,
+      "fly_ride": 29.8,
+      "ride": 29,
+      "fly": 29.3,
+      "no_pot": 28.5
     },
     "neon": {
-      "value": 0
+      "value": 119.7,
+      "fly_ride": 120.7,
+      "ride": 120.2,
+      "fly": 120.5,
+      "no_pot": 119.7
     },
     "mega": {
-      "value": 0
+      "value": 478.8,
+      "fly_ride": 480.8,
+      "ride": 479.8,
+      "fly": 480.4,
+      "no_pot": 478.8
     }
   },
   {
@@ -35052,13 +35060,25 @@
     "image": "/images/pets/Tortoiseshell_Guinea_Pig.png",
     "id": 2950,
     "regular": {
-      "value": 22.5
+      "value": 22.5,
+      "fly_ride": 23.8,
+      "ride": 23,
+      "fly": 23.3,
+      "no_pot": 22.5
     },
     "neon": {
-      "value": 0
+      "value": 94.5,
+      "fly_ride": 95.5,
+      "ride": 95,
+      "fly": 95.3,
+      "no_pot": 94.5
     },
     "mega": {
-      "value": 0
+      "value": 378,
+      "fly_ride": 380,
+      "ride": 379,
+      "fly": 379.6,
+      "no_pot": 378
     }
   },
   {
@@ -35068,13 +35088,25 @@
     "image": "/images/pets/Moonbeam_Peacock.png",
     "id": 2951,
     "regular": {
-      "value": 13
+      "value": 13,
+      "fly_ride": 14.3,
+      "ride": 13.5,
+      "fly": 13.8,
+      "no_pot": 13
     },
     "neon": {
-      "value": 0
+      "value": 54.6,
+      "fly_ride": 55.6,
+      "ride": 55.1,
+      "fly": 55.4,
+      "no_pot": 54.6
     },
     "mega": {
-      "value": 0
+      "value": 218.4,
+      "fly_ride": 220.4,
+      "ride": 219.4,
+      "fly": 220,
+      "no_pot": 218.4
     }
   },
   {
@@ -35084,13 +35116,25 @@
     "image": "/images/pets/Candicorn.png",
     "id": 2952,
     "regular": {
-      "value": 12.75
+      "value": 12.75,
+      "fly_ride": 14.05,
+      "ride": 13.25,
+      "fly": 13.55,
+      "no_pot": 12.75
     },
     "neon": {
-      "value": 0
+      "value": 53.55,
+      "fly_ride": 54.55,
+      "ride": 54.05,
+      "fly": 54.35,
+      "no_pot": 53.55
     },
     "mega": {
-      "value": 0
+      "value": 214.2,
+      "fly_ride": 216.2,
+      "ride": 215.2,
+      "fly": 215.8,
+      "no_pot": 214.2
     }
   },
   {
@@ -35100,13 +35144,25 @@
     "image": "/images/pets/Jester_Dragon.png",
     "id": 2953,
     "regular": {
-      "value": 11.5
+      "value": 11.5,
+      "fly_ride": 12.8,
+      "ride": 12,
+      "fly": 12.3,
+      "no_pot": 11.5
     },
     "neon": {
-      "value": 0
+      "value": 48.3,
+      "fly_ride": 49.3,
+      "ride": 48.8,
+      "fly": 49.1,
+      "no_pot": 48.3
     },
     "mega": {
-      "value": 0
+      "value": 193.2,
+      "fly_ride": 195.2,
+      "ride": 194.2,
+      "fly": 194.8,
+      "no_pot": 193.2
     }
   },
   {
@@ -35116,13 +35172,25 @@
     "image": "/images/pets/Velocirooster.png",
     "id": 2954,
     "regular": {
-      "value": 9.5
+      "value": 9.5,
+      "fly_ride": 10.45,
+      "ride": 9.85,
+      "fly": 10.1,
+      "no_pot": 9.5
     },
     "neon": {
-      "value": 0
+      "value": 39.9,
+      "fly_ride": 40.6,
+      "ride": 40.25,
+      "fly": 40.5,
+      "no_pot": 39.9
     },
     "mega": {
-      "value": 0
+      "value": 159.6,
+      "fly_ride": 161,
+      "ride": 160.3,
+      "fly": 160.8,
+      "no_pot": 159.6
     }
   },
   {
