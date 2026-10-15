@@ -20,6 +20,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: Устанавливаем Puppeteer и модули
+        run: |
+          npm init -y
+          npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer
+
       - name: Запускаем скрипт обновления
         run: node update_values.js
 
