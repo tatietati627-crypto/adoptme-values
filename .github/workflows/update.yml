@@ -20,10 +20,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Устанавливаем Puppeteer и модули
+      - name: Устанавливаем Puppeteer и Chrome
         run: |
           npm init -y
           npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer
+          npx puppeteer browsers install chrome
 
       - name: Запускаем скрипт обновления
         run: node update_values.js
