@@ -32,5 +32,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add adoptme_values.json images/pets/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: актуализация валют и новых питомцев" && git push)
+          git add -A
+          git diff --staged --quiet || (git commit -m "Auto-update: актуализация валют и данных" && git push)
