@@ -10,7 +10,7 @@ function downloadImage(url, destPath) {
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
       if (res.statusCode !== 200) {
-        return reject(new Error(`Failed to download: status ${res.statusCode}`));
+        return reject(new Error(`Status ${res.statusCode}`));
       }
       const fileStream = fs.createWriteStream(destPath);
       res.pipe(fileStream);
@@ -22,17 +22,38 @@ function downloadImage(url, destPath) {
   });
 }
 
-// Запрос JSON данных
-function fetchJson(url) {
+// Запрос данных с имитацией настоящего браузера
+function fetchWithBrowserHeaders(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'AdoptMeBot/1.0' } }, (res) => {
+    const urlObj = new URL(url);
+    const options = {
+      hostname: urlObj.hostname,
+      path: urlObj.pathname + urlObj.search,
+      method: 'GET',
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+        'Accept': 'application/json, text/plain, */*',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Referer': 'https://elvebredd.com/'
+      }
+    };
+
+    https.get(options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
+        console.log(`📡 Ответ от сервера: HTTP ${res.statusCode}`);
+        if (res.statusCode !== 200) {
+          console.error(`Фрагмент ответа: ${data.slice(0, 300)}`);
+          return reject(new Error(`Сервер вернул статус HTTP ${res.statusCode}`));
+        }
+
         try {
-          resolve(JSON.parse(data));
+          const parsed = JSON.parse(data);
+          resolve(parsed);
         } catch (e) {
-          reject(e);
+          console.error(`Сервер вернул HTML вместо JSON. Первые 300 символов:\n${data.slice(0, 300)}`);
+          reject(new Error('Ответ не является корректным JSON'));
         }
       });
     }).on('error', reject);
@@ -44,14 +65,17 @@ async function run() {
     console.log('🔄 Читаем adoptme_values.json...');
     const localData = JSON.parse(fs.readFileSync(LOCAL_JSON_PATH, 'utf8'));
 
-    // Убедимся, что папка images/pets существует
     if (!fs.existsSync(PETS_DIR)) {
       fs.mkdirSync(PETS_DIR, { recursive: true });
     }
 
-    console.log('🌐 Загружаем актуальные данные с Elvebredd...');
-    // Источник данных Elvebredd
-    const remoteData = await fetchJson('https://elvebredd.com/api/values');
+    console.log('🌐 Загружаем актуальные данные...');
+    // Пробуем запросить данные
+    const remoteData = await fetchWithBrowserHeaders('https://elvebredd.com/api/values');
+
+    if (!Array.isArray(remoteData)) {
+      throw new Error('Данные с сайта получены не в виде списка массивов');
+    }
 
     const localMap = new Map();
     localData.forEach(item => {
@@ -67,14 +91,12 @@ async function run() {
       const key = remote.name.trim().toLowerCase();
 
       if (localMap.has(key)) {
-        // 1. Питомец есть -> обновляем цены
         const existing = localMap.get(key);
         if (remote.regular) existing.regular = { ...existing.regular, ...remote.regular };
         if (remote.neon) existing.neon = { ...existing.neon, ...remote.neon };
         if (remote.mega) existing.mega = { ...existing.mega, ...remote.mega };
         updatedCount++;
       } else {
-        // 2. Новый питомец -> скачиваем картинку и добавляем в базу
         maxId++;
         const safeName = remote.name.replace(/[^a-zA-Z0-9]/g, '_');
         const fileName = `${safeName}.png`;
@@ -82,7 +104,7 @@ async function run() {
 
         if (remote.imageUrl) {
           try {
-            console.log(`📥 Скачиваем картинку для: ${remote.name}`);
+            console.log(`📥 Скачиваем картинку: ${remote.name}`);
             await downloadImage(remote.imageUrl, localImagePath);
           } catch (e) {
             console.warn(`Не удалось скачать картинку для ${remote.name}:`, e.message);
@@ -103,15 +125,14 @@ async function run() {
         localData.push(newItem);
         localMap.set(key, newItem);
         newCount++;
-        console.log(`✨ Добавлен новый питомец: ${remote.name}`);
       }
     }
 
     fs.writeFileSync(LOCAL_JSON_PATH, JSON.stringify(localData, null, 2), 'utf8');
-    console.log(`\n✅ Успешно! Обновлено: ${updatedCount}, Добавлено новых: ${newCount}`);
+    console.log(`\n✅ Успешно! Обновлено: ${updatedCount}, Добавлено: ${newCount}`);
 
   } catch (err) {
-    console.error('❌ Ошибка выполнения:', err.message);
+    console.error('❌ Ошибка:', err.message);
     process.exit(1);
   }
 }
