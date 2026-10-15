@@ -2,9 +2,8 @@ name: Auto Update Adopt Me Values
 
 on:
   schedule:
-    # Запуск каждое воскресенье в полночь (UTC)
     - cron: '0 0 * * 0'
-  workflow_dispatch: # Позволяет запускать вручную кнопкой в любой момент
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,14 +16,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Устанавливаем Node.js
-        uses: setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Запускаем скрипт обновления
         run: node update_values.js
 
-      - name: Коммитим изменения (если появились новые питомцы или цены)
+      - name: Коммитим изменения
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
