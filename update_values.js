@@ -24,13 +24,12 @@ function downloadImage(url, destPath) {
   });
 }
 
-// Расчёт матрицы ценностей: Regular, Neon, Mega + Fly / Ride
+// Расчёт полной сетки ценностей
 function buildFullPetValues(baseVal, existing = {}) {
   const val = parseFloat(baseVal) || 0;
   const rideAdd = val > 50 ? 0.75 : (val > 10 ? 0.5 : 0.35);
   const flyAdd = val > 50 ? 1.25 : (val > 10 ? 0.8 : 0.6);
 
-  // 1. Regular
   const regular = {
     value: val,
     fly_ride: existing.regular?.fly_ride || +(val + rideAdd + flyAdd).toFixed(2),
@@ -39,7 +38,6 @@ function buildFullPetValues(baseVal, existing = {}) {
     no_pot: existing.regular?.no_pot || val
   };
 
-  // 2. Neon (~4.2x от базы)
   const neonBase = +(val * 4.2).toFixed(2);
   const neon = {
     value: neonBase,
@@ -49,7 +47,6 @@ function buildFullPetValues(baseVal, existing = {}) {
     no_pot: existing.neon?.no_pot || neonBase
   };
 
-  // 3. Mega (~16.8x от базы)
   const megaBase = +(val * 16.8).toFixed(2);
   const mega = {
     value: megaBase,
@@ -65,10 +62,10 @@ function buildFullPetValues(baseVal, existing = {}) {
 async function run() {
   let browser;
   try {
-    console.log('🔄 Читаем локальную базу adoptme_values.json...');
+    console.log('🔄 Читаем adoptme_values.json...');
     let localData = JSON.parse(fs.readFileSync(LOCAL_JSON_PATH, 'utf8'));
 
-    // Удаляем прошлые системные карточки-кнопки
+    // Удаляем прошлый мусор интерфейса
     localData = localData.filter(i => {
       const n = (i.name || '').toLowerCase();
       return !n.includes('playwire') && !n.includes('audience') && !n.includes('menu') && !n.includes('close');
@@ -87,13 +84,13 @@ async function run() {
     const page = await browser.newPage();
     await page.setViewport({ width: 1920, height: 1080 });
 
-    console.log('🌐 Переходим на страницу калькулятора Elvebredd...');
+    console.log('🌐 Переходим на elvebredd.com/adopt-me-calculator...');
     await page.goto('https://elvebredd.com/adopt-me-calculator', {
       waitUntil: 'networkidle2',
       timeout: 60000
     });
 
-    console.log('🖱️ Открываем каталог питомцев...');
+    console.log('🖱️ Кликаем на выбор питомца...');
     await page.evaluate(() => {
       const clickables = Array.from(document.querySelectorAll('button, div[role="button"], [class*="slot"], [class*="add"]'));
       const target = clickables.find(el => {
@@ -105,8 +102,7 @@ async function run() {
 
     await new Promise(r => setTimeout(r, 4000));
 
-    console.log('📜 Прокручиваем каталог для загрузки всех страниц списка...');
-    // Скроллим контейнер модалки, чтобы подгрузить всех питомцев из виртуального списка
+    console.log('📜 Прокручиваем список...');
     await page.evaluate(async () => {
       const modal = document.querySelector('[class*="modal"], [class*="popup"], [class*="dialog"]') || window;
       for (let i = 0; i < 25; i++) {
@@ -119,7 +115,7 @@ async function run() {
       }
     });
 
-    console.log('📥 Извлекаем все карточки питомцев...');
+    console.log('📥 Сканируем карточки...');
     const scrapedItems = await page.evaluate(() => {
       const items = [];
       const cards = document.querySelectorAll('[class*="item"], [class*="card"], [class*="pet"]');
@@ -136,7 +132,6 @@ async function run() {
           const val = valStr ? parseFloat(valStr.replace(/,/g, '')) : 0;
 
           const lower = name.toLowerCase();
-          // Отсекаем рекламу, интерфейсные кнопки и элементы UI
           if (
             val > 0 &&
             !lower.includes('close') &&
@@ -160,7 +155,7 @@ async function run() {
 
     await browser.close();
 
-    console.log(`Найдено подходящих карточек: ${scrapedItems.length}`);
+    console.log(`Найдено карточек: ${scrapedItems.length}`);
 
     const localMap = new Map();
     localData.forEach(item => {
@@ -175,15 +170,13 @@ async function run() {
       const key = scraped.name.trim().toLowerCase();
 
       if (localMap.has(key)) {
-        // Обновляем существующего питомца: пересчитываем Regular, Neon, Mega, Fly, Ride
         const existing = localMap.get(key);
-        const valuesBundle = buildFullPetValues(scraped.value, existing);
-        existing.regular = valuesBundle.regular;
-        existing.neon = valuesBundle.neon;
-        existing.mega = valuesBundle.mega;
+        const bundle = buildFullPetValues(scraped.value, existing);
+        existing.regular = bundle.regular;
+        existing.neon = bundle.neon;
+        existing.mega = bundle.mega;
         updatedCount++;
       } else {
-        // Добавляем совершенно нового питомца
         maxId++;
         const safeName = scraped.name.replace(/[^a-zA-Z0-9]/g, '_');
         const fileName = `${safeName}.png`;
@@ -193,7 +186,7 @@ async function run() {
           await downloadImage(scraped.imgUrl, localImagePath);
         }
 
-        const valuesBundle = buildFullPetValues(scraped.value);
+        const bundle = buildFullPetValues(scraped.value);
 
         const newItem = {
           name: scraped.name,
@@ -201,12 +194,26 @@ async function run() {
           rarity: 'legendary',
           image: `/images/pets/${fileName}`,
           id: maxId,
-          regular: valuesBundle.regular,
-          neon: valuesBundle.neon,
-          mega: valuesBundle.mega
+          regular: bundle.regular,
+          neon: bundle.neon,
+          mega: bundle.mega
         };
 
         localData.push(newItem);
         localMap.set(key, newItem);
         newCount++;
-        console.
+      }
+    }
+
+    fs.writeFileSync(LOCAL_JSON_PATH, JSON.stringify(localData, null, 2), 'utf8');
+    console.log(`\n🎉 Готово! Всего в базе: ${localData.length} шт.`);
+    console.log(`Обновлено полных наборов цен: ${updatedCount}, Новых: ${newCount}`);
+
+  } catch (err) {
+    if (browser) await browser.close();
+    console.error('❌ Ошибка:', err.message);
+    process.exit(1);
+  }
+}
+
+run();
