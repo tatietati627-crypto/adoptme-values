@@ -1,1136 +1,452 @@
 [
   {
+    "id": 10,
     "name": "Chroma Evergreen",
-    "slug": "chroma-evergreen-set",
+    "slug": "chroma-evergreen",
     "total_value": 92250,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 196,
-        "name": "Chroma Evergun",
-        "slug": "chroma-evergun",
-        "value": 53000,
-        "value_source_a": 53000,
-        "value_source_b": 53000,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Evergun-resize.webp"
-      },
-      {
-        "id": 195,
-        "name": "Chroma Evergreen",
-        "slug": "chroma-evergreen",
-        "value": 39250,
-        "value_source_a": 39500,
-        "value_source_b": 39000,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Evergreen-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-evergreen-set.png"
+    "image": "/images/sets/chroma-evergreen.png",
+    "items": []
   },
   {
+    "id": 8,
     "name": "Chroma Alien 2025",
     "slug": "chroma-alien-set-2025",
     "total_value": 38000,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 192,
-        "name": "Chroma Alienbeam",
-        "slug": "chroma-alienbeam",
-        "value": 23500,
-        "value_source_a": 23000,
-        "value_source_b": 24000,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Alienbeam-resize.webp"
-      },
-      {
-        "id": 191,
-        "name": "Chroma Raygun",
-        "slug": "chroma-raygun",
-        "value": 14500,
-        "value_source_a": 14500,
-        "value_source_b": 14500,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Raygun-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-alien-set-2025.png"
+    "image": "/images/sets/chroma-alien-set-2025.png",
+    "items": []
   },
   {
+    "id": 11,
     "name": "Chroma Ornament 2025",
     "slug": "chroma-ornament-set-2025",
     "total_value": 30813,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 194,
-        "name": "Chroma Bauble",
-        "slug": "chroma-bauble",
-        "value": 29000,
-        "value_source_a": 29000,
-        "value_source_b": 29000,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Bauble-resize.webp"
-      },
-      {
-        "id": 181,
-        "name": "Chroma Ornament",
-        "slug": "chroma-ornament",
-        "value": 1813,
-        "value_source_a": 1800,
-        "value_source_b": 1825,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Ornament-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-ornament-set-2025.png"
+    "image": "/images/sets/chroma-ornament-set-2025.png",
+    "items": []
   },
   {
+    "id": 13,
     "name": "Chroma Sunrise",
-    "slug": "chroma-sunrise-set",
+    "slug": "chroma-sunrise",
     "total_value": 16875,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 189,
-        "name": "Chroma Sunsire",
-        "slug": "chroma-sunrise",
-        "value": 10250,
-        "value_source_a": 10250,
-        "value_source_b": 10250,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Sunrise-resize.webp"
-      },
-      {
-        "id": 183,
-        "name": "Chroma Sunset",
-        "slug": "chroma-sunset",
-        "value": 6625,
-        "value_source_a": 6750,
-        "value_source_b": 6500,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Sunset-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-sunrise-set.png"
+    "image": "/images/sets/chroma-sunrise.png",
+    "items": []
   },
   {
+    "id": 51,
     "name": "traveler",
-    "slug": "travelers-set",
+    "slug": "travelers",
     "total_value": 12225,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 708,
-        "name": "Traveler's Axe",
-        "slug": "travelers-axe",
-        "value": 7050,
-        "value_source_a": 7000,
-        "value_source_b": 7100,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/TravellersAxe-resize.webp"
-      },
-      {
-        "id": 385,
-        "name": "Travelers Gun",
-        "slug": "travelers-gun",
-        "value": 5175,
-        "value_source_a": 5150,
-        "value_source_b": 5200,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Traveler%2527s_Gun_2023-resize.webp"
-      }
-    ],
-    "image": "/images/sets/travelers-set.png"
+    "image": "/images/sets/travelers.png",
+    "items": []
   },
   {
+    "id": 12,
     "name": "Chroma Snow",
     "slug": "chroma-snow-set-2025",
     "total_value": 10075,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 185,
-        "name": "Chroma Snowcannon",
-        "slug": "chroma-snowcannon",
-        "value": 7700,
-        "value_source_a": 7650,
-        "value_source_b": 7750,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Snowcannon-resize.webp"
-      },
-      {
-        "id": 182,
-        "name": "Chroma Snow Dagger",
-        "slug": "chroma-snowdagger",
-        "value": 2375,
-        "value_source_a": 2400,
-        "value_source_b": 2350,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_SnowDagger-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-snow-set-2025.png"
+    "image": "/images/sets/chroma-snow-set-2025.png",
+    "items": []
   },
   {
+    "id": 9,
     "name": "Chroma Blizzard Set 2025",
     "slug": "chroma-blizzard-set-2025",
     "total_value": 9750,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 190,
-        "name": "Chroma Blizzard",
-        "slug": "chroma-blizzard",
-        "value": 5500,
-        "value_source_a": 5500,
-        "value_source_b": 5500,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Blizzard-resize.webp"
-      },
-      {
-        "id": 187,
-        "name": "Chroma Snowstorm",
-        "slug": "chroma-snowstorm",
-        "value": 4250,
-        "value_source_a": 4250,
-        "value_source_b": 4250,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Snowstorm-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-blizzard-set-2025.png"
+    "image": "/images/sets/chroma-blizzard-set-2025.png",
+    "items": []
   },
   {
+    "id": 50,
     "name": "Evergreen",
-    "slug": "evergreen-set",
+    "slug": "evergreen",
     "total_value": 6138,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 388,
-        "name": "Evergun",
-        "slug": "evergun",
-        "value": 3438,
-        "value_source_a": 3425,
-        "value_source_b": 3450,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Evergun-resize.webp"
-      },
-      {
-        "id": 387,
-        "name": "Evergreen",
-        "slug": "evergreen",
-        "value": 2700,
-        "value_source_a": 2700,
-        "value_source_b": 2700,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Evergreen-resize.webp"
-      }
-    ],
-    "image": "/images/sets/evergreen-set.png"
+    "image": "/images/sets/evergreen.png",
+    "items": []
   },
   {
+    "id": 19,
     "name": "Celestial",
-    "slug": "celestial-set",
+    "slug": "celestial",
     "total_value": 4700,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 112,
-        "name": "Constellation",
-        "slug": "constellation",
-        "value": 2600,
-        "value_source_a": 2600,
-        "value_source_b": 2600,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/2024Constellation-resize.webp"
-      },
-      {
-        "id": 111,
-        "name": "Celestial",
-        "slug": "celestial",
-        "value": 2100,
-        "value_source_a": 2100,
-        "value_source_b": 2100,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/2024Celestial-resize.webp"
-      }
-    ],
-    "image": "/images/sets/celestial-set.png"
+    "image": "/images/sets/celestial.png",
+    "items": []
   },
   {
+    "id": 4,
     "name": "Alien 2025",
     "slug": "alien-set-2025",
     "total_value": 3913,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 405,
-        "name": "Alienbeam",
-        "slug": "alienbeam",
-        "value": 1975,
-        "value_source_a": 1975,
-        "value_source_b": 1975,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Alienbeam-resize.webp"
-      },
-      {
-        "id": 406,
-        "name": "Raygun",
-        "slug": "raygun",
-        "value": 1938,
-        "value_source_a": 1925,
-        "value_source_b": 1950,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Raygun-resize.webp"
-      }
-    ],
-    "image": "/images/sets/alien-set-2025.png"
+    "image": "/images/sets/alien-set-2025.png",
+    "items": []
   },
   {
+    "id": 21,
     "name": "Dark",
-    "slug": "dark-set",
+    "slug": "dark",
     "total_value": 3551,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 384,
-        "name": "Darkshot",
-        "slug": "darkshot",
-        "value": 1788,
-        "value_source_a": 1775,
-        "value_source_b": 1800,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Darkshot-resize.webp"
-      },
-      {
-        "id": 383,
-        "name": "Darksword",
-        "slug": "darksword",
-        "value": 1763,
-        "value_source_a": 1750,
-        "value_source_b": 1775,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Darksword-resize.webp"
-      }
-    ],
-    "image": "/images/sets/dark-set.png"
+    "image": "/images/sets/dark.png",
+    "items": []
   },
   {
+    "id": 14,
     "name": "Chroma Sweet Treat 2026",
     "slug": "chroma-sweet-treat-set-2026",
     "total_value": 3526,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 188,
-        "name": "Chroma Treat",
-        "slug": "chroma-treat",
-        "value": 1788,
-        "value_source_a": 1800,
-        "value_source_b": 1775,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Treat-resize.webp"
-      },
-      {
-        "id": 186,
-        "name": "Chroma Sweet",
-        "slug": "chroma-sweet",
-        "value": 1738,
-        "value_source_a": 1750,
-        "value_source_b": 1725,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/Chroma_Sweet-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-sweet-treat-set-2026.png"
+    "image": "/images/sets/chroma-sweet-treat-set-2026.png",
+    "items": []
   },
   {
+    "id": 45,
     "name": "Chroma Beachy",
-    "slug": "chroma-beachy-set",
+    "slug": "chroma-beachy",
     "total_value": 2400,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 1008,
-        "name": "Chroma Sands",
-        "slug": "chroma-sands",
-        "value": 1225,
-        "value_source_a": 1250,
-        "value_source_b": 1200,
-        "category": "chroma",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/chroma-sands-resize.webp"
-      },
-      {
-        "id": 1007,
-        "name": "Chroma Beachy",
-        "slug": "chroma-beachy",
-        "value": 1175,
-        "value_source_a": 1200,
-        "value_source_b": 1150,
-        "category": "chroma",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/chroma/chroma-beachy-resize.webp"
-      }
-    ],
-    "image": "/images/sets/chroma-beachy-set.png"
+    "image": "/images/sets/chroma-beachy.png",
+    "items": []
   },
   {
+    "id": 29,
     "name": "Sunrise",
-    "slug": "sunrise-set",
+    "slug": "sunrise",
     "total_value": 1525,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 404,
-        "name": "Sunrise",
-        "slug": "sunrise",
-        "value": 875,
-        "value_source_a": 875,
-        "value_source_b": 875,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/SunsetGun-resize.webp"
-      },
-      {
-        "id": 403,
-        "name": "Sunset",
-        "slug": "sunset",
-        "value": 650,
-        "value_source_a": 650,
-        "value_source_b": 650,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/SunsetKnife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/sunrise-set.png"
+    "image": "/images/sets/sunrise.png",
+    "items": []
   },
   {
+    "id": 31,
     "name": "Soul",
-    "slug": "soul-set",
+    "slug": "soul",
     "total_value": 1316,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 396,
-        "name": "Soul",
-        "slug": "soul",
-        "value": 663,
-        "value_source_a": 655,
-        "value_source_b": 670,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/SoulGun-resize.webp"
-      },
-      {
-        "id": 395,
-        "name": "Spirit",
-        "slug": "spirit",
-        "value": 653,
-        "value_source_a": 645,
-        "value_source_b": 660,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/SpiritKnife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/soul-set.png"
+    "image": "/images/sets/soul.png",
+    "items": []
   },
   {
+    "id": 30,
     "name": "Snow",
-    "slug": "snow-set",
+    "slug": "snow",
     "total_value": 851,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 410,
-        "name": "Snowcannon",
-        "slug": "snowcannon",
-        "value": 678,
-        "value_source_a": 680,
-        "value_source_b": 675,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Snowcannon-resize.webp"
-      },
-      {
-        "id": 409,
-        "name": "Snow Dagger",
-        "slug": "snow-dagger",
-        "value": 173,
-        "value_source_a": 170,
-        "value_source_b": 175,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/SnowDagger2025-resize.webp"
-      }
-    ],
-    "image": "/images/sets/snow-set.png"
+    "image": "/images/sets/snow.png",
+    "items": []
   },
   {
+    "id": 34,
     "name": "Xeno 2025",
     "slug": "xeno-set-2025",
     "total_value": 821,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 408,
-        "name": "Xenoshot",
-        "slug": "xenoshot",
-        "value": 413,
-        "value_source_a": 420,
-        "value_source_b": 405,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Xenoshot-resize.webp"
-      },
-      {
-        "id": 407,
-        "name": "Xenoknife",
-        "slug": "xenoknife",
-        "value": 408,
-        "value_source_a": 410,
-        "value_source_b": 405,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Xenoknife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/xeno-set-2025.png"
+    "image": "/images/sets/xeno-set-2025.png",
+    "items": []
   },
   {
+    "id": 28,
     "name": "Rainbow",
-    "slug": "rainbow-set",
+    "slug": "rainbow",
     "total_value": 808,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 380,
-        "name": "Rainbow Gun",
-        "slug": "rainbow-gun",
-        "value": 408,
-        "value_source_a": 410,
-        "value_source_b": 405,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/RainbowGun-resize.webp"
-      },
-      {
-        "id": 379,
-        "name": "Rainbow",
-        "slug": "rainbow",
-        "value": 400,
-        "value_source_a": 400,
-        "value_source_b": 400,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/RainbowKnife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/rainbow-set.png"
+    "image": "/images/sets/rainbow.png",
+    "items": []
   },
   {
+    "id": 15,
     "name": "Bloom",
-    "slug": "bloom-set",
+    "slug": "bloom",
     "total_value": 798,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 402,
-        "name": "Flora",
-        "slug": "flora",
-        "value": 403,
-        "value_source_a": 405,
-        "value_source_b": 400,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Flora_Gun-resize.webp"
-      },
-      {
-        "id": 401,
-        "name": "Bloom",
-        "slug": "bloom",
-        "value": 395,
-        "value_source_a": 395,
-        "value_source_b": 395,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Bloom_Knife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/bloom-set.png"
+    "image": "/images/sets/bloom.png",
+    "items": []
   },
   {
+    "id": 26,
     "name": "Ornament",
-    "slug": "ornament-set",
+    "slug": "ornament",
     "total_value": 738,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 398,
-        "name": "Bauble",
-        "slug": "bauble",
-        "value": 675,
-        "value_source_a": 675,
-        "value_source_b": 675,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Bauble-resize.webp"
-      },
-      {
-        "id": 411,
-        "name": "Ornament",
-        "slug": "ornament",
-        "value": 63,
-        "value_source_a": 60,
-        "value_source_b": 65,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/OrnamentKnife2025-resize.webp"
-      }
-    ],
-    "image": "/images/sets/ornament-set.png"
+    "image": "/images/sets/ornament.png",
+    "items": []
   },
   {
+    "id": 25,
     "name": "Ocean",
-    "slug": "ocean-set",
+    "slug": "ocean",
     "total_value": 481,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 382,
-        "name": "Ocean",
-        "slug": "ocean",
-        "value": 243,
-        "value_source_a": 240,
-        "value_source_b": 245,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Ocean_gun-resize.webp"
-      },
-      {
-        "id": 381,
-        "name": "Waves",
-        "slug": "waves",
-        "value": 238,
-        "value_source_a": 235,
-        "value_source_b": 240,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Waves_knife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/ocean-set.png"
+    "image": "/images/sets/ocean.png",
+    "items": []
   },
   {
+    "id": 22,
     "name": "Flowerwood",
-    "slug": "flowerwood-set",
+    "slug": "flowerwood",
     "total_value": 471,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 390,
-        "name": "Flowerwood gun",
-        "slug": "flowerwood-gun",
-        "value": 238,
-        "value_source_a": 235,
-        "value_source_b": 240,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Flowerwood_Gun-resize.webp"
-      },
-      {
-        "id": 389,
-        "name": "Flowerwood",
-        "slug": "flowerwood",
-        "value": 233,
-        "value_source_a": 230,
-        "value_source_b": 235,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Flowerwood_Knife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/flowerwood-set.png"
+    "image": "/images/sets/flowerwood.png",
+    "items": []
   },
   {
+    "id": 41,
     "name": "bow",
-    "slug": "bow-set",
+    "slug": "bow",
     "total_value": 413,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 705,
-        "name": "Harvester",
-        "slug": "harvester",
-        "value": 250,
-        "value_source_a": 250,
-        "value_source_b": 250,
-        "category": "ancient",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/HarvesterUpdated-resize.webp"
-      },
-      {
-        "id": 707,
-        "name": "Icepiercer",
-        "slug": "icepiercer",
-        "value": 163,
-        "value_source_a": 165,
-        "value_source_b": 160,
-        "category": "ancient",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/Icepiercer-resize.webp"
-      }
-    ],
-    "image": "/images/sets/bow-set.png"
+    "image": "/images/sets/bow.png",
+    "items": []
   },
   {
+    "id": 37,
     "name": "Corrupt",
-    "slug": "corrupt-set",
+    "slug": "corrupt",
     "total_value": 351,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 16,
-        "name": "Corrupt",
-        "slug": "corrupt",
-        "value": 333,
-        "value_source_a": 325,
-        "value_source_b": 340,
-        "category": "unique",
-        "type": "Knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/Corrupt_Transparent-resize.webp"
-      },
-      {
-        "id": 305,
-        "name": "Luger",
-        "slug": "luger",
-        "value": 18,
-        "value_source_a": 17,
-        "value_source_b": 18,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/LugerUpdated-resize.webp"
-      }
-    ],
-    "image": "/images/sets/corrupt-set.png"
+    "image": "/images/sets/corrupt.png",
+    "items": []
   },
   {
+    "id": 33,
     "name": "Sweet Treat",
-    "slug": "sweet-treat-set",
+    "slug": "sweet-treat",
     "total_value": 305,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 415,
-        "name": "Treat",
-        "slug": "treat",
-        "value": 155,
-        "value_source_a": 155,
-        "value_source_b": 155,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Treat-resize.webp"
-      },
-      {
-        "id": 414,
-        "name": "Sweet",
-        "slug": "sweet",
-        "value": 150,
-        "value_source_a": 150,
-        "value_source_b": 150,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Sweet-resize.webp"
-      }
-    ],
-    "image": "/images/sets/sweet-treat-set.png"
+    "image": "/images/sets/sweet-treat.png",
+    "items": []
   },
   {
+    "id": 16,
     "name": "Borealis",
-    "slug": "borealis-set",
+    "slug": "borealis",
     "total_value": 281,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 400,
-        "name": "Borealis",
-        "slug": "borealis",
-        "value": 143,
-        "value_source_a": 140,
-        "value_source_b": 145,
-        "category": "godly",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Borealis-resize.webp"
-      },
-      {
-        "id": 399,
-        "name": "Australis",
-        "slug": "australis",
-        "value": 138,
-        "value_source_a": 135,
-        "value_source_b": 140,
-        "category": "godly",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/godly/Australis-resize.webp"
-      }
-    ],
-    "image": "/images/sets/borealis-set.png"
+    "image": "/images/sets/borealis.png",
+    "items": []
   },
   {
+    "id": 40,
     "name": "Latte",
     "slug": "latte",
     "total_value": 280,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 457,
-        "name": "Latte gun",
-        "slug": "latte-gun",
-        "value": 140,
-        "value_source_a": 140,
-        "value_source_b": 140,
-        "category": "legendary",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/legendary/Latte_Gun-resize.webp"
-      },
-      {
-        "id": 456,
-        "name": "Latte Knife",
-        "slug": "latte-knife",
-        "value": 140,
-        "value_source_a": 140,
-        "value_source_b": 140,
-        "category": "legendary",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/legendary/Latte_Knife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/latte.png"
+    "image": "/images/sets/latte.png",
+    "items": []
   },
   {
+    "id": 7,
     "name": "Bats",
-    "slug": "bats-set",
+    "slug": "bats",
     "total_value": 246,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 839,
-        "name": "Bats Knife 2018",
-        "slug": "bats-knife-2018",
-        "value": 245,
-        "value_source_a": 250,
-        "value_source_b": 240,
-        "category": "common",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/common/Bats_improved-resize.webp"
-      },
-      {
-        "id": 840,
-        "name": "Bats Gun 2018",
-        "slug": "bats-gun-2018",
-        "value": 1,
-        "value_source_a": 1,
-        "value_source_b": 1,
-        "category": "common",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/common/bats-gun-resize.webp"
-      }
-    ],
-    "image": "/images/sets/bats-set.png"
+    "image": "/images/sets/bats.png",
+    "items": []
   },
   {
+    "id": 39,
     "name": "Acient",
-    "slug": "acient-set",
+    "slug": "acient",
     "total_value": 215,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 704,
-        "name": "Icebreaker",
-        "slug": "icebreaker",
-        "value": 68,
-        "value_source_a": 70,
-        "value_source_b": 65,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/Icebreaker-resize.webp"
-      },
-      {
-        "id": 700,
-        "name": "Batwing",
-        "slug": "batwing",
-        "value": 44,
-        "value_source_a": 45,
-        "value_source_b": 42,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/BatwingUpdated2-resize.webp"
-      },
-      {
-        "id": 7,
-        "name": "Elderwood Scythe",
-        "slug": "elderwood-scythe",
-        "value": 39,
-        "value_source_a": 40,
-        "value_source_b": 38,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/ElderwoodScythev2-resize.webp"
-      },
-      {
-        "id": 703,
-        "name": "Hallowscythe",
-        "slug": "hallowscythe",
-        "value": 31,
-        "value_source_a": 32,
-        "value_source_b": 30,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/Hallowscythe-resize.webp"
-      },
-      {
-        "id": 702,
-        "name": "Logchopper",
-        "slug": "logchopper",
-        "value": 19,
-        "value_source_a": 20,
-        "value_source_b": 18,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/Logchopper-resize.webp"
-      },
-      {
-        "id": 701,
-        "name": "Icewing",
-        "slug": "icewing",
-        "value": 14,
-        "value_source_a": 15,
-        "value_source_b": 13,
-        "category": "ancient",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/ancient/Icewingknife-resize.webp"
-      }
-    ],
-    "image": "/images/sets/acient-set.png"
+    "image": "/images/sets/acient.png",
+    "items": []
   },
   {
+    "id": 44,
     "name": "Beachy",
     "slug": "Beachy",
-    "total_value": 0,
+    "total_value": 176,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/Beachy.png"
+    "image": "/images/sets/Beachy.png",
+    "items": []
   },
   {
+    "id": 6,
     "name": "Bat",
-    "slug": "bat-set",
-    "total_value": 0,
+    "slug": "bat",
+    "total_value": 156,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/bat-set.png"
+    "image": "/images/sets/bat.png",
+    "items": []
   },
   {
+    "id": 27,
     "name": "Pearl Set",
-    "slug": "pearl-set",
-    "total_value": 0,
+    "slug": "pearl",
+    "total_value": 155,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/pearl-set.png"
+    "image": "/images/sets/pearl.png",
+    "items": []
   },
   {
+    "id": 42,
     "name": "Chroma Bringer",
-    "slug": "chroma-bringer-set",
-    "total_value": 0,
+    "slug": "chroma-bringer",
+    "total_value": 121,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/chroma-bringer-set.png"
+    "image": "/images/sets/chroma-bringer.png",
+    "items": []
   },
   {
+    "id": 18,
     "name": "Candy",
-    "slug": "candy-set",
-    "total_value": 0,
+    "slug": "candy",
+    "total_value": 118,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/candy-set.png"
+    "image": "/images/sets/candy.png",
+    "items": []
   },
   {
+    "id": 24,
     "name": "Icebreaker",
-    "slug": "icebreaker-set",
-    "total_value": 0,
+    "slug": "icebreaker",
+    "total_value": 102,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/icebreaker-set.png"
+    "image": "/images/sets/icebreaker.png",
+    "items": []
   },
   {
+    "id": 32,
     "name": "Spectre",
-    "slug": "spectre-set",
-    "total_value": 0,
+    "slug": "spectre",
+    "total_value": 72,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/spectre-set.png"
+    "image": "/images/sets/spectre.png",
+    "items": []
   },
   {
+    "id": 43,
     "name": "Bringer",
-    "slug": "bringer-set",
-    "total_value": 0,
+    "slug": "bringer",
+    "total_value": 67,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/bringer-set.png"
+    "image": "/images/sets/bringer.png",
+    "items": []
   },
   {
+    "id": 49,
     "name": "Spectral 2021",
     "slug": "Spectral-Set-2021",
-    "total_value": 0,
+    "total_value": 54,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/Spectral-Set-2021.png"
+    "image": "/images/sets/Spectral-Set-2021.png",
+    "items": []
   },
   {
+    "id": 2,
     "name": "Seer",
     "slug": "seer",
-    "total_value": 0,
+    "total_value": 43,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/seer.png"
+    "image": "/images/sets/seer.png",
+    "items": []
   },
   {
+    "id": 20,
     "name": "Cookie",
-    "slug": "cookie-set",
-    "total_value": 0,
+    "slug": "cookie",
+    "total_value": 27,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/cookie-set.png"
+    "image": "/images/sets/cookie.png",
+    "items": []
   },
   {
+    "id": 3,
     "name": "8 bit",
     "slug": "8-bit",
-    "total_value": 0,
+    "total_value": 22,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/8-bit.png"
+    "image": "/images/sets/8-bit.png",
+    "items": []
   },
   {
+    "id": 58,
     "name": "Ghost",
     "slug": "ghost",
-    "total_value": 0,
+    "total_value": 19,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/ghost.png"
+    "image": "/images/sets/ghost.png",
+    "items": []
   },
   {
+    "id": 55,
     "name": "Laser",
     "slug": "laser",
-    "total_value": 0,
+    "total_value": 18,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/laser.png"
+    "image": "/images/sets/laser.png",
+    "items": []
   },
   {
+    "id": 23,
     "name": "Hallow's",
-    "slug": "hallows-set",
-    "total_value": 0,
+    "slug": "hallows",
+    "total_value": 17,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/hallows-set.png"
+    "image": "/images/sets/hallows.png",
+    "items": []
   },
   {
+    "id": 56,
     "name": "Phaser",
     "slug": "phaser",
-    "total_value": 0,
+    "total_value": 16,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/phaser.png"
+    "image": "/images/sets/phaser.png",
+    "items": []
   },
   {
+    "id": 52,
     "name": "Shadow",
     "slug": "shadow",
-    "total_value": 0,
+    "total_value": 15,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/shadow.png"
+    "image": "/images/sets/shadow.png",
+    "items": []
   },
   {
+    "id": 54,
     "name": "Cowboy",
     "slug": "cowboy",
-    "total_value": 0,
+    "total_value": 14,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/cowboy.png"
+    "image": "/images/sets/cowboy.png",
+    "items": []
   },
   {
+    "id": 53,
     "name": "Golden",
     "slug": "golden",
-    "total_value": 0,
+    "total_value": 12,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/golden.png"
+    "image": "/images/sets/golden.png",
+    "items": []
   },
   {
+    "id": 5,
     "name": "Aurora 2019",
     "slug": "aurora-set-2019",
-    "total_value": 0,
+    "total_value": 9,
     "demand": "High Demand",
-    "items": [],
-    "image": "/images/sets/aurora-set-2019.png"
+    "image": "/images/sets/aurora-set-2019.png",
+    "items": []
   },
   {
+    "id": 47,
     "name": "Icecracker 2020",
-    "slug": "Icecracker-2020-set",
+    "slug": "Icecracker-2020",
     "total_value": 8,
     "demand": "High Demand",
-    "items": [
-      {
-        "id": 719,
-        "name": "Icedriller",
-        "slug": "icedriller",
-        "value": 6,
-        "value_source_a": 6,
-        "value_source_b": 5,
-        "category": "legendary",
-        "type": "gun",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/legendary/Icedriller_improved-resize.webp"
-      },
-      {
-        "id": 718,
-        "name": "Icecracker Knife",
-        "slug": "Icecracker-knife",
-        "value": 2,
-        "value_source_a": 2,
-        "value_source_b": 1,
-        "category": "legendary",
-        "type": "knife",
-        "image_url": "https://cdn.un6107617.dev/rblxvalue/items/legendary/Icecracker-resize.webp"
-      }
-    ],
-    "image": "/images/sets/Icecracker-2020-set.png"
+    "image": "/images/sets/Icecracker-2020.png",
+    "items": []
   }
 ]
