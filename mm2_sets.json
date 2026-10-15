@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Chroma Evergreen",
+    "slug": "chroma-evergreen-set",
+    "total_value": 92250,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-evergreen-set.png"
+  },
+  {
+    "name": "Chroma Alien 2025",
+    "slug": "chroma-alien-set-2025",
+    "total_value": 38000,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-alien-set-2025.png"
+  },
+  {
+    "name": "Chroma Ornament 2025",
+    "slug": "chroma-ornament-set-2025",
+    "total_value": 30813,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-ornament-set-2025.png"
+  },
+  {
+    "name": "Chroma Sunrise",
+    "slug": "chroma-sunrise-set",
+    "total_value": 16875,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-sunrise-set.png"
+  },
+  {
+    "name": "traveler",
+    "slug": "travelers-set",
+    "total_value": 12225,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/travelers-set.png"
+  },
+  {
+    "name": "Chroma Snow",
+    "slug": "chroma-snow-set-2025",
+    "total_value": 10075,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-snow-set-2025.png"
+  },
+  {
+    "name": "Chroma Blizzard Set 2025",
+    "slug": "chroma-blizzard-set-2025",
+    "total_value": 9750,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-blizzard-set-2025.png"
+  },
+  {
+    "name": "Evergreen",
+    "slug": "evergreen-set",
+    "total_value": 6138,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/evergreen-set.png"
+  },
+  {
+    "name": "Celestial",
+    "slug": "celestial-set",
+    "total_value": 4700,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/celestial-set.png"
+  },
+  {
+    "name": "Alien 2025",
+    "slug": "alien-set-2025",
+    "total_value": 3913,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/alien-set-2025.png"
+  },
+  {
+    "name": "Dark",
+    "slug": "dark-set",
+    "total_value": 3551,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/dark-set.png"
+  },
+  {
+    "name": "Chroma Sweet Treat 2026",
+    "slug": "chroma-sweet-treat-set-2026",
+    "total_value": 3526,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-sweet-treat-set-2026.png"
+  },
+  {
+    "name": "Chroma Beachy",
+    "slug": "chroma-beachy-set",
+    "total_value": 2400,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-beachy-set.png"
+  },
+  {
+    "name": "Sunrise",
+    "slug": "sunrise-set",
+    "total_value": 1525,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/sunrise-set.png"
+  },
+  {
+    "name": "Soul",
+    "slug": "soul-set",
+    "total_value": 1316,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/soul-set.png"
+  },
+  {
+    "name": "Snow",
+    "slug": "snow-set",
+    "total_value": 851,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/snow-set.png"
+  },
+  {
+    "name": "Xeno 2025",
+    "slug": "xeno-set-2025",
+    "total_value": 821,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/xeno-set-2025.png"
+  },
+  {
+    "name": "Rainbow",
+    "slug": "rainbow-set",
+    "total_value": 808,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/rainbow-set.png"
+  },
+  {
+    "name": "Bloom",
+    "slug": "bloom-set",
+    "total_value": 798,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/bloom-set.png"
+  },
+  {
+    "name": "Ornament",
+    "slug": "ornament-set",
+    "total_value": 738,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/ornament-set.png"
+  },
+  {
+    "name": "Ocean",
+    "slug": "ocean-set",
+    "total_value": 481,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/ocean-set.png"
+  },
+  {
+    "name": "Flowerwood",
+    "slug": "flowerwood-set",
+    "total_value": 471,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/flowerwood-set.png"
+  },
+  {
+    "name": "bow",
+    "slug": "bow-set",
+    "total_value": 413,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/bow-set.png"
+  },
+  {
+    "name": "Corrupt",
+    "slug": "corrupt-set",
+    "total_value": 351,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/corrupt-set.png"
+  },
+  {
+    "name": "Sweet Treat",
+    "slug": "sweet-treat-set",
+    "total_value": 305,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/sweet-treat-set.png"
+  },
+  {
+    "name": "Borealis",
+    "slug": "borealis-set",
+    "total_value": 281,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/borealis-set.png"
+  },
+  {
+    "name": "Latte",
+    "slug": "latte",
+    "total_value": 280,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/latte.png"
+  },
+  {
+    "name": "Bats",
+    "slug": "bats-set",
+    "total_value": 246,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/bats-set.png"
+  },
+  {
+    "name": "Acient",
+    "slug": "acient-set",
+    "total_value": 215,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/acient-set.png"
+  },
+  {
+    "name": "Beachy",
+    "slug": "Beachy",
+    "total_value": 176,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/Beachy.png"
+  },
+  {
+    "name": "Bat",
+    "slug": "bat-set",
+    "total_value": 156,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/bat-set.png"
+  },
+  {
+    "name": "Pearl Set",
+    "slug": "pearl-set",
+    "total_value": 155,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/pearl-set.png"
+  },
+  {
+    "name": "Chroma Bringer",
+    "slug": "chroma-bringer-set",
+    "total_value": 121,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/chroma-bringer-set.png"
+  },
+  {
+    "name": "Candy",
+    "slug": "candy-set",
+    "total_value": 118,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/candy-set.png"
+  },
+  {
+    "name": "Icebreaker",
+    "slug": "icebreaker-set",
+    "total_value": 102,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/icebreaker-set.png"
+  },
+  {
+    "name": "Spectre",
+    "slug": "spectre-set",
+    "total_value": 72,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/spectre-set.png"
+  },
+  {
+    "name": "Bringer",
+    "slug": "bringer-set",
+    "total_value": 67,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/bringer-set.png"
+  },
+  {
+    "name": "Spectral 2021",
+    "slug": "Spectral-Set-2021",
+    "total_value": 54,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/Spectral-Set-2021.png"
+  },
+  {
+    "name": "Seer",
+    "slug": "seer",
+    "total_value": 43,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/seer.png"
+  },
+  {
+    "name": "Cookie",
+    "slug": "cookie-set",
+    "total_value": 27,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/cookie-set.png"
+  },
+  {
+    "name": "8 bit",
+    "slug": "8-bit",
+    "total_value": 22,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/8-bit.png"
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "total_value": 19,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/ghost.png"
+  },
+  {
+    "name": "Laser",
+    "slug": "laser",
+    "total_value": 18,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/laser.png"
+  },
+  {
+    "name": "Hallow's",
+    "slug": "hallows-set",
+    "total_value": 17,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/hallows-set.png"
+  },
+  {
+    "name": "Phaser",
+    "slug": "phaser",
+    "total_value": 16,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/phaser.png"
+  },
+  {
+    "name": "Shadow",
+    "slug": "shadow",
+    "total_value": 15,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/shadow.png"
+  },
+  {
+    "name": "Cowboy",
+    "slug": "cowboy",
+    "total_value": 14,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/cowboy.png"
+  },
+  {
+    "name": "Golden",
+    "slug": "golden",
+    "total_value": 12,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/golden.png"
+  },
+  {
+    "name": "Aurora 2019",
+    "slug": "aurora-set-2019",
+    "total_value": 9,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/aurora-set-2019.png"
+  },
+  {
+    "name": "Icecracker 2020",
+    "slug": "Icecracker-2020-set",
+    "total_value": 8,
+    "demand": "Normal",
+    "items": [],
+    "image": "/images/sets/Icecracker-2020-set.png"
+  }
+]

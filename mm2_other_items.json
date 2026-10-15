@@ -1,0 +1,752 @@
+[
+  {
+    "name": "Latte Knife",
+    "slug": "latte-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 140,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/latte-knife.png"
+  },
+  {
+    "name": "Latte gun",
+    "slug": "latte-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 140,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/latte-gun.png"
+  },
+  {
+    "name": "Traveler (Gun)",
+    "slug": "traveler-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 50,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/traveler-gun.png"
+  },
+  {
+    "name": "Spectral Knife",
+    "slug": "spectral-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 50,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/spectral-knife.png"
+  },
+  {
+    "name": "Aurora Gun 2021",
+    "slug": "aurora-gun-2021",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 43,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/aurora-gun-2021.png"
+  },
+  {
+    "name": "Vampire Gun (2022)",
+    "slug": "vampire-gun-2022-",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 43,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/vampire-gun-2022-.png"
+  },
+  {
+    "name": "Beach",
+    "slug": "beach",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 35,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/beach.png"
+  },
+  {
+    "name": "Cotton Candy",
+    "slug": "cotton-candy",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 35,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/cotton-candy.png"
+  },
+  {
+    "name": "JD",
+    "slug": "jd",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 29,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/jd.png"
+  },
+  {
+    "name": "Sparkle Gun",
+    "slug": "sparkle-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 17,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/sparkle-gun.png"
+  },
+  {
+    "name": "Bunnies",
+    "slug": "bunnies",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 15,
+    "demand": 2,
+    "stability": "Fluctuating",
+    "image": "/images/other/bunnies.png"
+  },
+  {
+    "name": "Arctic Gun",
+    "slug": "arctic-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 11,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/arctic-gun.png"
+  },
+  {
+    "name": "Shadow",
+    "slug": "Shadow_Gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 8,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/Shadow_Gun.png"
+  },
+  {
+    "name": "Cavern Knife",
+    "slug": "cavern-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 8,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/cavern-knife.png"
+  },
+  {
+    "name": "Golden",
+    "slug": "Golden_Knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 7,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/Golden_Knife.png"
+  },
+  {
+    "name": "Broken",
+    "slug": "broken",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 7,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/broken.png"
+  },
+  {
+    "name": "Icedriller",
+    "slug": "icedriller",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 6,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/icedriller.png"
+  },
+  {
+    "name": "Ginger gun",
+    "slug": "ginger-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 5,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/ginger-gun.png"
+  },
+  {
+    "name": "Ghost-knife",
+    "slug": "ghost-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 5,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/ghost-knife.png"
+  },
+  {
+    "name": "Santa's Spirit",
+    "slug": "santas-spirit",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/santas-spirit.png"
+  },
+  {
+    "name": "Spectral Gun",
+    "slug": "spectral-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 4,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/spectral-gun.png"
+  },
+  {
+    "name": "Witched",
+    "slug": "witched",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/witched.png"
+  },
+  {
+    "name": "Skulls",
+    "slug": "skulls",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/skulls.png"
+  },
+  {
+    "name": "Santa's Magic",
+    "slug": "santas-magic",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/santas-magic.png"
+  },
+  {
+    "name": "Scratch",
+    "slug": "Scratch",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/Scratch.png"
+  },
+  {
+    "name": "Overseer Knife",
+    "slug": "overseer",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/overseer.png"
+  },
+  {
+    "name": "Green Elite",
+    "slug": "green-elite",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/green-elite.png"
+  },
+  {
+    "name": "Predator Gun",
+    "slug": "predator-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 4,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/predator-gun.png"
+  },
+  {
+    "name": "Blue Elite",
+    "slug": "blue-elite",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 4,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/blue-elite.png"
+  },
+  {
+    "name": "Nightsky",
+    "slug": "nightsky",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/nightsky.png"
+  },
+  {
+    "name": "Frostfade gun",
+    "slug": "frostfade-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/frostfade-gun.png"
+  },
+  {
+    "name": "Traveler (Knife)",
+    "slug": "traveler-knife-",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/traveler-knife-.png"
+  },
+  {
+    "name": "Vampire Knife (2022)",
+    "slug": "vampire-knife-2022-",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/vampire-knife-2022-.png"
+  },
+  {
+    "name": "Aurora Knife 2021",
+    "slug": "aurora-knife-2021",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/aurora-knife-2021.png"
+  },
+  {
+    "name": "Blue Scratch",
+    "slug": "blue-Scratch",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/blue-Scratch.png"
+  },
+  {
+    "name": "Chromatic Knife",
+    "slug": "chromatic-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/chromatic-knife.png"
+  },
+  {
+    "name": "Shiny",
+    "slug": "shiny",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/shiny.png"
+  },
+  {
+    "name": "Emerald",
+    "slug": "emerald",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/emerald.png"
+  },
+  {
+    "name": "Rune",
+    "slug": "rune",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/rune.png"
+  },
+  {
+    "name": "Splash Knife",
+    "slug": "splash-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/splash-knife.png"
+  },
+  {
+    "name": "Splash Gun",
+    "slug": "splash-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 3,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/splash-gun.png"
+  },
+  {
+    "name": "Elite",
+    "slug": "elite",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/elite.png"
+  },
+  {
+    "name": "Fusion",
+    "slug": "fusion",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/fusion.png"
+  },
+  {
+    "name": "Fade",
+    "slug": "fade",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/fade.png"
+  },
+  {
+    "name": "Universe",
+    "slug": "universe",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/universe.png"
+  },
+  {
+    "name": "Overseer Gun",
+    "slug": "overseer-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 3,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/overseer-gun.png"
+  },
+  {
+    "name": "Predator",
+    "slug": "predator",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/predator.png"
+  },
+  {
+    "name": "Plasmite",
+    "slug": "plasmite",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/plasmite.png"
+  },
+  {
+    "name": "Viper",
+    "slug": "viper",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/viper.png"
+  },
+  {
+    "name": "Ripper Gun",
+    "slug": "ripper-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/ripper-gun.png"
+  },
+  {
+    "name": "Midnight",
+    "slug": "midnight",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/midnight.png"
+  },
+  {
+    "name": "Ripper Knife",
+    "slug": "ripper-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 3,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/ripper-knife.png"
+  },
+  {
+    "name": "Arctic (Knife)",
+    "slug": "arctic-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/other/arctic-knife.png"
+  },
+  {
+    "name": "Chromatic gun",
+    "slug": "chromatic-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 2,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/chromatic-gun.png"
+  },
+  {
+    "name": "Bubbles",
+    "slug": "bubbles",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 1,
+    "stability": "N",
+    "image": "/images/other/bubbles.png"
+  },
+  {
+    "name": "Aquarium (Gun)",
+    "slug": "Aquarium-Gun-2025",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 2,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/Aquarium-Gun-2025.png"
+  },
+  {
+    "name": "Palms (Knife)",
+    "slug": "Palms-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/Palms-knife.png"
+  },
+  {
+    "name": "Ginger Knife",
+    "slug": "ginger-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/ginger-knife.png"
+  },
+  {
+    "name": "Ghost gun",
+    "slug": "ghost-gun-2018",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 2,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/ghost-gun-2018.png"
+  },
+  {
+    "name": "Frostfade Knife",
+    "slug": "frostfade-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/frostfade-knife.png"
+  },
+  {
+    "name": "Green Fire",
+    "slug": "green-fire",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/green-fire.png"
+  },
+  {
+    "name": "Energized gun",
+    "slug": "energized-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 2,
+    "demand": 2,
+    "stability": "N",
+    "image": "/images/other/energized-gun.png"
+  },
+  {
+    "name": "Palms gun",
+    "slug": "palms-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 2,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/palms-gun.png"
+  },
+  {
+    "name": "Red Fire",
+    "slug": "red-fire",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/red-fire.png"
+  },
+  {
+    "name": "Icecracker Knife",
+    "slug": "Icecracker-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/Icecracker-knife.png"
+  },
+  {
+    "name": "Nightstar",
+    "slug": "nightstar",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 2,
+    "stability": "Stable",
+    "image": "/images/other/nightstar.png"
+  },
+  {
+    "name": "Aquarium-knife",
+    "slug": "aquarium-knife",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 2,
+    "demand": 1,
+    "stability": "Doing",
+    "image": "/images/other/aquarium-knife.png"
+  },
+  {
+    "name": "Cursed",
+    "slug": "cursed",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/cursed.png"
+  },
+  {
+    "name": "Cursed gun",
+    "slug": "cursed-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/cursed-gun.png"
+  },
+  {
+    "name": "Tree Knife 2015",
+    "slug": "tree-knife-2015",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/tree-knife-2015.png"
+  },
+  {
+    "name": "Cavern Gun",
+    "slug": "cavern-gun",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/cavern-gun.png"
+  },
+  {
+    "name": "Cupid",
+    "slug": "cupid",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 1,
+    "demand": 3,
+    "stability": "N",
+    "image": "/images/other/cupid.png"
+  },
+  {
+    "name": "Web",
+    "slug": "web",
+    "rarity": "LEGENDARY",
+    "type": "knife",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/web.png"
+  },
+  {
+    "name": "Rupture",
+    "slug": "rupture",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/rupture.png"
+  },
+  {
+    "name": "Tree gun 2015",
+    "slug": "tree-gun-2015",
+    "rarity": "LEGENDARY",
+    "type": "gun",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/other/tree-gun-2015.png"
+  }
+]
