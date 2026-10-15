@@ -4682,7 +4682,7 @@
     "image": "/images/pets/Bat Dragon.png",
     "id": 167,
     "regular": {
-      "value": 548,
+      "value": 1012,
       "no_potion": 561,
       "ride": 548,
       "fly": 548,
@@ -4738,7 +4738,7 @@
     "image": "/images/pets/Giraffe.png",
     "id": 169,
     "regular": {
-      "value": 245,
+      "value": 474,
       "no_potion": 256,
       "ride": 245,
       "fly": 245,
@@ -4766,7 +4766,7 @@
     "image": "/images/pets/Frost Dragon.png",
     "id": 170,
     "regular": {
-      "value": 190,
+      "value": 327,
       "no_potion": 203,
       "ride": 190,
       "fly": 190,
@@ -4794,7 +4794,7 @@
     "image": "/images/pets/Owl.png",
     "id": 171,
     "regular": {
-      "value": 158,
+      "value": 246.5,
       "no_potion": 161,
       "ride": 158,
       "fly": 158,
@@ -4822,7 +4822,7 @@
     "image": "/images/pets/Parrot.png",
     "id": 172,
     "regular": {
-      "value": 125,
+      "value": 197.5,
       "no_potion": 127,
       "ride": 124.5,
       "fly": 124.5,
@@ -4850,7 +4850,7 @@
     "image": "/images/pets/Diamond Butterfly.png",
     "id": 173,
     "regular": {
-      "value": 47,
+      "value": 69,
       "no_potion": 49,
       "ride": 47,
       "fly": 47,
@@ -4878,7 +4878,7 @@
     "image": "/images/pets/Crow.png",
     "id": 174,
     "regular": {
-      "value": 106,
+      "value": 178,
       "no_potion": 106.5,
       "ride": 105.5,
       "fly": 105.5,
@@ -4906,7 +4906,7 @@
     "image": "/images/pets/Evil Unicorn.png",
     "id": 175,
     "regular": {
-      "value": 84,
+      "value": 114.5,
       "no_potion": 84.5,
       "ride": 83.5,
       "fly": 83.5,
@@ -4934,7 +4934,7 @@
     "image": "/images/pets/Balloon Unicorn.png",
     "id": 176,
     "regular": {
-      "value": 81,
+      "value": 169,
       "no_potion": 79,
       "ride": 80,
       "fly": 80,
@@ -4962,7 +4962,7 @@
     "image": "/images/pets/Blazing Lion.png",
     "id": 177,
     "regular": {
-      "value": 48,
+      "value": 202,
       "no_potion": 46,
       "ride": 47,
       "fly": 47,
@@ -4990,7 +4990,7 @@
     "image": "/images/pets/Arctic Reindeer.png",
     "id": 178,
     "regular": {
-      "value": 38.5,
+      "value": 53.5,
       "no_potion": 39.5,
       "ride": 38,
       "fly": 38,
@@ -5018,7 +5018,7 @@
     "image": "/images/pets/Diamond Hummingbird.png",
     "id": 179,
     "regular": {
-      "value": 1.25,
+      "value": 9,
       "no_potion": 1.25,
       "ride": 1.5,
       "fly": 1.5,
@@ -5046,7 +5046,7 @@
     "image": "/images/pets/Monkey King.png",
     "id": 180,
     "regular": {
-      "value": 20,
+      "value": 66,
       "no_potion": 21,
       "ride": 20,
       "fly": 20,
@@ -5074,7 +5074,7 @@
     "image": "/images/pets/Turtle.png",
     "id": 181,
     "regular": {
-      "value": 23.25,
+      "value": 25,
       "no_potion": 20.75,
       "ride": 21.75,
       "fly": 22,
@@ -5102,7 +5102,7 @@
     "image": "/images/pets/Albino Monkey.png",
     "id": 182,
     "regular": {
-      "value": 15.5,
+      "value": 17.25,
       "no_potion": 15.25,
       "ride": 15,
       "fly": 15,
@@ -5130,7 +5130,7 @@
     "image": "/images/pets/Black-Chested Pheasant.png",
     "id": 183,
     "regular": {
-      "value": 6.75,
+      "value": 17.5,
       "no_potion": 6.75,
       "ride": 7,
       "fly": 7,
@@ -5158,7 +5158,7 @@
     "image": "/images/pets/Diamond Amazon.png",
     "id": 184,
     "regular": {
-      "value": 4.25,
+      "value": 5.75,
       "no_potion": 4.25,
       "ride": 4.5,
       "fly": 4.5,
@@ -5186,7 +5186,7 @@
     "image": "/images/pets/Hot Doggo.png",
     "id": 185,
     "regular": {
-      "value": 17.25,
+      "value": 39.5,
       "no_potion": 17.25,
       "ride": 17.5,
       "fly": 17.5,
@@ -5242,7 +5242,7 @@
     "image": "/images/pets/Royal Mistletroll.png",
     "id": 187,
     "regular": {
-      "value": 5.75,
+      "value": 37.5,
       "no_potion": 5.75,
       "ride": 6,
       "fly": 6,
@@ -5270,7 +5270,7 @@
     "image": "/images/pets/Kangaroo.png",
     "id": 188,
     "regular": {
-      "value": 17,
+      "value": 19,
       "no_potion": 15.5,
       "ride": 16.25,
       "fly": 16.25,
@@ -5298,7 +5298,7 @@
     "image": "/images/pets/Strawberry Shortcake Bat Dragon.png",
     "id": 189,
     "regular": {
-      "value": 23.25,
+      "value": 46.5,
       "no_potion": 21.75,
       "ride": 22.5,
       "fly": 22.5,
@@ -5326,7 +5326,7 @@
     "image": "/images/pets/Chocolate Chip Bat Dragon.png",
     "id": 190,
     "regular": {
-      "value": 21.25,
+      "value": 45.5,
       "no_potion": 19.75,
       "ride": 20.75,
       "fly": 20.75,
@@ -5354,7 +5354,7 @@
     "image": "/images/pets/Haetae.png",
     "id": 191,
     "regular": {
-      "value": 32,
+      "value": 150,
       "no_potion": 31.5,
       "ride": 31.5,
       "fly": 31.5,
@@ -5382,7 +5382,7 @@
     "image": "/images/pets/Pirate Ghost Capuchin Monkey.png",
     "id": 192,
     "regular": {
-      "value": 5.75,
+      "value": 15.5,
       "no_potion": 5.75,
       "ride": 6,
       "fly": 6,
@@ -5410,7 +5410,7 @@
     "image": "/images/pets/Jekyll Hydra.png",
     "id": 193,
     "regular": {
-      "value": 10.5,
+      "value": 74,
       "no_potion": 10.5,
       "ride": 10.75,
       "fly": 10.75,
@@ -5438,7 +5438,7 @@
     "image": "/images/pets/Cupid Dragon.png",
     "id": 194,
     "regular": {
-      "value": 8,
+      "value": 6.75,
       "no_potion": 8,
       "ride": 8.5,
       "fly": 8.5,
@@ -5466,7 +5466,7 @@
     "image": "/images/pets/Frost Unicorn.png",
     "id": 195,
     "regular": {
-      "value": 8.5,
+      "value": 21.5,
       "no_potion": 8.5,
       "ride": 8.75,
       "fly": 8.75,
@@ -5494,7 +5494,7 @@
     "image": "/images/pets/Candyfloss Chick.png",
     "id": 196,
     "regular": {
-      "value": 13.5,
+      "value": 20.5,
       "no_potion": 13.5,
       "ride": 14,
       "fly": 14,
@@ -5522,7 +5522,7 @@
     "image": "/images/pets/Fairy Bat Dragon.png",
     "id": 197,
     "regular": {
-      "value": 10.75,
+      "value": 30.5,
       "no_potion": 9.5,
       "ride": 10.25,
       "fly": 10.25,
@@ -5550,7 +5550,7 @@
     "image": "/images/pets/Mechapup.png",
     "id": 198,
     "regular": {
-      "value": 4.5,
+      "value": 18.5,
       "no_potion": 4.5,
       "ride": 4.75,
       "fly": 4.75,
@@ -5606,7 +5606,7 @@
     "image": "/images/pets/Giant Gold Scarab.png",
     "id": 200,
     "regular": {
-      "value": 3.25,
+      "value": 4.5,
       "no_potion": 3.25,
       "ride": 3.5,
       "fly": 3.5,
@@ -5662,7 +5662,7 @@
     "image": "/images/pets/Sugar Glider.png",
     "id": 202,
     "regular": {
-      "value": 12,
+      "value": 28,
       "no_potion": 12,
       "ride": 12.25,
       "fly": 12.25,
@@ -5690,7 +5690,7 @@
     "image": "/images/pets/Nessie.png",
     "id": 203,
     "regular": {
-      "value": 5,
+      "value": 6.5,
       "no_potion": 5,
       "ride": 5.25,
       "fly": 5.25,
@@ -5718,7 +5718,7 @@
     "image": "/images/pets/Winged Tiger.png",
     "id": 204,
     "regular": {
-      "value": 8,
+      "value": 15,
       "no_potion": 8,
       "ride": 8.25,
       "fly": 8.25,
@@ -5746,7 +5746,7 @@
     "image": "/images/pets/Caelum Cervi.png",
     "id": 205,
     "regular": {
-      "value": 4.5,
+      "value": 6,
       "no_potion": 4.5,
       "ride": 4.75,
       "fly": 4.75,
@@ -5774,7 +5774,7 @@
     "image": "/images/pets/Aurora Fox.png",
     "id": 206,
     "regular": {
-      "value": 3.25,
+      "value": 8.75,
       "no_potion": 3.25,
       "ride": 3.5,
       "fly": 3.5,
@@ -5802,7 +5802,7 @@
     "image": "/images/pets/Sugar Axolotl.png",
     "id": 207,
     "regular": {
-      "value": 4.25,
+      "value": 15.75,
       "no_potion": 4.25,
       "ride": 4.5,
       "fly": 4.5,
@@ -5830,7 +5830,7 @@
     "image": "/images/pets/Glacier Kitsune.png",
     "id": 208,
     "regular": {
-      "value": 3.75,
+      "value": 5.5,
       "no_potion": 3.75,
       "ride": 4,
       "fly": 4,
@@ -5858,7 +5858,7 @@
     "image": "/images/pets/Frost Fury.png",
     "id": 209,
     "regular": {
-      "value": 5.25,
+      "value": 5.35,
       "no_potion": 5.25,
       "ride": 5.5,
       "fly": 5.5,
@@ -5914,7 +5914,7 @@
     "image": "/images/pets/Vampire Dragon.png",
     "id": 211,
     "regular": {
-      "value": 5,
+      "value": 14.25,
       "no_potion": 5,
       "ride": 5.25,
       "fly": 5.25,
@@ -5942,7 +5942,7 @@
     "image": "/images/pets/Naughty Mistletroll.png",
     "id": 212,
     "regular": {
-      "value": 1.25,
+      "value": 4.5,
       "no_potion": 1.25,
       "ride": 1.5,
       "fly": 1.5,
@@ -5970,7 +5970,7 @@
     "image": "/images/pets/Lava Dragon.png",
     "id": 213,
     "regular": {
-      "value": 3.75,
+      "value": 5,
       "no_potion": 3.75,
       "ride": 4,
       "fly": 4,
@@ -5998,7 +5998,7 @@
     "image": "/images/pets/Diamond Albatross.png",
     "id": 214,
     "regular": {
-      "value": 3.5,
+      "value": 7,
       "no_potion": 3.5,
       "ride": 3.75,
       "fly": 3.75,
@@ -6026,7 +6026,7 @@
     "image": "/images/pets/Emperor Gorilla.png",
     "id": 215,
     "regular": {
-      "value": 3.5,
+      "value": 16.5,
       "no_potion": 3.5,
       "ride": 3.75,
       "fly": 3.75,
@@ -6054,7 +6054,7 @@
     "image": "/images/pets/Grim Dragon.png",
     "id": 216,
     "regular": {
-      "value": 4.25,
+      "value": 38,
       "no_potion": 4.25,
       "ride": 4.5,
       "fly": 4.5,
@@ -6110,7 +6110,7 @@
     "image": "/images/pets/Bush Elephant.png",
     "id": 218,
     "regular": {
-      "value": 7.5,
+      "value": 23,
       "no_potion": 7.5,
       "ride": 7.75,
       "fly": 7.75,
@@ -6138,7 +6138,7 @@
     "image": "/images/pets/Midnight Dragon.png",
     "id": 219,
     "regular": {
-      "value": 3,
+      "value": 7.25,
       "no_potion": 3,
       "ride": 3.25,
       "fly": 3.25,
@@ -6166,7 +6166,7 @@
     "image": "/images/pets/Halloween White Ghost Dragon.png",
     "id": 220,
     "regular": {
-      "value": 3.25,
+      "value": 6.15,
       "no_potion": 3.25,
       "ride": 3.5,
       "fly": 3.5,
@@ -6194,7 +6194,7 @@
     "image": "/images/pets/Dancing Dragon.png",
     "id": 221,
     "regular": {
-      "value": 2.75,
+      "value": 3.25,
       "no_potion": 2.75,
       "ride": 3,
       "fly": 3,
@@ -6250,7 +6250,7 @@
     "image": "/images/pets/Werewolf.png",
     "id": 223,
     "regular": {
-      "value": 4.5,
+      "value": 35,
       "no_potion": 4.5,
       "ride": 4.75,
       "fly": 4.75,
@@ -6614,7 +6614,7 @@
     "image": "/images/pets/Shark Puppy.png",
     "id": 236,
     "regular": {
-      "value": 6.25,
+      "value": 12.5,
       "no_potion": 6.25,
       "ride": 6.5,
       "fly": 6.5,
@@ -6726,7 +6726,7 @@
     "image": "/images/pets/Field Mouse.png",
     "id": 240,
     "regular": {
-      "value": 7.25,
+      "value": 5.25,
       "no_potion": 7.25,
       "ride": 7.5,
       "fly": 7.5,
@@ -6866,7 +6866,7 @@
     "image": "/images/pets/Glormy Leo.png",
     "id": 245,
     "regular": {
-      "value": 1.75,
+      "value": 3.75,
       "no_potion": 1.75,
       "ride": 2,
       "fly": 2,
@@ -7006,7 +7006,7 @@
     "image": "/images/pets/Fallow Deer.png",
     "id": 250,
     "regular": {
-      "value": 4.75,
+      "value": 4,
       "no_potion": 4.75,
       "ride": 5,
       "fly": 5,
@@ -7062,7 +7062,7 @@
     "image": "/images/pets/Owlbear.png",
     "id": 252,
     "regular": {
-      "value": 6.5,
+      "value": 4.7,
       "no_potion": 6.5,
       "ride": 6.75,
       "fly": 6.75,
@@ -7258,7 +7258,7 @@
     "image": "/images/pets/Jousting Horse.png",
     "id": 259,
     "regular": {
-      "value": 1.15,
+      "value": 6.5,
       "no_potion": 1.15,
       "ride": 1.4,
       "fly": 1.4,
@@ -8406,7 +8406,7 @@
     "image": "/images/pets/Cerberus.png",
     "id": 300,
     "regular": {
-      "value": 0.95,
+      "value": 4.75,
       "no_potion": 0.95,
       "ride": 1.2,
       "fly": 1.2,
@@ -16816,7 +16816,7 @@
     "image": "/images/pets/Frostbite Bear.png",
     "id": 670,
     "regular": {
-      "value": 6,
+      "value": 33.5,
       "no_potion": 6,
       "ride": 6.25,
       "fly": 6.25,
@@ -17152,7 +17152,7 @@
     "image": "/images/pets/Hero Gibbon.png",
     "id": 682,
     "regular": {
-      "value": 1.25,
+      "value": 10.5,
       "no_potion": 1.25,
       "ride": 1.5,
       "fly": 1.5,
@@ -17180,7 +17180,7 @@
     "image": "/images/pets/Sakura Spirit.png",
     "id": 683,
     "regular": {
-      "value": 4,
+      "value": 8,
       "no_potion": 4,
       "ride": 4.25,
       "fly": 4.25,
@@ -18612,7 +18612,7 @@
     "image": "/images/pets/Orchid Butterfly.png",
     "id": 817,
     "regular": {
-      "value": 44,
+      "value": 122,
       "no_potion": 43,
       "ride": 43.5,
       "fly": 43.5,
@@ -21702,7 +21702,7 @@
     "image": "/images/pets/Mermicorn.png",
     "id": 1188,
     "regular": {
-      "value": 12.75,
+      "value": 27,
       "no_potion": 12.75,
       "ride": 13,
       "fly": 13,
@@ -32720,7 +32720,7 @@
     "image": "/images/pets/Giant Panda.png",
     "id": 2534,
     "regular": {
-      "value": 78,
+      "value": 219,
       "no_potion": 77,
       "ride": 77.5,
       "fly": 77.5,
@@ -32908,7 +32908,7 @@
     "image": "/images/pets/Phantom Dragon.png",
     "id": 2545,
     "regular": {
-      "value": 3.5,
+      "value": 11,
       "no_potion": 3.5,
       "ride": 3.75,
       "fly": 3.75,
@@ -33104,7 +33104,7 @@
     "image": "/images/pets/Cryptid.png",
     "id": 2552,
     "regular": {
-      "value": 70,
+      "value": 152,
       "no_potion": 68,
       "ride": 69,
       "fly": 69,
@@ -33300,7 +33300,7 @@
     "image": "/images/pets/Strawberry Penguin.png",
     "id": 2559,
     "regular": {
-      "value": 7.75,
+      "value": 6.75,
       "no_potion": 7.75,
       "ride": 8,
       "fly": 8,
@@ -33616,7 +33616,7 @@
     "image": "/images/pets/Arctic Dusk Dragon.png",
     "id": 2591,
     "regular": {
-      "value": 3.5,
+      "value": 6.75,
       "no_potion": 3.5,
       "ride": 3.75,
       "fly": 3.75,
@@ -34592,7 +34592,7 @@
     "image": "/images/pets/Silverback Gorilla.png",
     "id": 2633,
     "regular": {
-      "value": 45,
+      "value": 15.25,
       "no_potion": 44,
       "ride": 44.5,
       "fly": 44.5,
@@ -34989,6 +34989,214 @@
     "id": 2946,
     "regular": {
       "value": 0
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Menu\nClose",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Menu_Close.png",
+    "id": 2947,
+    "regular": {
+      "value": 13
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Amethyst Penguin",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Amethyst_Penguin.png",
+    "id": 2948,
+    "regular": {
+      "value": 153
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Strawberry Tortle",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Strawberry_Tortle.png",
+    "id": 2949,
+    "regular": {
+      "value": 28.5
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Tortoiseshell Guinea Pig",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Tortoiseshell_Guinea_Pig.png",
+    "id": 2950,
+    "regular": {
+      "value": 22.5
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Moonbeam Peacock",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Moonbeam_Peacock.png",
+    "id": 2951,
+    "regular": {
+      "value": 13
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Candicorn",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Candicorn.png",
+    "id": 2952,
+    "regular": {
+      "value": 12.75
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Jester Dragon",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Jester_Dragon.png",
+    "id": 2953,
+    "regular": {
+      "value": 11.5
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Velocirooster",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Velocirooster.png",
+    "id": 2954,
+    "regular": {
+      "value": 9.5
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Matcha Cat",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Matcha_Cat.png",
+    "id": 2955,
+    "regular": {
+      "value": 7.25
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Ballet Swan",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Ballet_Swan.png",
+    "id": 2956,
+    "regular": {
+      "value": 5
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Red Dutch Guinea Pig",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Red_Dutch_Guinea_Pig.png",
+    "id": 2957,
+    "regular": {
+      "value": 5
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Aestus",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Aestus.png",
+    "id": 2958,
+    "regular": {
+      "value": 4.25
+    },
+    "neon": {
+      "value": 0
+    },
+    "mega": {
+      "value": 0
+    }
+  },
+  {
+    "name": "Solaris",
+    "type": "pets",
+    "rarity": "common",
+    "image": "/images/pets/Solaris.png",
+    "id": 2959,
+    "regular": {
+      "value": 4.25
     },
     "neon": {
       "value": 0
