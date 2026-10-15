@@ -35,7 +35,7 @@ async function run() {
       fs.mkdirSync(PETS_DIR, { recursive: true });
     }
 
-    console.log('🚀 Запускаем Chromium с маскировкой...');
+    console.log('🚀 Запускаем Chromium с перехватом сетевого трафика...');
     browser = await puppeteer.launch({
       headless: "new",
       args: [
@@ -50,104 +50,120 @@ async function run() {
     const page = await browser.newPage();
     await page.setViewport({ width: 1920, height: 1080 });
 
-    console.log('🌐 Переходим на страницу калькулятора Elvebredd...');
-    await page.goto('https://elvebredd.com/adopt-me-calculator', {
+    let capturedData = null;
+
+    // Перехватываем все фоновые JSON-ответы, которые скачивает сайт
+    page.on('response', async (response) => {
+      const url = response.url();
+      const contentType = response.headers()['content-type'] || '';
+
+      if (contentType.includes('application/json')) {
+        try {
+          const json = await response.json();
+          // Проверяем, содержит ли этот JSON список питомцев или значений
+          if (Array.isArray(json) && json.some(item => item && (item.name || item.item_name || item.regular))) {
+            console.log(`🎯 Перехвачен массив с данными: ${url} (${json.length} элементов)`);
+            capturedData = json;
+          } else if (json && typeof json === 'object') {
+            for (const key of ['pets', 'items', 'values', 'data']) {
+              if (Array.isArray(json[key]) && json[key].some(i => i && (i.name || i.item_name))) {
+                console.log(`🎯 Перехвачен объект данных с ключом "${key}": ${url} (${json[key].length} элементов)`);
+                capturedData = json[key];
+                break;
+              }
+            }
+          }
+        } catch (e) {
+          // Игнорируем ответы, не относящиеся к JSON
+        }
+      }
+    });
+
+    console.log('🌐 Открываем Elvebredd...');
+    await page.goto('https://elvebredd.com', {
       waitUntil: 'networkidle2',
       timeout: 60000
     });
 
-    console.log('⏳ Ожидаем прогрузки элементов...');
+    // Делаем клик и скролл, чтобы инициировать фоновую подгрузку данных
+    await page.evaluate(() => window.scrollBy(0, 500));
     await new Promise(r => setTimeout(r, 6000));
 
-    // Пробуем извлечь данные: сначала из встроенного состояния React/Next.js, либо из DOM
-    console.log('📡 Считываем данные со страницы...');
-    const remoteData = await page.evaluate(() => {
-      // Способ 1: Next.js script data (если есть)
-      const nextDataEl = document.getElementById('__NEXT_DATA__');
-      if (nextDataEl) {
-        try {
-          const json = JSON.parse(nextDataEl.innerText);
-          const pageProps = json?.props?.pageProps;
-          if (pageProps?.pets) return pageProps.pets;
-          if (pageProps?.values) return pageProps.values;
-        } catch (e) {}
+    // Если на главной не нашли, заходим в раздел калькулятора
+    if (!capturedData) {
+      console.log('🌐 Переходим в раздел калькулятора...');
+      try {
+        await page.goto('https://elvebredd.com/adopt-me-calculator', {
+          waitUntil: 'networkidle2',
+          timeout: 60000
+        });
+        await page.evaluate(() => window.scrollBy(0, 500));
+        await new Promise(r => setTimeout(r, 6000));
+      } catch (e) {
+        console.log('Калькулятор не загрузился:', e.message);
       }
-
-      // Способ 2: парсинг DOM-карточек калькулятора
-      const items = [];
-      const cards = document.querySelectorAll('[class*="pet-card"], [class*="item-card"], .card, div[data-name]');
-      
-      cards.forEach(card => {
-        const nameEl = card.querySelector('h3, h4, [class*="name"], .title');
-        const valEl = card.querySelector('[class*="value"], [class*="val"]');
-        const imgEl = card.querySelector('img');
-
-        const name = nameEl ? nameEl.innerText.trim() : card.getAttribute('data-name');
-        const valText = valEl ? valEl.innerText.replace(/[^0-9.]/g, '') : '0';
-        const val = parseFloat(valText) || 0;
-        const imgUrl = imgEl ? (imgEl.src || imgEl.getAttribute('data-src')) : null;
-
-        if (name && val > 0) {
-          items.push({
-            name: name,
-            regular: { value: val },
-            imageUrl: imgUrl
-          });
-        }
-      });
-
-      return items;
-    });
+    }
 
     await browser.close();
 
-    console.log(`Найдено элементов на странице: ${remoteData ? remoteData.length : 0}`);
-
-    if (!remoteData || remoteData.length === 0) {
-      console.warn('⚠️ Данные на странице калькулятора не найдены. Пропускаем перезапись файла.');
+    if (!capturedData || capturedData.length === 0) {
+      console.warn('⚠️ Фоновые данные с ценами не были пойманы. Пропускаем перезапись файла.');
       return;
     }
+
+    console.log(`📊 Обрабатываем ${capturedData.length} записей...`);
 
     const localMap = new Map();
     localData.forEach(item => {
       if (item.name) localMap.set(item.name.trim().toLowerCase(), item);
     });
 
+    let maxId = localData.reduce((max, item) => Math.max(max, item.id || 0), 0);
     let updatedCount = 0;
     let newCount = 0;
-    let maxId = localData.reduce((max, item) => Math.max(max, item.id || 0), 0);
 
-    for (const remote of remoteData) {
-      if (!remote.name) continue;
-      const key = remote.name.trim().toLowerCase();
+    for (const remote of capturedData) {
+      const name = remote.name || remote.item_name;
+      if (!name) continue;
+      const key = name.trim().toLowerCase();
+
+      // Определяем значение регулярной цены
+      let regularVal = 0;
+      if (typeof remote.regular === 'object') {
+        regularVal = remote.regular.value || remote.regular.fly_ride || 0;
+      } else if (typeof remote.value === 'number') {
+        regularVal = remote.value;
+      }
 
       if (localMap.has(key)) {
         const existing = localMap.get(key);
-        if (remote.regular?.value) {
-          existing.regular.value = remote.regular.value;
+        if (regularVal > 0) {
+          if (!existing.regular) existing.regular = {};
+          existing.regular.value = regularVal;
           updatedCount++;
         }
       } else {
         maxId++;
-        const safeName = remote.name.replace(/[^a-zA-Z0-9]/g, '_');
+        const safeName = name.replace(/[^a-zA-Z0-9]/g, '_');
         const fileName = `${safeName}.png`;
         const localImagePath = path.join(PETS_DIR, fileName);
 
-        if (remote.imageUrl && remote.imageUrl.startsWith('http')) {
+        const imgUrl = remote.imageUrl || remote.image;
+        if (imgUrl && imgUrl.startsWith('http')) {
           try {
-            await downloadImage(remote.imageUrl, localImagePath);
+            await downloadImage(imgUrl, localImagePath);
           } catch (e) {
-            console.warn(`Не удалось скачать картинку для ${remote.name}`);
+            console.warn(`Не удалось скачать картинку для ${name}`);
           }
         }
 
         const newItem = {
-          name: remote.name,
-          type: 'pets',
-          rarity: 'common',
+          name: name,
+          type: remote.type || 'pets',
+          rarity: (remote.rarity || 'common').toLowerCase(),
           image: `/images/pets/${fileName}`,
           id: maxId,
-          regular: remote.regular || { value: 0 },
+          regular: { value: regularVal },
           neon: { value: 0 },
           mega: { value: 0 }
         };
@@ -155,11 +171,12 @@ async function run() {
         localData.push(newItem);
         localMap.set(key, newItem);
         newCount++;
+        console.log(`✨ Добавлен новый питомец: ${name}`);
       }
     }
 
     fs.writeFileSync(LOCAL_JSON_PATH, JSON.stringify(localData, null, 2), 'utf8');
-    console.log(`\n🎉 Готово! Обновлено: ${updatedCount}, Новых: ${newCount}`);
+    console.log(`\n🎉 Готово! Обновлено: ${updatedCount}, Добавлено: ${newCount}`);
 
   } catch (err) {
     if (browser) await browser.close();
