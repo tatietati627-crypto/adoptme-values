@@ -24,7 +24,6 @@ function downloadImage(url, destPath) {
   });
 }
 
-// Расчёт полной сетки ценностей
 function buildFullPetValues(baseVal, existing = {}) {
   const val = parseFloat(baseVal) || 0;
   const rideAdd = val > 50 ? 0.75 : (val > 10 ? 0.5 : 0.35);
@@ -62,10 +61,9 @@ function buildFullPetValues(baseVal, existing = {}) {
 async function run() {
   let browser;
   try {
-    console.log('🔄 Читаем adoptme_values.json...');
+    console.log('🔄 Читаем базовый файл adoptme_values.json...');
     let localData = JSON.parse(fs.readFileSync(LOCAL_JSON_PATH, 'utf8'));
 
-    // Удаляем прошлый мусор интерфейса
     localData = localData.filter(i => {
       const n = (i.name || '').toLowerCase();
       return !n.includes('playwire') && !n.includes('audience') && !n.includes('menu') && !n.includes('close');
@@ -84,13 +82,13 @@ async function run() {
     const page = await browser.newPage();
     await page.setViewport({ width: 1920, height: 1080 });
 
-    console.log('🌐 Переходим на elvebredd.com/adopt-me-calculator...');
+    console.log('🌐 Переходим на страницу калькулятора Elvebredd...');
     await page.goto('https://elvebredd.com/adopt-me-calculator', {
       waitUntil: 'networkidle2',
       timeout: 60000
     });
 
-    console.log('🖱️ Кликаем на выбор питомца...');
+    console.log('🖱️ Открываем каталог питомцев...');
     await page.evaluate(() => {
       const clickables = Array.from(document.querySelectorAll('button, div[role="button"], [class*="slot"], [class*="add"]'));
       const target = clickables.find(el => {
@@ -102,60 +100,74 @@ async function run() {
 
     await new Promise(r => setTimeout(r, 4000));
 
-    console.log('📜 Прокручиваем список...');
-    await page.evaluate(async () => {
-      const modal = document.querySelector('[class*="modal"], [class*="popup"], [class*="dialog"]') || window;
-      for (let i = 0; i < 25; i++) {
-        if (modal.scrollBy) {
-          modal.scrollBy(0, 1500);
-        } else {
-          window.scrollBy(0, 1500);
-        }
-        await new Promise(res => setTimeout(res, 250));
-      }
-    });
+    console.log('📜 Запускаем накопительный сбор со всех страниц каталога...');
+    const allFoundMap = new Map();
 
-    console.log('📥 Сканируем карточки...');
-    const scrapedItems = await page.evaluate(() => {
-      const items = [];
-      const cards = document.querySelectorAll('[class*="item"], [class*="card"], [class*="pet"]');
+    // 80 итераций прокрутки с чтением на каждом шаге
+    for (let step = 1; step <= 80; step++) {
+      const batch = await page.evaluate(() => {
+        const items = [];
+        const cards = document.querySelectorAll('[class*="item"], [class*="card"], [class*="pet"]');
 
-      cards.forEach(c => {
-        const img = c.querySelector('img');
-        const textNodes = Array.from(c.querySelectorAll('p, span, h3, h4, div'))
-          .map(el => el.innerText ? el.innerText.trim() : '')
-          .filter(t => t.length > 0);
+        cards.forEach(c => {
+          const img = c.querySelector('img');
+          const textNodes = Array.from(c.querySelectorAll('p, span, h3, h4, div'))
+            .map(el => el.innerText ? el.innerText.trim() : '')
+            .filter(t => t.length > 0);
 
-        if (img && textNodes.length >= 2) {
-          const name = textNodes[0];
-          const valStr = textNodes.find(t => /^[\d,]+(\.\d+)?$/.test(t.replace(/[^0-9.]/g, '')));
-          const val = valStr ? parseFloat(valStr.replace(/,/g, '')) : 0;
+          if (img && textNodes.length >= 2) {
+            const name = textNodes[0];
+            const valStr = textNodes.find(t => /^[\d,]+(\.\d+)?$/.test(t.replace(/[^0-9.]/g, '')));
+            const val = valStr ? parseFloat(valStr.replace(/,/g, '')) : 0;
 
-          const lower = name.toLowerCase();
-          if (
-            val > 0 &&
-            !lower.includes('close') &&
-            !lower.includes('menu') &&
-            !lower.includes('playwire') &&
-            !lower.includes('filter') &&
-            !lower.includes('search') &&
-            !lower.includes('ad')
-          ) {
-            items.push({
-              name: name,
-              value: val,
-              imgUrl: img.src
-            });
+            const lower = name.toLowerCase();
+            if (
+              val > 0 &&
+              !lower.includes('close') &&
+              !lower.includes('menu') &&
+              !lower.includes('playwire') &&
+              !lower.includes('filter') &&
+              !lower.includes('search') &&
+              !lower.includes('ad')
+            ) {
+              items.push({
+                name: name,
+                value: val,
+                imgUrl: img.src
+              });
+            }
           }
+        });
+        return items;
+      });
+
+      for (const item of batch) {
+        const key = item.name.trim().toLowerCase();
+        if (!allFoundMap.has(key)) {
+          allFoundMap.set(key, item);
+        }
+      }
+
+      // Прокручиваем модалку дальше вниз
+      await page.evaluate(() => {
+        const modal = document.querySelector('[class*="modal"], [class*="popup"], [class*="dialog"]') || window;
+        if (modal.scrollBy) {
+          modal.scrollBy(0, 1000);
+        } else {
+          window.scrollBy(0, 1000);
         }
       });
 
-      return items;
-    });
+      if (step % 10 === 0) {
+        console.log(`⏳ Шаг ${step}/80: в памяти накоплено ${allFoundMap.size} уникальных карточек...`);
+      }
+
+      await new Promise(r => setTimeout(r, 400));
+    }
 
     await browser.close();
 
-    console.log(`Найдено карточек: ${scrapedItems.length}`);
+    console.log(`\n🎯 Итого собрано уникальных карточек: ${allFoundMap.size}`);
 
     const localMap = new Map();
     localData.forEach(item => {
@@ -166,9 +178,7 @@ async function run() {
     let newCount = 0;
     let maxId = localData.reduce((max, item) => Math.max(max, item.id || 0), 0);
 
-    for (const scraped of scrapedItems) {
-      const key = scraped.name.trim().toLowerCase();
-
+    for (const [key, scraped] of allFoundMap) {
       if (localMap.has(key)) {
         const existing = localMap.get(key);
         const bundle = buildFullPetValues(scraped.value, existing);
@@ -202,12 +212,12 @@ async function run() {
         localData.push(newItem);
         localMap.set(key, newItem);
         newCount++;
+        console.log(`✨ Добавлен новый питомец: ${scraped.name}`);
       }
     }
 
     fs.writeFileSync(LOCAL_JSON_PATH, JSON.stringify(localData, null, 2), 'utf8');
-    console.log(`\n🎉 Готово! Всего в базе: ${localData.length} шт.`);
-    console.log(`Обновлено полных наборов цен: ${updatedCount}, Новых: ${newCount}`);
+    console.log(`\n🎉 ГОТОВО! Обновлено: ${updatedCount}, Добавлено новых: ${newCount}, Всего в базе: ${localData.length}`);
 
   } catch (err) {
     if (browser) await browser.close();
