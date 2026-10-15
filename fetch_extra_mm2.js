@@ -58,8 +58,8 @@ async function run() {
       if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     });
 
-    // --- 1. ВЫГРУЗКА SETS С ИХ ЦЕЛЬНЫМИ КАРТИНКАМИ ---
-    console.log('📦 1. Загружаем MM2 СЕТЫ и их оригинальные арты...');
+    // --- 1. ВЫГРУЗКА СЕТОВ ---
+    console.log('📦 1. Загружаем MM2 СЕТЫ...');
     const setsData = await fetchApi('sets');
     const setsList = setsData?.sets || setsData?.items || setsData || [];
     const processedSets = [];
@@ -68,103 +68,65 @@ async function run() {
 
     if (Array.isArray(setsList)) {
       for (const set of setsList) {
-        const slug = set.slug || set.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
-        const imgName = `${slug}.png`;
+        const rawSlug = set.slug || set.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
+        const cleanSlug = rawSlug.replace(/-set$/, ''); // убираем суффикс -set для картинок
+        const imgName = `${cleanSlug}.png`;
         const imgPath = path.join(SETS_IMG_DIR, imgName);
 
-        // Получаем полные данные сета
-        const setDetail = await fetchApi(`sets/${encodeURIComponent(slug)}`);
-        const setObj = setDetail?.set || setDetail || set;
-
-        let setImgUrl = setObj.image_url || setObj.imageUrl || setObj.image || set.image_url;
-
-        // Если ссылки нет в JSON, пробуем прямой CDN
-        if (!setImgUrl) {
-          setImgUrl = `https://cdn.un6107617.dev/rblxvalue/sets/${slug}.webp`;
-        }
+        // Проверяем несколько возможных адресов CDN
+        const urlsToTry = [
+          `https://cdn.un6107617.dev/rblxvalue/sets/${cleanSlug}.webp`,
+          `https://cdn.un6107617.dev/rblxvalue/sets/${rawSlug}.webp`,
+          `https://cdn.un6107617.dev/rblxvalue/items/sets/${cleanSlug}.webp`,
+          set.image_url
+        ].filter(Boolean);
 
         let downloaded = false;
-        if (setImgUrl) {
-          downloaded = await downloadFile(setImgUrl, imgPath);
-          if (!downloaded && setImgUrl.includes('.webp')) {
-            downloaded = await downloadFile(setImgUrl.replace('.webp', '.png'), imgPath);
+        for (const u of urlsToTry) {
+          downloaded = await downloadFile(u, imgPath);
+          if (downloaded) break;
+          // пробуем с расширением .png
+          if (u.includes('.webp')) {
+            downloaded = await downloadFile(u.replace('.webp', '.png'), imgPath);
+            if (downloaded) break;
+          }
+        }
+
+        // Если готового постера сета нет на сервере — качаем первое оружие из сета как аватарку
+        if (!downloaded && set.items && set.items.length > 0) {
+          const firstItemUrl = set.items[0].image_url;
+          if (firstItemUrl) {
+            downloaded = await downloadFile(firstItemUrl, imgPath);
           }
         }
 
         processedSets.push({
+          id: set.id,
           name: set.name,
-          slug: slug,
-          total_value: setObj.total_value || setObj.value || set.value || 0,
-          demand: setObj.demand || set.demand || 'High Demand',
-          items: setObj.items || set.items || [],
-          image: downloaded ? `/images/sets/${imgName}` : `/images/sets/${slug}.png`
+          slug: cleanSlug,
+          total_value: set.total_value || set.value || 0,
+          demand: set.demand || 'High Demand',
+          image: `/images/sets/${imgName}`,
+          items: (set.items || []).map(it => ({
+            name: it.name,
+            slug: it.slug,
+            value: it.value,
+            image: `/images/weapons/${it.slug || it.name.replace(/[^a-zA-Z0-9]/g, '_')}.png`
+          }))
         });
 
-        console.log(`✨ [СЕТ] ${set.name} -> ${downloaded ? '✅ Арт скачан' : '⚠️ Попытка по ссылке: ' + setImgUrl}`);
-        await new Promise(r => setTimeout(r, 80));
+        console.log(`✨ [СЕТ] ${set.name} -> ${downloaded ? '✅ Картинка готова' : '⚠️ Без файла'}`);
+        await new Promise(r => setTimeout(r, 60));
       }
 
       fs.writeFileSync(SETS_JSON_PATH, JSON.stringify(processedSets, null, 2), 'utf8');
       console.log(`🎉 Сохранено сетов в mm2_sets.json: ${processedSets.length}`);
     }
 
-    // --- 2. ВЫГРУЗКА ОСТАЛЬНЫХ КАТЕГОРИЙ ---
-    console.log('\n📦 2. Загружаем остальные категории предметов...');
-    const extraCategories = ['legendary', 'rare', 'uncommon', 'common', 'pets', 'misc'];
-    const otherItems = [];
-    const seenSlugs = new Set();
-
-    for (const cat of extraCategories) {
-      console.log(`\n🔍 Категория: [${cat.toUpperCase()}]`);
-      let offset = 0;
-      let total = 0;
-
-      do {
-        const res = await fetchApi(`items?category=${encodeURIComponent(cat)}&limit=100&offset=${offset}`);
-        if (!res || !res.items || res.items.length === 0) break;
-
-        total = res.total || res.items.length;
-
-        for (const item of res.items) {
-          const slug = item.slug || item.name.toLowerCase().replace(/[^a-z0-9]/g, '_');
-          if (seenSlugs.has(slug)) continue;
-          seenSlugs.add(slug);
-
-          const imgName = `${slug}.png`;
-          const localPath = path.join(OTHER_IMG_DIR, imgName);
-
-          const detail = await fetchApi(`items/${encodeURIComponent(slug)}`);
-          const imgUrl = detail?.item?.image_url || detail?.image_url;
-
-          if (imgUrl) {
-            await downloadFile(imgUrl, localPath);
-          }
-
-          otherItems.push({
-            name: item.name,
-            slug: slug,
-            rarity: (item.category || cat).toUpperCase(),
-            type: item.type || 'knife',
-            value: parseFloat(item.value) || 0,
-            demand: item.demand || 1,
-            stability: item.stability || 'Stable',
-            image: `/images/other/${imgName}`
-          });
-
-          console.log(`  -> [${cat.toUpperCase()}] ${item.name}`);
-          await new Promise(r => setTimeout(r, 60));
-        }
-
-        offset += res.items.length;
-        if (offset >= total) break;
-      } while (true);
-    }
-
-    fs.writeFileSync(OTHER_JSON_PATH, JSON.stringify(otherItems, null, 2), 'utf8');
-    console.log(`\n🎉 ВСЁ ЗАВЕРШЕНО УСПЕШНО!`);
+    console.log(`\n🎉 Скрипт успешно завершил работу!`);
 
   } catch (err) {
-    console.error('Ошибка выполнения:', err.message);
+    console.error('Ошибка:', err.message);
     process.exit(1);
   }
 }
