@@ -1,0 +1,68 @@
+[
+  {
+    "id": 839,
+    "name": "Bats Knife 2018",
+    "slug": "bats-knife-2018",
+    "rarity": "COMMON",
+    "type": "knife",
+    "value": 245,
+    "demand": 3,
+    "stability": "Stable",
+    "image": "/images/commons/bats-knife-2018.png"
+  },
+  {
+    "id": 840,
+    "name": "Bats Gun 2018",
+    "slug": "bats-gun-2018",
+    "rarity": "COMMON",
+    "type": "gun",
+    "value": 1,
+    "demand": 1,
+    "stability": "Stable",
+    "image": "/images/commons/bats-gun-2018.png"
+  },
+  {
+    "id": 1009,
+    "name": "Tourist",
+    "slug": "tourist",
+    "rarity": "COMMON",
+    "type": "knife",
+    "value": 0,
+    "demand": 1,
+    "stability": "N",
+    "image": "/images/commons/tourist.png"
+  },
+  {
+    "id": 1010,
+    "name": "Sand",
+    "slug": "sand",
+    "rarity": "COMMON",
+    "type": "knife",
+    "value": 0,
+    "demand": 1,
+    "stability": "N",
+    "image": "/images/commons/sand.png"
+  },
+  {
+    "id": 1011,
+    "name": "Duckies",
+    "slug": "duckies",
+    "rarity": "COMMON",
+    "type": "gun",
+    "value": 0,
+    "demand": 1,
+    "stability": "N",
+    "image": "/images/commons/duckies.png"
+  },
+  {
+    "id": 1012,
+    "name": "Cherries",
+    "slug": "cherries",
+    "rarity": "COMMON",
+    "type": "gun",
+    "value": 0,
+    "demand": 1,
+    "stability": "N",
+    "image": "/images/commons/cherries.png"
+  }
+]
