@@ -72,7 +72,7 @@ async function run() {
       total = res.total || res.items.length;
 
       for (const item of res.items) {
-        const slug = item.slug || item.name.toLowerCase().replace(/[^a-z0-9]/g, '_');
+        const slug = item.slug || (item.name ? item.name.toLowerCase().replace(/[^a-z0-9]/g, '_') : `pet_${item.id}`);
         if (seenSlugs.has(slug)) continue;
         seenSlugs.add(slug);
 
@@ -100,11 +100,18 @@ async function run() {
           if (downloaded) break;
         }
 
+        // Безопасное определение редкости
+        let rawRarity = item.rarity || item.category || 'PET';
+        if (typeof rawRarity === 'object' && rawRarity !== null) {
+          rawRarity = rawRarity.name || rawRarity.slug || 'PET';
+        }
+        const safeRarity = String(rawRarity).toUpperCase();
+
         petsList.push({
           id: item.id,
           name: item.name,
           slug: slug,
-          rarity: (item.rarity || item.category || 'PET').toUpperCase(),
+          rarity: safeRarity,
           type: 'pet',
           value: parseFloat(item.value) || 0,
           demand: item.demand || 1,
