@@ -18,12 +18,12 @@ jobs:
         with:
           node-version: 18
 
-      - name: Запуск выгрузки комонок
-        run: node fetch_commons.js
+      - name: Запуск выгрузки анкомонок
+        run: node fetch_uncommons.js
 
       - name: Коммитим изменения
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update: выгрузка всех Common предметов MM2" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update: выгрузка всех Uncommon предметов MM2" && git push)
