@@ -3,14 +3,19 @@ const path = require('path');
 const https = require('https');
 
 const API_KEY = 'Rbx_aa357d5b65f6d287af4a864ef472ded4066e7a7d91d4f4a4';
-const COMMONS_JSON_PATH = path.join(__dirname, 'mm2_commons.json');
-const COMMONS_IMG_DIR = path.join(__dirname, 'images', 'commons');
+const UNCOMMONS_JSON_PATH = path.join(__dirname, 'mm2_uncommons.json');
+const UNCOMMONS_IMG_DIR = path.join(__dirname, 'images', 'uncommons');
 
 function downloadFile(url, destPath) {
   return new Promise((resolve) => {
     if (!url || !url.startsWith('http')) return resolve(false);
 
-    https.get(url, (res) => {
+    https.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'Referer': 'https://rblxvalue.com/'
+      }
+    }, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
         return downloadFile(res.headers.location, destPath).then(resolve);
       }
@@ -50,18 +55,18 @@ function fetchApi(endpoint) {
 
 async function run() {
   try {
-    if (!fs.existsSync(COMMONS_IMG_DIR)) {
-      fs.mkdirSync(COMMONS_IMG_DIR, { recursive: true });
+    if (!fs.existsSync(UNCOMMONS_IMG_DIR)) {
+      fs.mkdirSync(UNCOMMONS_IMG_DIR, { recursive: true });
     }
 
-    console.log('📦 Начинаем выгрузку COMMON (комонок)...');
-    const commonsList = [];
+    console.log('📦 Начинаем выгрузку UNCOMMON с прямым перебором CDN...');
+    const uncommonsList = [];
     const seenSlugs = new Set();
     let offset = 0;
     let total = 0;
 
     do {
-      const res = await fetchApi(`items?category=common&limit=100&offset=${offset}`);
+      const res = await fetchApi(`items?category=uncommon&limit=100&offset=${offset}`);
       if (!res || !res.items || res.items.length === 0) break;
 
       total = res.total || res.items.length;
@@ -72,40 +77,50 @@ async function run() {
         seenSlugs.add(slug);
 
         const imgName = `${slug}.png`;
-        const localImgPath = path.join(COMMONS_IMG_DIR, imgName);
+        const localImgPath = path.join(UNCOMMONS_IMG_DIR, imgName);
 
-        // Получаем детальную ссылку на картинку
+        // Получаем инфу из апи
         const detail = await fetchApi(`items/${encodeURIComponent(slug)}`);
-        const imgUrl = detail?.item?.image_url || detail?.image_url;
+        const apiImg = detail?.item?.image_url || detail?.image_url;
+
+        // Список всех возможных прямых адресов на CDN
+        const candidateUrls = [
+          apiImg,
+          `https://cdn.un6107617.dev/rblxvalue/items/${slug}.webp`,
+          `https://cdn.un6107617.dev/rblxvalue/items/${slug}.png`,
+          `https://cdn.un6107617.dev/rblxvalue/items/uncommon/${slug}.webp`,
+          `https://cdn.un6107617.dev/rblxvalue/items/uncommon/${slug}.png`
+        ].filter(Boolean);
 
         let downloaded = false;
-        if (imgUrl) {
-          downloaded = await downloadFile(imgUrl, localImgPath);
+        for (const u of candidateUrls) {
+          downloaded = await downloadFile(u, localImgPath);
+          if (downloaded) break;
         }
 
-        commonsList.push({
+        uncommonsList.push({
           id: item.id,
           name: item.name,
           slug: slug,
-          rarity: 'COMMON',
+          rarity: 'UNCOMMON',
           type: item.type || 'knife',
           value: parseFloat(item.value) || 0,
           demand: item.demand || 1,
           stability: item.stability || 'Stable',
-          image: `/images/commons/${imgName}`
+          image: `/images/uncommons/${imgName}`
         });
 
-        console.log(`✅ [COMMON] ${item.name} -> ${downloaded ? '🖼️ фото скачано' : '⚠️ без фото'}`);
-        await new Promise(r => setTimeout(r, 60)); // небольшая пауза от спама
+        console.log(`✨ [UNCOMMON] ${item.name} -> ${downloaded ? '🖼️ Скачано' : '⚠️ Не найдено'}`);
+        await new Promise(r => setTimeout(r, 60));
       }
 
       offset += res.items.length;
       if (offset >= total) break;
     } while (true);
 
-    fs.writeFileSync(COMMONS_JSON_PATH, JSON.stringify(commonsList, null, 2), 'utf8');
-    console.log(`\n🎉 ГОТОВО! Всего выгружено комонок: ${commonsList.length}`);
-    console.log(`📄 Файл сохранён: mm2_commons.json`);
+    fs.writeFileSync(UNCOMMONS_JSON_PATH, JSON.stringify(uncommonsList, null, 2), 'utf8');
+    console.log(`\n🎉 ГОТОВО! Обработано предметов: ${uncommonsList.length}`);
+    console.log(`📄 Файл сохранён: mm2_uncommons.json`);
 
   } catch (err) {
     console.error('Ошибка:', err.message);
