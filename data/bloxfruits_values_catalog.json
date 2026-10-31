@@ -1,1 +1,452 @@
-[]
+[
+  {
+    "name": "Dragon-west",
+    "slug": "dragon_west",
+    "image": "/assets/bloxfruits_all/dragon_west.webp"
+  },
+  {
+    "name": "Dragon-east",
+    "slug": "dragon_east",
+    "image": "/assets/bloxfruits_all/dragon_east.webp"
+  },
+  {
+    "name": "Kitsune",
+    "slug": "kitsune",
+    "image": "/assets/bloxfruits_all/kitsune.webp"
+  },
+  {
+    "name": "Magnet",
+    "slug": "magnet",
+    "image": "/assets/bloxfruits_all/magnet.webp"
+  },
+  {
+    "name": "Control",
+    "slug": "control",
+    "image": "/assets/bloxfruits_all/control.webp"
+  },
+  {
+    "name": "Tiger",
+    "slug": "tiger",
+    "image": "/assets/bloxfruits_all/tiger.webp"
+  },
+  {
+    "name": "Yeti",
+    "slug": "yeti",
+    "image": "/assets/bloxfruits_all/yeti.webp"
+  },
+  {
+    "name": "Gas",
+    "slug": "gas",
+    "image": "/assets/bloxfruits_all/gas.webp"
+  },
+  {
+    "name": "Dough",
+    "slug": "dough",
+    "image": "/assets/bloxfruits_all/dough.webp"
+  },
+  {
+    "name": "Lightning",
+    "slug": "lightning",
+    "image": "/assets/bloxfruits_all/lightning.webp"
+  },
+  {
+    "name": "Venom",
+    "slug": "venom",
+    "image": "/assets/bloxfruits_all/venom.webp"
+  },
+  {
+    "name": "T-rex",
+    "slug": "t_rex",
+    "image": "/assets/bloxfruits_all/t_rex.webp"
+  },
+  {
+    "name": "Spirit",
+    "slug": "spirit",
+    "image": "/assets/bloxfruits_all/spirit.webp"
+  },
+  {
+    "name": "Portal",
+    "slug": "portal",
+    "image": "/assets/bloxfruits_all/portal.webp"
+  },
+  {
+    "name": "Mammoth",
+    "slug": "mammoth",
+    "image": "/assets/bloxfruits_all/mammoth.webp"
+  },
+  {
+    "name": "Gravity",
+    "slug": "gravity",
+    "image": "/assets/bloxfruits_all/gravity.webp"
+  },
+  {
+    "name": "Pain",
+    "slug": "pain",
+    "image": "/assets/bloxfruits_all/pain.webp"
+  },
+  {
+    "name": "Buddha",
+    "slug": "buddha",
+    "image": "/assets/bloxfruits_all/buddha.webp"
+  },
+  {
+    "name": "Shadow",
+    "slug": "shadow",
+    "image": "/assets/bloxfruits_all/shadow.webp"
+  },
+  {
+    "name": "Blizzard",
+    "slug": "blizzard",
+    "image": "/assets/bloxfruits_all/blizzard.webp"
+  },
+  {
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "image": "/assets/bloxfruits_all/phoenix.webp"
+  },
+  {
+    "name": "Sound",
+    "slug": "sound",
+    "image": "/assets/bloxfruits_all/sound.webp"
+  },
+  {
+    "name": "Creation",
+    "slug": "creation",
+    "image": "/assets/bloxfruits_all/creation.webp"
+  },
+  {
+    "name": "Spider",
+    "slug": "spider",
+    "image": "/assets/bloxfruits_all/spider.webp"
+  },
+  {
+    "name": "Fruit-notifier",
+    "slug": "fruit_notifier",
+    "image": "/assets/bloxfruits_all/fruit_notifier.webp"
+  },
+  {
+    "name": "Mythical-scrolls",
+    "slug": "mythical_scrolls",
+    "image": "/assets/bloxfruits_all/mythical_scrolls.webp"
+  },
+  {
+    "name": "Dark-blade",
+    "slug": "dark_blade",
+    "image": "/assets/bloxfruits_all/dark_blade.webp"
+  },
+  {
+    "name": "Legendary-scrolls",
+    "slug": "legendary_scrolls",
+    "image": "/assets/bloxfruits_all/legendary_scrolls.webp"
+  },
+  {
+    "name": "2x-money",
+    "slug": "2x_money",
+    "image": "/assets/bloxfruits_all/2x_money.webp"
+  },
+  {
+    "name": "2x-mastery",
+    "slug": "2x_mastery",
+    "image": "/assets/bloxfruits_all/2x_mastery.webp"
+  },
+  {
+    "name": "Fruit-storage",
+    "slug": "fruit_storage",
+    "image": "/assets/bloxfruits_all/fruit_storage.webp"
+  },
+  {
+    "name": "2x-boss-drops",
+    "slug": "2x_boss_drops",
+    "image": "/assets/bloxfruits_all/2x_boss_drops.webp"
+  },
+  {
+    "name": "Fast-boats",
+    "slug": "fast_boats",
+    "image": "/assets/bloxfruits_all/fast_boats.webp"
+  },
+  {
+    "name": "Chromatic-eclipse",
+    "slug": "chromatic_eclipse",
+    "image": "/assets/bloxfruits_all/chromatic_eclipse.webp"
+  },
+  {
+    "name": "Rabid-blade",
+    "slug": "rabid_blade",
+    "image": "/assets/bloxfruits_all/rabid_blade.webp"
+  },
+  {
+    "name": "Permanent-dragon-token",
+    "slug": "permanent_dragon_token",
+    "image": "/assets/bloxfruits_all/permanent_dragon_token.webp"
+  },
+  {
+    "name": "Galaxy-kitsune",
+    "slug": "galaxy_kitsune",
+    "image": "/assets/bloxfruits_all/galaxy_kitsune.webp"
+  },
+  {
+    "name": "Crimson-kitsune",
+    "slug": "crimson_kitsune",
+    "image": "/assets/bloxfruits_all/crimson_kitsune.webp"
+  },
+  {
+    "name": "Ember-dragon",
+    "slug": "ember_dragon",
+    "image": "/assets/bloxfruits_all/ember_dragon.webp"
+  },
+  {
+    "name": "Parrot-chromatic",
+    "slug": "parrot_chromatic",
+    "image": "/assets/bloxfruits_all/parrot_chromatic.webp"
+  },
+  {
+    "name": "Meme",
+    "slug": "meme",
+    "image": "/assets/bloxfruits_all/meme.webp"
+  },
+  {
+    "name": "Purple-lightning",
+    "slug": "purple_lightning",
+    "image": "/assets/bloxfruits_all/purple_lightning.webp"
+  },
+  {
+    "name": "Dragon-token",
+    "slug": "dragon_token",
+    "image": "/assets/bloxfruits_all/dragon_token.webp"
+  },
+  {
+    "name": "Super-spirit-pain",
+    "slug": "super_spirit_pain",
+    "image": "/assets/bloxfruits_all/super_spirit_pain.webp"
+  },
+  {
+    "name": "Divine-portal",
+    "slug": "divine_portal",
+    "image": "/assets/bloxfruits_all/divine_portal.webp"
+  },
+  {
+    "name": "Arc-steel-magnet",
+    "slug": "arc_steel_magnet",
+    "image": "/assets/bloxfruits_all/arc_steel_magnet.webp"
+  },
+  {
+    "name": "Red-lightning",
+    "slug": "red_lightning",
+    "image": "/assets/bloxfruits_all/red_lightning.webp"
+  },
+  {
+    "name": "Dog-blade",
+    "slug": "dog_blade",
+    "image": "/assets/bloxfruits_all/dog_blade.webp"
+  },
+  {
+    "name": "Runic-yeti",
+    "slug": "runic_yeti",
+    "image": "/assets/bloxfruits_all/runic_yeti.webp"
+  },
+  {
+    "name": "Fiend-yeti",
+    "slug": "fiend_yeti",
+    "image": "/assets/bloxfruits_all/fiend_yeti.webp"
+  },
+  {
+    "name": "Werewolf",
+    "slug": "werewolf",
+    "image": "/assets/bloxfruits_all/werewolf.webp"
+  },
+  {
+    "name": "Celestial-pain",
+    "slug": "celestial_pain",
+    "image": "/assets/bloxfruits_all/celestial_pain.webp"
+  },
+  {
+    "name": "Sadness-pain",
+    "slug": "sadness_pain",
+    "image": "/assets/bloxfruits_all/sadness_pain.webp"
+  },
+  {
+    "name": "Azura-bomb",
+    "slug": "azura_bomb",
+    "image": "/assets/bloxfruits_all/azura_bomb.webp"
+  },
+  {
+    "name": "Nuclear-bomb",
+    "slug": "nuclear_bomb",
+    "image": "/assets/bloxfruits_all/nuclear_bomb.webp"
+  },
+  {
+    "name": "Frustration-pain",
+    "slug": "frustration_pain",
+    "image": "/assets/bloxfruits_all/frustration_pain.webp"
+  },
+  {
+    "name": "Thermite-bomb",
+    "slug": "thermite_bomb",
+    "image": "/assets/bloxfruits_all/thermite_bomb.webp"
+  },
+  {
+    "name": "Love",
+    "slug": "love",
+    "image": "/assets/bloxfruits_all/love.webp"
+  },
+  {
+    "name": "Rubber",
+    "slug": "rubber",
+    "image": "/assets/bloxfruits_all/rubber.webp"
+  },
+  {
+    "name": "Quake",
+    "slug": "quake",
+    "image": "/assets/bloxfruits_all/quake.webp"
+  },
+  {
+    "name": "Eagle",
+    "slug": "eagle",
+    "image": "/assets/bloxfruits_all/eagle.webp"
+  },
+  {
+    "name": "Dark",
+    "slug": "dark",
+    "image": "/assets/bloxfruits_all/dark.webp"
+  },
+  {
+    "name": "Magma",
+    "slug": "magma",
+    "image": "/assets/bloxfruits_all/magma.webp"
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "image": "/assets/bloxfruits_all/ghost.webp"
+  },
+  {
+    "name": "Light",
+    "slug": "light",
+    "image": "/assets/bloxfruits_all/light.webp"
+  },
+  {
+    "name": "Ice",
+    "slug": "ice",
+    "image": "/assets/bloxfruits_all/ice.webp"
+  },
+  {
+    "name": "Diamond",
+    "slug": "diamond",
+    "image": "/assets/bloxfruits_all/diamond.webp"
+  },
+  {
+    "name": "Flame",
+    "slug": "flame",
+    "image": "/assets/bloxfruits_all/flame.webp"
+  },
+  {
+    "name": "Spike",
+    "slug": "spike",
+    "image": "/assets/bloxfruits_all/spike.webp"
+  },
+  {
+    "name": "Sand",
+    "slug": "sand",
+    "image": "/assets/bloxfruits_all/sand.webp"
+  },
+  {
+    "name": "Smoke",
+    "slug": "smoke",
+    "image": "/assets/bloxfruits_all/smoke.webp"
+  },
+  {
+    "name": "Bomb",
+    "slug": "bomb",
+    "image": "/assets/bloxfruits_all/bomb.webp"
+  },
+  {
+    "name": "Spring",
+    "slug": "spring",
+    "image": "/assets/bloxfruits_all/spring.webp"
+  },
+  {
+    "name": "Blade",
+    "slug": "blade",
+    "image": "/assets/bloxfruits_all/blade.webp"
+  },
+  {
+    "name": "Spin",
+    "slug": "spin",
+    "image": "/assets/bloxfruits_all/spin.webp"
+  },
+  {
+    "name": "Rocket",
+    "slug": "rocket",
+    "image": "/assets/bloxfruits_all/rocket.webp"
+  },
+  {
+    "name": "Lime-blade",
+    "slug": "lime_blade",
+    "image": "/assets/bloxfruits_all/lime_blade.webp"
+  },
+  {
+    "name": "Scarler-ghost",
+    "slug": "scarler_ghost",
+    "image": "/assets/bloxfruits_all/scarler_ghost.webp"
+  },
+  {
+    "name": "Torment-pain",
+    "slug": "torment_pain",
+    "image": "/assets/bloxfruits_all/torment_pain.webp"
+  },
+  {
+    "name": "Emerald-diamond",
+    "slug": "emerald_diamond",
+    "image": "/assets/bloxfruits_all/emerald_diamond.webp"
+  },
+  {
+    "name": "Topaz-diamond",
+    "slug": "topaz_diamond",
+    "image": "/assets/bloxfruits_all/topaz_diamond.webp"
+  },
+  {
+    "name": "Ruby-diamond",
+    "slug": "ruby_diamond",
+    "image": "/assets/bloxfruits_all/ruby_diamond.webp"
+  },
+  {
+    "name": "Rose-quartz-diamond",
+    "slug": "rose_quartz_diamond",
+    "image": "/assets/bloxfruits_all/rose_quartz_diamond.webp"
+  },
+  {
+    "name": "Yellow-lightning",
+    "slug": "yellow_lightning",
+    "image": "/assets/bloxfruits_all/yellow_lightning.webp"
+  },
+  {
+    "name": "Green-lightning",
+    "slug": "green_lightning",
+    "image": "/assets/bloxfruits_all/green_lightning.webp"
+  },
+  {
+    "name": "Starlight-gravity",
+    "slug": "starlight_gravity",
+    "image": "/assets/bloxfruits_all/starlight_gravity.webp"
+  },
+  {
+    "name": "Requiem-eagle",
+    "slug": "requiem_eagle",
+    "image": "/assets/bloxfruits_all/requiem_eagle.webp"
+  },
+  {
+    "name": "Glacier-eagle",
+    "slug": "glacier_eagle",
+    "image": "/assets/bloxfruits_all/glacier_eagle.webp"
+  },
+  {
+    "name": "Celebration-bomb",
+    "slug": "celebration_bomb",
+    "image": "/assets/bloxfruits_all/celebration_bomb.webp"
+  },
+  {
+    "name": "Matrix-eagle",
+    "slug": "matrix_eagle",
+    "image": "/assets/bloxfruits_all/matrix_eagle.webp"
+  }
+]
