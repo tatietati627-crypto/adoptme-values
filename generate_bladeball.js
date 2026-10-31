@@ -13,25 +13,31 @@ async function run() {
     }
 
     try {
-        // Делаем запрос с полноценными заголовками браузера, чтобы обходить защиту
-        const response = await fetch('https://api.bbtslist.com/api/v1/items', {
+        const targetUrl = 'https://api.bbtslist.com/api/v1/items';
+        console.log(`🌐 Делаем запрос к: ${targetUrl}`);
+
+        const response = await fetch(targetUrl, {
             method: 'GET',
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                'Accept': 'application/json, text/plain, */*',
-                'Accept-Language': 'en-US,en;q=0.9',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                'Accept': 'application/json',
                 'Referer': 'https://bbtslist.com/'
             }
         });
 
+        console.log(`📡 Статус ответа: ${response.status} ${response.statusText}`);
+
         if (!response.ok) {
-            throw new Error(`Ошибка сервера: ${response.status} ${response.statusText}`);
+            const errorText = await response.text();
+            throw new Error(`Сервер вернул ошибку ${response.status}: ${errorText.substring(0, 200)}`);
         }
 
         const items = await response.json();
+        console.log(`📦 Получено сырых элементов из API: ${Array.isArray(items) ? items.length : 'Не массив'}`);
+
         const database = [];
 
-        for (const item of items) {
+        for (const item of (Array.isArray(items) ? items : [])) {
             const name = item.name || item.title || "Unknown Item";
             const category = item.category || item.type || "Swords";
             const assetId = item.assetId || item.robloxId || null;
@@ -59,10 +65,11 @@ async function run() {
         const dbPath = path.join(baseDir, 'bladeball_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
 
-        console.log(`✅ Готово! Сохранено предметов Blade Ball: ${database.length}`);
+        console.log(`✅ Успешно! Сохранено предметов Blade Ball: ${database.length}`);
 
     } catch (error) {
-        console.error("❌ Ошибка при генерации Blade Ball:", error.message);
+        // Выводим развернутый стек ошибки в лог GitHub Actions
+        console.error("❌ ДЕТАЛИ ОШИБКИ:", error);
         process.exit(1);
     }
 }
