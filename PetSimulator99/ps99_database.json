@@ -26102,5 +26102,293 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Crackling_Agony.png"
+  },
+  {
+    "id": "Gargantuan Butler Penguin",
+    "name": "Gargantuan Butler Penguin",
+    "displayName": "Gargantuan Butler Penguin",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Butler_Penguin.png"
+  },
+  {
+    "id": "Gargantuan Warrior Wolf",
+    "name": "Gargantuan Warrior Wolf",
+    "displayName": "Gargantuan Warrior Wolf",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Warrior_Wolf.png"
+  },
+  {
+    "id": "Gargantuan Porcelain Doll Cat",
+    "name": "Gargantuan Porcelain Doll Cat",
+    "displayName": "Gargantuan Porcelain Doll Cat",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Porcelain_Doll_Cat.png"
+  },
+  {
+    "id": "Huge Bedsheet Giraffe",
+    "name": "Huge Bedsheet Giraffe",
+    "displayName": "Huge Bedsheet Giraffe",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Bedsheet_Giraffe.png"
+  },
+  {
+    "id": "Huge Trick Or Treat Piggy",
+    "name": "Huge Trick Or Treat Piggy",
+    "displayName": "Huge Trick Or Treat Piggy",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Trick_Or_Treat_Piggy.png"
+  },
+  {
+    "id": "Huge Guard Elephant",
+    "name": "Huge Guard Elephant",
+    "displayName": "Huge Guard Elephant",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Guard_Elephant.png"
+  },
+  {
+    "id": "Huge Neon Skeleton Dino",
+    "name": "Huge Neon Skeleton Dino",
+    "displayName": "Huge Neon Skeleton Dino",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Neon_Skeleton_Dino.png"
+  },
+  {
+    "id": "Gargantuan Chrome Unicorn",
+    "name": "Gargantuan Chrome Unicorn",
+    "displayName": "Gargantuan Chrome Unicorn",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Chrome_Unicorn.png"
+  },
+  {
+    "id": "Huge Guard Rhino",
+    "name": "Huge Guard Rhino",
+    "displayName": "Huge Guard Rhino",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Guard_Rhino.png"
+  },
+  {
+    "id": "Huge Ender Bunny",
+    "name": "Huge Ender Bunny",
+    "displayName": "Huge Ender Bunny",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Ender_Bunny.png"
+  },
+  {
+    "id": "Huge Butler Penguin",
+    "name": "Huge Butler Penguin",
+    "displayName": "Huge Butler Penguin",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Butler_Penguin.png"
+  },
+  {
+    "id": "Huge Frankenpet Monkey",
+    "name": "Huge Frankenpet Monkey",
+    "displayName": "Huge Frankenpet Monkey",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Frankenpet_Monkey.png"
+  },
+  {
+    "id": "Huge Guard Bat",
+    "name": "Huge Guard Bat",
+    "displayName": "Huge Guard Bat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Guard_Bat.png"
+  },
+  {
+    "id": "Huge Witch Cat",
+    "name": "Huge Witch Cat",
+    "displayName": "Huge Witch Cat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Witch_Cat.png"
+  },
+  {
+    "id": "Titanic Neon Skeleton Cat",
+    "name": "Titanic Neon Skeleton Cat",
+    "displayName": "Titanic Neon Skeleton Cat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Neon_Skeleton_Cat.png"
+  },
+  {
+    "id": "Huge Chrome Axolotl",
+    "name": "Huge Chrome Axolotl",
+    "displayName": "Huge Chrome Axolotl",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Chrome_Axolotl.png"
+  },
+  {
+    "id": "Huge Chrome Monkey",
+    "name": "Huge Chrome Monkey",
+    "displayName": "Huge Chrome Monkey",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Chrome_Monkey.png"
+  },
+  {
+    "id": "Titanic Trick Or Treat Hippo",
+    "name": "Titanic Trick Or Treat Hippo",
+    "displayName": "Titanic Trick Or Treat Hippo",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Trick_Or_Treat_Hippo.png"
+  },
+  {
+    "id": "Titanic Ender Goat",
+    "name": "Titanic Ender Goat",
+    "displayName": "Titanic Ender Goat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Ender_Goat.png"
+  },
+  {
+    "id": "Titanic Bedsheet Giraffe",
+    "name": "Titanic Bedsheet Giraffe",
+    "displayName": "Titanic Bedsheet Giraffe",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Bedsheet_Giraffe.png"
+  },
+  {
+    "id": "Titanic Chrome Panda",
+    "name": "Titanic Chrome Panda",
+    "displayName": "Titanic Chrome Panda",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Chrome_Panda.png"
+  },
+  {
+    "id": "Chrome Axolotl",
+    "name": "Chrome Axolotl",
+    "displayName": "Chrome Axolotl",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Chrome_Axolotl.png"
+  },
+  {
+    "id": "Chrome Dog",
+    "name": "Chrome Dog",
+    "displayName": "Chrome Dog",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Chrome_Dog.png"
+  },
+  {
+    "id": "Chrome Monkey",
+    "name": "Chrome Monkey",
+    "displayName": "Chrome Monkey",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Chrome_Monkey.png"
+  },
+  {
+    "id": "Guard Bat",
+    "name": "Guard Bat",
+    "displayName": "Guard Bat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Guard_Bat.png"
+  },
+  {
+    "id": "Guard Elephant",
+    "name": "Guard Elephant",
+    "displayName": "Guard Elephant",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Guard_Elephant.png"
+  },
+  {
+    "id": "Frankenpet Monkey",
+    "name": "Frankenpet Monkey",
+    "displayName": "Frankenpet Monkey",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Frankenpet_Monkey.png"
+  },
+  {
+    "id": "Bedsheet Giraffe",
+    "name": "Bedsheet Giraffe",
+    "displayName": "Bedsheet Giraffe",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Bedsheet_Giraffe.png"
+  },
+  {
+    "id": "Guard Rhino",
+    "name": "Guard Rhino",
+    "displayName": "Guard Rhino",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Guard_Rhino.png"
+  },
+  {
+    "id": "Guard Shark",
+    "name": "Guard Shark",
+    "displayName": "Guard Shark",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Guard_Shark.png"
+  },
+  {
+    "id": "Trick Or Treat Hippo",
+    "name": "Trick Or Treat Hippo",
+    "displayName": "Trick Or Treat Hippo",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Trick_Or_Treat_Hippo.png"
+  },
+  {
+    "id": "Butler Penguin",
+    "name": "Butler Penguin",
+    "displayName": "Butler Penguin",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Butler_Penguin.png"
+  },
+  {
+    "id": "Trick Or Treat Piggy",
+    "name": "Trick Or Treat Piggy",
+    "displayName": "Trick Or Treat Piggy",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Trick_Or_Treat_Piggy.png"
+  },
+  {
+    "id": "Neon Skeleton Cat",
+    "name": "Neon Skeleton Cat",
+    "displayName": "Neon Skeleton Cat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Neon_Skeleton_Cat.png"
+  },
+  {
+    "id": "Porcelain Doll Cat",
+    "name": "Porcelain Doll Cat",
+    "displayName": "Porcelain Doll Cat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Porcelain_Doll_Cat.png"
+  },
+  {
+    "id": "Neon Skeleton Dino",
+    "name": "Neon Skeleton Dino",
+    "displayName": "Neon Skeleton Dino",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Neon_Skeleton_Dino.png"
   }
 ]
