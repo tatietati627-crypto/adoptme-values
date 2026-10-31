@@ -12939,9 +12939,9 @@
     "id": "Gargantuan Santa Paws",
     "name": "Gargantuan Santa Paws",
     "displayName": "Gargantuan Santa Paws",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Santa_Paws.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Santa_Paws.png"
   },
   {
     "id": "Huge Party Crown Corgi",
@@ -13323,9 +13323,9 @@
     "id": "Gargantuan Hypnotic Kitsune",
     "name": "Gargantuan Hypnotic Kitsune",
     "displayName": "Gargantuan Hypnotic Kitsune",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Hypnotic_Kitsune.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Hypnotic_Kitsune.png"
   },
   {
     "id": "Huge Guard Dominus",
@@ -13619,9 +13619,9 @@
     "id": "Gargantuan Googly Agony",
     "name": "Gargantuan Googly Agony",
     "displayName": "Gargantuan Googly Agony",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Googly_Agony.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Googly_Agony.png"
   },
   {
     "id": "Huge Party Panda",
@@ -13955,9 +13955,9 @@
     "id": "Gargantuan Matryoshka Bear",
     "name": "Gargantuan Matryoshka Bear",
     "displayName": "Gargantuan Matryoshka Bear",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Matryoshka_Bear.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Matryoshka_Bear.png"
   },
   {
     "id": "Huge Holographic Monkey",
@@ -14323,9 +14323,9 @@
     "id": "Gargantuan Jurassic Dragon",
     "name": "Gargantuan Jurassic Dragon",
     "displayName": "Gargantuan Jurassic Dragon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Jurassic_Dragon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Jurassic_Dragon.png"
   },
   {
     "id": "Huge Super Spider",
@@ -14523,9 +14523,9 @@
     "id": "Gargantuan Super Spider",
     "name": "Gargantuan Super Spider",
     "displayName": "Gargantuan Super Spider",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Super_Spider.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Super_Spider.png"
   },
   {
     "id": "Huge Hubert",
@@ -14803,9 +14803,9 @@
     "id": "Gargantuan Grim Reaper",
     "name": "Gargantuan Grim Reaper",
     "displayName": "Gargantuan Grim Reaper",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Grim_Reaper.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Grim_Reaper.png"
   },
   {
     "id": "Huge Sphinx",
@@ -15019,9 +15019,9 @@
     "id": "Gargantuan Dot Matrix Pegasus",
     "name": "Gargantuan Dot Matrix Pegasus",
     "displayName": "Gargantuan Dot Matrix Pegasus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Dot_Matrix_Pegasus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Dot_Matrix_Pegasus.png"
   },
   {
     "id": "Huge Tiedye Dog",
@@ -15307,17 +15307,17 @@
     "id": "Gargantuan Hellish Axolotl",
     "name": "Gargantuan Hellish Axolotl",
     "displayName": "Gargantuan Hellish Axolotl",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Hellish_Axolotl.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Hellish_Axolotl.png"
   },
   {
     "id": "Gargantuan Kaiju King",
     "name": "Gargantuan Kaiju King",
     "displayName": "Gargantuan Kaiju King",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Kaiju_King.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Kaiju_King.png"
   },
   {
     "id": "Huge Mining Penguin",
@@ -15611,9 +15611,9 @@
     "id": "Gargantuan Royal Beast",
     "name": "Gargantuan Royal Beast",
     "displayName": "Gargantuan Royal Beast",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Royal_Beast.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Royal_Beast.png"
   },
   {
     "id": "Huge Claw Beast",
@@ -15955,17 +15955,17 @@
     "id": "Gargantuan Starfall Dragon",
     "name": "Gargantuan Starfall Dragon",
     "displayName": "Gargantuan Starfall Dragon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Starfall_Dragon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Starfall_Dragon.png"
   },
   {
     "id": "Gargantuan Patchwork Agony",
     "name": "Gargantuan Patchwork Agony",
     "displayName": "Gargantuan Patchwork Agony",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Patchwork_Agony.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Patchwork_Agony.png"
   },
   {
     "id": "Huge Exquisite Elephant",
@@ -16451,9 +16451,9 @@
     "id": "Gargantuan Aura Cat",
     "name": "Gargantuan Aura Cat",
     "displayName": "Gargantuan Aura Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Aura_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Aura_Cat.png"
   },
   {
     "id": "Huge Aura Fox",
@@ -16707,9 +16707,9 @@
     "id": "Gargantuan Nyan Cat",
     "name": "Gargantuan Nyan Cat",
     "displayName": "Gargantuan Nyan Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Nyan_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Nyan_Cat.png"
   },
   {
     "id": "Huge Walrus",
@@ -16875,9 +16875,9 @@
     "id": "Gargantuan Magma Spirit",
     "name": "Gargantuan Magma Spirit",
     "displayName": "Gargantuan Magma Spirit",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Magma_Spirit.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Magma_Spirit.png"
   },
   {
     "id": "Huge Wave Spirit",
@@ -17035,17 +17035,17 @@
     "id": "Gargantuan Dark Dragon",
     "name": "Gargantuan Dark Dragon",
     "displayName": "Gargantuan Dark Dragon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Dark_Dragon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Dark_Dragon.png"
   },
   {
     "id": "Gargantuan Exquisite Parrot",
     "name": "Gargantuan Exquisite Parrot",
     "displayName": "Gargantuan Exquisite Parrot",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Exquisite_Parrot.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Exquisite_Parrot.png"
   },
   {
     "id": "Huge Diamond Dog",
@@ -17315,9 +17315,9 @@
     "id": "Gargantuan Yin-Yang Kitsune",
     "name": "Gargantuan Yin-Yang Kitsune",
     "displayName": "Gargantuan Yin-Yang Kitsune",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Yin_Yang_Kitsune.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Yin_Yang_Kitsune.png"
   },
   {
     "id": "Huge Basketball Corgi",
@@ -17723,9 +17723,9 @@
     "id": "Gargantuan Totem Monkey",
     "name": "Gargantuan Totem Monkey",
     "displayName": "Gargantuan Totem Monkey",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Totem_Monkey.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Totem_Monkey.png"
   },
   {
     "id": "Huge Totem Wolf",
@@ -18131,17 +18131,17 @@
     "id": "Gargantuan Super Coral Kraken",
     "name": "Gargantuan Super Coral Kraken",
     "displayName": "Gargantuan Super Coral Kraken",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Super_Coral_Kraken.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Super_Coral_Kraken.png"
   },
   {
     "id": "Gargantuan Forest Wyvern",
     "name": "Gargantuan Forest Wyvern",
     "displayName": "Gargantuan Forest Wyvern",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Forest_Wyvern.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Forest_Wyvern.png"
   },
   {
     "id": "Huge Demon",
@@ -18619,9 +18619,9 @@
     "id": "Gargantuan Treasure Angelus",
     "name": "Gargantuan Treasure Angelus",
     "displayName": "Gargantuan Treasure Angelus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Treasure_Angelus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Treasure_Angelus.png"
   },
   {
     "id": "Coconut Corgi",
@@ -19235,33 +19235,33 @@
     "id": "Gargantuan Super Cat",
     "name": "Gargantuan Super Cat",
     "displayName": "Gargantuan Super Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Super_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Super_Cat.png"
   },
   {
     "id": "Gargantuan Doge",
     "name": "Gargantuan Doge",
     "displayName": "Gargantuan Doge",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Doge.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Doge.png"
   },
   {
     "id": "Gargantuan Cappuccino Brainrot",
     "name": "Gargantuan Cappuccino Brainrot",
     "displayName": "Gargantuan Cappuccino Brainrot",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Cappuccino_Brainrot.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Cappuccino_Brainrot.png"
   },
   {
     "id": "Gargantuan Skelemelon",
     "name": "Gargantuan Skelemelon",
     "displayName": "Gargantuan Skelemelon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Skelemelon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Skelemelon.png"
   },
   {
     "id": "Huge Spectral Deer",
@@ -19579,33 +19579,33 @@
     "id": "Gargantuan Frankenpup Dog",
     "name": "Gargantuan Frankenpup Dog",
     "displayName": "Gargantuan Frankenpup Dog",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Frankenpup_Dog.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Frankenpup_Dog.png"
   },
   {
     "id": "Gargantuan Evil Scarecrow Pumpkin",
     "name": "Gargantuan Evil Scarecrow Pumpkin",
     "displayName": "Gargantuan Evil Scarecrow Pumpkin",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Evil_Scarecrow_Pumpkin.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Evil_Scarecrow_Pumpkin.png"
   },
   {
     "id": "Gargantuan Leafy Deer",
     "name": "Gargantuan Leafy Deer",
     "displayName": "Gargantuan Leafy Deer",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Leafy_Deer.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Leafy_Deer.png"
   },
   {
     "id": "Gargantuan Black Balloon Cat",
     "name": "Gargantuan Black Balloon Cat",
     "displayName": "Gargantuan Black Balloon Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Black_Balloon_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Black_Balloon_Cat.png"
   },
   {
     "id": "Huge Beans Balloon Cat",
@@ -19947,25 +19947,25 @@
     "id": "Gargantuan Cookie Cut Cat",
     "name": "Gargantuan Cookie Cut Cat",
     "displayName": "Gargantuan Cookie Cut Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Cookie_Cut_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Cookie_Cut_Cat.png"
   },
   {
     "id": "Gargantuan Blurred Agony",
     "name": "Gargantuan Blurred Agony",
     "displayName": "Gargantuan Blurred Agony",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Blurred_Agony.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Blurred_Agony.png"
   },
   {
     "id": "Gargantuan Elf Golem",
     "name": "Gargantuan Elf Golem",
     "displayName": "Gargantuan Elf Golem",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Elf_Golem.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Elf_Golem.png"
   },
   {
     "id": "Titanic Reindeer Cat",
@@ -20507,65 +20507,65 @@
     "id": "Gargantuan Snowflake Dragon",
     "name": "Gargantuan Snowflake Dragon",
     "displayName": "Gargantuan Snowflake Dragon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Snowflake_Dragon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Snowflake_Dragon.png"
   },
   {
     "id": "Gargantuan Krampus",
     "name": "Gargantuan Krampus",
     "displayName": "Gargantuan Krampus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Krampus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Krampus.png"
   },
   {
     "id": "Gargantuan Floppa",
     "name": "Gargantuan Floppa",
     "displayName": "Gargantuan Floppa",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Floppa.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Floppa.png"
   },
   {
     "id": "Gargantuan Lucki Chest Mimic",
     "name": "Gargantuan Lucki Chest Mimic",
     "displayName": "Gargantuan Lucki Chest Mimic",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Lucki_Chest_Mimic.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Lucki_Chest_Mimic.png"
   },
   {
     "id": "Gargantuan Gingerbread Angelus",
     "name": "Gargantuan Gingerbread Angelus",
     "displayName": "Gargantuan Gingerbread Angelus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Gingerbread_Angelus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Gingerbread_Angelus.png"
   },
   {
     "id": "Gargantuan Lucki Angelus",
     "name": "Gargantuan Lucki Angelus",
     "displayName": "Gargantuan Lucki Angelus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Lucki_Angelus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Lucki_Angelus.png"
   },
   {
     "id": "Gargantuan Glass Squid",
     "name": "Gargantuan Glass Squid",
     "displayName": "Gargantuan Glass Squid",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Glass_Squid.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Glass_Squid.png"
   },
   {
     "id": "Gargantuan Nightfall Tiger",
     "name": "Gargantuan Nightfall Tiger",
     "displayName": "Gargantuan Nightfall Tiger",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Nightfall_Tiger.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Nightfall_Tiger.png"
   },
   {
     "id": "Titanic Glass Blobfish",
@@ -20803,41 +20803,41 @@
     "id": "Gargantuan Special Ops Moth",
     "name": "Gargantuan Special Ops Moth",
     "displayName": "Gargantuan Special Ops Moth",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Special_Ops_Moth.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Special_Ops_Moth.png"
   },
   {
     "id": "Gargantuan Fluffy Cat",
     "name": "Gargantuan Fluffy Cat",
     "displayName": "Gargantuan Fluffy Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Fluffy_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Fluffy_Cat.png"
   },
   {
     "id": "Gargantuan Wise Cat",
     "name": "Gargantuan Wise Cat",
     "displayName": "Gargantuan Wise Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Wise_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Wise_Cat.png"
   },
   {
     "id": "Gargantuan Leprechaun Fox",
     "name": "Gargantuan Leprechaun Fox",
     "displayName": "Gargantuan Leprechaun Fox",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Leprechaun_Fox.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Leprechaun_Fox.png"
   },
   {
     "id": "Gargantuan Dawn Phoenix",
     "name": "Gargantuan Dawn Phoenix",
     "displayName": "Gargantuan Dawn Phoenix",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Dawn_Phoenix.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Dawn_Phoenix.png"
   },
   {
     "id": "Huge Irish Badger",
@@ -21131,9 +21131,9 @@
     "id": "Gargantuan Bloom Dominus",
     "name": "Gargantuan Bloom Dominus",
     "displayName": "Gargantuan Bloom Dominus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Bloom_Dominus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Bloom_Dominus.png"
   },
   {
     "id": "Titanic Butterfly Pony",
@@ -21459,17 +21459,17 @@
     "id": "Gargantuan Hippomelon",
     "name": "Gargantuan Hippomelon",
     "displayName": "Gargantuan Hippomelon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Hippomelon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Hippomelon.png"
   },
   {
     "id": "Gargantuan Wicked Kirin",
     "name": "Gargantuan Wicked Kirin",
     "displayName": "Gargantuan Wicked Kirin",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Wicked_Kirin.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Wicked_Kirin.png"
   },
   {
     "id": "Huge Platypus",
@@ -21827,9 +21827,9 @@
     "id": "Gargantuan Origami Kitsune",
     "name": "Gargantuan Origami Kitsune",
     "displayName": "Gargantuan Origami Kitsune",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Origami_Kitsune.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Origami_Kitsune.png"
   },
   {
     "id": "Chameleon",
@@ -21995,9 +21995,9 @@
     "id": "Gargantuan Clown Cat",
     "name": "Gargantuan Clown Cat",
     "displayName": "Gargantuan Clown Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Clown_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Clown_Cat.png"
   },
   {
     "id": "Huge Oracle Tiger",
@@ -22059,25 +22059,25 @@
     "id": "Gargantuan Guest 666",
     "name": "Gargantuan Guest 666",
     "displayName": "Gargantuan Guest 666",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Guest_666.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Guest_666.png"
   },
   {
     "id": "Gargantuan Solar Lion",
     "name": "Gargantuan Solar Lion",
     "displayName": "Gargantuan Solar Lion",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Solar_Lion.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Solar_Lion.png"
   },
   {
     "id": "Gargantuan Skateboard Bulldog",
     "name": "Gargantuan Skateboard Bulldog",
     "displayName": "Gargantuan Skateboard Bulldog",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Skateboard_Bulldog.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Skateboard_Bulldog.png"
   },
   {
     "id": "Huge Skin Stealer",
@@ -22323,9 +22323,9 @@
     "id": "Gargantuan 1x1x1x1",
     "name": "Gargantuan 1x1x1x1",
     "displayName": "Gargantuan 1x1x1x1",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_1x1x1x1.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_1x1x1x1.png"
   },
   {
     "id": "Huge Partypooper Dog",
@@ -22459,25 +22459,25 @@
     "id": "Gargantuan Vapor Phoenix",
     "name": "Gargantuan Vapor Phoenix",
     "displayName": "Gargantuan Vapor Phoenix",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Vapor_Phoenix.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Vapor_Phoenix.png"
   },
   {
     "id": "Gargantuan Soccerball Trophy Angelus",
     "name": "Gargantuan Soccerball Trophy Angelus",
     "displayName": "Gargantuan Soccerball Trophy Angelus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Soccerball_Trophy_Angelus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Soccerball_Trophy_Angelus.png"
   },
   {
     "id": "Gargantuan Storm Wolf",
     "name": "Gargantuan Storm Wolf",
     "displayName": "Gargantuan Storm Wolf",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Storm_Wolf.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Storm_Wolf.png"
   },
   {
     "id": "Titanic Soccerball Griffin",
@@ -23043,17 +23043,17 @@
     "id": "Gargantuan Samurai Kitsune",
     "name": "Gargantuan Samurai Kitsune",
     "displayName": "Gargantuan Samurai Kitsune",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Samurai_Kitsune.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Samurai_Kitsune.png"
   },
   {
     "id": "Gargantuan Super Fluffy Cat",
     "name": "Gargantuan Super Fluffy Cat",
     "displayName": "Gargantuan Super Fluffy Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Super_Fluffy_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Super_Fluffy_Cat.png"
   },
   {
     "id": "Titanic Legionary Bear",
@@ -23187,9 +23187,9 @@
     "id": "Gargantuan Capybara",
     "name": "Gargantuan Capybara",
     "displayName": "Gargantuan Capybara",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Capybara.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Capybara.png"
   },
   {
     "id": "War Elephant",
@@ -23347,17 +23347,17 @@
     "id": "Gargantuan Holofoil Agony",
     "name": "Gargantuan Holofoil Agony",
     "displayName": "Gargantuan Holofoil Agony",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Holofoil_Agony.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Holofoil_Agony.png"
   },
   {
     "id": "Gargantuan Rose Wolf",
     "name": "Gargantuan Rose Wolf",
     "displayName": "Gargantuan Rose Wolf",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Rose_Wolf.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Rose_Wolf.png"
   },
   {
     "id": "Titanic Holofoil Hippomelon",
@@ -23859,33 +23859,33 @@
     "id": "Gargantuan Stealth Dragon",
     "name": "Gargantuan Stealth Dragon",
     "displayName": "Gargantuan Stealth Dragon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Stealth_Dragon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Stealth_Dragon.png"
   },
   {
     "id": "Gargantuan Anime Agony",
     "name": "Gargantuan Anime Agony",
     "displayName": "Gargantuan Anime Agony",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Anime_Agony.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Anime_Agony.png"
   },
   {
     "id": "Gargantuan Sombrero Cat",
     "name": "Gargantuan Sombrero Cat",
     "displayName": "Gargantuan Sombrero Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Sombrero_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Sombrero_Cat.png"
   },
   {
     "id": "Gargantuan Tokusatsu Spider",
     "name": "Gargantuan Tokusatsu Spider",
     "displayName": "Gargantuan Tokusatsu Spider",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Tokusatsu_Spider.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Tokusatsu_Spider.png"
   },
   {
     "id": "Marigold Donkey",
@@ -24275,25 +24275,25 @@
     "id": "Gargantuan Cardboard Dominus Astra",
     "name": "Gargantuan Cardboard Dominus Astra",
     "displayName": "Gargantuan Cardboard Dominus Astra",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Cardboard_Dominus_Astra.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Cardboard_Dominus_Astra.png"
   },
   {
     "id": "Gargantuan Lucky Block Shark",
     "name": "Gargantuan Lucky Block Shark",
     "displayName": "Gargantuan Lucky Block Shark",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Lucky_Block_Shark.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Lucky_Block_Shark.png"
   },
   {
     "id": "Gargantuan Lucky Block Angelus",
     "name": "Gargantuan Lucky Block Angelus",
     "displayName": "Gargantuan Lucky Block Angelus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Lucky_Block_Angelus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Lucky_Block_Angelus.png"
   },
   {
     "id": "Lucky Chest Mimic",
@@ -24683,17 +24683,17 @@
     "id": "Gargantuan RGB Angelus",
     "name": "Gargantuan RGB Angelus",
     "displayName": "Gargantuan RGB Angelus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_RGB_Angelus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_RGB_Angelus.png"
   },
   {
     "id": "Gargantuan Ornate Dragon",
     "name": "Gargantuan Ornate Dragon",
     "displayName": "Gargantuan Ornate Dragon",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Ornate_Dragon.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Ornate_Dragon.png"
   },
   {
     "id": "Titanic Blurred Dominus",
@@ -24875,33 +24875,33 @@
     "id": "Gargantuan M-2 PROTOTYPE",
     "name": "Gargantuan M-2 PROTOTYPE",
     "displayName": "Gargantuan M-2 PROTOTYPE",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_M_2_PROTOTYPE.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_M_2_PROTOTYPE.png"
   },
   {
     "id": "Gargantuan Forcefield Chimera",
     "name": "Gargantuan Forcefield Chimera",
     "displayName": "Gargantuan Forcefield Chimera",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Forcefield_Chimera.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Forcefield_Chimera.png"
   },
   {
     "id": "Gargantuan Moonrock Golem",
     "name": "Gargantuan Moonrock Golem",
     "displayName": "Gargantuan Moonrock Golem",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Moonrock_Golem.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Moonrock_Golem.png"
   },
   {
     "id": "Gargantuan Meebo in a Spaceship",
     "name": "Gargantuan Meebo in a Spaceship",
     "displayName": "Gargantuan Meebo in a Spaceship",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Meebo_in_a_Spaceship.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Meebo_in_a_Spaceship.png"
   },
   {
     "id": "Huge Forcefield Jaguar",
@@ -25299,17 +25299,17 @@
     "id": "Gargantuan Mothman",
     "name": "Gargantuan Mothman",
     "displayName": "Gargantuan Mothman",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Mothman.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Mothman.png"
   },
   {
     "id": "Gargantuan Lost Hero Bulldog",
     "name": "Gargantuan Lost Hero Bulldog",
     "displayName": "Gargantuan Lost Hero Bulldog",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Lost_Hero_Bulldog.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Lost_Hero_Bulldog.png"
   },
   {
     "id": "Huge Lost Hero Rabbit",
@@ -25691,9 +25691,9 @@
     "id": "Gargantuan Broomstick Cat",
     "name": "Gargantuan Broomstick Cat",
     "displayName": "Gargantuan Broomstick Cat",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Broomstick_Cat.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Broomstick_Cat.png"
   },
   {
     "id": "Huge Fennec Fox",
@@ -25755,9 +25755,9 @@
     "id": "Gargantuan Abominable Yeti",
     "name": "Gargantuan Abominable Yeti",
     "displayName": "Gargantuan Abominable Yeti",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Abominable_Yeti.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Abominable_Yeti.png"
   },
   {
     "id": "Huge Hiker Raccoon",
@@ -25835,9 +25835,9 @@
     "id": "Gargantuan Domino Dominus",
     "name": "Gargantuan Domino Dominus",
     "displayName": "Gargantuan Domino Dominus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Domino_Dominus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Domino_Dominus.png"
   },
   {
     "id": "Huge Hiker Red Panda",
@@ -25947,9 +25947,9 @@
     "id": "Gargantuan Angelus",
     "name": "Gargantuan Angelus",
     "displayName": "Gargantuan Angelus",
-    "category": "exotics",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gargantuan_Angelus.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Angelus.png"
   },
   {
     "id": "Huge Reaper",
