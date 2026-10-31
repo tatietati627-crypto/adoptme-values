@@ -1,45 +1,36 @@
 # ⚡ Roblox Asset & Value Database | Melanie Studio
 
-Официальная структурированная база данных, каталоги ценностей (Values) и ассеты для крупнейших режимов Roblox от **Melanie Studio**. 
+Официальная структурированная база данных, каталоги ценностей (Values) и ассеты для крупнейших режимов Roblox от **Melanie Studio**.
 
-Проект создан для автоматического сбора, структурирования и регулярного обновления игровой информации.
+Проект создан для автоматического сбора, систематизации и регулярного обновления игровой информации.
 
 ---
 
 ## 🎮 Поддерживаемые игры и базы данных
 
-### 🐾 Adopt Me!
-Полные данные по питомцам, актуальные рыночные оценки (Values) и эквиваленты обмена.
+### 🔪 Murder Mystery 2 (MM2)
+Комплекты оружия (Godly, Ancient, Chroma, Vintage), редкие предметы и спутники.
 
 <p align="left">
-  <img src="AdoptMe/shadow_dragon.png" width="130" alt="Shadow Dragon">
-  <img src="AdoptMe/bat_dragon.png" width="130" alt="Bat Dragon">
-  <img src="AdoptMe/frost_dragon.png" width="130" alt="Frost Dragon">
-  <img src="AdoptMe/giraffe.png" width="130" alt="Giraffe">
+  <img src="images/commons/bats-knife-2018.png" width="120" alt="Bats Knife 2018">
 </p>
 
 ---
 
-### 🔪 Murder Mystery 2 (MM2)
-Комплекты оружия (Godly, Ancient, Chroma, Vintage), редкие сеты и спутники.
+### 🐾 Adopt Me!
+Полные данные по питомцам, актуальные рыночные оценки (Values) и эквиваленты обмена.
 
 <p align="left">
-  <img src="MurderMustery/icebreaker_set.png" width="130" alt="Icebreaker Set">
-  <img src="MurderMustery/harvester.png" width="130" alt="Harvester">
-  <img src="MurderMustery/corrupt.png" width="130" alt="Corrupt">
-  <img src="MurderMustery/niks_scythe.png" width="130" alt="Nik's Scythe">
+  <img src="images/pets/Hedgehog.png" width="120" alt="Hedgehog">
 </p>
 
 ---
 
 ### ⚔️ Blox Fruits
-Физические дьявольские фрукты, мечи, стили боя и материалы.
+Физические дьявольские фрукты, мечи, стили боя и аксессуары.
 
 <p align="left">
-  <img src="assets/bloxfruits_all/kitsune.png" width="130" alt="Kitsune Fruit">
-  <img src="assets/bloxfruits_all/dragon.png" width="130" alt="Dragon Fruit">
-  <img src="assets/bloxfruits_all/leopard.png" width="130" alt="Leopard Fruit">
-  <img src="assets/bloxfruits_all/dough.png" width="130" alt="Dough Fruit">
+  <img src="assets/bloxfruits_all/dragon_west.webp" width="120" alt="Dragon West Fruit">
 </p>
 
 ---
