@@ -14,21 +14,21 @@ async function downloadImage(url, filepath) {
 }
 
 async function run() {
-    console.log("🚀 Melanie Studio | Финальный парсер PS99...");
+    console.log("🚀 Melanie Studio | Запуск генерации базы и иконок PS99...");
 
-    const dirs = [
-        path.join(__dirname, 'PetSimulator99'),
-        path.join(__dirname, 'PetSimulator99/images'),
+    const imageDirs = [
         path.join(__dirname, 'PetSimulator99/images/huge'),
         path.join(__dirname, 'PetSimulator99/images/titanic'),
         path.join(__dirname, 'PetSimulator99/images/exclusive'),
         path.join(__dirname, 'PetSimulator99/images/exotics')
     ];
 
-    dirs.forEach(dir => {
+    imageDirs.forEach(dir => {
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir, { recursive: true });
         }
+        // Создаем .gitkeep, чтобы Git не игнорировал пустые папки
+        fs.writeFileSync(path.join(dir, '.gitkeep'), '');
     });
 
     try {
@@ -96,7 +96,7 @@ async function run() {
 
         const dbPath = path.join(__dirname, 'PetSimulator99/ps99_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
-        console.log(`✅ Готово! Записано питомцев: ${database.length}, скачано картинок: ${downloadedCount}`);
+        console.log(`✅ Готово! Записано питомцев: ${database.length}, скачано картинок в этом запуске: ${downloadedCount}`);
 
     } catch (error) {
         console.error("❌ Ошибка:", error.message);
