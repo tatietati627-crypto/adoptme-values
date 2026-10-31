@@ -3,7 +3,7 @@ name: Download And Commit Blox Fruits Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # Автозапуск раз в сутки для обновления цен и новых фруктов
+    - cron: '0 0 * * *'
 
 jobs:
   run-scraper:
@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/node-step@v4
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
