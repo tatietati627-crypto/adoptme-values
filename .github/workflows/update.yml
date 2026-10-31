@@ -1,16 +1,16 @@
-name: Download And Commit Blade Ball Data
+name: Update Roblox Databases
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *' # Автообновление каждые 6 часов
 
 jobs:
-  run-scraper:
+  update-databases:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -18,13 +18,15 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run Blade Ball Scraper
-        run: node scraper_bladeball.js
+      - name: Run PS99 Generation Script
+        run: node generate_ps99.js
 
-      - name: Commit and Push Changes
+      - name: Run Blade Ball Generation Script
+        run: node generate_bladeball.js
+
+      - name: Commit and push changes if any
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/ data/
-          git commit -m "Auto-update Blade Ball assets & catalog" || exit 0
-          git push
+          git config --global user.name 'Melanie Studio Bot'
+          git config --global user.email 'bot@melaniestudio.internal'
+          git add PetSimulator99/ BladeBall/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update Pet Simulator 99 and Blade Ball databases [skip ci]" && git push)
