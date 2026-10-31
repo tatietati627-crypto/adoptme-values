@@ -14,7 +14,7 @@ async function downloadImage(url, filepath) {
 }
 
 async function run() {
-    console.log("🚀 Melanie Studio | Отладка структуры API...");
+    console.log("🚀 Melanie Studio | Финальный парсер PS99...");
 
     const dirs = [
         path.join(__dirname, 'PetSimulator99'),
@@ -40,60 +40,35 @@ async function run() {
         });
 
         const json = await response.json();
-        
-        // Выводим в лог структуру ответа, чтобы увидеть ключи
-        console.log("📦 Корневые ключи ответа API:", Object.keys(json));
-        if (json.data) {
-            console.log("📦 Тип json.data:", Array.isArray(json.data) ? "Массив" : typeof json.data);
-            if (Array.isArray(json.data) && json.data.length > 0) {
-                console.log("📦 Ключи первого элемента в data:", Object.keys(json.data[0]));
-            }
-        }
-
-        // Универсальный сбор всех возможных элементов
-        let rawItems = [];
-        if (Array.isArray(json)) {
-            rawItems = json;
-        } else if (json.data) {
-            if (Array.isArray(json.data)) {
-                json.data.forEach(group => {
-                    if (group.items && Array.isArray(group.items)) {
-                        rawItems.push(...group.items);
-                    } else {
-                        rawItems.push(group);
-                    }
-                });
-            } else if (typeof json.data === 'object') {
-                rawItems = Object.values(json.data);
-            }
-        }
+        const rawItems = json.data || [];
 
         const database = [];
         let downloadedCount = 0;
 
         for (const item of rawItems) {
-            const config = item.configData || item.config || {};
-            const name = config.Name || item.name || item.category || item.text;
-            if (!name) continue;
+            const config = item.configData || {};
+            const name = config.Name || item.configName || "Unknown";
 
             let category = "exotics";
             const lowerName = String(name).toLowerCase();
-            if (lowerName.includes("huge")) category = "huge";
-            else if (lowerName.includes("titanic")) category = "titanic";
-            else if (lowerName.includes("exclusive")) category = "exclusive";
+            const lowerCat = String(item.category || "").toLowerCase();
 
-            const rawIcon = config.Icon || item.icon;
+            if (lowerName.includes("huge") || lowerCat.includes("huge")) category = "huge";
+            else if (lowerName.includes("titanic") || lowerCat.includes("titanic")) category = "titanic";
+            else if (lowerName.includes("exclusive") || lowerCat.includes("exclusive")) category = "exclusive";
+
+            const rawIcon = config.Icon;
             const assetId = rawIcon ? String(rawIcon).replace('rbxassetid://', '') : null;
-            const petId = item.id || item.category || name.replace(/[^a-zA-Z0-9]/g, '_');
+            const petId = item.configName || item.category || Math.random().toString(36).substring(7);
 
-            const fileName = `${petId}.png`;
+            const fileName = `${String(petId).replace(/[^a-zA-Z0-9]/g, '_')}.png`;
             const localRelativePath = `PetSimulator99/images/${category}/${fileName}`;
             const localFullPath = path.join(__dirname, localRelativePath);
 
             let imageUrl = null;
             if (assetId) {
                 imageUrl = `https://thumbnails.roblox.com/v1/assets?assetIds=${assetId}&size=420x420&format=Png&isCircular=false`;
-                
+
                 if (!fs.existsSync(localFullPath)) {
                     try {
                         const thumbRes = await fetch(imageUrl);
@@ -121,7 +96,7 @@ async function run() {
 
         const dbPath = path.join(__dirname, 'PetSimulator99/ps99_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
-        console.log(`✅ Обработано. Записано питомцев: ${database.length}, скачано картинок: ${downloadedCount}`);
+        console.log(`✅ Готово! Записано питомцев: ${database.length}, скачано картинок: ${downloadedCount}`);
 
     } catch (error) {
         console.error("❌ Ошибка:", error.message);
