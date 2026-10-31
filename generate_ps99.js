@@ -1,8 +1,20 @@
 const fs = require('fs');
 const path = require('path');
 
+async function downloadImage(url, filepath) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) return false;
+        const buffer = await response.arrayBuffer();
+        fs.writeFileSync(filepath, Buffer.from(buffer));
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+
 async function run() {
-    console.log("🚀 Melanie Studio | Автоматическая генерация базы Pet Simulator 99...");
+    console.log("🚀 Melanie Studio | Парсим реальных питомцев PS99...");
 
     const dirs = [
         path.join(__dirname, 'PetSimulator99'),
@@ -16,7 +28,6 @@ async function run() {
     dirs.forEach(dir => {
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir, { recursive: true });
-            console.log(`📁 Создана папка: ${dir}`);
         }
     });
 
@@ -28,45 +39,70 @@ async function run() {
             }
         });
 
-        if (!response.ok) {
-            throw new Error(`Статус API: ${response.status} ${response.statusText}`);
-        }
-
         const json = await response.json();
-        const pets = Array.isArray(json) ? json : (json.data || []);
-
-        if (!pets.length) {
-            throw new Error(`Массив питомцев пуст. Ответ сервера: ${JSON.stringify(json).slice(0, 150)}`);
-        }
+        const rawData = json.data || [];
 
         const database = [];
+        let downloadedCount = 0;
 
-        pets.forEach(item => {
-            const config = item.configData || {};
-            const name = config.Name || item.category || "Unknown";
-            
-            let category = "exotics";
-            const lowerName = name.toLowerCase();
-            if (lowerName.includes("huge")) category = "huge";
-            else if (lowerName.includes("titanic")) category = "titanic";
-            else if (lowerName.includes("exclusive")) category = "exclusive";
+        // Проходим по категориям API
+        for (const categoryGroup of rawData) {
+            // Реальные питомцы лежат во вложенном массиве items
+            const items = categoryGroup.items || [];
 
-            const assetId = config.Icon ? String(config.Icon).replace('rbxassetid://', '') : null;
+            for (const item of items) {
+                const config = item.configData || {};
+                const name = config.Name || item.category || "Unknown";
 
-            database.push({
-                id: item.category || name,
-                name: name,
-                displayName: config.DisplayName || name,
-                category: category,
-                rarity: config.Rarity ? (config.Rarity.category || config.Rarity) : "Unknown",
-                assetId: assetId,
-                imageUrl: assetId ? `https://thumbnails.roblox.com/v1/assets?assetIds=${assetId}&size=420x420&format=Png` : null
-            });
-        });
+                let category = "exotics";
+                const lowerName = String(name).toLowerCase();
+                if (lowerName.includes("huge")) category = "huge";
+                else if (lowerName.includes("titanic")) category = "titanic";
+                else if (lowerName.includes("exclusive")) category = "exclusive";
+
+                const rawIcon = config.Icon;
+                const assetId = rawIcon ? String(rawIcon).replace('rbxassetid://', '') : null;
+                const petId = item.id || item.category || Math.random().toString(36).substring(7);
+                
+                const fileName = `${petId.replace(/[^a-zA-Z0-9]/g, '_')}.png`;
+                const localRelativePath = `PetSimulator99/images/${category}/${fileName}`;
+                const localFullPath = path.join(__dirname, localRelativePath);
+
+                let imageUrl = null;
+                if (assetId) {
+                    imageUrl = `https://thumbnails.roblox.com/v1/assets?assetIds=${assetId}&size=420x420&format=Png&isCircular=false`;
+                    
+                    if (!fs.existsSync(localFullPath)) {
+                        try {
+                            const thumbRes = await fetch(imageUrl);
+                            const thumbJson = await thumbRes.json();
+                            if (thumbJson && thumbJson.data && thumbJson.data[0] && thumbJson.data[0].imageUrl) {
+                                const realImageUri = thumbJson.data[0].imageUrl;
+                                const success = await downloadImage(realImageUri, localFullPath);
+                                if (success) downloadedCount++;
+                            }
+                        } catch (err) {
+                            // Ошибку скачивания картинки игнорируем, чтобы скрипт шел дальше
+                        }
+                    }
+                }
+
+                database.push({
+                    id: petId,
+                    name: name,
+                    displayName: config.DisplayName || name,
+                    category: category,
+                    rarity: config.Rarity ? (config.Rarity.category || config.Rarity) : "Unknown",
+                    assetId: assetId,
+                    localPath: localRelativePath,
+                    imageUrl: imageUrl
+                });
+            }
+        }
 
         const dbPath = path.join(__dirname, 'PetSimulator99/ps99_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
-        console.log(`✅ Успешно сохранено питомцев: ${database.length} в PetSimulator99/ps99_database.json`);
+        console.log(`✅ Успешно! Питомцев в базе: ${database.length}, скачано картинок: ${downloadedCount}`);
 
     } catch (error) {
         console.error("❌ Ошибка:", error.message);
