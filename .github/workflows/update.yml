@@ -1,29 +1,30 @@
-name: Auto Update Values
+name: Download And Commit Blox Fruits Data
 
 on:
   workflow_dispatch:
-
-permissions:
-  contents: write
+  schedule:
+    - cron: '0 0 * * *' # Автозапуск раз в сутки для обновления цен и новых фруктов
 
 jobs:
-  update:
+  run-scraper:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Проверяем код репозитория
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Устанавливаем Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/node-step@v4
         with:
-          node-version: 18
+          node-version: '20'
 
-      - name: Запуск выгрузки питомцев
-        run: node fetch_pets.js
+      - name: Run Blox Fruits Scraper
+        run: node scraper_bloxfruits.js
 
-      - name: Коммитим изменения
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update: выгрузка всех Pets предметов MM2" && git push)
+          git add assets/ data/
+          git commit -m "Auto-update Blox Fruits values & assets" || exit 0
+          git push
