@@ -6,35 +6,41 @@
 
 ---
 
-## 🎮 Поддерживаемые игры и направления
-
-База данных включает в себя полный спектр предметов, категорий и характеристик:
+## 🎮 Поддерживаемые игры и базы данных
 
 ### 🐾 Adopt Me!
-* **Pets Catalog** — полные данные по всем питомцам (Common, Rare, Legendary).
-* **Values & Trades** — актуальные рыночные оценки, комиссии и эквиваленты обмена.
+Полные данные по питомцам, актуальные рыночные оценки (Values) и эквиваленты обмена.
 
-### 🔪 Murder Mystery 2 (MM2)
-* **Sets & Godlies** — полные комплекты оружия (Godly, Ancient, Chroma, Vintage).
-* **Pets & Rarities** — база спутников, редких предметов и уникальных сетов.
-
-### ⚔️ Blox Fruits
-* **Fruits & Weapons** — физические дьявольские фрукты, мечи и стили боя.
-* **Accessories & Upgrades** — аксессуары, материалы и игровые ценности.
+<p align="left">
+  <img src="AdoptMe/shadow_dragon.png" width="130" alt="Shadow Dragon">
+  <img src="AdoptMe/bat_dragon.png" width="130" alt="Bat Dragon">
+  <img src="AdoptMe/frost_dragon.png" width="130" alt="Frost Dragon">
+  <img src="AdoptMe/giraffe.png" width="130" alt="Giraffe">
+</p>
 
 ---
 
-## 🖼 Галерея и ассеты
+### 🔪 Murder Mystery 2 (MM2)
+Комплекты оружия (Godly, Ancient, Chroma, Vintage), редкие сеты и спутники.
 
-В репозитории хранятся оптимизированные медиа-файлы и иконки для интеграции в веб-сервисы и боты:
+<p align="left">
+  <img src="MurderMustery/icebreaker_set.png" width="130" alt="Icebreaker Set">
+  <img src="MurderMustery/harvester.png" width="130" alt="Harvester">
+  <img src="MurderMustery/corrupt.png" width="130" alt="Corrupt">
+  <img src="MurderMustery/niks_scythe.png" width="130" alt="Nik's Scythe">
+</p>
 
-| Игра | Категория | Пример ассета |
-| :--- | :--- | :--- |
-| **Murder Mystery 2** | Icebreaker Set | `![MM2 Set](MurderMustery/images/icebreaker_set.png)` |
-| **Adopt Me!** | High-Tier Pets | `![Pet Asset](AdoptMe/images/shadow_dragon.png)` |
-| **Blox Fruits** | Mythic Fruits | `![Fruit Asset](assets/bloxfruits_all/kitsune.png)` |
+---
 
-*(Примечание: подставьте актуальные пути к вашим загруженным изображениям)*
+### ⚔️ Blox Fruits
+Физические дьявольские фрукты, мечи, стили боя и материалы.
+
+<p align="left">
+  <img src="assets/bloxfruits_all/kitsune.png" width="130" alt="Kitsune Fruit">
+  <img src="assets/bloxfruits_all/dragon.png" width="130" alt="Dragon Fruit">
+  <img src="assets/bloxfruits_all/leopard.png" width="130" alt="Leopard Fruit">
+  <img src="assets/bloxfruits_all/dough.png" width="130" alt="Dough Fruit">
+</p>
 
 ---
 
@@ -52,4 +58,4 @@
 * **Ограничение доступа:** Копирование, коммерческое использование, парсинг, перепродажа или распространение материалов данного репозитория без официального письменного разрешения владельцев **строго запрещены**.
 * **Защита интеллектуальной собственности:** Мы вложили огромное количество времени и ресурсов в выкачку, систематизацию и поддержку этой базы. В случае обнаружения несанкционированного использования или кражи данных мы будем применять все доступные юридические и технические меры для защиты наших прав.
 
-Для вопросов приобретения доступа или сотрудничества обращайтесь к администрации **Melanie Studio**.
+По вопросам приобретения доступа или сотрудничества обращайтесь к администрации **Melanie Studio**.
