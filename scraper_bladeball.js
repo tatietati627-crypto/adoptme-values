@@ -4,9 +4,7 @@ import path from 'node:path';
 const ASSETS_DIR = './assets/bladeball';
 const DATA_DIR = './data';
 
-// Ссылка на полный актуальный датасет со всеми предметами, мечами, способностями и эмоциями Blade Ball
 const FULL_DATABASE_URL = 'https://raw.githubusercontent.com/blox-data/blade-ball-database/main/data.json'; 
-// Если прямой URL требует подстраховки, используем универсальный эндпоинт или подтягиваем через публичный API
 
 async function main() {
   await fs.mkdir(ASSETS_DIR, { recursive: true });
@@ -25,11 +23,9 @@ async function main() {
       throw new Error(`Ошибка загрузки датасета: ${res.status}`);
     }
   } catch (err) {
-    console.log(`Не удалось взять с основного репозитория (${err.message}), переключаемся на резервный полный каталог...`);
-    // Резервный массив со структурой под полный парсинг всех элементов
+    console.log(`Не удалось взять с основного репозитория (${err.message}), переключаемся на резервный каталог...`);
     items = [
       { name: 'Default Sword', category: 'sword', slug: 'default_sword', img: 'https://tr.rbxcdn.com/180DAY-Asset-F95D83C66B994C3E9CA9F26E770E10AA-Png/150/150/Image/Webp/noFilter' }
-      // Сюда скрипт подтянет полную разметку
     ];
   }
 
@@ -37,7 +33,7 @@ async function main() {
 
   for (const item of items) {
     const name = item.name || 'Unknown Item';
-    const slug = (item.slug || name.toLowerCase().replace(/[^a-z0-9]/g, '_'))+;
+    const slug = (item.slug || name.toLowerCase().replace(/[^a-z0-9]/g, '_'));
     const category = item.category || 'item';
     const imgUrl = item.img || item.image;
 
@@ -54,7 +50,7 @@ async function main() {
         console.log(`[+] Сохранено: [${category}] ${name}`);
       }
     } catch (e) {
-      // Пропускаем битые картинки, но оставляем в каталоге
+      // Пропускаем проблемные файлы
     }
 
     catalog.push({
@@ -67,7 +63,7 @@ async function main() {
 
   const outputPath = path.join(DATA_DIR, 'bladeball_catalog.json');
   await fs.writeFile(outputPath, JSON.stringify(catalog, null, 2));
-  console.log(`Готово! Полный каталог со всеми предметами сохранен в ${outputPath}. Всего элементов: ${catalog.length}`);
+  console.log(`Готово! Каталог сохранен. Всего элементов: ${catalog.length}`);
 }
 
 main();
