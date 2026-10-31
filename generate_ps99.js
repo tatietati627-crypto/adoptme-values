@@ -14,7 +14,7 @@ async function downloadImage(url, filepath) {
 }
 
 async function run() {
-    console.log("🚀 Melanie Studio | Парсим реальную базу PS99 без пустышек...");
+    console.log("🚀 Melanie Studio | Загружаем базу PS99...");
 
     const dirs = [
         path.join(__dirname, 'PetSimulator99'),
@@ -40,31 +40,33 @@ async function run() {
         });
 
         const json = await response.json();
-        const groups = json.data || [];
-        
+        if (!json || !json.data) {
+            throw new Error("Не удалось получить данные от сервера.");
+        }
+
         const database = [];
         let downloadedCount = 0;
 
+        // Проходим по всем категориям и вытаскиваем реальные элементы из items
+        const groups = json.data;
         for (const group of groups) {
             const items = group.items || [];
             for (const item of items) {
                 const config = item.configData;
-                // Если конфига нет или нет реального имени — пропускаем мусор
-                if (!config || !config.Name) continue;
+                if (!config || !config.Name) continue; // Пропускаем пустые заглушки
 
                 const name = config.Name;
-                const categoryRaw = (item.category || "").toLowerCase();
-
                 let category = "exotics";
                 const lowerName = name.toLowerCase();
-                if (lowerName.includes("huge") || categoryRaw.includes("huge")) category = "huge";
-                else if (lowerName.includes("titanic") || categoryRaw.includes("titanic")) category = "titanic";
-                else if (lowerName.includes("exclusive") || categoryRaw.includes("exclusive")) category = "exclusive";
+                
+                if (lowerName.includes("huge")) category = "huge";
+                else if (lowerName.includes("titanic")) category = "titanic";
+                else if (lowerName.includes("exclusive")) category = "exclusive";
 
                 const rawIcon = config.Icon;
                 const assetId = rawIcon ? String(rawIcon).replace('rbxassetid://', '') : null;
                 const petId = item.category || name.replace(/[^a-zA-Z0-9]/g, '_');
-                
+
                 const fileName = `${petId}.png`;
                 const localRelativePath = `PetSimulator99/images/${category}/${fileName}`;
                 const localFullPath = path.join(__dirname, localRelativePath);
@@ -101,7 +103,7 @@ async function run() {
 
         const dbPath = path.join(__dirname, 'PetSimulator99/ps99_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
-        console.log(`✅ Готово! Нормальных питомцев в базе: ${database.length}, скачано картинок: ${downloadedCount}`);
+        console.log(`✅ Успешно! Записано нормальных питомцев: ${database.length}, скачано картинок: ${downloadedCount}`);
 
     } catch (error) {
         console.error("❌ Ошибка:", error.message);
