@@ -1,15 +1,14 @@
 name: Update Pet Simulator 99 Database
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *' # Обновляется каждые 6 часов (можно изменить по желанию)
 
 jobs:
   update-ps99:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,4 +26,4 @@ jobs:
           git config --global user.name 'Melanie Studio Bot'
           git config --global user.email 'bot@melaniestudio.internal'
           git add PetSimulator99/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update Pet Simulator 99 database [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update Pet Simulator 99 database and assets [skip ci]" && git push)
