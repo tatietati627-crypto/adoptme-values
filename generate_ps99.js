@@ -23,7 +23,7 @@ async function run() {
     try {
         const response = await fetch('https://biggamesapi.io/api/collection/Pets', {
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 'Accept': 'application/json'
             }
         });
@@ -33,17 +33,17 @@ async function run() {
         }
 
         const json = await response.json();
+        const pets = Array.isArray(json) ? json : (json.data || []);
 
-        if (json.status !== "success") {
-            throw new Error("Ошибка в формате данных API Big Games");
+        if (!pets.length) {
+            throw new Error(`Массив питомцев пуст. Ответ сервера: ${JSON.stringify(json).slice(0, 150)}`);
         }
 
-        const pets = json.data;
         const database = [];
 
         pets.forEach(item => {
-            const config = item.configData;
-            const name = config.Name || item.category;
+            const config = item.configData || {};
+            const name = config.Name || item.category || "Unknown";
             
             let category = "exotics";
             const lowerName = name.toLowerCase();
@@ -51,14 +51,14 @@ async function run() {
             else if (lowerName.includes("titanic")) category = "titanic";
             else if (lowerName.includes("exclusive")) category = "exclusive";
 
-            const assetId = config.Icon ? config.Icon.replace('rbxassetid://', '') : null;
+            const assetId = config.Icon ? String(config.Icon).replace('rbxassetid://', '') : null;
 
             database.push({
-                id: item.category,
+                id: item.category || name,
                 name: name,
                 displayName: config.DisplayName || name,
                 category: category,
-                rarity: config.Rarity ? config.Rarity.category : "Unknown",
+                rarity: config.Rarity ? (config.Rarity.category || config.Rarity) : "Unknown",
                 assetId: assetId,
                 imageUrl: assetId ? `https://thumbnails.roblox.com/v1/assets?assetIds=${assetId}&size=420x420&format=Png` : null
             });
