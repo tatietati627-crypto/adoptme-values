@@ -3,20 +3,19 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 async function run() {
-    console.log("🚀 Melanie Studio | Клонирование иконки и генерация базы PS99...");
+    console.log("🚀 Melanie Studio | Полное клонирование иконок и базы PS99...");
 
     const baseDir = path.join(__dirname, 'PetSimulator99');
     const imagesDir = path.join(baseDir, 'images');
     
-    // Создаем базовые директории
-    ['huge', 'titanic', 'exclusive', 'exotics'].forEach(cat => {
+    // Создаем все категории папок в соответствии с репозиторием документации
+    ['gargantuan', 'huge', 'titanic', 'exclusive', 'exotics'].forEach(cat => {
         const d = path.join(imagesDir, cat);
         if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
         fs.writeFileSync(path.join(d, '.gitkeep'), '');
     });
 
     try {
-        // 1. Скачиваем официальные иконки напрямую через git sparse-checkout из их репозитория
         const tempRepoDir = path.join(__dirname, 'temp_api_docs');
         if (fs.existsSync(tempRepoDir)) {
             fs.rmSync(tempRepoDir, { recursive: true, force: true });
@@ -28,7 +27,6 @@ async function run() {
 
         const iconsSourcePath = path.join(tempRepoDir, 'Pet Icons');
 
-        // 2. Запрашиваем JSON с данными питомцев
         console.log("📊 Загружаем данные API питомцев...");
         const response = await fetch('https://biggamesapi.io/api/collection/Pets', {
             headers: {
@@ -43,7 +41,6 @@ async function run() {
         const database = [];
         let copiedCount = 0;
 
-        // Рекурсивная функция для поиска файла иконки в папках docs
         function findIconFile(dir, filename) {
             if (!fs.existsSync(dir)) return null;
             const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -67,7 +64,8 @@ async function run() {
             const lowerName = String(name).toLowerCase();
             const lowerCat = String(item.category || "").toLowerCase();
 
-            if (lowerName.includes("huge") || lowerCat.includes("huge")) category = "huge";
+            if (lowerName.includes("gargantuan") || lowerCat.includes("gargantuan")) category = "gargantuan";
+            else if (lowerName.includes("huge") || lowerCat.includes("huge")) category = "huge";
             else if (lowerName.includes("titanic") || lowerCat.includes("titanic")) category = "titanic";
             else if (lowerName.includes("exclusive") || lowerCat.includes("exclusive")) category = "exclusive";
 
@@ -78,10 +76,8 @@ async function run() {
             const localRelativePath = `PetSimulator99/images/${category}/${fileNamePng}`;
             const localFullPath = path.join(__dirname, localRelativePath);
 
-            // Ищем соответствующую иконку в скачанной документации по имени или ID
             let foundSourceIcon = null;
             if (fs.existsSync(iconsSourcePath)) {
-                // Пробуем искать по точному имени файла или ID
                 foundSourceIcon = findIconFile(iconsSourcePath, `${name}.png`) || 
                                   findIconFile(iconsSourcePath, `${petId}.png`);
             }
@@ -101,7 +97,6 @@ async function run() {
             });
         }
 
-        // Очищаем временную папку с репозиторием
         if (fs.existsSync(tempRepoDir)) {
             fs.rmSync(tempRepoDir, { recursive: true, force: true });
         }
@@ -109,10 +104,10 @@ async function run() {
         const dbPath = path.join(baseDir, 'ps99_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
         
-        console.log(`✅ Готово! Записано питомцев: ${database.length}, скопировано иконок из репозитория: ${copiedCount}`);
+        console.log(`✅ Готово! Питомцев в базе: ${database.length}, скопировано иконок: ${copiedCount}`);
 
     } catch (error) {
-        console.error("❌ Критическая ошибка:", error.message);
+        console.error("❌ Ошибка:", error.message);
         process.exit(1);
     }
 }
