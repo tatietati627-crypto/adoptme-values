@@ -1,4 +1,4 @@
-name: Update Roblox Databases
+name: Update Blade Ball Database
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron: '0 */6 * * *' # Автообновление каждые 6 часов
 
 jobs:
-  update-databases:
+  update-bladeball:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,9 +18,6 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run PS99 Generation Script
-        run: node generate_ps99.js
-
       - name: Run Blade Ball Generation Script
         run: node generate_bladeball.js
 
@@ -28,5 +25,5 @@ jobs:
         run: |
           git config --global user.name 'Melanie Studio Bot'
           git config --global user.email 'bot@melaniestudio.internal'
-          git add PetSimulator99/ BladeBall/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update Pet Simulator 99 and Blade Ball databases [skip ci]" && git push)
+          git add BladeBall/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update Blade Ball database [skip ci]" && git push)
