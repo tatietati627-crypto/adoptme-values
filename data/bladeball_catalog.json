@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Dual Darkheart",
+    "category": "sword",
+    "slug": "dual_darkheart",
+    "image": "/assets/bladeball/dual_darkheart.webp"
+  },
+  {
+    "name": "Rapture",
+    "category": "sword",
+    "slug": "rapture",
+    "image": "/assets/bladeball/rapture.webp"
+  },
+  {
+    "name": "Quantum",
+    "category": "sword",
+    "slug": "quantum",
+    "image": "/assets/bladeball/quantum.webp"
+  },
+  {
+    "name": "Scythe",
+    "category": "sword",
+    "slug": "scythe",
+    "image": "/assets/bladeball/scythe.webp"
+  },
+  {
+    "name": "Dragon Blade",
+    "category": "sword",
+    "slug": "dragon_blade",
+    "image": "/assets/bladeball/dragon_blade.webp"
+  },
+  {
+    "name": "Soul Reaper",
+    "category": "sword",
+    "slug": "soul_reaper",
+    "image": "/assets/bladeball/soul_reaper.webp"
+  },
+  {
+    "name": "Infinity Blade",
+    "category": "sword",
+    "slug": "infinity_blade",
+    "image": "/assets/bladeball/infinity_blade.webp"
+  },
+  {
+    "name": "Cyber Katana",
+    "category": "sword",
+    "slug": "cyber_katana",
+    "image": "/assets/bladeball/cyber_katana.webp"
+  },
+  {
+    "name": "Dash",
+    "category": "ability",
+    "slug": "dash",
+    "image": "/assets/bladeball/dash.webp"
+  },
+  {
+    "name": "Invisibility",
+    "category": "ability",
+    "slug": "invisibility",
+    "image": "/assets/bladeball/invisibility.webp"
+  },
+  {
+    "name": "Thunder Dash",
+    "category": "ability",
+    "slug": "thunder_dash",
+    "image": "/assets/bladeball/thunder_dash.webp"
+  },
+  {
+    "name": "Telekinesis",
+    "category": "ability",
+    "slug": "telekinesis",
+    "image": "/assets/bladeball/telekinesis.webp"
+  },
+  {
+    "name": "Super Jump",
+    "category": "ability",
+    "slug": "super_jump",
+    "image": "/assets/bladeball/super_jump.webp"
+  },
+  {
+    "name": "Pull",
+    "category": "ability",
+    "slug": "pull",
+    "image": "/assets/bladeball/pull.webp"
+  },
+  {
+    "name": "Nuke Explosion",
+    "category": "explosion",
+    "slug": "nuke_explosion",
+    "image": "/assets/bladeball/nuke_explosion.webp"
+  },
+  {
+    "name": "Black Hole Explosion",
+    "category": "explosion",
+    "slug": "black_hole_explosion",
+    "image": "/assets/bladeball/black_hole_explosion.webp"
+  }
+]
