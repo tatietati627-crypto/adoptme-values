@@ -9,19 +9,23 @@ async function run() {
 
     if (!fs.existsSync(imagesDir)) {
         fs.mkdirSync(imagesDir, { recursive: true });
+        fs.writeFileSync(path.join(imagesDir, '.gitkeep'), '');
     }
 
     try {
-        // Вытягиваем базу данных предметов с открытого API
+        // Делаем запрос с полноценными заголовками браузера, чтобы обходить защиту
         const response = await fetch('https://api.bbtslist.com/api/v1/items', {
+            method: 'GET',
             headers: {
-                'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)',
-                'Accept': 'application/json'
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'application/json, text/plain, */*',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Referer': 'https://bbtslist.com/'
             }
         });
 
         if (!response.ok) {
-            throw new Error(`Ошибка сети: ${response.statusText}`);
+            throw new Error(`Ошибка сервера: ${response.status} ${response.statusText}`);
         }
 
         const items = await response.json();
@@ -36,7 +40,6 @@ async function run() {
             const fileName = `${sanitizedId}.png`;
             const localRelativePath = `BladeBall/images/${fileName}`;
 
-            // Картинку берём напрямую через официальный CDN Roblox по assetId
             const imageUrl = assetId 
                 ? `https://tr.rbxcdn.com/${assetId}/420/420/Image/Png` 
                 : (item.image || item.iconUrl || null);
