@@ -1,39 +1,55 @@
-# Adopt Me Values 🐾
-> 🚀 **An AI-Assisted Portfolio Project**
+# ⚡ Roblox Asset & Value Database | Melanie Studio
 
-A modern, fast, and responsive web application designed to help Roblox "Adopt Me!" players discover, filter, and track the trading values of over 2,600+ in-game items, including Pets, Vehicles, Toys, Strollers, and Gifts.
+Официальная структурированная база данных, каталоги ценностей (Values) и ассеты для крупнейших режимов Roblox от **Melanie Studio**. 
 
-## 🌟 Features
-- **Comprehensive Database**: Contains 2600+ items with accurate trading values.
-- **Advanced Filtering**: Categorize items by Pets, Vehicles, Toys, Strollers, and Gifts.
-- **Smart Sorting**: Sort items by Newest, High/Low Values, and Alphabetical order.
-- **Bilingual Support**: Fully localized in both **English (EN)** and **Turkish (TR)**.
-- **High Performance**: Uses Infinite Scroll (Intersection Observer) for lag-free browsing.
-- **Glassmorphism UI**: Beautiful, modern, and fully responsive design.
+Проект создан для автоматического сбора, структурирования и регулярного обновления игровой информации.
 
-## 🚀 Live Demo
-You can view the live project here: [https://ironbabatekkral.github.io/adoptme-values](https://ironbabatekkral.github.io/adoptme-values)
+---
 
-## 🛠️ Built With
-- **HTML5 & CSS3** (Custom Glassmorphism styling)
-- **Vanilla JavaScript** (No external frameworks)
-- **Node.js** (For local data fetching and image downloading scripts)
-- **JSON** (Static data hosting for fast retrieval)
+## 🎮 Поддерживаемые игры и направления
 
-## 📡 API & Data Transparency (Educational Purpose)
-This project was built to demonstrate web scraping, data structuring, and frontend UI design as part of a **cybersecurity and software development portfolio**. 
-- Data is extracted systematically using custom Node.js scrips (`update_values.js`) to parse DOM elements from community platforms.
-- The raw data is then restructured, stored statically in a clean JSON format, and optimized for speed.
-- The trading calculator logic introduces a foundation for building **custom supply-and-demand algorithms** on top of existing baseline values, allowing this tool to evolve beyond a simple reflection of third-party data into an independent valuation engine.
+База данных включает в себя полный спектр предметов, категорий и характеристик:
 
-## ⚖️ Legal & Copyright Disclaimer
-This is an open-source, non-commercial, and fan-made project created entirely for educational and portfolio purposes. 
+### 🐾 Adopt Me!
+* **Pets Catalog** — полные данные по всем питомцам (Common, Rare, Legendary).
+* **Values & Trades** — актуальные рыночные оценки, комиссии и эквиваленты обмена.
 
-**Code License:** The source code (HTML, CSS, JS) of this project is provided under the [MIT License](LICENSE).
+### 🔪 Murder Mystery 2 (MM2)
+* **Sets & Godlies** — полные комплекты оружия (Godly, Ancient, Chroma, Vintage).
+* **Pets & Rarities** — база спутников, редких предметов и уникальных сетов.
 
-**Assets & Data Attribution:**
-- **Credits:** Baseline values and initial data structures are credited to **[elvebredd.com](https://elvebredd.com)** and the wider Adopt Me trading community. Thank you for your immense effort in cataloging these items.
-- All pet data, names, shapes, and images belong to their respective original owners (Uplift Games).
-- This codebase and its creators claim **no ownership** over the Adopt Me intellectual property, Roblox assets, or third-party website algorithms.
-- This is an unofficial, independent tool and is **not** affiliated with, endorsed by, or sponsored by Uplift Games, Roblox Corporation, or Elvebredd.
-- If you are the owner of any content used in this repository and wish for it to be removed, please open an issue and it will be deleted immediately.
+### ⚔️ Blox Fruits
+* **Fruits & Weapons** — физические дьявольские фрукты, мечи и стили боя.
+* **Accessories & Upgrades** — аксессуары, материалы и игровые ценности.
+
+---
+
+## 🖼 Галерея и ассеты
+
+В репозитории хранятся оптимизированные медиа-файлы и иконки для интеграции в веб-сервисы и боты:
+
+| Игра | Категория | Пример ассета |
+| :--- | :--- | :--- |
+| **Murder Mystery 2** | Icebreaker Set | `![MM2 Set](MurderMustery/images/icebreaker_set.png)` |
+| **Adopt Me!** | High-Tier Pets | `![Pet Asset](AdoptMe/images/shadow_dragon.png)` |
+| **Blox Fruits** | Mythic Fruits | `![Fruit Asset](assets/bloxfruits_all/kitsune.png)` |
+
+*(Примечание: подставьте актуальные пути к вашим загруженным изображениям)*
+
+---
+
+## 🔄 Обновления и поддержка
+
+База данных постоянно пополняется и актуализируется в автоматическом режиме с помощью GitHub Actions. Разработчики **Melanie Studio** непрерывно трудятся над добавлением новых ивентов, предметов и свежих ценностей сразу после их выхода в играх.
+
+---
+
+## ⚠️ Условия использования и Лицензия
+
+**ДАННЫЙ РЕПОЗИТОРИЙ И БАЗА ДАННЫХ НЕ ЯВЛЯЮТСЯ БЕСПЛАТНЫМИ.**
+
+* **Авторские права:** Все собранные данные, структуры файлов, скрипты автоматизации и обработанные ассеты принадлежат **Melanie Studio**.
+* **Ограничение доступа:** Копирование, коммерческое использование, парсинг, перепродажа или распространение материалов данного репозитория без официального письменного разрешения владельцев **строго запрещены**.
+* **Защита интеллектуальной собственности:** Мы вложили огромное количество времени и ресурсов в выкачку, систематизацию и поддержку этой базы. В случае обнаружения несанкционированного использования или кражи данных мы будем применять все доступные юридические и технические меры для защиты наших прав.
+
+Для вопросов приобретения доступа или сотрудничества обращайтесь к администрации **Melanie Studio**.
