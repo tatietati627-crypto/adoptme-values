@@ -14,7 +14,7 @@ async function downloadImage(url, filepath) {
 }
 
 async function run() {
-    console.log("🚀 Melanie Studio | Запуск генерации базы и иконок PS99...");
+    console.log("🚀 Melanie Studio | Принудительная загрузка базы и иконок...");
 
     const imageDirs = [
         path.join(__dirname, 'PetSimulator99/images/huge'),
@@ -27,8 +27,6 @@ async function run() {
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir, { recursive: true });
         }
-        // Создаем .gitkeep, чтобы Git не игнорировал пустые папки
-        fs.writeFileSync(path.join(dir, '.gitkeep'), '');
     });
 
     try {
@@ -65,21 +63,12 @@ async function run() {
             const localRelativePath = `PetSimulator99/images/${category}/${fileName}`;
             const localFullPath = path.join(__dirname, localRelativePath);
 
-            let imageUrl = null;
-            if (assetId) {
-                imageUrl = `https://thumbnails.roblox.com/v1/assets?assetIds=${assetId}&size=420x420&format=Png&isCircular=false`;
+            // Прямые ссылки на иконки из хранилища Roblox, минуя проблемное API тумб
+            let imageUrl = assetId ? `https://tr.rbxcdn.com/${assetId}/420/420/Image/Png` : null;
 
-                if (!fs.existsSync(localFullPath)) {
-                    try {
-                        const thumbRes = await fetch(imageUrl);
-                        const thumbJson = await thumbRes.json();
-                        if (thumbJson && thumbJson.data && thumbJson.data[0] && thumbJson.data[0].imageUrl) {
-                            const realImageUri = thumbJson.data[0].imageUrl;
-                            const success = await downloadImage(realImageUri, localFullPath);
-                            if (success) downloadedCount++;
-                        }
-                    } catch (err) {}
-                }
+            if (imageUrl && !fs.existsSync(localFullPath)) {
+                const success = await downloadImage(imageUrl, localFullPath);
+                if (success) downloadedCount++;
             }
 
             database.push({
@@ -96,7 +85,7 @@ async function run() {
 
         const dbPath = path.join(__dirname, 'PetSimulator99/ps99_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
-        console.log(`✅ Готово! Записано питомцев: ${database.length}, скачано картинок в этом запуске: ${downloadedCount}`);
+        console.log(`✅ Готово! Питомцев в базе: ${database.length}, скачано картинок: ${downloadedCount}`);
 
     } catch (error) {
         console.error("❌ Ошибка:", error.message);
