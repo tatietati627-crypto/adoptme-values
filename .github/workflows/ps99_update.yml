@@ -2,8 +2,8 @@ name: Update Pet Simulator 99 Database
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Запускается каждые 6 часов автоматически
-  workflow_dispatch: # Позволяет запустить обновление вручную кнопкой на вкладке Actions
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   update-ps99:
@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
 
       - name: Run PS99 Generation Script
-        run: node scripts/generate_ps99.js
+        run: node generate_ps99.js
 
       - name: Commit and push changes if any
         run: |
