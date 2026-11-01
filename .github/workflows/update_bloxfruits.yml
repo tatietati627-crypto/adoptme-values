@@ -3,7 +3,7 @@ name: Update Blox Fruits Database
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *' # Автообновление каждые 6 часов
+    - cron: '0 */6 * * *'
 
 jobs:
   update-bloxfruits:
@@ -17,6 +17,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Install dependencies
+        run: npm install cheerio
 
       - name: Run Blox Fruits Generation Script
         run: node generate_bloxfruits.js
