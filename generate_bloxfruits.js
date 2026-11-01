@@ -1,112 +1,87 @@
-const fs = require('fs');
-const path = require('path');
-const puppeteer = require('puppeteer-extra');
-const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+import fs from 'node:fs/promises';
+import path from 'node:path';
 
-puppeteer.use(StealthPlugin());
+const TARGET_URL = 'https://bloxfruitsvalues.gg/values';
+const ASSETS_DIR = './BloxFruits/images';
+const DATA_DIR = './BloxFruits';
 
-async function run() {
-    console.log("🚀 Melanie Studio | Запуск Puppeteer для обхода Cloudflare...");
-
-    const baseDir = path.join(__dirname, 'BloxFruits');
-    const imagesDir = path.join(baseDir, 'images');
-
-    if (!fs.existsSync(imagesDir)) {
-        fs.mkdirSync(imagesDir, { recursive: true });
-    }
-
-    // Запускаем виртуальный браузер
-    const browser = await puppeteer.launch({
-        headless: "new",
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-blink-features=AutomationControlled'
-        ]
-    });
-
-    try {
-        const page = await browser.newPage();
-
-        // Подменяем User-Agent на реальный iPad Safari
-        await page.setUserAgent('Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1');
-
-        console.log("🌐 Открываем bloxfruitsvalues.gg/values...");
-        await page.goto('https://bloxfruitsvalues.gg/values', {
-            waitUntil: 'networkidle2',
-            timeout: 60000
-        });
-
-        // Ждем разгадки Cloudflare и появления элемента данных
-        await page.waitForSelector('#__NEXT_DATA__', { timeout: 30000 });
-
-        console.log("🔓 Защита пройдена! Извлекаем JSON-данные...");
-
-        // Достаем JSON прямо из памяти загруженной страницы
-        const nextDataRaw = await page.$eval('#__NEXT_DATA__', el => el.textContent);
-        const nextData = JSON.parse(nextDataRaw);
-
-        const pageProps = nextData?.props?.pageProps || {};
-        const items = pageProps.items || pageProps.values || pageProps.initialData || [];
-
-        console.log(`📦 Найдено реальных предметов на сайте: ${items.length}`);
-
-        const database = [];
-        let downloadedCount = 0;
-
-        for (const item of items) {
-            const name = item.name || item.title || "Unknown";
-            const category = item.category || item.type || "Fruits";
-            const value = item.value || item.price || 0;
-            const demand = item.demand || "Normal";
-            const imgPath = item.image || item.icon || item.imageUrl || null;
-
-            const sanitizedId = String(name).toLowerCase().replace(/[^a-z0-9]/g, '_');
-            const fileName = `${sanitizedId}.png`;
-            const localFilePath = path.join(imagesDir, fileName);
-            const localRelativePath = `BloxFruits/images/${fileName}`;
-
-            let fullImgUrl = null;
-            if (imgPath) {
-                fullImgUrl = imgPath.startsWith('http') ? imgPath : `https://bloxfruitsvalues.gg${imgPath}`;
-                
-                try {
-                    // Скачиваем картинку прямо через контекст браузера (с его куками и заголовками)
-                    const imageBuffer = await page.evaluate(async (url) => {
-                        const res = await fetch(url);
-                        const buffer = await res.arrayBuffer();
-                        return Array.from(new Uint8Array(buffer));
-                    }, fullImgUrl);
-
-                    fs.writeFileSync(localFilePath, Buffer.from(imageBuffer));
-                    downloadedCount++;
-                } catch (e) {
-                    console.log(`⚠️ Не удалось скачать картинку для ${name}`);
-                }
-            }
-
-            database.push({
-                id: sanitizedId,
-                name,
-                category,
-                value,
-                demand,
-                imageUrl: fullImgUrl,
-                localPath: localRelativePath
-            });
-        }
-
-        const dbPath = path.join(baseDir, 'bloxfruits_database.json');
-        fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
-
-        console.log(`✅ Парсинг успешно завершен! Сохранено: ${database.length} предметов. Скачано картинок: ${downloadedCount}`);
-
-    } catch (error) {
-        console.error("❌ ОШИБКА ПАРСИНГА:", error.message);
-        process.exit(1);
-    } finally {
-        await browser.close();
-    }
+async function ensureDir(dirPath) {
+  await fs.mkdir(dirPath, { recursive: true });
 }
 
-run();
+async function main() {
+  await ensureDir(ASSETS_DIR);
+  await ensureDir(DATA_DIR);
+
+  console.log('====================================================');
+  console.log('Запуск парсера Blox Fruits Values...');
+  console.log('Target: ' + TARGET_URL);
+  console.log('====================================================\n');
+  console.log('Ищем данные Blox Fruits...');
+
+  try {
+    const res = await fetch(TARGET_URL, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+      },
+      signal: AbortSignal.timeout(20000)
+    });
+
+    if (!res.ok) {
+      throw new Error(`Не удалось открыть страницу. Статус: ${res.status}`);
+    }
+
+    const html = await res.text();
+    
+    // Ищем любые упоминания webp-картинок предметов на странице
+    const matches = [...html.matchAll(/\/fruits\/([a-zA-Z0-9_-]+)\.webp/g)];
+    const uniqueItems = [...new Set(matches.map(m => m[1]))];
+
+    console.log(`Найдено уникальных картинок: ${uniqueItems.length}`);
+
+    const catalog = [];
+
+    for (const rawName of uniqueItems) {
+      const slug = rawName.toLowerCase().replace(/[^a-z0-9_]/g, '_');
+      const formattedName = rawName
+        .split('_')
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(' ');
+
+      const imageUrl = `https://bloxfruitsvalues.gg/fruits/${rawName}.webp`;
+      const filePath = path.join(ASSETS_DIR, `${slug}.webp`);
+
+      try {
+        const imgRes = await fetch(imageUrl, { signal: AbortSignal.timeout(10000) });
+        if (imgRes.ok) {
+          const buffer = Buffer.from(await imgRes.arrayBuffer());
+          await fs.writeFile(filePath, buffer);
+          console.log(`[+] Скачан: ${formattedName}`);
+        }
+      } catch (e) {
+        console.log(`[-] Ошибка скачивания картинки: ${formattedName}`);
+      }
+
+      catalog.push({
+        name: formattedName,
+        slug: slug,
+        original_image: imageUrl,
+        local_image: `BloxFruits/images/${slug}.webp`
+      });
+    }
+
+    console.log(`\nУспешно обработано предметов: ${catalog.length}`);
+
+    // Сохраняем полный итоговый JSON
+    const outputPath = path.join(DATA_DIR, 'bloxfruits_database.json');
+    await fs.writeFile(outputPath, JSON.stringify(catalog, null, 2));
+    console.log(`Каталог сохранён в: ${outputPath}`);
+
+  } catch (error) {
+    console.error('Ошибка в работе скрипта:', error.message);
+    process.exit(1);
+  }
+}
+
+main();
