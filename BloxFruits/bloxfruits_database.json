@@ -1,0 +1,20 @@
+[
+  {
+    "id": "trading_guide",
+    "name": "Trading guide",
+    "category": "Fruits",
+    "value": "N/A",
+    "demand": "Normal",
+    "imageUrl": null,
+    "localPath": "BloxFruits/images/trading_guide.png"
+  },
+  {
+    "id": "community_tracked_blox_fruits_values__updated_as_the_market_moves_",
+    "name": "Community-tracked Blox Fruits values, updated as the market moves.",
+    "category": "Fruits",
+    "value": "N/A",
+    "demand": "Normal",
+    "imageUrl": "/_next/image?url=%2Flogo.webp&w=640&q=75&dpl=dpl_Hb6UqbaTBbYSN1i2hvDeZCrAyTWx",
+    "localPath": "BloxFruits/images/community_tracked_blox_fruits_values__updated_as_the_market_moves_.png"
+  }
+]
