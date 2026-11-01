@@ -1,0 +1,29 @@
+name: Update Blox Fruits Database
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *' # Автообновление каждые 6 часов
+
+jobs:
+  update-bloxfruits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Blox Fruits Generation Script
+        run: node generate_bloxfruits.js
+
+      - name: Commit and push changes if any
+        run: |
+          git config --global user.name 'Melanie Studio Bot'
+          git config --global user.email 'bot@melaniestudio.internal'
+          git add BloxFruits/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update Blox Fruits database & images [skip ci]" && git push)
