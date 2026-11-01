@@ -1,58 +1,85 @@
 const fs = require('fs');
 const path = require('path');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+
+puppeteer.use(StealthPlugin());
 
 async function run() {
-    console.log("🚀 Melanie Studio | Загрузка базы Blox Fruits из открытого источника...");
+    console.log("🚀 Melanie Studio | Запуск Puppeteer для обхода Cloudflare...");
 
     const baseDir = path.join(__dirname, 'BloxFruits');
     const imagesDir = path.join(baseDir, 'images');
 
     if (!fs.existsSync(imagesDir)) {
         fs.mkdirSync(imagesDir, { recursive: true });
-        fs.writeFileSync(path.join(imagesDir, '.gitkeep'), '');
     }
 
-    try {
-        // Надежный открытый эндпоинт с полным каталогом Blox Fruits
-        const targetUrl = 'https://raw.githubusercontent.com/BloxDB/BloxFruits-Database/main/fruits.json';
-        console.log(`🌐 Запрос к: ${targetUrl}`);
+    // Запускаем виртуальный браузер
+    const browser = await puppeteer.launch({
+        headless: "new",
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-blink-features=AutomationControlled'
+        ]
+    });
 
-        const response = await fetch(targetUrl, {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)'
-            }
+    try {
+        const page = await browser.newPage();
+
+        // Подменяем User-Agent на реальный iPad Safari
+        await page.setUserAgent('Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1');
+
+        console.log("🌐 Открываем bloxfruitsvalues.gg/values...");
+        await page.goto('https://bloxfruitsvalues.gg/values', {
+            waitUntil: 'networkidle2',
+            timeout: 60000
         });
 
-        if (!response.ok) {
-            throw new Error(`Ошибка загрузки: ${response.status} ${response.statusText}`);
-        }
+        // Ждем разгадки Cloudflare и появления элемента данных
+        await page.waitForSelector('#__NEXT_DATA__', { timeout: 30000 });
 
-        const items = await response.json();
-        console.log(`📦 Получено предметов: ${Array.isArray(items) ? items.length : 0}`);
+        console.log("🔓 Защита пройдена! Извлекаем JSON-данные...");
+
+        // Достаем JSON прямо из памяти загруженной страницы
+        const nextDataRaw = await page.$eval('#__NEXT_DATA__', el => el.textContent);
+        const nextData = JSON.parse(nextDataRaw);
+
+        const pageProps = nextData?.props?.pageProps || {};
+        const items = pageProps.items || pageProps.values || pageProps.initialData || [];
+
+        console.log(`📦 Найдено реальных предметов на сайте: ${items.length}`);
 
         const database = [];
         let downloadedCount = 0;
 
-        for (const item of (Array.isArray(items) ? items : [])) {
+        for (const item of items) {
             const name = item.name || item.title || "Unknown";
             const category = item.category || item.type || "Fruits";
             const value = item.value || item.price || 0;
             const demand = item.demand || "Normal";
-            const imgUrl = item.image || item.icon || null;
+            const imgPath = item.image || item.icon || item.imageUrl || null;
 
             const sanitizedId = String(name).toLowerCase().replace(/[^a-z0-9]/g, '_');
             const fileName = `${sanitizedId}.png`;
             const localFilePath = path.join(imagesDir, fileName);
             const localRelativePath = `BloxFruits/images/${fileName}`;
 
-            if (imgUrl) {
+            let fullImgUrl = null;
+            if (imgPath) {
+                fullImgUrl = imgPath.startsWith('http') ? imgPath : `https://bloxfruitsvalues.gg${imgPath}`;
+                
                 try {
-                    const imgRes = await fetch(imgUrl);
-                    if (imgRes.ok) {
-                        const buffer = Buffer.from(await imgRes.arrayBuffer());
-                        fs.writeFileSync(localFilePath, buffer);
-                        downloadedCount++;
-                    }
+                    // Скачиваем картинку прямо через контекст браузера (с его куками и заголовками)
+                    const imageBuffer = await page.evaluate(async (url) => {
+                        const res = await fetch(url);
+                        const buffer = await res.arrayBuffer();
+                        return Array.from(new Uint8Array(buffer));
+                    }, fullImgUrl);
+
+                    fs.writeFileSync(localFilePath, Buffer.from(imageBuffer));
+                    downloadedCount++;
                 } catch (e) {
                     console.log(`⚠️ Не удалось скачать картинку для ${name}`);
                 }
@@ -64,7 +91,7 @@ async function run() {
                 category,
                 value,
                 demand,
-                imageUrl: imgUrl,
+                imageUrl: fullImgUrl,
                 localPath: localRelativePath
             });
         }
@@ -72,11 +99,13 @@ async function run() {
         const dbPath = path.join(baseDir, 'bloxfruits_database.json');
         fs.writeFileSync(dbPath, JSON.stringify(database, null, 2));
 
-        console.log(`✅ Успешно! Сохранено элементов: ${database.length}. Скачано картинок: ${downloadedCount}`);
+        console.log(`✅ Парсинг успешно завершен! Сохранено: ${database.length} предметов. Скачано картинок: ${downloadedCount}`);
 
     } catch (error) {
-        console.error("❌ ОШИБКА:", error.message);
+        console.error("❌ ОШИБКА ПАРСИНГА:", error.message);
         process.exit(1);
+    } finally {
+        await browser.close();
     }
 }
 
