@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 async function run() {
-    console.log("🚀 Melanie Studio | Загрузка базы и картинок Blox Fruits...");
+    console.log("🚀 Melanie Studio | Автопоиск эндпоинта и парсинг Blox Fruits...");
 
     const baseDir = path.join(__dirname, 'BloxFruits');
     const imagesDir = path.join(baseDir, 'images');
@@ -12,27 +12,47 @@ async function run() {
     }
 
     try {
-        // Запрос к внутреннему API-маршруту сайта для получения полного списка
-        const targetUrl = 'https://bloxfruitsvalues.gg/_next/data/latest/values.json'; 
-        console.log(`🌐 Запрос к: ${targetUrl}`);
+        const mainUrl = 'https://bloxfruitsvalues.gg/values';
+        console.log(`🌐 Загружаем главную страницу: ${mainUrl}`);
 
-        const response = await fetch(targetUrl, {
+        const mainRes = await fetch(mainUrl, {
             headers: {
-                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1',
-                'Accept': 'application/json',
-                'Referer': 'https://bloxfruitsvalues.gg/values'
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
             }
         });
 
-        if (!response.ok) {
-            throw new Error(`Сервер вернул ошибку: ${response.status} ${response.statusText}`);
+        if (!mainRes.ok) throw new Error(`Не удалось открыть сайт: ${mainRes.status}`);
+        const html = await mainRes.text();
+
+        // Ищем уникальный buildId, который использует Next.js на сайте
+        const buildIdMatch = html.match(/"buildId":"([^"]+)"/);
+        if (!buildIdMatch) {
+            throw new Error("Не удалось найти buildId сайта");
         }
 
-        const json = await response.json();
+        const buildId = buildIdMatch[1];
+        console.log(`🔑 Найден buildId: ${buildId}`);
+
+        // Формируем правильный динамический JSON-путь Next.js
+        const dataUrl = `https://bloxfruitsvalues.gg/_next/data/${buildId}/values.json`;
+        console.log(`🌐 Запрос к реальному API: ${dataUrl}`);
+
+        const dataRes = await fetch(dataUrl, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+                'Accept': 'application/json'
+            }
+        });
+
+        if (!dataRes.ok) {
+            throw new Error(`Ошибка API: ${dataRes.status} ${dataRes.statusText}`);
+        }
+
+        const json = await dataRes.json();
         const pageProps = json?.pageProps || {};
         const items = pageProps.items || pageProps.values || pageProps.data || [];
 
-        console.log(`📦 Найдено элементов в базе: ${items.length}`);
+        console.log(`📦 Найдено элементов: ${items.length}`);
 
         const database = [];
         let downloadedCount = 0;
@@ -54,25 +74,23 @@ async function run() {
                 fullImgUrl = imgPath.startsWith('http') ? imgPath : `https://bloxfruitsvalues.gg${imgPath}`;
                 
                 try {
-                    const imgRes = await fetch(fullImgUrl, {
-                        headers: { 'User-Agent': 'Mozilla/5.0' }
-                    });
+                    const imgRes = await fetch(fullImgUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } });
                     if (imgRes.ok) {
                         const buffer = Buffer.from(await imgRes.arrayBuffer());
                         fs.writeFileSync(localFilePath, buffer);
                         downloadedCount++;
                     }
-                } catch (err) {
-                    console.log(`⚠️ Не удалось скачать картинку для: ${name}`);
+                } catch (e) {
+                    console.log(`⚠️ Не удалось скачать картинку для ${name}`);
                 }
             }
 
             database.push({
                 id: sanitizedId,
-                name: name,
-                category: category,
-                value: value,
-                demand: demand,
+                name,
+                category,
+                value,
+                demand,
                 imageUrl: fullImgUrl,
                 localPath: localRelativePath
             });
@@ -84,7 +102,7 @@ async function run() {
         console.log(`✅ Успешно! Сохранено предметов: ${database.length}. Скачано картинок: ${downloadedCount}`);
 
     } catch (error) {
-        console.error("❌ ОШИБКА ПАРСИНГА:", error.message);
+        console.error("❌ ОШИБКА:", error.message);
         process.exit(1);
     }
 }
