@@ -14,7 +14,8 @@ async function main() {
   await ensureDir(DATA_DIR);
 
   console.log('====================================================');
-  console.log('Запуск парсера Blox Fruits Values...');
+  console.log('Запуск стабильного парсера Blox Fruits Values...');
+  console.log('Target: ' + TARGET_URL);
   console.log('====================================================\n');
 
   try {
@@ -31,100 +32,88 @@ async function main() {
     }
 
     const html = await res.text();
-    
-    // Парсим скрытый JSON Next.js (__NEXT_DATA__)
-    let rawItems = [];
+
+    // Пытаемся вытянуть реальные данные из Next.js JSON на странице для заполнения цен и перманентов
+    let siteItemsMap = {};
     const nextDataMatch = html.match(/<script id="__NEXT_DATA__" type="application\/json">(.*?)<\/script>/s);
     if (nextDataMatch) {
       try {
         const jsonData = JSON.parse(nextDataMatch[1]);
         const pageProps = jsonData?.props?.pageProps || {};
-        rawItems = pageProps.items || pageProps.values || pageProps.initialData || [];
+        const rawItems = pageProps.items || pageProps.values || pageProps.initialData || [];
+        
+        if (Array.isArray(rawItems)) {
+          for (const item of rawItems) {
+            const itemName = item.name || item.title || "";
+            const slugKey = itemName.toLowerCase().replace(/[^a-z0-9_]/g, '_');
+            if (slugKey) {
+              siteItemsMap[slugKey] = item;
+            }
+          }
+        }
       } catch (e) {
-        console.log('[-] Не удалось распарсить __NEXT_DATA__, используем поиск по картинкам.');
+        console.log('[-] Не удалось распарсить __NEXT_DATA__, используем базовые данные картинок.');
       }
     }
+  
+    // Ищем любые упоминания webp-картинок предметов на странице (как в твоем рабочем скрипте)
+    const matches = [...html.matchAll(/\/fruits\/([a-zA-Z0-9_-]+)\.webp/g)];
+    const uniqueItems = [...new Set(matches.map(m => m[1]))];
+
+    console.log(`Найдено уникальных картинок: ${uniqueItems.length}`);
 
     const catalog = [];
 
-    if (Array.isArray(rawItems) && rawItems.length > 0) {
-      console.log(`Найдено структурированных элементов: ${rawItems.length}`);
-      
-      for (const item of rawItems) {
-        const name = item.name || item.title || "Unknown";
-        const slug = name.toLowerCase().replace(/[^a-z0-9_]/g, '_');
-        const imageUrl = item.image || item.icon || `https://bloxfruitsvalues.gg/fruits/${slug}.webp`;
-        const filePath = path.join(ASSETS_DIR, `${slug}.webp`);
+    for (const rawName of uniqueItems) {
+      const slug = rawName.toLowerCase().replace(/[^a-z0-9_]/g, '_');
+      const formattedName = rawName
+        .split('_')
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(' ');
 
-        try {
-          const imgRes = await fetch(imageUrl, { signal: AbortSignal.timeout(10000) });
-          if (imgRes.ok) {
-            const buffer = Buffer.from(await imgRes.arrayBuffer());
-            await fs.writeFile(filePath, buffer);
-          }
-        } catch (e) {}
+      const imageUrl = `https://bloxfruitsvalues.gg/fruits/${rawName}.webp`;
+      const filePath = path.join(ASSETS_DIR, `${slug}.webp`);
 
-        catalog.push({
-          id: slug,
-          name: name,
-          category: item.category || "Fruits",
-          localPath: `BloxFruits/images/${slug}.webp`,
-          variants: {
-            regular: {
-              value: item.regularValue || item.value || "N/A",
-              demand: item.regularDemand || item.demand || "Stable",
-              beliPrice: item.beliPrice || "N/A"
-            },
-            permanent: {
-              value: item.permanentValue || item.permValue || "N/A",
-              demand: item.permanentDemand || "High",
-              robuxPrice: item.robuxPrice || "N/A"
-            }
-          }
-        });
+      try {
+        const imgRes = await fetch(imageUrl, { signal: AbortSignal.timeout(10000) });
+        if (imgRes.ok) {
+          const buffer = Buffer.from(await imgRes.arrayBuffer());
+          await fs.writeFile(filePath, buffer);
+          console.log(`[+] Скачан: ${formattedName}`);
+        }
+      } catch (e) {
+        console.log(`[-] Ошибка скачивания картинки: ${formattedName}`);
       }
-    } else {
-      const matches = [...html.matchAll(/\/fruits\/([a-zA-Z0-9_-]+)\.webp/g)];
-      const uniqueItems = [...new Set(matches.map(m => m[1]))];
 
-      console.log(`Найдено уникальных предметов по картинкам: ${uniqueItems.length}`);
+      // Берем данные с сайта, если они нашлись, иначе ставим аккуратные дефолтные поля
+      const itemData = siteItemsMap[slug] || {};
 
-      for (const rawName of uniqueItems) {
-        const slug = rawName.toLowerCase().replace(/[^a-z0-9_]/g, '_');
-        const formattedName = rawName
-          .split('_')
-          .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-          .join(' ');
-
-        const imageUrl = `https://bloxfruitsvalues.gg/fruits/${rawName}.webp`;
-        const filePath = path.join(ASSETS_DIR, `${slug}.webp`);
-
-        try {
-          const imgRes = await fetch(imageUrl, { signal: AbortSignal.timeout(10000) });
-          if (imgRes.ok) {
-            const buffer = Buffer.from(await imgRes.arrayBuffer());
-            await fs.writeFile(filePath, buffer);
+      catalog.push({
+        id: slug,
+        name: formattedName,
+        category: itemData.category || "Fruits",
+        localPath: `BloxFruits/images/${slug}.webp`,
+        variants: {
+          regular: {
+            value: itemData.value || itemData.regularValue || "N/A",
+            demand: itemData.demand || itemData.regularDemand || "Stable",
+            beliPrice: itemData.beliPrice || "N/A"
+          },
+          permanent: {
+            value: itemData.permValue || itemData.permanentValue || "N/A",
+            demand: itemData.permDemand || itemData.permanentDemand || "High",
+            robuxPrice: itemData.robuxPrice || "N/A"
           }
-        } catch (e) {}
-
-        catalog.push({
-          id: slug,
-          name: formattedName,
-          category: "Fruits",
-          localPath: `BloxFruits/images/${slug}.webp`,
-          variants: {
-            regular: { value: "N/A", demand: "Stable", beliPrice: "N/A" },
-            permanent: { value: "N/A", demand: "High", robuxPrice: "N/A" }
-          }
-        });
-      }
+        }
+      });
     }
 
-    console.log(`\nИтоговый каталог: ${catalog.length} предметов.`);
+    console.log(`\nУспешно обработано предметов: ${catalog.length}`);
 
+    // Сохраняем итоговый JSON в правильное место
     const outputPath = path.join(DATA_DIR, 'bloxfruits_database.json');
     await fs.writeFile(outputPath, JSON.stringify(catalog, null, 2));
-    console.log(`Каталог успешно сохранён в: ${outputPath}`);
+    console.log(`Каталог сохранён в: ${outputPath}`);
 
   } catch (error) {
     console.error('Ошибка в работе скрипта:', error.message);
