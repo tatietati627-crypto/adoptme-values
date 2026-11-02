@@ -18,11 +18,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Puppeteer & Stealth Plugin
-        run: |
-          npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer
-
-      - name: Run Blox Fruits Scraper
+      - name: Run Blox Fruits Generation Script
         run: node generate_bloxfruits.js
 
       - name: Commit and push changes if any
