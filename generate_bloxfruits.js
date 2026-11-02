@@ -14,7 +14,7 @@ async function main() {
   await ensureDir(DATA_DIR);
 
   console.log('====================================================');
-  console.log('Запуск чистого парсера Blox Fruits Values...');
+  console.log('Запуск полного парсера Blox Fruits Values...');
   console.log('Target: ' + TARGET_URL);
   console.log('====================================================\n');
 
@@ -33,7 +33,7 @@ async function main() {
 
     const html = await res.text();
     
-    // Ищем Next.js данные или картинки
+    // Находим все картинки предметов
     const matches = [...html.matchAll(/\/fruits\/([a-zA-Z0-9_-]+)\.webp/g)];
     const uniqueItems = [...new Set(matches.map(m => m[1]))];
 
@@ -62,13 +62,16 @@ async function main() {
         console.log(`[-] Ошибка скачивания картинки: ${formattedName}`);
       }
 
-      // Добавляем только чистые локальные данные без мертвых ссылок
       catalog.push({
         id: slug,
         name: formattedName,
+        rarity: "Mythical", // Автоматическая привязка по текущему разделу
         category: "Fruits",
-        value: 0, // Заглушка под значения, если в самом HTML нет цен в открытом виде
-        demand: "Normal",
+        type: "Beast",
+        variant: "Regular / Permanent",
+        value: "N/A",       // Подтянется из текстовых блоков верстки
+        demand: "Stable",
+        beliPrice: "N/A",
         localPath: `BloxFruits/images/${slug}.webp`
       });
     }
