@@ -2,1093 +2,1639 @@
   {
     "id": "dragon_west",
     "name": "Dragon-west",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/dragon_west.webp"
+    "localPath": "BloxFruits/images/dragon_west.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "dragon_east",
     "name": "Dragon-east",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/dragon_east.webp"
+    "localPath": "BloxFruits/images/dragon_east.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "kitsune",
     "name": "Kitsune",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/kitsune.webp"
+    "localPath": "BloxFruits/images/kitsune.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "magnet",
     "name": "Magnet",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/magnet.webp"
+    "localPath": "BloxFruits/images/magnet.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "control",
     "name": "Control",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/control.webp"
+    "localPath": "BloxFruits/images/control.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "tiger",
     "name": "Tiger",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/tiger.webp"
+    "localPath": "BloxFruits/images/tiger.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "yeti",
     "name": "Yeti",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/yeti.webp"
+    "localPath": "BloxFruits/images/yeti.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "gas",
     "name": "Gas",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/gas.webp"
+    "localPath": "BloxFruits/images/gas.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "dough",
     "name": "Dough",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/dough.webp"
+    "localPath": "BloxFruits/images/dough.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "lightning",
     "name": "Lightning",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/lightning.webp"
+    "localPath": "BloxFruits/images/lightning.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "venom",
     "name": "Venom",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/venom.webp"
+    "localPath": "BloxFruits/images/venom.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "t_rex",
     "name": "T-rex",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/t_rex.webp"
+    "localPath": "BloxFruits/images/t_rex.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "spirit",
     "name": "Spirit",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/spirit.webp"
+    "localPath": "BloxFruits/images/spirit.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "mammoth",
     "name": "Mammoth",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/mammoth.webp"
+    "localPath": "BloxFruits/images/mammoth.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "portal",
     "name": "Portal",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/portal.webp"
+    "localPath": "BloxFruits/images/portal.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "gravity",
     "name": "Gravity",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/gravity.webp"
+    "localPath": "BloxFruits/images/gravity.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "pain",
     "name": "Pain",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/pain.webp"
+    "localPath": "BloxFruits/images/pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "buddha",
     "name": "Buddha",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/buddha.webp"
+    "localPath": "BloxFruits/images/buddha.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "shadow",
     "name": "Shadow",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/shadow.webp"
+    "localPath": "BloxFruits/images/shadow.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "blizzard",
     "name": "Blizzard",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/blizzard.webp"
+    "localPath": "BloxFruits/images/blizzard.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "phoenix",
     "name": "Phoenix",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/phoenix.webp"
+    "localPath": "BloxFruits/images/phoenix.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "sound",
     "name": "Sound",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/sound.webp"
+    "localPath": "BloxFruits/images/sound.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "creation",
     "name": "Creation",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/creation.webp"
+    "localPath": "BloxFruits/images/creation.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "spider",
     "name": "Spider",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/spider.webp"
+    "localPath": "BloxFruits/images/spider.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "fruit_notifier",
     "name": "Fruit-notifier",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/fruit_notifier.webp"
+    "localPath": "BloxFruits/images/fruit_notifier.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "mythical_scrolls",
     "name": "Mythical-scrolls",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/mythical_scrolls.webp"
+    "localPath": "BloxFruits/images/mythical_scrolls.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "dark_blade",
     "name": "Dark-blade",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/dark_blade.webp"
+    "localPath": "BloxFruits/images/dark_blade.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "legendary_scrolls",
     "name": "Legendary-scrolls",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/legendary_scrolls.webp"
-  },
-  {
-    "id": "2x_money",
-    "name": "2x-money",
-    "rarity": "Mythical",
-    "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/2x_money.webp"
+    "localPath": "BloxFruits/images/legendary_scrolls.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "2x_mastery",
     "name": "2x-mastery",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/2x_mastery.webp"
+    "localPath": "BloxFruits/images/2x_mastery.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "2x_money",
+    "name": "2x-money",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/2x_money.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "fruit_storage",
     "name": "Fruit-storage",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/fruit_storage.webp"
-  },
-  {
-    "id": "2x_boss_drops",
-    "name": "2x-boss-drops",
-    "rarity": "Mythical",
-    "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/2x_boss_drops.webp"
+    "localPath": "BloxFruits/images/fruit_storage.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "fast_boats",
     "name": "Fast-boats",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/fast_boats.webp"
+    "localPath": "BloxFruits/images/fast_boats.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "2x_boss_drops",
+    "name": "2x-boss-drops",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/2x_boss_drops.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "hellfire",
     "name": "Hellfire",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/hellfire.webp"
+    "localPath": "BloxFruits/images/hellfire.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "chromatic_eclipse",
     "name": "Chromatic-eclipse",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/chromatic_eclipse.webp"
+    "localPath": "BloxFruits/images/chromatic_eclipse.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "rabid_blade",
     "name": "Rabid-blade",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/rabid_blade.webp"
+    "localPath": "BloxFruits/images/rabid_blade.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "permanent_dragon_token",
     "name": "Permanent-dragon-token",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/permanent_dragon_token.webp"
+    "localPath": "BloxFruits/images/permanent_dragon_token.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "galaxy_kitsune",
     "name": "Galaxy-kitsune",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/galaxy_kitsune.webp"
+    "localPath": "BloxFruits/images/galaxy_kitsune.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "crimson_kitsune",
     "name": "Crimson-kitsune",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/crimson_kitsune.webp"
+    "localPath": "BloxFruits/images/crimson_kitsune.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "ember_dragon",
     "name": "Ember-dragon",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/ember_dragon.webp"
+    "localPath": "BloxFruits/images/ember_dragon.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "parrot_chromatic",
     "name": "Parrot-chromatic",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/parrot_chromatic.webp"
+    "localPath": "BloxFruits/images/parrot_chromatic.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "meme",
     "name": "Meme",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/meme.webp"
+    "localPath": "BloxFruits/images/meme.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "purple_lightning",
     "name": "Purple-lightning",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/purple_lightning.webp"
+    "localPath": "BloxFruits/images/purple_lightning.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "dragon_token",
     "name": "Dragon-token",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/dragon_token.webp"
+    "localPath": "BloxFruits/images/dragon_token.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "super_spirit_pain",
     "name": "Super-spirit-pain",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/super_spirit_pain.webp"
+    "localPath": "BloxFruits/images/super_spirit_pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "arc_steel_magnet",
     "name": "Arc-steel-magnet",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/arc_steel_magnet.webp"
+    "localPath": "BloxFruits/images/arc_steel_magnet.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "divine_portal",
     "name": "Divine-portal",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/divine_portal.webp"
+    "localPath": "BloxFruits/images/divine_portal.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "red_lightning",
     "name": "Red-lightning",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/red_lightning.webp"
+    "localPath": "BloxFruits/images/red_lightning.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "dog_blade",
     "name": "Dog-blade",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/dog_blade.webp"
+    "localPath": "BloxFruits/images/dog_blade.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "runic_yeti",
     "name": "Runic-yeti",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/runic_yeti.webp"
+    "localPath": "BloxFruits/images/runic_yeti.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "fiend_yeti",
     "name": "Fiend-yeti",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/fiend_yeti.webp"
+    "localPath": "BloxFruits/images/fiend_yeti.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "werewolf",
     "name": "Werewolf",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/werewolf.webp"
+    "localPath": "BloxFruits/images/werewolf.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "celestial_pain",
     "name": "Celestial-pain",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/celestial_pain.webp"
+    "localPath": "BloxFruits/images/celestial_pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "sadness_pain",
     "name": "Sadness-pain",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/sadness_pain.webp"
+    "localPath": "BloxFruits/images/sadness_pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "azura_bomb",
     "name": "Azura-bomb",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/azura_bomb.webp"
-  },
-  {
-    "id": "nuclear_bomb",
-    "name": "Nuclear-bomb",
-    "rarity": "Mythical",
-    "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/nuclear_bomb.webp"
+    "localPath": "BloxFruits/images/azura_bomb.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "frustration_pain",
     "name": "Frustration-pain",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/frustration_pain.webp"
+    "localPath": "BloxFruits/images/frustration_pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "nuclear_bomb",
+    "name": "Nuclear-bomb",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/nuclear_bomb.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "love",
     "name": "Love",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/love.webp"
+    "localPath": "BloxFruits/images/love.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "rubber",
     "name": "Rubber",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/rubber.webp"
+    "localPath": "BloxFruits/images/rubber.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "quake",
     "name": "Quake",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/quake.webp"
+    "localPath": "BloxFruits/images/quake.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "eagle",
     "name": "Eagle",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/eagle.webp"
+    "localPath": "BloxFruits/images/eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "dark",
     "name": "Dark",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/dark.webp"
+    "localPath": "BloxFruits/images/dark.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "magma",
     "name": "Magma",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/magma.webp"
+    "localPath": "BloxFruits/images/magma.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "ghost",
     "name": "Ghost",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/ghost.webp"
+    "localPath": "BloxFruits/images/ghost.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "light",
     "name": "Light",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/light.webp"
+    "localPath": "BloxFruits/images/light.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "ice",
     "name": "Ice",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/ice.webp"
+    "localPath": "BloxFruits/images/ice.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "diamond",
     "name": "Diamond",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/diamond.webp"
+    "localPath": "BloxFruits/images/diamond.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "flame",
     "name": "Flame",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/flame.webp"
+    "localPath": "BloxFruits/images/flame.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "spike",
     "name": "Spike",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/spike.webp"
+    "localPath": "BloxFruits/images/spike.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "sand",
     "name": "Sand",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/sand.webp"
+    "localPath": "BloxFruits/images/sand.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "smoke",
     "name": "Smoke",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/smoke.webp"
+    "localPath": "BloxFruits/images/smoke.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "bomb",
     "name": "Bomb",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/bomb.webp"
+    "localPath": "BloxFruits/images/bomb.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "spring",
     "name": "Spring",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/spring.webp"
+    "localPath": "BloxFruits/images/spring.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "blade",
     "name": "Blade",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/blade.webp"
+    "localPath": "BloxFruits/images/blade.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "spin",
     "name": "Spin",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/spin.webp"
+    "localPath": "BloxFruits/images/spin.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "rocket",
     "name": "Rocket",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/rocket.webp"
+    "localPath": "BloxFruits/images/rocket.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "lime_blade",
     "name": "Lime-blade",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/lime_blade.webp"
+    "localPath": "BloxFruits/images/lime_blade.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "scarler_ghost",
     "name": "Scarler-ghost",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/scarler_ghost.webp"
+    "localPath": "BloxFruits/images/scarler_ghost.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "yellow_lightning",
     "name": "Yellow-lightning",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/yellow_lightning.webp"
+    "localPath": "BloxFruits/images/yellow_lightning.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "green_lightning",
     "name": "Green-lightning",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/green_lightning.webp"
+    "localPath": "BloxFruits/images/green_lightning.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "rose_quartz_diamond",
     "name": "Rose-quartz-diamond",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/rose_quartz_diamond.webp"
+    "localPath": "BloxFruits/images/rose_quartz_diamond.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "emerald_diamond",
     "name": "Emerald-diamond",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/emerald_diamond.webp"
+    "localPath": "BloxFruits/images/emerald_diamond.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "topaz_diamond",
     "name": "Topaz-diamond",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/topaz_diamond.webp"
+    "localPath": "BloxFruits/images/topaz_diamond.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "ruby_diamond",
     "name": "Ruby-diamond",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/ruby_diamond.webp"
+    "localPath": "BloxFruits/images/ruby_diamond.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "torment_pain",
     "name": "Torment-pain",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/torment_pain.webp"
+    "localPath": "BloxFruits/images/torment_pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "starlight_gravity",
     "name": "Starlight-gravity",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/starlight_gravity.webp"
+    "localPath": "BloxFruits/images/starlight_gravity.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "glacier_eagle",
     "name": "Glacier-eagle",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/glacier_eagle.webp"
+    "localPath": "BloxFruits/images/glacier_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "requiem_eagle",
     "name": "Requiem-eagle",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/requiem_eagle.webp"
+    "localPath": "BloxFruits/images/requiem_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "thermite_bomb",
     "name": "Thermite-bomb",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/thermite_bomb.webp"
+    "localPath": "BloxFruits/images/thermite_bomb.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "celebration_bomb",
     "name": "Celebration-bomb",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/celebration_bomb.webp"
+    "localPath": "BloxFruits/images/celebration_bomb.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   },
   {
     "id": "matrix_eagle",
     "name": "Matrix-eagle",
-    "rarity": "Mythical",
     "category": "Fruits",
-    "type": "Beast",
-    "variant": "Regular / Permanent",
-    "value": "N/A",
-    "demand": "Stable",
-    "beliPrice": "N/A",
-    "localPath": "BloxFruits/images/matrix_eagle.webp"
+    "localPath": "BloxFruits/images/matrix_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
   }
 ]
