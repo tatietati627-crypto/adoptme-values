@@ -1,548 +1,730 @@
 [
   {
+    "id": "dragon_west",
     "name": "Dragon-west",
-    "slug": "dragon_west",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/dragon-west.webp",
-    "local_image": "BloxFruits/images/dragon_west.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/dragon_west.webp"
   },
   {
+    "id": "dragon_east",
     "name": "Dragon-east",
-    "slug": "dragon_east",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/dragon-east.webp",
-    "local_image": "BloxFruits/images/dragon_east.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/dragon_east.webp"
   },
   {
+    "id": "kitsune",
     "name": "Kitsune",
-    "slug": "kitsune",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/kitsune.webp",
-    "local_image": "BloxFruits/images/kitsune.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/kitsune.webp"
   },
   {
+    "id": "magnet",
     "name": "Magnet",
-    "slug": "magnet",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/magnet.webp",
-    "local_image": "BloxFruits/images/magnet.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/magnet.webp"
   },
   {
+    "id": "control",
     "name": "Control",
-    "slug": "control",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/control.webp",
-    "local_image": "BloxFruits/images/control.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/control.webp"
   },
   {
+    "id": "tiger",
     "name": "Tiger",
-    "slug": "tiger",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/tiger.webp",
-    "local_image": "BloxFruits/images/tiger.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/tiger.webp"
   },
   {
+    "id": "yeti",
     "name": "Yeti",
-    "slug": "yeti",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/yeti.webp",
-    "local_image": "BloxFruits/images/yeti.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/yeti.webp"
   },
   {
+    "id": "gas",
     "name": "Gas",
-    "slug": "gas",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/gas.webp",
-    "local_image": "BloxFruits/images/gas.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/gas.webp"
   },
   {
+    "id": "dough",
     "name": "Dough",
-    "slug": "dough",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/dough.webp",
-    "local_image": "BloxFruits/images/dough.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/dough.webp"
   },
   {
+    "id": "lightning",
     "name": "Lightning",
-    "slug": "lightning",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/lightning.webp",
-    "local_image": "BloxFruits/images/lightning.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/lightning.webp"
   },
   {
+    "id": "venom",
     "name": "Venom",
-    "slug": "venom",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/venom.webp",
-    "local_image": "BloxFruits/images/venom.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/venom.webp"
   },
   {
+    "id": "t_rex",
     "name": "T-rex",
-    "slug": "t_rex",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/t-rex.webp",
-    "local_image": "BloxFruits/images/t_rex.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/t_rex.webp"
   },
   {
+    "id": "spirit",
     "name": "Spirit",
-    "slug": "spirit",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/spirit.webp",
-    "local_image": "BloxFruits/images/spirit.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/spirit.webp"
   },
   {
+    "id": "mammoth",
     "name": "Mammoth",
-    "slug": "mammoth",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/mammoth.webp",
-    "local_image": "BloxFruits/images/mammoth.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/mammoth.webp"
   },
   {
+    "id": "portal",
     "name": "Portal",
-    "slug": "portal",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/portal.webp",
-    "local_image": "BloxFruits/images/portal.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/portal.webp"
   },
   {
+    "id": "gravity",
     "name": "Gravity",
-    "slug": "gravity",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/gravity.webp",
-    "local_image": "BloxFruits/images/gravity.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/gravity.webp"
   },
   {
+    "id": "pain",
     "name": "Pain",
-    "slug": "pain",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/pain.webp",
-    "local_image": "BloxFruits/images/pain.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/pain.webp"
   },
   {
+    "id": "buddha",
     "name": "Buddha",
-    "slug": "buddha",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/buddha.webp",
-    "local_image": "BloxFruits/images/buddha.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/buddha.webp"
   },
   {
+    "id": "shadow",
     "name": "Shadow",
-    "slug": "shadow",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/shadow.webp",
-    "local_image": "BloxFruits/images/shadow.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/shadow.webp"
   },
   {
+    "id": "blizzard",
     "name": "Blizzard",
-    "slug": "blizzard",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/blizzard.webp",
-    "local_image": "BloxFruits/images/blizzard.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/blizzard.webp"
   },
   {
+    "id": "phoenix",
     "name": "Phoenix",
-    "slug": "phoenix",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/phoenix.webp",
-    "local_image": "BloxFruits/images/phoenix.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/phoenix.webp"
   },
   {
+    "id": "sound",
     "name": "Sound",
-    "slug": "sound",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/sound.webp",
-    "local_image": "BloxFruits/images/sound.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/sound.webp"
   },
   {
+    "id": "creation",
     "name": "Creation",
-    "slug": "creation",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/creation.webp",
-    "local_image": "BloxFruits/images/creation.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/creation.webp"
   },
   {
+    "id": "spider",
     "name": "Spider",
-    "slug": "spider",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/spider.webp",
-    "local_image": "BloxFruits/images/spider.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/spider.webp"
   },
   {
+    "id": "fruit_notifier",
     "name": "Fruit-notifier",
-    "slug": "fruit_notifier",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/fruit-notifier.webp",
-    "local_image": "BloxFruits/images/fruit_notifier.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/fruit_notifier.webp"
   },
   {
+    "id": "mythical_scrolls",
     "name": "Mythical-scrolls",
-    "slug": "mythical_scrolls",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/mythical-scrolls.webp",
-    "local_image": "BloxFruits/images/mythical_scrolls.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/mythical_scrolls.webp"
   },
   {
+    "id": "dark_blade",
     "name": "Dark-blade",
-    "slug": "dark_blade",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/dark-blade.webp",
-    "local_image": "BloxFruits/images/dark_blade.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/dark_blade.webp"
   },
   {
+    "id": "legendary_scrolls",
     "name": "Legendary-scrolls",
-    "slug": "legendary_scrolls",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/legendary-scrolls.webp",
-    "local_image": "BloxFruits/images/legendary_scrolls.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/legendary_scrolls.webp"
   },
   {
-    "name": "2x-mastery",
-    "slug": "2x_mastery",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/2x-mastery.webp",
-    "local_image": "BloxFruits/images/2x_mastery.webp"
-  },
-  {
+    "id": "2x_money",
     "name": "2x-money",
-    "slug": "2x_money",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/2x-money.webp",
-    "local_image": "BloxFruits/images/2x_money.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/2x_money.webp"
   },
   {
+    "id": "2x_mastery",
+    "name": "2x-mastery",
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/2x_mastery.webp"
+  },
+  {
+    "id": "fruit_storage",
     "name": "Fruit-storage",
-    "slug": "fruit_storage",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/fruit-storage.webp",
-    "local_image": "BloxFruits/images/fruit_storage.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/fruit_storage.webp"
   },
   {
-    "name": "Fast-boats",
-    "slug": "fast_boats",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/fast-boats.webp",
-    "local_image": "BloxFruits/images/fast_boats.webp"
-  },
-  {
+    "id": "2x_boss_drops",
     "name": "2x-boss-drops",
-    "slug": "2x_boss_drops",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/2x-boss-drops.webp",
-    "local_image": "BloxFruits/images/2x_boss_drops.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/2x_boss_drops.webp"
   },
   {
+    "id": "fast_boats",
+    "name": "Fast-boats",
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/fast_boats.webp"
+  },
+  {
+    "id": "hellfire",
     "name": "Hellfire",
-    "slug": "hellfire",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/hellfire.webp",
-    "local_image": "BloxFruits/images/hellfire.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/hellfire.webp"
   },
   {
+    "id": "chromatic_eclipse",
     "name": "Chromatic-eclipse",
-    "slug": "chromatic_eclipse",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/chromatic-eclipse.webp",
-    "local_image": "BloxFruits/images/chromatic_eclipse.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/chromatic_eclipse.webp"
   },
   {
+    "id": "rabid_blade",
     "name": "Rabid-blade",
-    "slug": "rabid_blade",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/rabid-blade.webp",
-    "local_image": "BloxFruits/images/rabid_blade.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/rabid_blade.webp"
   },
   {
+    "id": "permanent_dragon_token",
     "name": "Permanent-dragon-token",
-    "slug": "permanent_dragon_token",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/permanent-dragon-token.webp",
-    "local_image": "BloxFruits/images/permanent_dragon_token.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/permanent_dragon_token.webp"
   },
   {
+    "id": "galaxy_kitsune",
     "name": "Galaxy-kitsune",
-    "slug": "galaxy_kitsune",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/galaxy-kitsune.webp",
-    "local_image": "BloxFruits/images/galaxy_kitsune.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/galaxy_kitsune.webp"
   },
   {
+    "id": "crimson_kitsune",
     "name": "Crimson-kitsune",
-    "slug": "crimson_kitsune",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/crimson-kitsune.webp",
-    "local_image": "BloxFruits/images/crimson_kitsune.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/crimson_kitsune.webp"
   },
   {
+    "id": "ember_dragon",
     "name": "Ember-dragon",
-    "slug": "ember_dragon",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/ember-dragon.webp",
-    "local_image": "BloxFruits/images/ember_dragon.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/ember_dragon.webp"
   },
   {
+    "id": "parrot_chromatic",
     "name": "Parrot-chromatic",
-    "slug": "parrot_chromatic",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/parrot-chromatic.webp",
-    "local_image": "BloxFruits/images/parrot_chromatic.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/parrot_chromatic.webp"
   },
   {
+    "id": "meme",
     "name": "Meme",
-    "slug": "meme",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/meme.webp",
-    "local_image": "BloxFruits/images/meme.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/meme.webp"
   },
   {
+    "id": "purple_lightning",
     "name": "Purple-lightning",
-    "slug": "purple_lightning",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/purple-lightning.webp",
-    "local_image": "BloxFruits/images/purple_lightning.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/purple_lightning.webp"
   },
   {
+    "id": "dragon_token",
     "name": "Dragon-token",
-    "slug": "dragon_token",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/dragon-token.webp",
-    "local_image": "BloxFruits/images/dragon_token.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/dragon_token.webp"
   },
   {
+    "id": "super_spirit_pain",
     "name": "Super-spirit-pain",
-    "slug": "super_spirit_pain",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/super-spirit-pain.webp",
-    "local_image": "BloxFruits/images/super_spirit_pain.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/super_spirit_pain.webp"
   },
   {
+    "id": "arc_steel_magnet",
     "name": "Arc-steel-magnet",
-    "slug": "arc_steel_magnet",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/arc-steel-magnet.webp",
-    "local_image": "BloxFruits/images/arc_steel_magnet.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/arc_steel_magnet.webp"
   },
   {
+    "id": "divine_portal",
     "name": "Divine-portal",
-    "slug": "divine_portal",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/divine-portal.webp",
-    "local_image": "BloxFruits/images/divine_portal.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/divine_portal.webp"
   },
   {
+    "id": "red_lightning",
     "name": "Red-lightning",
-    "slug": "red_lightning",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/red-lightning.webp",
-    "local_image": "BloxFruits/images/red_lightning.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/red_lightning.webp"
   },
   {
+    "id": "dog_blade",
     "name": "Dog-blade",
-    "slug": "dog_blade",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/dog-blade.webp",
-    "local_image": "BloxFruits/images/dog_blade.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/dog_blade.webp"
   },
   {
+    "id": "runic_yeti",
     "name": "Runic-yeti",
-    "slug": "runic_yeti",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/runic-yeti.webp",
-    "local_image": "BloxFruits/images/runic_yeti.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/runic_yeti.webp"
   },
   {
+    "id": "fiend_yeti",
     "name": "Fiend-yeti",
-    "slug": "fiend_yeti",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/fiend-yeti.webp",
-    "local_image": "BloxFruits/images/fiend_yeti.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/fiend_yeti.webp"
   },
   {
+    "id": "werewolf",
     "name": "Werewolf",
-    "slug": "werewolf",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/werewolf.webp",
-    "local_image": "BloxFruits/images/werewolf.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/werewolf.webp"
   },
   {
+    "id": "celestial_pain",
     "name": "Celestial-pain",
-    "slug": "celestial_pain",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/celestial-pain.webp",
-    "local_image": "BloxFruits/images/celestial_pain.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/celestial_pain.webp"
   },
   {
+    "id": "sadness_pain",
     "name": "Sadness-pain",
-    "slug": "sadness_pain",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/sadness-pain.webp",
-    "local_image": "BloxFruits/images/sadness_pain.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/sadness_pain.webp"
   },
   {
+    "id": "azura_bomb",
     "name": "Azura-bomb",
-    "slug": "azura_bomb",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/azura-bomb.webp",
-    "local_image": "BloxFruits/images/azura_bomb.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/azura_bomb.webp"
   },
   {
-    "name": "Frustration-pain",
-    "slug": "frustration_pain",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/frustration-pain.webp",
-    "local_image": "BloxFruits/images/frustration_pain.webp"
-  },
-  {
+    "id": "nuclear_bomb",
     "name": "Nuclear-bomb",
-    "slug": "nuclear_bomb",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/nuclear-bomb.webp",
-    "local_image": "BloxFruits/images/nuclear_bomb.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/nuclear_bomb.webp"
   },
   {
+    "id": "frustration_pain",
+    "name": "Frustration-pain",
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/frustration_pain.webp"
+  },
+  {
+    "id": "love",
     "name": "Love",
-    "slug": "love",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/love.webp",
-    "local_image": "BloxFruits/images/love.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/love.webp"
   },
   {
+    "id": "rubber",
     "name": "Rubber",
-    "slug": "rubber",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/rubber.webp",
-    "local_image": "BloxFruits/images/rubber.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/rubber.webp"
   },
   {
+    "id": "quake",
     "name": "Quake",
-    "slug": "quake",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/quake.webp",
-    "local_image": "BloxFruits/images/quake.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/quake.webp"
   },
   {
+    "id": "eagle",
     "name": "Eagle",
-    "slug": "eagle",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/eagle.webp",
-    "local_image": "BloxFruits/images/eagle.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/eagle.webp"
   },
   {
+    "id": "dark",
     "name": "Dark",
-    "slug": "dark",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/dark.webp",
-    "local_image": "BloxFruits/images/dark.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/dark.webp"
   },
   {
+    "id": "magma",
     "name": "Magma",
-    "slug": "magma",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/magma.webp",
-    "local_image": "BloxFruits/images/magma.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/magma.webp"
   },
   {
+    "id": "ghost",
     "name": "Ghost",
-    "slug": "ghost",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/ghost.webp",
-    "local_image": "BloxFruits/images/ghost.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/ghost.webp"
   },
   {
+    "id": "light",
     "name": "Light",
-    "slug": "light",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/light.webp",
-    "local_image": "BloxFruits/images/light.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/light.webp"
   },
   {
+    "id": "ice",
     "name": "Ice",
-    "slug": "ice",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/ice.webp",
-    "local_image": "BloxFruits/images/ice.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/ice.webp"
   },
   {
+    "id": "diamond",
     "name": "Diamond",
-    "slug": "diamond",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/diamond.webp",
-    "local_image": "BloxFruits/images/diamond.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/diamond.webp"
   },
   {
+    "id": "flame",
     "name": "Flame",
-    "slug": "flame",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/flame.webp",
-    "local_image": "BloxFruits/images/flame.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/flame.webp"
   },
   {
+    "id": "spike",
     "name": "Spike",
-    "slug": "spike",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/spike.webp",
-    "local_image": "BloxFruits/images/spike.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/spike.webp"
   },
   {
+    "id": "sand",
     "name": "Sand",
-    "slug": "sand",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/sand.webp",
-    "local_image": "BloxFruits/images/sand.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/sand.webp"
   },
   {
+    "id": "smoke",
     "name": "Smoke",
-    "slug": "smoke",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/smoke.webp",
-    "local_image": "BloxFruits/images/smoke.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/smoke.webp"
   },
   {
+    "id": "bomb",
     "name": "Bomb",
-    "slug": "bomb",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/bomb.webp",
-    "local_image": "BloxFruits/images/bomb.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/bomb.webp"
   },
   {
+    "id": "spring",
     "name": "Spring",
-    "slug": "spring",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/spring.webp",
-    "local_image": "BloxFruits/images/spring.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/spring.webp"
   },
   {
+    "id": "blade",
     "name": "Blade",
-    "slug": "blade",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/blade.webp",
-    "local_image": "BloxFruits/images/blade.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/blade.webp"
   },
   {
+    "id": "spin",
     "name": "Spin",
-    "slug": "spin",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/spin.webp",
-    "local_image": "BloxFruits/images/spin.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/spin.webp"
   },
   {
+    "id": "rocket",
     "name": "Rocket",
-    "slug": "rocket",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/rocket.webp",
-    "local_image": "BloxFruits/images/rocket.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/rocket.webp"
   },
   {
+    "id": "lime_blade",
     "name": "Lime-blade",
-    "slug": "lime_blade",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/lime-blade.webp",
-    "local_image": "BloxFruits/images/lime_blade.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/lime_blade.webp"
   },
   {
+    "id": "scarler_ghost",
     "name": "Scarler-ghost",
-    "slug": "scarler_ghost",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/scarler-ghost.webp",
-    "local_image": "BloxFruits/images/scarler_ghost.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/scarler_ghost.webp"
   },
   {
+    "id": "yellow_lightning",
     "name": "Yellow-lightning",
-    "slug": "yellow_lightning",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/yellow-lightning.webp",
-    "local_image": "BloxFruits/images/yellow_lightning.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/yellow_lightning.webp"
   },
   {
+    "id": "green_lightning",
     "name": "Green-lightning",
-    "slug": "green_lightning",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/green-lightning.webp",
-    "local_image": "BloxFruits/images/green_lightning.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/green_lightning.webp"
   },
   {
+    "id": "rose_quartz_diamond",
     "name": "Rose-quartz-diamond",
-    "slug": "rose_quartz_diamond",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/rose-quartz-diamond.webp",
-    "local_image": "BloxFruits/images/rose_quartz_diamond.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/rose_quartz_diamond.webp"
   },
   {
+    "id": "emerald_diamond",
     "name": "Emerald-diamond",
-    "slug": "emerald_diamond",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/emerald-diamond.webp",
-    "local_image": "BloxFruits/images/emerald_diamond.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/emerald_diamond.webp"
   },
   {
+    "id": "topaz_diamond",
     "name": "Topaz-diamond",
-    "slug": "topaz_diamond",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/topaz-diamond.webp",
-    "local_image": "BloxFruits/images/topaz_diamond.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/topaz_diamond.webp"
   },
   {
+    "id": "ruby_diamond",
     "name": "Ruby-diamond",
-    "slug": "ruby_diamond",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/ruby-diamond.webp",
-    "local_image": "BloxFruits/images/ruby_diamond.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/ruby_diamond.webp"
   },
   {
+    "id": "torment_pain",
     "name": "Torment-pain",
-    "slug": "torment_pain",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/torment-pain.webp",
-    "local_image": "BloxFruits/images/torment_pain.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/torment_pain.webp"
   },
   {
+    "id": "starlight_gravity",
     "name": "Starlight-gravity",
-    "slug": "starlight_gravity",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/starlight-gravity.webp",
-    "local_image": "BloxFruits/images/starlight_gravity.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/starlight_gravity.webp"
   },
   {
+    "id": "glacier_eagle",
     "name": "Glacier-eagle",
-    "slug": "glacier_eagle",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/glacier-eagle.webp",
-    "local_image": "BloxFruits/images/glacier_eagle.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/glacier_eagle.webp"
   },
   {
+    "id": "requiem_eagle",
     "name": "Requiem-eagle",
-    "slug": "requiem_eagle",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/requiem-eagle.webp",
-    "local_image": "BloxFruits/images/requiem_eagle.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/requiem_eagle.webp"
   },
   {
+    "id": "thermite_bomb",
     "name": "Thermite-bomb",
-    "slug": "thermite_bomb",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/thermite-bomb.webp",
-    "local_image": "BloxFruits/images/thermite_bomb.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/thermite_bomb.webp"
   },
   {
+    "id": "celebration_bomb",
     "name": "Celebration-bomb",
-    "slug": "celebration_bomb",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/celebration-bomb.webp",
-    "local_image": "BloxFruits/images/celebration_bomb.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/celebration_bomb.webp"
   },
   {
+    "id": "matrix_eagle",
     "name": "Matrix-eagle",
-    "slug": "matrix_eagle",
-    "original_image": "https://bloxfruitsvalues.gg/fruits/matrix-eagle.webp",
-    "local_image": "BloxFruits/images/matrix_eagle.webp"
+    "category": "Fruits",
+    "value": 0,
+    "demand": "Normal",
+    "localPath": "BloxFruits/images/matrix_eagle.webp"
   }
 ]
