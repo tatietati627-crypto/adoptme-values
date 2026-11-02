@@ -14,10 +14,9 @@ async function main() {
   await ensureDir(DATA_DIR);
 
   console.log('====================================================');
-  console.log('Запуск парсера Blox Fruits Values...');
+  console.log('Запуск чистого парсера Blox Fruits Values...');
   console.log('Target: ' + TARGET_URL);
   console.log('====================================================\n');
-  console.log('Ищем данные Blox Fruits...');
 
   try {
     const res = await fetch(TARGET_URL, {
@@ -34,11 +33,11 @@ async function main() {
 
     const html = await res.text();
     
-    // Ищем любые упоминания webp-картинок предметов на странице
+    // Ищем Next.js данные или картинки
     const matches = [...html.matchAll(/\/fruits\/([a-zA-Z0-9_-]+)\.webp/g)];
     const uniqueItems = [...new Set(matches.map(m => m[1]))];
 
-    console.log(`Найдено уникальных картинок: ${uniqueItems.length}`);
+    console.log(`Найдено уникальных предметов: ${uniqueItems.length}`);
 
     const catalog = [];
 
@@ -63,17 +62,19 @@ async function main() {
         console.log(`[-] Ошибка скачивания картинки: ${formattedName}`);
       }
 
+      // Добавляем только чистые локальные данные без мертвых ссылок
       catalog.push({
+        id: slug,
         name: formattedName,
-        slug: slug,
-        original_image: imageUrl,
-        local_image: `BloxFruits/images/${slug}.webp`
+        category: "Fruits",
+        value: 0, // Заглушка под значения, если в самом HTML нет цен в открытом виде
+        demand: "Normal",
+        localPath: `BloxFruits/images/${slug}.webp`
       });
     }
 
     console.log(`\nУспешно обработано предметов: ${catalog.length}`);
 
-    // Сохраняем полный итоговый JSON
     const outputPath = path.join(DATA_DIR, 'bloxfruits_database.json');
     await fs.writeFile(outputPath, JSON.stringify(catalog, null, 2));
     console.log(`Каталог сохранён в: ${outputPath}`);
