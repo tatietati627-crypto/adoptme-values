@@ -20672,20 +20672,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Clover_Owl.png"
   },
   {
-    "id": "Special Ops Ram",
-    "name": "Special Ops Ram",
-    "displayName": "Special Ops Ram",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Special_Ops_Ram.png"
-  },
-  {
     "id": "Leafy Yeti",
     "name": "Leafy Yeti",
     "displayName": "Leafy Yeti",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Leafy_Yeti.png"
+  },
+  {
+    "id": "Special Ops Ram",
+    "name": "Special Ops Ram",
+    "displayName": "Special Ops Ram",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Special_Ops_Ram.png"
   },
   {
     "id": "Dawn Phoenix",
@@ -20704,6 +20704,14 @@
     "localPath": "PetSimulator99/images/exotics/Special_Ops_Dog.png"
   },
   {
+    "id": "Special Ops Skunk",
+    "name": "Special Ops Skunk",
+    "displayName": "Special Ops Skunk",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Special_Ops_Skunk.png"
+  },
+  {
     "id": "Withered Agony",
     "name": "Withered Agony",
     "displayName": "Withered Agony",
@@ -20718,14 +20726,6 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Spring_Onion.png"
-  },
-  {
-    "id": "Special Ops Skunk",
-    "name": "Special Ops Skunk",
-    "displayName": "Special Ops Skunk",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Special_Ops_Skunk.png"
   },
   {
     "id": "Butterfly Pony",
@@ -20864,20 +20864,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Lucki_Golem.png"
   },
   {
-    "id": "Huge Butterfly Pony",
-    "name": "Huge Butterfly Pony",
-    "displayName": "Huge Butterfly Pony",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Butterfly_Pony.png"
-  },
-  {
     "id": "Huge Spring Onion",
     "name": "Huge Spring Onion",
     "displayName": "Huge Spring Onion",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Spring_Onion.png"
+  },
+  {
+    "id": "Huge Butterfly Pony",
+    "name": "Huge Butterfly Pony",
+    "displayName": "Huge Butterfly Pony",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Butterfly_Pony.png"
   },
   {
     "id": "Huge Lucki Wolf",
@@ -20936,20 +20936,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Special_Ops_Dog.png"
   },
   {
-    "id": "Huge Mucki",
-    "name": "Huge Mucki",
-    "displayName": "Huge Mucki",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Mucki.png"
-  },
-  {
     "id": "Huge Spring Dino",
     "name": "Huge Spring Dino",
     "displayName": "Huge Spring Dino",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Spring_Dino.png"
+  },
+  {
+    "id": "Huge Mucki",
+    "name": "Huge Mucki",
+    "displayName": "Huge Mucki",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Mucki.png"
   },
   {
     "id": "Huge Bunny Cat",
@@ -20968,6 +20968,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Lucki_Hydra.png"
   },
   {
+    "id": "Huge Diamond Chick",
+    "name": "Huge Diamond Chick",
+    "displayName": "Huge Diamond Chick",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Diamond_Chick.png"
+  },
+  {
     "id": "Huge Galaxy Fox",
     "name": "Huge Galaxy Fox",
     "displayName": "Huge Galaxy Fox",
@@ -20976,12 +20984,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Galaxy_Fox.png"
   },
   {
-    "id": "Huge Diamond Chick",
-    "name": "Huge Diamond Chick",
-    "displayName": "Huge Diamond Chick",
+    "id": "Huge Spring Dragon",
+    "name": "Huge Spring Dragon",
+    "displayName": "Huge Spring Dragon",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Diamond_Chick.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Spring_Dragon.png"
   },
   {
     "id": "Huge Quartz Fox",
@@ -20992,20 +21000,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Quartz_Fox.png"
   },
   {
-    "id": "Huge Abstract Agony",
-    "name": "Huge Abstract Agony",
-    "displayName": "Huge Abstract Agony",
+    "id": "Huge Dawn Phoenix",
+    "name": "Huge Dawn Phoenix",
+    "displayName": "Huge Dawn Phoenix",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Abstract_Agony.png"
-  },
-  {
-    "id": "Huge Keyboard Cat",
-    "name": "Huge Keyboard Cat",
-    "displayName": "Huge Keyboard Cat",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Keyboard_Cat.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Dawn_Phoenix.png"
   },
   {
     "id": "Huge Royal Pooka",
@@ -21016,14 +21016,6 @@
     "localPath": "PetSimulator99/images/huge/Huge_Royal_Pooka.png"
   },
   {
-    "id": "Huge Bandana Shiba",
-    "name": "Huge Bandana Shiba",
-    "displayName": "Huge Bandana Shiba",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Bandana_Shiba.png"
-  },
-  {
     "id": "Huge Mushroom Snail",
     "name": "Huge Mushroom Snail",
     "displayName": "Huge Mushroom Snail",
@@ -21032,20 +21024,28 @@
     "localPath": "PetSimulator99/images/huge/Huge_Mushroom_Snail.png"
   },
   {
-    "id": "Huge Dawn Phoenix",
-    "name": "Huge Dawn Phoenix",
-    "displayName": "Huge Dawn Phoenix",
+    "id": "Huge Keyboard Cat",
+    "name": "Huge Keyboard Cat",
+    "displayName": "Huge Keyboard Cat",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Dawn_Phoenix.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Keyboard_Cat.png"
   },
   {
-    "id": "Huge Spring Dragon",
-    "name": "Huge Spring Dragon",
-    "displayName": "Huge Spring Dragon",
+    "id": "Huge Abstract Agony",
+    "name": "Huge Abstract Agony",
+    "displayName": "Huge Abstract Agony",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Spring_Dragon.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Abstract_Agony.png"
+  },
+  {
+    "id": "Huge Bandana Shiba",
+    "name": "Huge Bandana Shiba",
+    "displayName": "Huge Bandana Shiba",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Bandana_Shiba.png"
   },
   {
     "id": "Titanic Irish Wolfhound",
@@ -21144,20 +21144,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Butterfly_Pony.png"
   },
   {
-    "id": "Titanic Party Tiger",
-    "name": "Titanic Party Tiger",
-    "displayName": "Titanic Party Tiger",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Party_Tiger.png"
-  },
-  {
     "id": "Titanic Garden Goblin",
     "name": "Titanic Garden Goblin",
     "displayName": "Titanic Garden Goblin",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Garden_Goblin.png"
+  },
+  {
+    "id": "Titanic Party Tiger",
+    "name": "Titanic Party Tiger",
+    "displayName": "Titanic Party Tiger",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Party_Tiger.png"
   },
   {
     "id": "Titanic Starry Owl",
@@ -21200,20 +21200,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Bloom_Dominus.png"
   },
   {
-    "id": "Huge Starry Owl",
-    "name": "Huge Starry Owl",
-    "displayName": "Huge Starry Owl",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Starry_Owl.png"
-  },
-  {
     "id": "Huge Crowned Penguin",
     "name": "Huge Crowned Penguin",
     "displayName": "Huge Crowned Penguin",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Crowned_Penguin.png"
+  },
+  {
+    "id": "Huge Starry Owl",
+    "name": "Huge Starry Owl",
+    "displayName": "Huge Starry Owl",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Starry_Owl.png"
   },
   {
     "id": "Huge Spring Kitten",
@@ -21240,6 +21240,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Party_Squirrel.png"
   },
   {
+    "id": "Huge Tree Frog",
+    "name": "Huge Tree Frog",
+    "displayName": "Huge Tree Frog",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Tree_Frog.png"
+  },
+  {
     "id": "Huge Spring Elephant",
     "name": "Huge Spring Elephant",
     "displayName": "Huge Spring Elephant",
@@ -21256,20 +21264,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Garden_Goblin.png"
   },
   {
-    "id": "Huge Tree Frog",
-    "name": "Huge Tree Frog",
-    "displayName": "Huge Tree Frog",
+    "id": "Huge Evolved Rogue Squid",
+    "name": "Huge Evolved Rogue Squid",
+    "displayName": "Huge Evolved Rogue Squid",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Tree_Frog.png"
-  },
-  {
-    "id": "Huge Vibrant Whale",
-    "name": "Huge Vibrant Whale",
-    "displayName": "Huge Vibrant Whale",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Vibrant_Whale.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Evolved_Rogue_Squid.png"
   },
   {
     "id": "Huge Evolved Pixel Griffin",
@@ -21280,12 +21280,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Evolved_Pixel_Griffin.png"
   },
   {
-    "id": "Huge Evolved Rogue Squid",
-    "name": "Huge Evolved Rogue Squid",
-    "displayName": "Huge Evolved Rogue Squid",
+    "id": "Huge Evolved Frankenpup Dog",
+    "name": "Huge Evolved Frankenpup Dog",
+    "displayName": "Huge Evolved Frankenpup Dog",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Evolved_Rogue_Squid.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Evolved_Frankenpup_Dog.png"
   },
   {
     "id": "Huge Prison Cow",
@@ -21296,28 +21296,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Prison_Cow.png"
   },
   {
+    "id": "Huge Evolved Starry Eye Bunny",
+    "name": "Huge Evolved Starry Eye Bunny",
+    "displayName": "Huge Evolved Starry Eye Bunny",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Evolved_Starry_Eye_Bunny.png"
+  },
+  {
     "id": "Huge Brain",
     "name": "Huge Brain",
     "displayName": "Huge Brain",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Brain.png"
-  },
-  {
-    "id": "Huge Wireframe Cat",
-    "name": "Huge Wireframe Cat",
-    "displayName": "Huge Wireframe Cat",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Wireframe_Cat.png"
-  },
-  {
-    "id": "Huge Evolved Frankenpup Dog",
-    "name": "Huge Evolved Frankenpup Dog",
-    "displayName": "Huge Evolved Frankenpup Dog",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Evolved_Frankenpup_Dog.png"
   },
   {
     "id": "Huge Ghost Axolotl",
@@ -21336,20 +21328,28 @@
     "localPath": "PetSimulator99/images/huge/Huge_Robot.png"
   },
   {
+    "id": "Huge Wireframe Cat",
+    "name": "Huge Wireframe Cat",
+    "displayName": "Huge Wireframe Cat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Wireframe_Cat.png"
+  },
+  {
+    "id": "Huge Vibrant Whale",
+    "name": "Huge Vibrant Whale",
+    "displayName": "Huge Vibrant Whale",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Vibrant_Whale.png"
+  },
+  {
     "id": "Huge Carnival Panda",
     "name": "Huge Carnival Panda",
     "displayName": "Huge Carnival Panda",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Carnival_Panda.png"
-  },
-  {
-    "id": "Huge Evolved Starry Eye Bunny",
-    "name": "Huge Evolved Starry Eye Bunny",
-    "displayName": "Huge Evolved Starry Eye Bunny",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Evolved_Starry_Eye_Bunny.png"
   },
   {
     "id": "Huge Fragmented Pterodactyl",
@@ -21408,20 +21408,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Inkwell_Wisp.png"
   },
   {
-    "id": "Bloom Dominus",
-    "name": "Bloom Dominus",
-    "displayName": "Bloom Dominus",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Bloom_Dominus.png"
-  },
-  {
     "id": "Egg Piggy",
     "name": "Egg Piggy",
     "displayName": "Egg Piggy",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Egg_Piggy.png"
+  },
+  {
+    "id": "Bloom Dominus",
+    "name": "Bloom Dominus",
+    "displayName": "Bloom Dominus",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Bloom_Dominus.png"
   },
   {
     "id": "Spring Elephant",
@@ -21472,6 +21472,30 @@
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Wicked_Kirin.png"
   },
   {
+    "id": "Huge Platypus",
+    "name": "Huge Platypus",
+    "displayName": "Huge Platypus",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Platypus.png"
+  },
+  {
+    "id": "Huge Werewolf",
+    "name": "Huge Werewolf",
+    "displayName": "Huge Werewolf",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Werewolf.png"
+  },
+  {
+    "id": "Huge Totem Cub",
+    "name": "Huge Totem Cub",
+    "displayName": "Huge Totem Cub",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Totem_Cub.png"
+  },
+  {
     "id": "Huge Ancestor Eagle",
     "name": "Huge Ancestor Eagle",
     "displayName": "Huge Ancestor Eagle",
@@ -21488,20 +21512,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Ducky_Magician.png"
   },
   {
-    "id": "Huge Goldfish",
-    "name": "Huge Goldfish",
-    "displayName": "Huge Goldfish",
+    "id": "Huge Wisp Griffin",
+    "name": "Huge Wisp Griffin",
+    "displayName": "Huge Wisp Griffin",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Goldfish.png"
-  },
-  {
-    "id": "Huge Platypus",
-    "name": "Huge Platypus",
-    "displayName": "Huge Platypus",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Platypus.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Wisp_Griffin.png"
   },
   {
     "id": "Huge Midnight Axolotl",
@@ -21512,44 +21528,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Midnight_Axolotl.png"
   },
   {
-    "id": "Huge Werewolf",
-    "name": "Huge Werewolf",
-    "displayName": "Huge Werewolf",
+    "id": "Huge Goldfish",
+    "name": "Huge Goldfish",
+    "displayName": "Huge Goldfish",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Werewolf.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Goldfish.png"
   },
   {
-    "id": "Huge Wisp Griffin",
-    "name": "Huge Wisp Griffin",
-    "displayName": "Huge Wisp Griffin",
+    "id": "Huge Lunar Deer",
+    "name": "Huge Lunar Deer",
+    "displayName": "Huge Lunar Deer",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Wisp_Griffin.png"
-  },
-  {
-    "id": "Huge Totem Cub",
-    "name": "Huge Totem Cub",
-    "displayName": "Huge Totem Cub",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Totem_Cub.png"
-  },
-  {
-    "id": "Huge Dino",
-    "name": "Huge Dino",
-    "displayName": "Huge Dino",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Dino.png"
-  },
-  {
-    "id": "Huge Mushroom Pixie",
-    "name": "Huge Mushroom Pixie",
-    "displayName": "Huge Mushroom Pixie",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Mushroom_Pixie.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Lunar_Deer.png"
   },
   {
     "id": "Huge Penguin",
@@ -21568,12 +21560,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Ruinous_Angelus.png"
   },
   {
-    "id": "Huge Palace Pooka",
-    "name": "Huge Palace Pooka",
-    "displayName": "Huge Palace Pooka",
+    "id": "Huge Dino",
+    "name": "Huge Dino",
+    "displayName": "Huge Dino",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Palace_Pooka.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Dino.png"
+  },
+  {
+    "id": "Huge Mushroom Pixie",
+    "name": "Huge Mushroom Pixie",
+    "displayName": "Huge Mushroom Pixie",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Mushroom_Pixie.png"
   },
   {
     "id": "Huge Signature BIG Maskot",
@@ -21584,12 +21584,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Signature_BIG_Maskot.png"
   },
   {
-    "id": "Huge Lunar Deer",
-    "name": "Huge Lunar Deer",
-    "displayName": "Huge Lunar Deer",
+    "id": "Huge Palace Pooka",
+    "name": "Huge Palace Pooka",
+    "displayName": "Huge Palace Pooka",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Lunar_Deer.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Palace_Pooka.png"
+  },
+  {
+    "id": "Huge Knight Golem",
+    "name": "Huge Knight Golem",
+    "displayName": "Huge Knight Golem",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Knight_Golem.png"
   },
   {
     "id": "Huge Alien",
@@ -21608,12 +21616,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Electric_Slime.png"
   },
   {
-    "id": "Huge Knight Golem",
-    "name": "Huge Knight Golem",
-    "displayName": "Huge Knight Golem",
-    "category": "huge",
+    "id": "Titanic Ruinous Angelus",
+    "name": "Titanic Ruinous Angelus",
+    "displayName": "Titanic Ruinous Angelus",
+    "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Knight_Golem.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Ruinous_Angelus.png"
   },
   {
     "id": "Titanic Veil Horse",
@@ -21640,14 +21648,6 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Werewolf.png"
   },
   {
-    "id": "Titanic Ruinous Angelus",
-    "name": "Titanic Ruinous Angelus",
-    "displayName": "Titanic Ruinous Angelus",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Ruinous_Angelus.png"
-  },
-  {
     "id": "Titanic Lucky Cat",
     "name": "Titanic Lucky Cat",
     "displayName": "Titanic Lucky Cat",
@@ -21672,14 +21672,6 @@
     "localPath": "PetSimulator99/images/exotics/Knight_Golem.png"
   },
   {
-    "id": "Wicked Kirin",
-    "name": "Wicked Kirin",
-    "displayName": "Wicked Kirin",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Wicked_Kirin.png"
-  },
-  {
     "id": "Mushroom Pixie",
     "name": "Mushroom Pixie",
     "displayName": "Mushroom Pixie",
@@ -21688,20 +21680,20 @@
     "localPath": "PetSimulator99/images/exotics/Mushroom_Pixie.png"
   },
   {
-    "id": "Crystal Axolotl",
-    "name": "Crystal Axolotl",
-    "displayName": "Crystal Axolotl",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Crystal_Axolotl.png"
-  },
-  {
     "id": "Wisp Griffin",
     "name": "Wisp Griffin",
     "displayName": "Wisp Griffin",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Wisp_Griffin.png"
+  },
+  {
+    "id": "Crystal Axolotl",
+    "name": "Crystal Axolotl",
+    "displayName": "Crystal Axolotl",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Crystal_Axolotl.png"
   },
   {
     "id": "Crown",
@@ -21720,6 +21712,62 @@
     "localPath": "PetSimulator99/images/exotics/Veil_Horse.png"
   },
   {
+    "id": "Wicked Kirin",
+    "name": "Wicked Kirin",
+    "displayName": "Wicked Kirin",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Wicked_Kirin.png"
+  },
+  {
+    "id": "Huge Angel Cow",
+    "name": "Huge Angel Cow",
+    "displayName": "Huge Angel Cow",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Angel_Cow.png"
+  },
+  {
+    "id": "Huge Veil Horse",
+    "name": "Huge Veil Horse",
+    "displayName": "Huge Veil Horse",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Veil_Horse.png"
+  },
+  {
+    "id": "Huge Cataclysm Bear",
+    "name": "Huge Cataclysm Bear",
+    "displayName": "Huge Cataclysm Bear",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Cataclysm_Bear.png"
+  },
+  {
+    "id": "Huge Wicked Kirin",
+    "name": "Huge Wicked Kirin",
+    "displayName": "Huge Wicked Kirin",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Wicked_Kirin.png"
+  },
+  {
+    "id": "Huge Origami Bunny",
+    "name": "Huge Origami Bunny",
+    "displayName": "Huge Origami Bunny",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Origami_Bunny.png"
+  },
+  {
+    "id": "Huge Eclipse Owl",
+    "name": "Huge Eclipse Owl",
+    "displayName": "Huge Eclipse Owl",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Eclipse_Owl.png"
+  },
+  {
     "id": "Huge Crystal Axolotl",
     "name": "Huge Crystal Axolotl",
     "displayName": "Huge Crystal Axolotl",
@@ -21736,60 +21784,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Nebula_Lion.png"
   },
   {
-    "id": "Huge Cataclysm Bear",
-    "name": "Huge Cataclysm Bear",
-    "displayName": "Huge Cataclysm Bear",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Cataclysm_Bear.png"
-  },
-  {
-    "id": "Huge Origami Bunny",
-    "name": "Huge Origami Bunny",
-    "displayName": "Huge Origami Bunny",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Origami_Bunny.png"
-  },
-  {
     "id": "Huge Alienus Kitsune",
     "name": "Huge Alienus Kitsune",
     "displayName": "Huge Alienus Kitsune",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Alienus_Kitsune.png"
-  },
-  {
-    "id": "Huge Eclipse Owl",
-    "name": "Huge Eclipse Owl",
-    "displayName": "Huge Eclipse Owl",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Eclipse_Owl.png"
-  },
-  {
-    "id": "Huge Angel Cow",
-    "name": "Huge Angel Cow",
-    "displayName": "Huge Angel Cow",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Angel_Cow.png"
-  },
-  {
-    "id": "Huge Wicked Kirin",
-    "name": "Huge Wicked Kirin",
-    "displayName": "Huge Wicked Kirin",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Wicked_Kirin.png"
-  },
-  {
-    "id": "Huge Veil Horse",
-    "name": "Huge Veil Horse",
-    "displayName": "Huge Veil Horse",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Veil_Horse.png"
   },
   {
     "id": "Huge Origami Shark",
@@ -21800,20 +21800,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Origami_Shark.png"
   },
   {
-    "id": "Titanic Origami Crane",
-    "name": "Titanic Origami Crane",
-    "displayName": "Titanic Origami Crane",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Origami_Crane.png"
-  },
-  {
     "id": "Titanic Arcane Void Cat",
     "name": "Titanic Arcane Void Cat",
     "displayName": "Titanic Arcane Void Cat",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Arcane_Void_Cat.png"
+  },
+  {
+    "id": "Titanic Origami Crane",
+    "name": "Titanic Origami Crane",
+    "displayName": "Titanic Origami Crane",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Origami_Crane.png"
   },
   {
     "id": "Titanic Angel Cow",
@@ -21848,6 +21848,14 @@
     "localPath": "PetSimulator99/images/exotics/Sand_Turtle.png"
   },
   {
+    "id": "Sapphire Dragon",
+    "name": "Sapphire Dragon",
+    "displayName": "Sapphire Dragon",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Sapphire_Dragon.png"
+  },
+  {
     "id": "Sprout Stag",
     "name": "Sprout Stag",
     "displayName": "Sprout Stag",
@@ -21864,12 +21872,12 @@
     "localPath": "PetSimulator99/images/exotics/Blossom_Fox.png"
   },
   {
-    "id": "Sapphire Dragon",
-    "name": "Sapphire Dragon",
-    "displayName": "Sapphire Dragon",
+    "id": "Origami Fox",
+    "name": "Origami Fox",
+    "displayName": "Origami Fox",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Sapphire_Dragon.png"
+    "localPath": "PetSimulator99/images/exotics/Origami_Fox.png"
   },
   {
     "id": "Honey Bee",
@@ -21878,14 +21886,6 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Honey_Bee.png"
-  },
-  {
-    "id": "Origami Fox",
-    "name": "Origami Fox",
-    "displayName": "Origami Fox",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Origami_Fox.png"
   },
   {
     "id": "Origami Bunny",
@@ -21902,22 +21902,6 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Mystical_Kitsune.png"
-  },
-  {
-    "id": "Surge Wolf",
-    "name": "Surge Wolf",
-    "displayName": "Surge Wolf",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Surge_Wolf.png"
-  },
-  {
-    "id": "Starry Eye Wolf",
-    "name": "Starry Eye Wolf",
-    "displayName": "Starry Eye Wolf",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Starry_Eye_Wolf.png"
   },
   {
     "id": "Bubble Bunny",
@@ -21944,12 +21928,28 @@
     "localPath": "PetSimulator99/images/exotics/Error_Dragon.png"
   },
   {
+    "id": "Surge Wolf",
+    "name": "Surge Wolf",
+    "displayName": "Surge Wolf",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Surge_Wolf.png"
+  },
+  {
     "id": "Wisp Owl",
     "name": "Wisp Owl",
     "displayName": "Wisp Owl",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Wisp_Owl.png"
+  },
+  {
+    "id": "Starry Eye Wolf",
+    "name": "Starry Eye Wolf",
+    "displayName": "Starry Eye Wolf",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Starry_Eye_Wolf.png"
   },
   {
     "id": "Origami Shark",
@@ -22056,20 +22056,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Arcane_Halo_Cat.png"
   },
   {
-    "id": "Gargantuan Solar Lion",
-    "name": "Gargantuan Solar Lion",
-    "displayName": "Gargantuan Solar Lion",
-    "category": "gargantuan",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Solar_Lion.png"
-  },
-  {
     "id": "Gargantuan Guest 666",
     "name": "Gargantuan Guest 666",
     "displayName": "Gargantuan Guest 666",
     "category": "gargantuan",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Guest_666.png"
+  },
+  {
+    "id": "Gargantuan Solar Lion",
+    "name": "Gargantuan Solar Lion",
+    "displayName": "Gargantuan Solar Lion",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Solar_Lion.png"
   },
   {
     "id": "Gargantuan Skateboard Bulldog",
@@ -22080,28 +22080,12 @@
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Skateboard_Bulldog.png"
   },
   {
-    "id": "Huge Guest 666",
-    "name": "Huge Guest 666",
-    "displayName": "Huge Guest 666",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Guest_666.png"
-  },
-  {
     "id": "Huge Skin Stealer",
     "name": "Huge Skin Stealer",
     "displayName": "Huge Skin Stealer",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Skin_Stealer.png"
-  },
-  {
-    "id": "Huge Piggy Piggy",
-    "name": "Huge Piggy Piggy",
-    "displayName": "Huge Piggy Piggy",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Piggy_Piggy.png"
   },
   {
     "id": "Huge Earth Dog",
@@ -22112,12 +22096,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Earth_Dog.png"
   },
   {
-    "id": "Huge Partygoer Cat",
-    "name": "Huge Partygoer Cat",
-    "displayName": "Huge Partygoer Cat",
+    "id": "Huge Guest 666",
+    "name": "Huge Guest 666",
+    "displayName": "Huge Guest 666",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Partygoer_Cat.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Guest_666.png"
   },
   {
     "id": "Huge Tripod Octopus",
@@ -22128,6 +22112,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Tripod_Octopus.png"
   },
   {
+    "id": "Huge Piggy Piggy",
+    "name": "Huge Piggy Piggy",
+    "displayName": "Huge Piggy Piggy",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Piggy_Piggy.png"
+  },
+  {
     "id": "Huge Omen",
     "name": "Huge Omen",
     "displayName": "Huge Omen",
@@ -22136,20 +22128,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Omen.png"
   },
   {
+    "id": "Huge Partygoer Cat",
+    "name": "Huge Partygoer Cat",
+    "displayName": "Huge Partygoer Cat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Partygoer_Cat.png"
+  },
+  {
     "id": "Huge Death Moth",
     "name": "Huge Death Moth",
     "displayName": "Huge Death Moth",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Death_Moth.png"
-  },
-  {
-    "id": "Huge Honey Bee",
-    "name": "Huge Honey Bee",
-    "displayName": "Huge Honey Bee",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Honey_Bee.png"
   },
   {
     "id": "Huge Mars Monkey",
@@ -22168,6 +22160,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Daydream_Fox.png"
   },
   {
+    "id": "Huge Honey Bee",
+    "name": "Huge Honey Bee",
+    "displayName": "Huge Honey Bee",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Honey_Bee.png"
+  },
+  {
     "id": "Huge Faceling Raccoon",
     "name": "Huge Faceling Raccoon",
     "displayName": "Huge Faceling Raccoon",
@@ -22184,20 +22184,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Partygoer_Cat.png"
   },
   {
-    "id": "Titanic Space Bat",
-    "name": "Titanic Space Bat",
-    "displayName": "Titanic Space Bat",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Space_Bat.png"
-  },
-  {
     "id": "Titanic Daydream Fox",
     "name": "Titanic Daydream Fox",
     "displayName": "Titanic Daydream Fox",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Daydream_Fox.png"
+  },
+  {
+    "id": "Titanic Space Bat",
+    "name": "Titanic Space Bat",
+    "displayName": "Titanic Space Bat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Space_Bat.png"
   },
   {
     "id": "Titanic Death Moth",
@@ -22216,6 +22216,14 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Piggy_Piggy.png"
   },
   {
+    "id": "Partygoer Cat",
+    "name": "Partygoer Cat",
+    "displayName": "Partygoer Cat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Partygoer_Cat.png"
+  },
+  {
     "id": "Piggy Piggy",
     "name": "Piggy Piggy",
     "displayName": "Piggy Piggy",
@@ -22230,14 +22238,6 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Daydream_Fox.png"
-  },
-  {
-    "id": "Partygoer Cat",
-    "name": "Partygoer Cat",
-    "displayName": "Partygoer Cat",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Partygoer_Cat.png"
   },
   {
     "id": "Guest 666",
@@ -22264,12 +22264,12 @@
     "localPath": "PetSimulator99/images/exotics/Tripod_Octopus.png"
   },
   {
-    "id": "Death Moth",
-    "name": "Death Moth",
-    "displayName": "Death Moth",
+    "id": "Moon Raccoon",
+    "name": "Moon Raccoon",
+    "displayName": "Moon Raccoon",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Death_Moth.png"
+    "localPath": "PetSimulator99/images/exotics/Moon_Raccoon.png"
   },
   {
     "id": "Skin Stealer",
@@ -22280,28 +22280,28 @@
     "localPath": "PetSimulator99/images/exotics/Skin_Stealer.png"
   },
   {
-    "id": "Omen",
-    "name": "Omen",
-    "displayName": "Omen",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Omen.png"
-  },
-  {
-    "id": "Moon Raccoon",
-    "name": "Moon Raccoon",
-    "displayName": "Moon Raccoon",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Moon_Raccoon.png"
-  },
-  {
     "id": "Memory Worm",
     "name": "Memory Worm",
     "displayName": "Memory Worm",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Memory_Worm.png"
+  },
+  {
+    "id": "Death Moth",
+    "name": "Death Moth",
+    "displayName": "Death Moth",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Death_Moth.png"
+  },
+  {
+    "id": "Omen",
+    "name": "Omen",
+    "displayName": "Omen",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Omen.png"
   },
   {
     "id": "Mars Monkey",
@@ -22344,6 +22344,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Daydream_Axolotl.png"
   },
   {
+    "id": "Huge Smiley Penguin",
+    "name": "Huge Smiley Penguin",
+    "displayName": "Huge Smiley Penguin",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Smiley_Penguin.png"
+  },
+  {
     "id": "Huge Tripod Dominus",
     "name": "Huge Tripod Dominus",
     "displayName": "Huge Tripod Dominus",
@@ -22360,12 +22368,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Gamemaster_Cat.png"
   },
   {
-    "id": "Huge Smiley Penguin",
-    "name": "Huge Smiley Penguin",
-    "displayName": "Huge Smiley Penguin",
+    "id": "Huge 1x1x1x1",
+    "name": "Huge 1x1x1x1",
+    "displayName": "Huge 1x1x1x1",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Smiley_Penguin.png"
+    "localPath": "PetSimulator99/images/huge/Huge_1x1x1x1.png"
   },
   {
     "id": "Huge Faceling Owl",
@@ -22376,22 +22384,6 @@
     "localPath": "PetSimulator99/images/huge/Huge_Faceling_Owl.png"
   },
   {
-    "id": "Huge 1x1x1x1",
-    "name": "Huge 1x1x1x1",
-    "displayName": "Huge 1x1x1x1",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_1x1x1x1.png"
-  },
-  {
-    "id": "Titanic Gamemaster Cat",
-    "name": "Titanic Gamemaster Cat",
-    "displayName": "Titanic Gamemaster Cat",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Gamemaster_Cat.png"
-  },
-  {
     "id": "Titanic Smiley Penguin",
     "name": "Titanic Smiley Penguin",
     "displayName": "Titanic Smiley Penguin",
@@ -22400,36 +22392,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Smiley_Penguin.png"
   },
   {
-    "id": "Smiley Penguin",
-    "name": "Smiley Penguin",
-    "displayName": "Smiley Penguin",
-    "category": "exotics",
+    "id": "Titanic Gamemaster Cat",
+    "name": "Titanic Gamemaster Cat",
+    "displayName": "Titanic Gamemaster Cat",
+    "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Smiley_Penguin.png"
-  },
-  {
-    "id": "Tripod Dominus",
-    "name": "Tripod Dominus",
-    "displayName": "Tripod Dominus",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Tripod_Dominus.png"
-  },
-  {
-    "id": "Daydream Axolotl",
-    "name": "Daydream Axolotl",
-    "displayName": "Daydream Axolotl",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Daydream_Axolotl.png"
-  },
-  {
-    "id": "Faceling Owl",
-    "name": "Faceling Owl",
-    "displayName": "Faceling Owl",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Faceling_Owl.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Gamemaster_Cat.png"
   },
   {
     "id": "1x1x1x1",
@@ -22456,12 +22424,44 @@
     "localPath": "PetSimulator99/images/exotics/Partypooper_Dog.png"
   },
   {
-    "id": "Gargantuan Storm Wolf",
-    "name": "Gargantuan Storm Wolf",
-    "displayName": "Gargantuan Storm Wolf",
+    "id": "Daydream Axolotl",
+    "name": "Daydream Axolotl",
+    "displayName": "Daydream Axolotl",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Daydream_Axolotl.png"
+  },
+  {
+    "id": "Faceling Owl",
+    "name": "Faceling Owl",
+    "displayName": "Faceling Owl",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Faceling_Owl.png"
+  },
+  {
+    "id": "Tripod Dominus",
+    "name": "Tripod Dominus",
+    "displayName": "Tripod Dominus",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Tripod_Dominus.png"
+  },
+  {
+    "id": "Smiley Penguin",
+    "name": "Smiley Penguin",
+    "displayName": "Smiley Penguin",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Smiley_Penguin.png"
+  },
+  {
+    "id": "Gargantuan Vapor Phoenix",
+    "name": "Gargantuan Vapor Phoenix",
+    "displayName": "Gargantuan Vapor Phoenix",
     "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Storm_Wolf.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Vapor_Phoenix.png"
   },
   {
     "id": "Gargantuan Soccerball Trophy Angelus",
@@ -22472,12 +22472,20 @@
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Soccerball_Trophy_Angelus.png"
   },
   {
-    "id": "Gargantuan Vapor Phoenix",
-    "name": "Gargantuan Vapor Phoenix",
-    "displayName": "Gargantuan Vapor Phoenix",
+    "id": "Gargantuan Storm Wolf",
+    "name": "Gargantuan Storm Wolf",
+    "displayName": "Gargantuan Storm Wolf",
     "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Vapor_Phoenix.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Storm_Wolf.png"
+  },
+  {
+    "id": "Titanic Soccerball Griffin",
+    "name": "Titanic Soccerball Griffin",
+    "displayName": "Titanic Soccerball Griffin",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Soccerball_Griffin.png"
   },
   {
     "id": "Titanic Soccerball Cat",
@@ -22520,12 +22528,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Cloud_Dog.png"
   },
   {
-    "id": "Titanic Soccerball Griffin",
-    "name": "Titanic Soccerball Griffin",
-    "displayName": "Titanic Soccerball Griffin",
-    "category": "titanic",
+    "id": "Huge Vapor Wolf",
+    "name": "Huge Vapor Wolf",
+    "displayName": "Huge Vapor Wolf",
+    "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Soccerball_Griffin.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Vapor_Wolf.png"
   },
   {
     "id": "Huge Soccerball Cat",
@@ -22544,12 +22552,36 @@
     "localPath": "PetSimulator99/images/huge/Huge_Umbrella_Bear.png"
   },
   {
-    "id": "Huge Vapor Wolf",
-    "name": "Huge Vapor Wolf",
-    "displayName": "Huge Vapor Wolf",
+    "id": "Huge Jersey Seal",
+    "name": "Huge Jersey Seal",
+    "displayName": "Huge Jersey Seal",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Vapor_Wolf.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Jersey_Seal.png"
+  },
+  {
+    "id": "Huge Vapor Cat",
+    "name": "Huge Vapor Cat",
+    "displayName": "Huge Vapor Cat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Vapor_Cat.png"
+  },
+  {
+    "id": "Huge Soccerball Elephant",
+    "name": "Huge Soccerball Elephant",
+    "displayName": "Huge Soccerball Elephant",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Soccerball_Elephant.png"
+  },
+  {
+    "id": "Huge Referee Zebra",
+    "name": "Huge Referee Zebra",
+    "displayName": "Huge Referee Zebra",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Referee_Zebra.png"
   },
   {
     "id": "Huge Soccerball Trophy Dragon",
@@ -22568,68 +22600,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Coach_Chihuahua.png"
   },
   {
-    "id": "Huge Soccerball Elephant",
-    "name": "Huge Soccerball Elephant",
-    "displayName": "Huge Soccerball Elephant",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Soccerball_Elephant.png"
-  },
-  {
-    "id": "Huge Jersey Seal",
-    "name": "Huge Jersey Seal",
-    "displayName": "Huge Jersey Seal",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Jersey_Seal.png"
-  },
-  {
     "id": "Huge Goalie Monkey",
     "name": "Huge Goalie Monkey",
     "displayName": "Huge Goalie Monkey",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Goalie_Monkey.png"
-  },
-  {
-    "id": "Huge Referee Zebra",
-    "name": "Huge Referee Zebra",
-    "displayName": "Huge Referee Zebra",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Referee_Zebra.png"
-  },
-  {
-    "id": "Huge Vapor Cat",
-    "name": "Huge Vapor Cat",
-    "displayName": "Huge Vapor Cat",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Vapor_Cat.png"
-  },
-  {
-    "id": "Jersey Seal",
-    "name": "Jersey Seal",
-    "displayName": "Jersey Seal",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Jersey_Seal.png"
-  },
-  {
-    "id": "Soccerball Griffin",
-    "name": "Soccerball Griffin",
-    "displayName": "Soccerball Griffin",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Griffin.png"
-  },
-  {
-    "id": "Soccerball Dog",
-    "name": "Soccerball Dog",
-    "displayName": "Soccerball Dog",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Dog.png"
   },
   {
     "id": "Soccerball Elephant",
@@ -22640,12 +22616,20 @@
     "localPath": "PetSimulator99/images/exotics/Soccerball_Elephant.png"
   },
   {
-    "id": "Soccerball Trophy Dragon",
-    "name": "Soccerball Trophy Dragon",
-    "displayName": "Soccerball Trophy Dragon",
+    "id": "Soccerball Griffin",
+    "name": "Soccerball Griffin",
+    "displayName": "Soccerball Griffin",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Trophy_Dragon.png"
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Griffin.png"
+  },
+  {
+    "id": "Soccerball Red Panda",
+    "name": "Soccerball Red Panda",
+    "displayName": "Soccerball Red Panda",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Red_Panda.png"
   },
   {
     "id": "Referee Zebra",
@@ -22656,12 +22640,28 @@
     "localPath": "PetSimulator99/images/exotics/Referee_Zebra.png"
   },
   {
-    "id": "Soccerball Red Panda",
-    "name": "Soccerball Red Panda",
-    "displayName": "Soccerball Red Panda",
+    "id": "Jersey Seal",
+    "name": "Jersey Seal",
+    "displayName": "Jersey Seal",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Red_Panda.png"
+    "localPath": "PetSimulator99/images/exotics/Jersey_Seal.png"
+  },
+  {
+    "id": "Soccerball Trophy Dragon",
+    "name": "Soccerball Trophy Dragon",
+    "displayName": "Soccerball Trophy Dragon",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Trophy_Dragon.png"
+  },
+  {
+    "id": "Soccerball Dog",
+    "name": "Soccerball Dog",
+    "displayName": "Soccerball Dog",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Dog.png"
   },
   {
     "id": "Vapor Wolf",
@@ -22688,12 +22688,12 @@
     "localPath": "PetSimulator99/images/exotics/Coach_Chihuahua.png"
   },
   {
-    "id": "Goalie Monkey",
-    "name": "Goalie Monkey",
-    "displayName": "Goalie Monkey",
+    "id": "Soccerball Trophy Angelus",
+    "name": "Soccerball Trophy Angelus",
+    "displayName": "Soccerball Trophy Angelus",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Goalie_Monkey.png"
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Trophy_Angelus.png"
   },
   {
     "id": "Vapor Cat",
@@ -22704,14 +22704,6 @@
     "localPath": "PetSimulator99/images/exotics/Vapor_Cat.png"
   },
   {
-    "id": "Soccerball Jaguar",
-    "name": "Soccerball Jaguar",
-    "displayName": "Soccerball Jaguar",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Jaguar.png"
-  },
-  {
     "id": "Soccerball Cat",
     "name": "Soccerball Cat",
     "displayName": "Soccerball Cat",
@@ -22720,20 +22712,20 @@
     "localPath": "PetSimulator99/images/exotics/Soccerball_Cat.png"
   },
   {
-    "id": "Soccerball Trophy Angelus",
-    "name": "Soccerball Trophy Angelus",
-    "displayName": "Soccerball Trophy Angelus",
+    "id": "Goalie Monkey",
+    "name": "Goalie Monkey",
+    "displayName": "Goalie Monkey",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Trophy_Angelus.png"
+    "localPath": "PetSimulator99/images/exotics/Goalie_Monkey.png"
   },
   {
-    "id": "Caterpillar",
-    "name": "Caterpillar",
-    "displayName": "Caterpillar",
+    "id": "Soccerball Jaguar",
+    "name": "Soccerball Jaguar",
+    "displayName": "Soccerball Jaguar",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Caterpillar.png"
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Jaguar.png"
   },
   {
     "id": "Coach Corgi",
@@ -22744,60 +22736,12 @@
     "localPath": "PetSimulator99/images/exotics/Coach_Corgi.png"
   },
   {
-    "id": "Jackalope",
-    "name": "Jackalope",
-    "displayName": "Jackalope",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Jackalope.png"
-  },
-  {
-    "id": "Soccerball Goat",
-    "name": "Soccerball Goat",
-    "displayName": "Soccerball Goat",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Goat.png"
-  },
-  {
-    "id": "Soccerball Galaxy Wolf",
-    "name": "Soccerball Galaxy Wolf",
-    "displayName": "Soccerball Galaxy Wolf",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Galaxy_Wolf.png"
-  },
-  {
-    "id": "Jersey Lion",
-    "name": "Jersey Lion",
-    "displayName": "Jersey Lion",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Jersey_Lion.png"
-  },
-  {
-    "id": "Goalie Octopus",
-    "name": "Goalie Octopus",
-    "displayName": "Goalie Octopus",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Goalie_Octopus.png"
-  },
-  {
     "id": "Soccer Trophy Golem",
     "name": "Soccer Trophy Golem",
     "displayName": "Soccer Trophy Golem",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Soccer_Trophy_Golem.png"
-  },
-  {
-    "id": "Soccerball Polar Bear",
-    "name": "Soccerball Polar Bear",
-    "displayName": "Soccerball Polar Bear",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Soccerball_Polar_Bear.png"
   },
   {
     "id": "Referee Dalmatian",
@@ -22814,6 +22758,62 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Soccerball_Kangaroo.png"
+  },
+  {
+    "id": "Goalie Octopus",
+    "name": "Goalie Octopus",
+    "displayName": "Goalie Octopus",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Goalie_Octopus.png"
+  },
+  {
+    "id": "Jersey Lion",
+    "name": "Jersey Lion",
+    "displayName": "Jersey Lion",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Jersey_Lion.png"
+  },
+  {
+    "id": "Soccerball Polar Bear",
+    "name": "Soccerball Polar Bear",
+    "displayName": "Soccerball Polar Bear",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Polar_Bear.png"
+  },
+  {
+    "id": "Soccerball Galaxy Wolf",
+    "name": "Soccerball Galaxy Wolf",
+    "displayName": "Soccerball Galaxy Wolf",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Galaxy_Wolf.png"
+  },
+  {
+    "id": "Caterpillar",
+    "name": "Caterpillar",
+    "displayName": "Caterpillar",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Caterpillar.png"
+  },
+  {
+    "id": "Jackalope",
+    "name": "Jackalope",
+    "displayName": "Jackalope",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Jackalope.png"
+  },
+  {
+    "id": "Soccerball Goat",
+    "name": "Soccerball Goat",
+    "displayName": "Soccerball Goat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Soccerball_Goat.png"
   },
   {
     "id": "Titanic Soccer Trophy Golem",
@@ -22920,6 +22920,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Soccer_Trophy_Golem.png"
   },
   {
+    "id": "Samurai Kitsune",
+    "name": "Samurai Kitsune",
+    "displayName": "Samurai Kitsune",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Samurai_Kitsune.png"
+  },
+  {
     "id": "Bastet Cat",
     "name": "Bastet Cat",
     "displayName": "Bastet Cat",
@@ -22942,14 +22950,6 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Steppe_Wolf.png"
-  },
-  {
-    "id": "Samurai Kitsune",
-    "name": "Samurai Kitsune",
-    "displayName": "Samurai Kitsune",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Samurai_Kitsune.png"
   },
   {
     "id": "Triumphant Eagle",
@@ -22984,14 +22984,6 @@
     "localPath": "PetSimulator99/images/exotics/Caveman_Bear.png"
   },
   {
-    "id": "Super Fluffy Unicorn",
-    "name": "Super Fluffy Unicorn",
-    "displayName": "Super Fluffy Unicorn",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Super_Fluffy_Unicorn.png"
-  },
-  {
     "id": "Fenrir Wolf",
     "name": "Fenrir Wolf",
     "displayName": "Fenrir Wolf",
@@ -23000,12 +22992,12 @@
     "localPath": "PetSimulator99/images/exotics/Fenrir_Wolf.png"
   },
   {
-    "id": "Super Fluffy Bunny",
-    "name": "Super Fluffy Bunny",
-    "displayName": "Super Fluffy Bunny",
+    "id": "Super Fluffy Unicorn",
+    "name": "Super Fluffy Unicorn",
+    "displayName": "Super Fluffy Unicorn",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Super_Fluffy_Bunny.png"
+    "localPath": "PetSimulator99/images/exotics/Super_Fluffy_Unicorn.png"
   },
   {
     "id": "Druid Owl",
@@ -23022,6 +23014,14 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Crusader_Dragon.png"
+  },
+  {
+    "id": "Super Fluffy Bunny",
+    "name": "Super Fluffy Bunny",
+    "displayName": "Super Fluffy Bunny",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Super_Fluffy_Bunny.png"
   },
   {
     "id": "Super Fluffy Panda",
@@ -23112,20 +23112,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Lunar_Fox.png"
   },
   {
-    "id": "Huge Horus Falcon",
-    "name": "Huge Horus Falcon",
-    "displayName": "Huge Horus Falcon",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Horus_Falcon.png"
-  },
-  {
     "id": "Huge Druid Owl",
     "name": "Huge Druid Owl",
     "displayName": "Huge Druid Owl",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Druid_Owl.png"
+  },
+  {
+    "id": "Huge Mammoth Elephant",
+    "name": "Huge Mammoth Elephant",
+    "displayName": "Huge Mammoth Elephant",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Mammoth_Elephant.png"
   },
   {
     "id": "Huge Super Fluffy Unicorn",
@@ -23136,12 +23136,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Super_Fluffy_Unicorn.png"
   },
   {
-    "id": "Huge Mammoth Elephant",
-    "name": "Huge Mammoth Elephant",
-    "displayName": "Huge Mammoth Elephant",
+    "id": "Huge Horus Falcon",
+    "name": "Huge Horus Falcon",
+    "displayName": "Huge Horus Falcon",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Mammoth_Elephant.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Horus_Falcon.png"
   },
   {
     "id": "Huge Triumphant Eagle",
@@ -23224,20 +23224,20 @@
     "localPath": "PetSimulator99/images/exotics/Warrior_Jaguar.png"
   },
   {
-    "id": "Huge Jewel Peacock",
-    "name": "Huge Jewel Peacock",
-    "displayName": "Huge Jewel Peacock",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Jewel_Peacock.png"
-  },
-  {
     "id": "Huge Genie Fox",
     "name": "Huge Genie Fox",
     "displayName": "Huge Genie Fox",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Genie_Fox.png"
+  },
+  {
+    "id": "Huge Jewel Peacock",
+    "name": "Huge Jewel Peacock",
+    "displayName": "Huge Jewel Peacock",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Jewel_Peacock.png"
   },
   {
     "id": "Huge War Elephant",
@@ -23296,20 +23296,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Warrior_Jaguar.png"
   },
   {
-    "id": "Holofoil Hammerhead",
-    "name": "Holofoil Hammerhead",
-    "displayName": "Holofoil Hammerhead",
+    "id": "Holofoil Axolotl",
+    "name": "Holofoil Axolotl",
+    "displayName": "Holofoil Axolotl",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Holofoil_Hammerhead.png"
-  },
-  {
-    "id": "Holofoil Tiger",
-    "name": "Holofoil Tiger",
-    "displayName": "Holofoil Tiger",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Holofoil_Tiger.png"
+    "localPath": "PetSimulator99/images/exotics/Holofoil_Axolotl.png"
   },
   {
     "id": "Watering Can Elephant",
@@ -23320,20 +23312,12 @@
     "localPath": "PetSimulator99/images/exotics/Watering_Can_Elephant.png"
   },
   {
-    "id": "Paradise Phoenix",
-    "name": "Paradise Phoenix",
-    "displayName": "Paradise Phoenix",
+    "id": "Holofoil Tiger",
+    "name": "Holofoil Tiger",
+    "displayName": "Holofoil Tiger",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Paradise_Phoenix.png"
-  },
-  {
-    "id": "Holofoil Axolotl",
-    "name": "Holofoil Axolotl",
-    "displayName": "Holofoil Axolotl",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Holofoil_Axolotl.png"
+    "localPath": "PetSimulator99/images/exotics/Holofoil_Tiger.png"
   },
   {
     "id": "Lotus Otter",
@@ -23344,12 +23328,20 @@
     "localPath": "PetSimulator99/images/exotics/Lotus_Otter.png"
   },
   {
-    "id": "Gargantuan Rose Wolf",
-    "name": "Gargantuan Rose Wolf",
-    "displayName": "Gargantuan Rose Wolf",
-    "category": "gargantuan",
+    "id": "Holofoil Hammerhead",
+    "name": "Holofoil Hammerhead",
+    "displayName": "Holofoil Hammerhead",
+    "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Rose_Wolf.png"
+    "localPath": "PetSimulator99/images/exotics/Holofoil_Hammerhead.png"
+  },
+  {
+    "id": "Paradise Phoenix",
+    "name": "Paradise Phoenix",
+    "displayName": "Paradise Phoenix",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Paradise_Phoenix.png"
   },
   {
     "id": "Gargantuan Holofoil Agony",
@@ -23360,20 +23352,20 @@
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Holofoil_Agony.png"
   },
   {
+    "id": "Gargantuan Rose Wolf",
+    "name": "Gargantuan Rose Wolf",
+    "displayName": "Gargantuan Rose Wolf",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Rose_Wolf.png"
+  },
+  {
     "id": "Titanic Holofoil Hippomelon",
     "name": "Titanic Holofoil Hippomelon",
     "displayName": "Titanic Holofoil Hippomelon",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Holofoil_Hippomelon.png"
-  },
-  {
-    "id": "Titanic Garden Golem",
-    "name": "Titanic Garden Golem",
-    "displayName": "Titanic Garden Golem",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Garden_Golem.png"
   },
   {
     "id": "Titanic Carrot Crocodile",
@@ -23384,12 +23376,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Carrot_Crocodile.png"
   },
   {
-    "id": "Titanic Lotus Otter",
-    "name": "Titanic Lotus Otter",
-    "displayName": "Titanic Lotus Otter",
+    "id": "Titanic Garden Golem",
+    "name": "Titanic Garden Golem",
+    "displayName": "Titanic Garden Golem",
     "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Lotus_Otter.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Garden_Golem.png"
   },
   {
     "id": "Titanic Gummy Bear",
@@ -23400,28 +23392,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Gummy_Bear.png"
   },
   {
-    "id": "Huge Watering Can Elephant",
-    "name": "Huge Watering Can Elephant",
-    "displayName": "Huge Watering Can Elephant",
-    "category": "huge",
+    "id": "Titanic Lotus Otter",
+    "name": "Titanic Lotus Otter",
+    "displayName": "Titanic Lotus Otter",
+    "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Watering_Can_Elephant.png"
-  },
-  {
-    "id": "Huge Gummy Fox",
-    "name": "Huge Gummy Fox",
-    "displayName": "Huge Gummy Fox",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Gummy_Fox.png"
-  },
-  {
-    "id": "Huge Holofoil Axolotl",
-    "name": "Huge Holofoil Axolotl",
-    "displayName": "Huge Holofoil Axolotl",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Holofoil_Axolotl.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Lotus_Otter.png"
   },
   {
     "id": "Huge Turnip Hamster",
@@ -23432,12 +23408,36 @@
     "localPath": "PetSimulator99/images/huge/Huge_Turnip_Hamster.png"
   },
   {
+    "id": "Huge Watering Can Elephant",
+    "name": "Huge Watering Can Elephant",
+    "displayName": "Huge Watering Can Elephant",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Watering_Can_Elephant.png"
+  },
+  {
+    "id": "Huge Holofoil Axolotl",
+    "name": "Huge Holofoil Axolotl",
+    "displayName": "Huge Holofoil Axolotl",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Holofoil_Axolotl.png"
+  },
+  {
     "id": "Huge Potted Puppy",
     "name": "Huge Potted Puppy",
     "displayName": "Huge Potted Puppy",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Potted_Puppy.png"
+  },
+  {
+    "id": "Huge Gummy Fox",
+    "name": "Huge Gummy Fox",
+    "displayName": "Huge Gummy Fox",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Gummy_Fox.png"
   },
   {
     "id": "Huge Bloom Wyrm",
@@ -23448,20 +23448,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Bloom_Wyrm.png"
   },
   {
-    "id": "Huge Paradise Phoenix",
-    "name": "Huge Paradise Phoenix",
-    "displayName": "Huge Paradise Phoenix",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Paradise_Phoenix.png"
-  },
-  {
     "id": "Huge Holofoil Tiger",
     "name": "Huge Holofoil Tiger",
     "displayName": "Huge Holofoil Tiger",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Holofoil_Tiger.png"
+  },
+  {
+    "id": "Huge Paradise Phoenix",
+    "name": "Huge Paradise Phoenix",
+    "displayName": "Huge Paradise Phoenix",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Paradise_Phoenix.png"
   },
   {
     "id": "Diamond Penguin",
@@ -23544,28 +23544,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Zucchini_Zebra.png"
   },
   {
-    "id": "Huge Leek Lizard",
-    "name": "Huge Leek Lizard",
-    "displayName": "Huge Leek Lizard",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Leek_Lizard.png"
-  },
-  {
     "id": "Huge Tomato Turtle",
     "name": "Huge Tomato Turtle",
     "displayName": "Huge Tomato Turtle",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Tomato_Turtle.png"
-  },
-  {
-    "id": "Huge Corn Minotaur",
-    "name": "Huge Corn Minotaur",
-    "displayName": "Huge Corn Minotaur",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Corn_Minotaur.png"
   },
   {
     "id": "Huge Artichoke Armadillo",
@@ -23576,12 +23560,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Artichoke_Armadillo.png"
   },
   {
-    "id": "Huge Garlic Chick",
-    "name": "Huge Garlic Chick",
-    "displayName": "Huge Garlic Chick",
+    "id": "Huge Corn Minotaur",
+    "name": "Huge Corn Minotaur",
+    "displayName": "Huge Corn Minotaur",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Garlic_Chick.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Corn_Minotaur.png"
   },
   {
     "id": "Huge Broccoli Dino",
@@ -23592,12 +23576,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Broccoli_Dino.png"
   },
   {
-    "id": "Huge Diamond Penguin",
-    "name": "Huge Diamond Penguin",
-    "displayName": "Huge Diamond Penguin",
+    "id": "Huge Garlic Chick",
+    "name": "Huge Garlic Chick",
+    "displayName": "Huge Garlic Chick",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Diamond_Penguin.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Garlic_Chick.png"
+  },
+  {
+    "id": "Huge Leek Lizard",
+    "name": "Huge Leek Lizard",
+    "displayName": "Huge Leek Lizard",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Leek_Lizard.png"
   },
   {
     "id": "Huge Wistera Wyvern",
@@ -23614,6 +23606,14 @@
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Beet_Beaver.png"
+  },
+  {
+    "id": "Huge Diamond Penguin",
+    "name": "Huge Diamond Penguin",
+    "displayName": "Huge Diamond Penguin",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Diamond_Penguin.png"
   },
   {
     "id": "Pinata Cat",
@@ -23736,6 +23736,14 @@
     "localPath": "PetSimulator99/images/exotics/Tokusatsu_Sabertooth.png"
   },
   {
+    "id": "Titanic Grumpy Cat",
+    "name": "Titanic Grumpy Cat",
+    "displayName": "Titanic Grumpy Cat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Grumpy_Cat.png"
+  },
+  {
     "id": "Titanic Tokusatsu Wolf",
     "name": "Titanic Tokusatsu Wolf",
     "displayName": "Titanic Tokusatsu Wolf",
@@ -23752,12 +23760,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Pony.png"
   },
   {
-    "id": "Titanic Grumpy Cat",
-    "name": "Titanic Grumpy Cat",
-    "displayName": "Titanic Grumpy Cat",
+    "id": "Titanic Alebrije Pegasus",
+    "name": "Titanic Alebrije Pegasus",
+    "displayName": "Titanic Alebrije Pegasus",
     "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Grumpy_Cat.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Alebrije_Pegasus.png"
   },
   {
     "id": "Titanic Ninja Capybara",
@@ -23774,14 +23782,6 @@
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Pinata_Cat.png"
-  },
-  {
-    "id": "Titanic Alebrije Pegasus",
-    "name": "Titanic Alebrije Pegasus",
-    "displayName": "Titanic Alebrije Pegasus",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Alebrije_Pegasus.png"
   },
   {
     "id": "Titanic Sombrero Corgi",
@@ -23824,6 +23824,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Sombrero_Axolotl.png"
   },
   {
+    "id": "Huge Alebrije Crocodile",
+    "name": "Huge Alebrije Crocodile",
+    "displayName": "Huge Alebrije Crocodile",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Alebrije_Crocodile.png"
+  },
+  {
     "id": "Huge Pinata Monkey",
     "name": "Huge Pinata Monkey",
     "displayName": "Huge Pinata Monkey",
@@ -23846,14 +23854,6 @@
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Pinata_Dog.png"
-  },
-  {
-    "id": "Huge Alebrije Crocodile",
-    "name": "Huge Alebrije Crocodile",
-    "displayName": "Huge Alebrije Crocodile",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Alebrije_Crocodile.png"
   },
   {
     "id": "Gargantuan Stealth Dragon",
@@ -23896,22 +23896,6 @@
     "localPath": "PetSimulator99/images/exotics/Marigold_Donkey.png"
   },
   {
-    "id": "Mariachi Capybara",
-    "name": "Mariachi Capybara",
-    "displayName": "Mariachi Capybara",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Mariachi_Capybara.png"
-  },
-  {
-    "id": "Desert Coyote",
-    "name": "Desert Coyote",
-    "displayName": "Desert Coyote",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Desert_Coyote.png"
-  },
-  {
     "id": "Desert Scorpion",
     "name": "Desert Scorpion",
     "displayName": "Desert Scorpion",
@@ -23920,12 +23904,12 @@
     "localPath": "PetSimulator99/images/exotics/Desert_Scorpion.png"
   },
   {
-    "id": "Catrin Dog",
-    "name": "Catrin Dog",
-    "displayName": "Catrin Dog",
+    "id": "Desert Coyote",
+    "name": "Desert Coyote",
+    "displayName": "Desert Coyote",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Catrin_Dog.png"
+    "localPath": "PetSimulator99/images/exotics/Desert_Coyote.png"
   },
   {
     "id": "Catrina Cat",
@@ -23944,6 +23928,22 @@
     "localPath": "PetSimulator99/images/exotics/Marigold_Manatee.png"
   },
   {
+    "id": "Mariachi Capybara",
+    "name": "Mariachi Capybara",
+    "displayName": "Mariachi Capybara",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Mariachi_Capybara.png"
+  },
+  {
+    "id": "Catrin Dog",
+    "name": "Catrin Dog",
+    "displayName": "Catrin Dog",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Catrin_Dog.png"
+  },
+  {
     "id": "Mariachi Coati",
     "name": "Mariachi Coati",
     "displayName": "Mariachi Coati",
@@ -23960,20 +23960,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Sugar_Skull_Raccoon.png"
   },
   {
-    "id": "Huge Mariachi Coati",
-    "name": "Huge Mariachi Coati",
-    "displayName": "Huge Mariachi Coati",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Mariachi_Coati.png"
-  },
-  {
     "id": "Huge Desert Coyote",
     "name": "Huge Desert Coyote",
     "displayName": "Huge Desert Coyote",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Desert_Coyote.png"
+  },
+  {
+    "id": "Huge Mariachi Coati",
+    "name": "Huge Mariachi Coati",
+    "displayName": "Huge Mariachi Coati",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Mariachi_Coati.png"
   },
   {
     "id": "Huge Catrin Dog",
@@ -24000,14 +24000,6 @@
     "localPath": "PetSimulator99/images/huge/Huge_Marigold_Manatee.png"
   },
   {
-    "id": "Titanic Catrina Cat",
-    "name": "Titanic Catrina Cat",
-    "displayName": "Titanic Catrina Cat",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Catrina_Cat.png"
-  },
-  {
     "id": "Titanic Desert Scorpion",
     "name": "Titanic Desert Scorpion",
     "displayName": "Titanic Desert Scorpion",
@@ -24016,12 +24008,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Desert_Scorpion.png"
   },
   {
-    "id": "Titanic Mariachi Capybara",
-    "name": "Titanic Mariachi Capybara",
-    "displayName": "Titanic Mariachi Capybara",
+    "id": "Titanic Catrina Cat",
+    "name": "Titanic Catrina Cat",
+    "displayName": "Titanic Catrina Cat",
     "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Mariachi_Capybara.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Catrina_Cat.png"
   },
   {
     "id": "Titanic Sombrero Chihuahua",
@@ -24032,20 +24024,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Sombrero_Chihuahua.png"
   },
   {
+    "id": "Titanic Mariachi Capybara",
+    "name": "Titanic Mariachi Capybara",
+    "displayName": "Titanic Mariachi Capybara",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Mariachi_Capybara.png"
+  },
+  {
     "id": "Titanic Lucky Block Hydra Noob",
     "name": "Titanic Lucky Block Hydra Noob",
     "displayName": "Titanic Lucky Block Hydra Noob",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Lucky_Block_Hydra_Noob.png"
-  },
-  {
-    "id": "Titanic Royal Cloud Cat",
-    "name": "Titanic Royal Cloud Cat",
-    "displayName": "Titanic Royal Cloud Cat",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Royal_Cloud_Cat.png"
   },
   {
     "id": "Titanic Cardboard Floppa",
@@ -24056,20 +24048,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Cardboard_Floppa.png"
   },
   {
+    "id": "Titanic Royal Cloud Cat",
+    "name": "Titanic Royal Cloud Cat",
+    "displayName": "Titanic Royal Cloud Cat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Royal_Cloud_Cat.png"
+  },
+  {
     "id": "Titanic Lucky Surprise Cat",
     "name": "Titanic Lucky Surprise Cat",
     "displayName": "Titanic Lucky Surprise Cat",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Lucky_Surprise_Cat.png"
-  },
-  {
-    "id": "Titanic Lucky Block Tiger",
-    "name": "Titanic Lucky Block Tiger",
-    "displayName": "Titanic Lucky Block Tiger",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Lucky_Block_Tiger.png"
   },
   {
     "id": "Titanic Lucky Peacock",
@@ -24080,12 +24072,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Lucky_Peacock.png"
   },
   {
-    "id": "Huge Cardboard Shark",
-    "name": "Huge Cardboard Shark",
-    "displayName": "Huge Cardboard Shark",
-    "category": "huge",
+    "id": "Titanic Lucky Block Tiger",
+    "name": "Titanic Lucky Block Tiger",
+    "displayName": "Titanic Lucky Block Tiger",
+    "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Cardboard_Shark.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Lucky_Block_Tiger.png"
   },
   {
     "id": "Huge Lucky Stacked Bunny",
@@ -24096,28 +24088,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Lucky_Stacked_Bunny.png"
   },
   {
+    "id": "Huge Cardboard Shark",
+    "name": "Huge Cardboard Shark",
+    "displayName": "Huge Cardboard Shark",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Cardboard_Shark.png"
+  },
+  {
     "id": "Huge Lucky Stacked Capybara",
     "name": "Huge Lucky Stacked Capybara",
     "displayName": "Huge Lucky Stacked Capybara",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Lucky_Stacked_Capybara.png"
-  },
-  {
-    "id": "Huge Cardboard Blobfish",
-    "name": "Huge Cardboard Blobfish",
-    "displayName": "Huge Cardboard Blobfish",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Cardboard_Blobfish.png"
-  },
-  {
-    "id": "Huge Royal Cloud Corgi",
-    "name": "Huge Royal Cloud Corgi",
-    "displayName": "Huge Royal Cloud Corgi",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Royal_Cloud_Corgi.png"
   },
   {
     "id": "Huge Lucky Surprise Unicorn",
@@ -24134,6 +24118,22 @@
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Lucky_Surprise_Ducky.png"
+  },
+  {
+    "id": "Huge Cardboard Blobfish",
+    "name": "Huge Cardboard Blobfish",
+    "displayName": "Huge Cardboard Blobfish",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Cardboard_Blobfish.png"
+  },
+  {
+    "id": "Huge Royal Cloud Corgi",
+    "name": "Huge Royal Cloud Corgi",
+    "displayName": "Huge Royal Cloud Corgi",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Royal_Cloud_Corgi.png"
   },
   {
     "id": "Huge Lucky Stacked Elephant",
@@ -24160,14 +24160,6 @@
     "localPath": "PetSimulator99/images/exotics/Cardboard_Maskot.png"
   },
   {
-    "id": "Lucky Stacked Capybara",
-    "name": "Lucky Stacked Capybara",
-    "displayName": "Lucky Stacked Capybara",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lucky_Stacked_Capybara.png"
-  },
-  {
     "id": "Cardboard Blobfish",
     "name": "Cardboard Blobfish",
     "displayName": "Cardboard Blobfish",
@@ -24182,6 +24174,14 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Lucky_Block_Shark.png"
+  },
+  {
+    "id": "Lucky Stacked Capybara",
+    "name": "Lucky Stacked Capybara",
+    "displayName": "Lucky Stacked Capybara",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Lucky_Stacked_Capybara.png"
   },
   {
     "id": "Lucky Peacock",
@@ -24248,12 +24248,12 @@
     "localPath": "PetSimulator99/images/exotics/Lucky_Block_Tiger.png"
   },
   {
-    "id": "Lucky Stacked Elephant",
-    "name": "Lucky Stacked Elephant",
-    "displayName": "Lucky Stacked Elephant",
+    "id": "Lucky Block Hydra Noob",
+    "name": "Lucky Block Hydra Noob",
+    "displayName": "Lucky Block Hydra Noob",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lucky_Stacked_Elephant.png"
+    "localPath": "PetSimulator99/images/exotics/Lucky_Block_Hydra_Noob.png"
   },
   {
     "id": "Lucky Surprise Cat",
@@ -24264,12 +24264,12 @@
     "localPath": "PetSimulator99/images/exotics/Lucky_Surprise_Cat.png"
   },
   {
-    "id": "Lucky Block Hydra Noob",
-    "name": "Lucky Block Hydra Noob",
-    "displayName": "Lucky Block Hydra Noob",
+    "id": "Lucky Stacked Elephant",
+    "name": "Lucky Stacked Elephant",
+    "displayName": "Lucky Stacked Elephant",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lucky_Block_Hydra_Noob.png"
+    "localPath": "PetSimulator99/images/exotics/Lucky_Stacked_Elephant.png"
   },
   {
     "id": "Gargantuan Cardboard Dominus Astra",
@@ -24312,20 +24312,12 @@
     "localPath": "PetSimulator99/images/exotics/Lucky_Bearserker.png"
   },
   {
-    "id": "Lucky Surprise Axolotl",
-    "name": "Lucky Surprise Axolotl",
-    "displayName": "Lucky Surprise Axolotl",
+    "id": "Lucky Surprise Dragon",
+    "name": "Lucky Surprise Dragon",
+    "displayName": "Lucky Surprise Dragon",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lucky_Surprise_Axolotl.png"
-  },
-  {
-    "id": "Lucky Stacked Walrus",
-    "name": "Lucky Stacked Walrus",
-    "displayName": "Lucky Stacked Walrus",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lucky_Stacked_Walrus.png"
+    "localPath": "PetSimulator99/images/exotics/Lucky_Surprise_Dragon.png"
   },
   {
     "id": "Lucky Sticky Lamb",
@@ -24336,12 +24328,20 @@
     "localPath": "PetSimulator99/images/exotics/Lucky_Sticky_Lamb.png"
   },
   {
-    "id": "Lucky Surprise Dragon",
-    "name": "Lucky Surprise Dragon",
-    "displayName": "Lucky Surprise Dragon",
+    "id": "Lucky Stacked Walrus",
+    "name": "Lucky Stacked Walrus",
+    "displayName": "Lucky Stacked Walrus",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lucky_Surprise_Dragon.png"
+    "localPath": "PetSimulator99/images/exotics/Lucky_Stacked_Walrus.png"
+  },
+  {
+    "id": "Lucky Surprise Axolotl",
+    "name": "Lucky Surprise Axolotl",
+    "displayName": "Lucky Surprise Axolotl",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Lucky_Surprise_Axolotl.png"
   },
   {
     "id": "Lucky Sticky Hedgehog",
@@ -24432,12 +24432,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Lucky_Stacked_Agony.png"
   },
   {
-    "id": "Gamer Panda",
-    "name": "Gamer Panda",
-    "displayName": "Gamer Panda",
+    "id": "Ornate Tiger",
+    "name": "Ornate Tiger",
+    "displayName": "Ornate Tiger",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gamer_Panda.png"
+    "localPath": "PetSimulator99/images/exotics/Ornate_Tiger.png"
   },
   {
     "id": "Ornate Phoenix",
@@ -24448,14 +24448,6 @@
     "localPath": "PetSimulator99/images/exotics/Ornate_Phoenix.png"
   },
   {
-    "id": "Ornate Tiger",
-    "name": "Ornate Tiger",
-    "displayName": "Ornate Tiger",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Ornate_Tiger.png"
-  },
-  {
     "id": "Ornate Koi Fish",
     "name": "Ornate Koi Fish",
     "displayName": "Ornate Koi Fish",
@@ -24464,12 +24456,12 @@
     "localPath": "PetSimulator99/images/exotics/Ornate_Koi_Fish.png"
   },
   {
-    "id": "Gamer Hamster",
-    "name": "Gamer Hamster",
-    "displayName": "Gamer Hamster",
+    "id": "Gamer Panda",
+    "name": "Gamer Panda",
+    "displayName": "Gamer Panda",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Gamer_Hamster.png"
+    "localPath": "PetSimulator99/images/exotics/Gamer_Panda.png"
   },
   {
     "id": "Gamer Frog",
@@ -24480,6 +24472,14 @@
     "localPath": "PetSimulator99/images/exotics/Gamer_Frog.png"
   },
   {
+    "id": "Gamer Hamster",
+    "name": "Gamer Hamster",
+    "displayName": "Gamer Hamster",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Gamer_Hamster.png"
+  },
+  {
     "id": "Highlighter Dragon",
     "name": "Highlighter Dragon",
     "displayName": "Highlighter Dragon",
@@ -24488,20 +24488,20 @@
     "localPath": "PetSimulator99/images/exotics/Highlighter_Dragon.png"
   },
   {
-    "id": "Arcade Bat",
-    "name": "Arcade Bat",
-    "displayName": "Arcade Bat",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Arcade_Bat.png"
-  },
-  {
     "id": "Highlighter Cat",
     "name": "Highlighter Cat",
     "displayName": "Highlighter Cat",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Highlighter_Cat.png"
+  },
+  {
+    "id": "Arcade Bat",
+    "name": "Arcade Bat",
+    "displayName": "Arcade Bat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Arcade_Bat.png"
   },
   {
     "id": "Arcade Bunny",
@@ -24576,20 +24576,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Ornate_Cat.png"
   },
   {
-    "id": "Titanic Arcade Bunny",
-    "name": "Titanic Arcade Bunny",
-    "displayName": "Titanic Arcade Bunny",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Arcade_Bunny.png"
-  },
-  {
     "id": "Titanic Ultra Phoenix",
     "name": "Titanic Ultra Phoenix",
     "displayName": "Titanic Ultra Phoenix",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Ultra_Phoenix.png"
+  },
+  {
+    "id": "Titanic Arcade Bunny",
+    "name": "Titanic Arcade Bunny",
+    "displayName": "Titanic Arcade Bunny",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Arcade_Bunny.png"
   },
   {
     "id": "Titanic Arcade Cat",
@@ -24616,44 +24616,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Highlighter_Cat.png"
   },
   {
-    "id": "Huge Gamer Panda",
-    "name": "Huge Gamer Panda",
-    "displayName": "Huge Gamer Panda",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Gamer_Panda.png"
-  },
-  {
     "id": "Huge Gamer Hamster",
     "name": "Huge Gamer Hamster",
     "displayName": "Huge Gamer Hamster",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Gamer_Hamster.png"
-  },
-  {
-    "id": "Huge Ornate Koi Fish",
-    "name": "Huge Ornate Koi Fish",
-    "displayName": "Huge Ornate Koi Fish",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Ornate_Koi_Fish.png"
-  },
-  {
-    "id": "Huge Cyberpunk Lemur",
-    "name": "Huge Cyberpunk Lemur",
-    "displayName": "Huge Cyberpunk Lemur",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Cyberpunk_Lemur.png"
-  },
-  {
-    "id": "Huge Ornate Phoenix",
-    "name": "Huge Ornate Phoenix",
-    "displayName": "Huge Ornate Phoenix",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Ornate_Phoenix.png"
   },
   {
     "id": "Huge Arcade Cow",
@@ -24664,12 +24632,44 @@
     "localPath": "PetSimulator99/images/huge/Huge_Arcade_Cow.png"
   },
   {
+    "id": "Huge Ornate Koi Fish",
+    "name": "Huge Ornate Koi Fish",
+    "displayName": "Huge Ornate Koi Fish",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Ornate_Koi_Fish.png"
+  },
+  {
+    "id": "Huge Gamer Panda",
+    "name": "Huge Gamer Panda",
+    "displayName": "Huge Gamer Panda",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Gamer_Panda.png"
+  },
+  {
     "id": "Huge Arcade Bat",
     "name": "Huge Arcade Bat",
     "displayName": "Huge Arcade Bat",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Arcade_Bat.png"
+  },
+  {
+    "id": "Huge Ornate Phoenix",
+    "name": "Huge Ornate Phoenix",
+    "displayName": "Huge Ornate Phoenix",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Ornate_Phoenix.png"
+  },
+  {
+    "id": "Huge Cyberpunk Lemur",
+    "name": "Huge Cyberpunk Lemur",
+    "displayName": "Huge Cyberpunk Lemur",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Cyberpunk_Lemur.png"
   },
   {
     "id": "Huge Highlighter Dragon",
@@ -24704,6 +24704,14 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Blurred_Dominus.png"
   },
   {
+    "id": "Titanic Techno Cat",
+    "name": "Titanic Techno Cat",
+    "displayName": "Titanic Techno Cat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Techno_Cat.png"
+  },
+  {
     "id": "Titanic Metal Skull",
     "name": "Titanic Metal Skull",
     "displayName": "Titanic Metal Skull",
@@ -24726,14 +24734,6 @@
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Anaglyph_Agony.png"
-  },
-  {
-    "id": "Titanic Techno Cat",
-    "name": "Titanic Techno Cat",
-    "displayName": "Titanic Techno Cat",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Techno_Cat.png"
   },
   {
     "id": "Huge Anaglyph Sloth",
@@ -24856,14 +24856,6 @@
     "localPath": "PetSimulator99/images/exotics/Anaglyph_Monkey.png"
   },
   {
-    "id": "Anaglyph Agony",
-    "name": "Anaglyph Agony",
-    "displayName": "Anaglyph Agony",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Anaglyph_Agony.png"
-  },
-  {
     "id": "Anaglyph Sloth",
     "name": "Anaglyph Sloth",
     "displayName": "Anaglyph Sloth",
@@ -24872,12 +24864,12 @@
     "localPath": "PetSimulator99/images/exotics/Anaglyph_Sloth.png"
   },
   {
-    "id": "Gargantuan Meebo in a Spaceship",
-    "name": "Gargantuan Meebo in a Spaceship",
-    "displayName": "Gargantuan Meebo in a Spaceship",
-    "category": "gargantuan",
+    "id": "Anaglyph Agony",
+    "name": "Anaglyph Agony",
+    "displayName": "Anaglyph Agony",
+    "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Meebo_in_a_Spaceship.png"
+    "localPath": "PetSimulator99/images/exotics/Anaglyph_Agony.png"
   },
   {
     "id": "Gargantuan M-2 PROTOTYPE",
@@ -24902,6 +24894,14 @@
     "category": "gargantuan",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Moonrock_Golem.png"
+  },
+  {
+    "id": "Gargantuan Meebo in a Spaceship",
+    "name": "Gargantuan Meebo in a Spaceship",
+    "displayName": "Gargantuan Meebo in a Spaceship",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Meebo_in_a_Spaceship.png"
   },
   {
     "id": "Huge Forcefield Jaguar",
@@ -25008,20 +25008,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Moonstone_Mouse.png"
   },
   {
-    "id": "Titanic Moon Buggy Manatee",
-    "name": "Titanic Moon Buggy Manatee",
-    "displayName": "Titanic Moon Buggy Manatee",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Moon_Buggy_Manatee.png"
-  },
-  {
     "id": "Titanic Forcefield Giraffe",
     "name": "Titanic Forcefield Giraffe",
     "displayName": "Titanic Forcefield Giraffe",
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Forcefield_Giraffe.png"
+  },
+  {
+    "id": "Titanic Moon Buggy Manatee",
+    "name": "Titanic Moon Buggy Manatee",
+    "displayName": "Titanic Moon Buggy Manatee",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Moon_Buggy_Manatee.png"
   },
   {
     "id": "Stardust Vein Fox",
@@ -25056,20 +25056,20 @@
     "localPath": "PetSimulator99/images/exotics/Moon_Mining_Husky.png"
   },
   {
-    "id": "Forcefield Gorilla",
-    "name": "Forcefield Gorilla",
-    "displayName": "Forcefield Gorilla",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Forcefield_Gorilla.png"
-  },
-  {
     "id": "Forcefield Jaguar",
     "name": "Forcefield Jaguar",
     "displayName": "Forcefield Jaguar",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Forcefield_Jaguar.png"
+  },
+  {
+    "id": "Forcefield Gorilla",
+    "name": "Forcefield Gorilla",
+    "displayName": "Forcefield Gorilla",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Forcefield_Gorilla.png"
   },
   {
     "id": "Agate Axolotl",
@@ -25096,12 +25096,12 @@
     "localPath": "PetSimulator99/images/exotics/Forcefield_Zebra.png"
   },
   {
-    "id": "Malachite Koi Fish",
-    "name": "Malachite Koi Fish",
-    "displayName": "Malachite Koi Fish",
+    "id": "Moon Buggy Manatee",
+    "name": "Moon Buggy Manatee",
+    "displayName": "Moon Buggy Manatee",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Malachite_Koi_Fish.png"
+    "localPath": "PetSimulator99/images/exotics/Moon_Buggy_Manatee.png"
   },
   {
     "id": "Moonstone Mouse",
@@ -25112,6 +25112,14 @@
     "localPath": "PetSimulator99/images/exotics/Moonstone_Mouse.png"
   },
   {
+    "id": "Malachite Koi Fish",
+    "name": "Malachite Koi Fish",
+    "displayName": "Malachite Koi Fish",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Malachite_Koi_Fish.png"
+  },
+  {
     "id": "Bedrock Bear",
     "name": "Bedrock Bear",
     "displayName": "Bedrock Bear",
@@ -25120,12 +25128,12 @@
     "localPath": "PetSimulator99/images/exotics/Bedrock_Bear.png"
   },
   {
-    "id": "Moon Buggy Manatee",
-    "name": "Moon Buggy Manatee",
-    "displayName": "Moon Buggy Manatee",
+    "id": "Stardust Vein Whale",
+    "name": "Stardust Vein Whale",
+    "displayName": "Stardust Vein Whale",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Moon_Buggy_Manatee.png"
+    "localPath": "PetSimulator99/images/exotics/Stardust_Vein_Whale.png"
   },
   {
     "id": "Stardust Vein Pony",
@@ -25134,14 +25142,6 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Stardust_Vein_Pony.png"
-  },
-  {
-    "id": "Stardust Vein Whale",
-    "name": "Stardust Vein Whale",
-    "displayName": "Stardust Vein Whale",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Stardust_Vein_Whale.png"
   },
   {
     "id": "Titanic Bright Energy Bat",
@@ -25176,20 +25176,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Haxigator.png"
   },
   {
-    "id": "Huge Alien Cat",
-    "name": "Huge Alien Cat",
-    "displayName": "Huge Alien Cat",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Alien_Cat.png"
-  },
-  {
     "id": "Huge Moon Mining Husky",
     "name": "Huge Moon Mining Husky",
     "displayName": "Huge Moon Mining Husky",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Moon_Mining_Husky.png"
+  },
+  {
+    "id": "Huge Alien Cat",
+    "name": "Huge Alien Cat",
+    "displayName": "Huge Alien Cat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Alien_Cat.png"
   },
   {
     "id": "Huge Zeebo Alien",
@@ -25200,12 +25200,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Zeebo_Alien.png"
   },
   {
-    "id": "Huge Abducted Cow",
-    "name": "Huge Abducted Cow",
-    "displayName": "Huge Abducted Cow",
+    "id": "Huge Bright Energy Cobra",
+    "name": "Huge Bright Energy Cobra",
+    "displayName": "Huge Bright Energy Cobra",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Abducted_Cow.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Bright_Energy_Cobra.png"
   },
   {
     "id": "Huge Alien Parasite",
@@ -25216,12 +25216,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Alien_Parasite.png"
   },
   {
-    "id": "Huge Bright Energy Cobra",
-    "name": "Huge Bright Energy Cobra",
-    "displayName": "Huge Bright Energy Cobra",
+    "id": "Huge Abducted Cow",
+    "name": "Huge Abducted Cow",
+    "displayName": "Huge Abducted Cow",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Bright_Energy_Cobra.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Abducted_Cow.png"
   },
   {
     "id": "Huge Dark Energy Unicorn",
@@ -25272,12 +25272,12 @@
     "localPath": "PetSimulator99/images/exotics/Bright_Energy_Cobra.png"
   },
   {
-    "id": "Dark Energy Unicorn",
-    "name": "Dark Energy Unicorn",
-    "displayName": "Dark Energy Unicorn",
+    "id": "Dark Energy Eagle",
+    "name": "Dark Energy Eagle",
+    "displayName": "Dark Energy Eagle",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Dark_Energy_Unicorn.png"
+    "localPath": "PetSimulator99/images/exotics/Dark_Energy_Eagle.png"
   },
   {
     "id": "Bright Energy Bat",
@@ -25288,12 +25288,12 @@
     "localPath": "PetSimulator99/images/exotics/Bright_Energy_Bat.png"
   },
   {
-    "id": "Dark Energy Eagle",
-    "name": "Dark Energy Eagle",
-    "displayName": "Dark Energy Eagle",
+    "id": "Dark Energy Unicorn",
+    "name": "Dark Energy Unicorn",
+    "displayName": "Dark Energy Unicorn",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Dark_Energy_Eagle.png"
+    "localPath": "PetSimulator99/images/exotics/Dark_Energy_Unicorn.png"
   },
   {
     "id": "Gargantuan Mothman",
@@ -25312,14 +25312,6 @@
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Lost_Hero_Bulldog.png"
   },
   {
-    "id": "Huge Lost Hero Cat",
-    "name": "Huge Lost Hero Cat",
-    "displayName": "Huge Lost Hero Cat",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Lost_Hero_Cat.png"
-  },
-  {
     "id": "Huge Lost Hero Rabbit",
     "name": "Huge Lost Hero Rabbit",
     "displayName": "Huge Lost Hero Rabbit",
@@ -25328,12 +25320,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Lost_Hero_Rabbit.png"
   },
   {
-    "id": "Huge Stitched Bunny",
-    "name": "Huge Stitched Bunny",
-    "displayName": "Huge Stitched Bunny",
+    "id": "Huge Lost Hero Cat",
+    "name": "Huge Lost Hero Cat",
+    "displayName": "Huge Lost Hero Cat",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Stitched_Bunny.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Lost_Hero_Cat.png"
   },
   {
     "id": "Huge Haunted Penguin",
@@ -25342,6 +25334,14 @@
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Haunted_Penguin.png"
+  },
+  {
+    "id": "Huge Stitched Bunny",
+    "name": "Huge Stitched Bunny",
+    "displayName": "Huge Stitched Bunny",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Stitched_Bunny.png"
   },
   {
     "id": "Huge Hollow Bat",
@@ -25376,22 +25376,6 @@
     "localPath": "PetSimulator99/images/huge/Huge_Soul_Lantern_Deer.png"
   },
   {
-    "id": "Titanic Stitched Dragon",
-    "name": "Titanic Stitched Dragon",
-    "displayName": "Titanic Stitched Dragon",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Stitched_Dragon.png"
-  },
-  {
-    "id": "Titanic Pumpkin Glow Cat",
-    "name": "Titanic Pumpkin Glow Cat",
-    "displayName": "Titanic Pumpkin Glow Cat",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Pumpkin_Glow_Cat.png"
-  },
-  {
     "id": "Titanic Scaredy Cat",
     "name": "Titanic Scaredy Cat",
     "displayName": "Titanic Scaredy Cat",
@@ -25408,12 +25392,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Lost_Hero_Butterfly.png"
   },
   {
-    "id": "Titanic Scaredy Ghost",
-    "name": "Titanic Scaredy Ghost",
-    "displayName": "Titanic Scaredy Ghost",
+    "id": "Titanic Stitched Dragon",
+    "name": "Titanic Stitched Dragon",
+    "displayName": "Titanic Stitched Dragon",
     "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Scaredy_Ghost.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Stitched_Dragon.png"
+  },
+  {
+    "id": "Titanic Pumpkin Glow Cat",
+    "name": "Titanic Pumpkin Glow Cat",
+    "displayName": "Titanic Pumpkin Glow Cat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Pumpkin_Glow_Cat.png"
   },
   {
     "id": "Titanic Soul Lantern Deer",
@@ -25424,20 +25416,12 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Soul_Lantern_Deer.png"
   },
   {
-    "id": "Hollow Bat",
-    "name": "Hollow Bat",
-    "displayName": "Hollow Bat",
-    "category": "exotics",
+    "id": "Titanic Scaredy Ghost",
+    "name": "Titanic Scaredy Ghost",
+    "displayName": "Titanic Scaredy Ghost",
+    "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Hollow_Bat.png"
-  },
-  {
-    "id": "Hollow Fox",
-    "name": "Hollow Fox",
-    "displayName": "Hollow Fox",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Hollow_Fox.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Scaredy_Ghost.png"
   },
   {
     "id": "Mothman",
@@ -25446,6 +25430,14 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Mothman.png"
+  },
+  {
+    "id": "Lost Hero Rabbit",
+    "name": "Lost Hero Rabbit",
+    "displayName": "Lost Hero Rabbit",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Lost_Hero_Rabbit.png"
   },
   {
     "id": "Lost Hero Cat",
@@ -25464,12 +25456,12 @@
     "localPath": "PetSimulator99/images/exotics/Scaredy_Ghost.png"
   },
   {
-    "id": "Lost Hero Rabbit",
-    "name": "Lost Hero Rabbit",
-    "displayName": "Lost Hero Rabbit",
+    "id": "Hollow Fox",
+    "name": "Hollow Fox",
+    "displayName": "Hollow Fox",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lost_Hero_Rabbit.png"
+    "localPath": "PetSimulator99/images/exotics/Hollow_Fox.png"
   },
   {
     "id": "Haunted Penguin",
@@ -25480,28 +25472,12 @@
     "localPath": "PetSimulator99/images/exotics/Haunted_Penguin.png"
   },
   {
-    "id": "Haunted Hamster",
-    "name": "Haunted Hamster",
-    "displayName": "Haunted Hamster",
+    "id": "Hollow Bat",
+    "name": "Hollow Bat",
+    "displayName": "Hollow Bat",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Haunted_Hamster.png"
-  },
-  {
-    "id": "Lost Hero Griffin",
-    "name": "Lost Hero Griffin",
-    "displayName": "Lost Hero Griffin",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Lost_Hero_Griffin.png"
-  },
-  {
-    "id": "Scaredy Cat",
-    "name": "Scaredy Cat",
-    "displayName": "Scaredy Cat",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Scaredy_Cat.png"
+    "localPath": "PetSimulator99/images/exotics/Hollow_Bat.png"
   },
   {
     "id": "Stitched Cat",
@@ -25512,20 +25488,12 @@
     "localPath": "PetSimulator99/images/exotics/Stitched_Cat.png"
   },
   {
-    "id": "Stitched Bunny",
-    "name": "Stitched Bunny",
-    "displayName": "Stitched Bunny",
+    "id": "Scaredy Cat",
+    "name": "Scaredy Cat",
+    "displayName": "Scaredy Cat",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Stitched_Bunny.png"
-  },
-  {
-    "id": "Stitched Dragon",
-    "name": "Stitched Dragon",
-    "displayName": "Stitched Dragon",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Stitched_Dragon.png"
+    "localPath": "PetSimulator99/images/exotics/Scaredy_Cat.png"
   },
   {
     "id": "Stitched Dog",
@@ -25536,6 +25504,22 @@
     "localPath": "PetSimulator99/images/exotics/Stitched_Dog.png"
   },
   {
+    "id": "Stitched Bunny",
+    "name": "Stitched Bunny",
+    "displayName": "Stitched Bunny",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Stitched_Bunny.png"
+  },
+  {
+    "id": "Lost Hero Griffin",
+    "name": "Lost Hero Griffin",
+    "displayName": "Lost Hero Griffin",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Lost_Hero_Griffin.png"
+  },
+  {
     "id": "Pumpkin Glow Cat",
     "name": "Pumpkin Glow Cat",
     "displayName": "Pumpkin Glow Cat",
@@ -25544,20 +25528,20 @@
     "localPath": "PetSimulator99/images/exotics/Pumpkin_Glow_Cat.png"
   },
   {
-    "id": "Huge Hippokin",
-    "name": "Huge Hippokin",
-    "displayName": "Huge Hippokin",
-    "category": "huge",
+    "id": "Stitched Dragon",
+    "name": "Stitched Dragon",
+    "displayName": "Stitched Dragon",
+    "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Hippokin.png"
+    "localPath": "PetSimulator99/images/exotics/Stitched_Dragon.png"
   },
   {
-    "id": "Huge Grinning Goat",
-    "name": "Huge Grinning Goat",
-    "displayName": "Huge Grinning Goat",
-    "category": "huge",
+    "id": "Haunted Hamster",
+    "name": "Haunted Hamster",
+    "displayName": "Haunted Hamster",
+    "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Grinning_Goat.png"
+    "localPath": "PetSimulator99/images/exotics/Haunted_Hamster.png"
   },
   {
     "id": "Huge Bigfoot",
@@ -25568,14 +25552,6 @@
     "localPath": "PetSimulator99/images/huge/Huge_Bigfoot.png"
   },
   {
-    "id": "Huge Wendigo",
-    "name": "Huge Wendigo",
-    "displayName": "Huge Wendigo",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Wendigo.png"
-  },
-  {
     "id": "Huge Count Penguin",
     "name": "Huge Count Penguin",
     "displayName": "Huge Count Penguin",
@@ -25584,12 +25560,52 @@
     "localPath": "PetSimulator99/images/huge/Huge_Count_Penguin.png"
   },
   {
+    "id": "Huge Hippokin",
+    "name": "Huge Hippokin",
+    "displayName": "Huge Hippokin",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Hippokin.png"
+  },
+  {
+    "id": "Huge Wendigo",
+    "name": "Huge Wendigo",
+    "displayName": "Huge Wendigo",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Wendigo.png"
+  },
+  {
     "id": "Huge Stitched Dog",
     "name": "Huge Stitched Dog",
     "displayName": "Huge Stitched Dog",
     "category": "huge",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/huge/Huge_Stitched_Dog.png"
+  },
+  {
+    "id": "Huge Grinning Goat",
+    "name": "Huge Grinning Goat",
+    "displayName": "Huge Grinning Goat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Grinning_Goat.png"
+  },
+  {
+    "id": "Titanic Count Wolf",
+    "name": "Titanic Count Wolf",
+    "displayName": "Titanic Count Wolf",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Count_Wolf.png"
+  },
+  {
+    "id": "Titanic Snoligoster",
+    "name": "Titanic Snoligoster",
+    "displayName": "Titanic Snoligoster",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Snoligoster.png"
   },
   {
     "id": "Titanic Grinning Goat",
@@ -25606,22 +25622,6 @@
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Headless_Dominus.png"
-  },
-  {
-    "id": "Titanic Snoligoster",
-    "name": "Titanic Snoligoster",
-    "displayName": "Titanic Snoligoster",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Snoligoster.png"
-  },
-  {
-    "id": "Titanic Count Wolf",
-    "name": "Titanic Count Wolf",
-    "displayName": "Titanic Count Wolf",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Count_Wolf.png"
   },
   {
     "id": "Count Corgi",
@@ -25688,92 +25688,12 @@
     "localPath": "PetSimulator99/images/exotics/Wendigo.png"
   },
   {
-    "id": "Gargantuan Abominable Yeti",
-    "name": "Gargantuan Abominable Yeti",
-    "displayName": "Gargantuan Abominable Yeti",
-    "category": "gargantuan",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Abominable_Yeti.png"
-  },
-  {
-    "id": "Gargantuan Domino Dominus",
-    "name": "Gargantuan Domino Dominus",
-    "displayName": "Gargantuan Domino Dominus",
-    "category": "gargantuan",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Domino_Dominus.png"
-  },
-  {
     "id": "Gargantuan Broomstick Cat",
     "name": "Gargantuan Broomstick Cat",
     "displayName": "Gargantuan Broomstick Cat",
     "category": "gargantuan",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Broomstick_Cat.png"
-  },
-  {
-    "id": "Huge Climber Bear",
-    "name": "Huge Climber Bear",
-    "displayName": "Huge Climber Bear",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Climber_Bear.png"
-  },
-  {
-    "id": "Huge Hiker Raccoon",
-    "name": "Huge Hiker Raccoon",
-    "displayName": "Huge Hiker Raccoon",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Hiker_Raccoon.png"
-  },
-  {
-    "id": "Huge Marmot",
-    "name": "Huge Marmot",
-    "displayName": "Huge Marmot",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Marmot.png"
-  },
-  {
-    "id": "Huge Hiker Red Panda",
-    "name": "Huge Hiker Red Panda",
-    "displayName": "Huge Hiker Red Panda",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Hiker_Red_Panda.png"
-  },
-  {
-    "id": "Huge Expedition Wolf",
-    "name": "Huge Expedition Wolf",
-    "displayName": "Huge Expedition Wolf",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Expedition_Wolf.png"
-  },
-  {
-    "id": "Huge Equinox Fox",
-    "name": "Huge Equinox Fox",
-    "displayName": "Huge Equinox Fox",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Equinox_Fox.png"
-  },
-  {
-    "id": "Huge Climber Goat",
-    "name": "Huge Climber Goat",
-    "displayName": "Huge Climber Goat",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Climber_Goat.png"
-  },
-  {
-    "id": "Huge Betta Fish",
-    "name": "Huge Betta Fish",
-    "displayName": "Huge Betta Fish",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Betta_Fish.png"
   },
   {
     "id": "Huge Fennec Fox",
@@ -25784,12 +25704,28 @@
     "localPath": "PetSimulator99/images/huge/Huge_Fennec_Fox.png"
   },
   {
-    "id": "Titanic Expedition Leopard",
-    "name": "Titanic Expedition Leopard",
-    "displayName": "Titanic Expedition Leopard",
-    "category": "titanic",
+    "id": "Huge Betta Fish",
+    "name": "Huge Betta Fish",
+    "displayName": "Huge Betta Fish",
+    "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Expedition_Leopard.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Betta_Fish.png"
+  },
+  {
+    "id": "Hiker Raccoon",
+    "name": "Hiker Raccoon",
+    "displayName": "Hiker Raccoon",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Hiker_Raccoon.png"
+  },
+  {
+    "id": "Huge Marmot",
+    "name": "Huge Marmot",
+    "displayName": "Huge Marmot",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Marmot.png"
   },
   {
     "id": "Titanic Amber Markhor",
@@ -25800,12 +25736,36 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Amber_Markhor.png"
   },
   {
-    "id": "Titanic Equinox Deer",
-    "name": "Titanic Equinox Deer",
-    "displayName": "Titanic Equinox Deer",
-    "category": "titanic",
+    "id": "Amber Markhor",
+    "name": "Amber Markhor",
+    "displayName": "Amber Markhor",
+    "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Equinox_Deer.png"
+    "localPath": "PetSimulator99/images/exotics/Amber_Markhor.png"
+  },
+  {
+    "id": "Abominable Yeti",
+    "name": "Abominable Yeti",
+    "displayName": "Abominable Yeti",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Abominable_Yeti.png"
+  },
+  {
+    "id": "Gargantuan Abominable Yeti",
+    "name": "Gargantuan Abominable Yeti",
+    "displayName": "Gargantuan Abominable Yeti",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Abominable_Yeti.png"
+  },
+  {
+    "id": "Huge Hiker Raccoon",
+    "name": "Huge Hiker Raccoon",
+    "displayName": "Huge Hiker Raccoon",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Hiker_Raccoon.png"
   },
   {
     "id": "Titanic Expedition Dog",
@@ -25816,22 +25776,6 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Expedition_Dog.png"
   },
   {
-    "id": "Titanic Bingus Cat",
-    "name": "Titanic Bingus Cat",
-    "displayName": "Titanic Bingus Cat",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Bingus_Cat.png"
-  },
-  {
-    "id": "Expedition Leopard",
-    "name": "Expedition Leopard",
-    "displayName": "Expedition Leopard",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Expedition_Leopard.png"
-  },
-  {
     "id": "Fennec Fox",
     "name": "Fennec Fox",
     "displayName": "Fennec Fox",
@@ -25840,28 +25784,44 @@
     "localPath": "PetSimulator99/images/exotics/Fennec_Fox.png"
   },
   {
-    "id": "Amber Markhor",
-    "name": "Amber Markhor",
-    "displayName": "Amber Markhor",
-    "category": "exotics",
+    "id": "Titanic Expedition Leopard",
+    "name": "Titanic Expedition Leopard",
+    "displayName": "Titanic Expedition Leopard",
+    "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Amber_Markhor.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Expedition_Leopard.png"
   },
   {
-    "id": "Equinox Fox",
-    "name": "Equinox Fox",
-    "displayName": "Equinox Fox",
-    "category": "exotics",
+    "id": "Titanic Equinox Deer",
+    "name": "Titanic Equinox Deer",
+    "displayName": "Titanic Equinox Deer",
+    "category": "titanic",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Equinox_Fox.png"
+    "localPath": "PetSimulator99/images/titanic/Titanic_Equinox_Deer.png"
   },
   {
-    "id": "Equinox Deer",
-    "name": "Equinox Deer",
-    "displayName": "Equinox Deer",
+    "id": "Titanic Bingus Cat",
+    "name": "Titanic Bingus Cat",
+    "displayName": "Titanic Bingus Cat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Bingus_Cat.png"
+  },
+  {
+    "id": "Huge Climber Bear",
+    "name": "Huge Climber Bear",
+    "displayName": "Huge Climber Bear",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Climber_Bear.png"
+  },
+  {
+    "id": "Marmot",
+    "name": "Marmot",
+    "displayName": "Marmot",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Equinox_Deer.png"
+    "localPath": "PetSimulator99/images/exotics/Marmot.png"
   },
   {
     "id": "Frogfish",
@@ -25872,12 +25832,36 @@
     "localPath": "PetSimulator99/images/exotics/Frogfish.png"
   },
   {
-    "id": "Hiker Red Panda",
-    "name": "Hiker Red Panda",
-    "displayName": "Hiker Red Panda",
+    "id": "Gargantuan Domino Dominus",
+    "name": "Gargantuan Domino Dominus",
+    "displayName": "Gargantuan Domino Dominus",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Domino_Dominus.png"
+  },
+  {
+    "id": "Huge Hiker Red Panda",
+    "name": "Huge Hiker Red Panda",
+    "displayName": "Huge Hiker Red Panda",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Hiker_Red_Panda.png"
+  },
+  {
+    "id": "Huge Climber Goat",
+    "name": "Huge Climber Goat",
+    "displayName": "Huge Climber Goat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Climber_Goat.png"
+  },
+  {
+    "id": "Equinox Deer",
+    "name": "Equinox Deer",
+    "displayName": "Equinox Deer",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Hiker_Red_Panda.png"
+    "localPath": "PetSimulator99/images/exotics/Equinox_Deer.png"
   },
   {
     "id": "Climber Bear",
@@ -25896,20 +25880,28 @@
     "localPath": "PetSimulator99/images/exotics/Climber_Goat.png"
   },
   {
-    "id": "Marmot",
-    "name": "Marmot",
-    "displayName": "Marmot",
+    "id": "Expedition Dog",
+    "name": "Expedition Dog",
+    "displayName": "Expedition Dog",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Marmot.png"
+    "localPath": "PetSimulator99/images/exotics/Expedition_Dog.png"
   },
   {
-    "id": "Hiker Raccoon",
-    "name": "Hiker Raccoon",
-    "displayName": "Hiker Raccoon",
+    "id": "Huge Equinox Fox",
+    "name": "Huge Equinox Fox",
+    "displayName": "Huge Equinox Fox",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Equinox_Fox.png"
+  },
+  {
+    "id": "Hiker Red Panda",
+    "name": "Hiker Red Panda",
+    "displayName": "Hiker Red Panda",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Hiker_Raccoon.png"
+    "localPath": "PetSimulator99/images/exotics/Hiker_Red_Panda.png"
   },
   {
     "id": "Expedition Wolf",
@@ -25920,20 +25912,20 @@
     "localPath": "PetSimulator99/images/exotics/Expedition_Wolf.png"
   },
   {
-    "id": "Abominable Yeti",
-    "name": "Abominable Yeti",
-    "displayName": "Abominable Yeti",
+    "id": "Expedition Leopard",
+    "name": "Expedition Leopard",
+    "displayName": "Expedition Leopard",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Abominable_Yeti.png"
+    "localPath": "PetSimulator99/images/exotics/Expedition_Leopard.png"
   },
   {
-    "id": "Expedition Dog",
-    "name": "Expedition Dog",
-    "displayName": "Expedition Dog",
+    "id": "Equinox Fox",
+    "name": "Equinox Fox",
+    "displayName": "Equinox Fox",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Expedition_Dog.png"
+    "localPath": "PetSimulator99/images/exotics/Equinox_Fox.png"
   },
   {
     "id": "Betta Fish",
@@ -25944,76 +25936,20 @@
     "localPath": "PetSimulator99/images/exotics/Betta_Fish.png"
   },
   {
+    "id": "Huge Expedition Wolf",
+    "name": "Huge Expedition Wolf",
+    "displayName": "Huge Expedition Wolf",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Expedition_Wolf.png"
+  },
+  {
     "id": "Gargantuan Angelus",
     "name": "Gargantuan Angelus",
     "displayName": "Gargantuan Angelus",
     "category": "gargantuan",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Angelus.png"
-  },
-  {
-    "id": "Huge Empyrean Fox",
-    "name": "Huge Empyrean Fox",
-    "displayName": "Huge Empyrean Fox",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Empyrean_Fox.png"
-  },
-  {
-    "id": "Huge Ranger Bear",
-    "name": "Huge Ranger Bear",
-    "displayName": "Huge Ranger Bear",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Ranger_Bear.png"
-  },
-  {
-    "id": "Titanic Glitched Phoenix",
-    "name": "Titanic Glitched Phoenix",
-    "displayName": "Titanic Glitched Phoenix",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Glitched_Phoenix.png"
-  },
-  {
-    "id": "Huge Agony",
-    "name": "Huge Agony",
-    "displayName": "Huge Agony",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Agony.png"
-  },
-  {
-    "id": "Huge Tiger",
-    "name": "Huge Tiger",
-    "displayName": "Huge Tiger",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Tiger.png"
-  },
-  {
-    "id": "Titanic Crackling Agony",
-    "name": "Titanic Crackling Agony",
-    "displayName": "Titanic Crackling Agony",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Crackling_Agony.png"
-  },
-  {
-    "id": "Huge Summit Moose",
-    "name": "Huge Summit Moose",
-    "displayName": "Huge Summit Moose",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Summit_Moose.png"
-  },
-  {
-    "id": "Titanic Empyrean Dragon",
-    "name": "Titanic Empyrean Dragon",
-    "displayName": "Titanic Empyrean Dragon",
-    "category": "titanic",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Empyrean_Dragon.png"
   },
   {
     "id": "Huge Reaper",
@@ -26024,6 +25960,22 @@
     "localPath": "PetSimulator99/images/huge/Huge_Reaper.png"
   },
   {
+    "id": "Huge Empyrean Fox",
+    "name": "Huge Empyrean Fox",
+    "displayName": "Huge Empyrean Fox",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Empyrean_Fox.png"
+  },
+  {
+    "id": "Huge Agony",
+    "name": "Huge Agony",
+    "displayName": "Huge Agony",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Agony.png"
+  },
+  {
     "id": "Huge Dalmatian",
     "name": "Huge Dalmatian",
     "displayName": "Huge Dalmatian",
@@ -26032,12 +25984,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Dalmatian.png"
   },
   {
-    "id": "Huge Froggy",
-    "name": "Huge Froggy",
-    "displayName": "Huge Froggy",
+    "id": "Huge Tiger",
+    "name": "Huge Tiger",
+    "displayName": "Huge Tiger",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Froggy.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Tiger.png"
   },
   {
     "id": "Huge Pog Immortuus",
@@ -26056,6 +26008,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Cyborg_Dominus.png"
   },
   {
+    "id": "Huge Summit Moose",
+    "name": "Huge Summit Moose",
+    "displayName": "Huge Summit Moose",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Summit_Moose.png"
+  },
+  {
     "id": "Huge Expedition Penguin",
     "name": "Huge Expedition Penguin",
     "displayName": "Huge Expedition Penguin",
@@ -26064,12 +26024,68 @@
     "localPath": "PetSimulator99/images/huge/Huge_Expedition_Penguin.png"
   },
   {
+    "id": "Huge Ranger Bear",
+    "name": "Huge Ranger Bear",
+    "displayName": "Huge Ranger Bear",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Ranger_Bear.png"
+  },
+  {
+    "id": "Huge Froggy",
+    "name": "Huge Froggy",
+    "displayName": "Huge Froggy",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Froggy.png"
+  },
+  {
+    "id": "Titanic Glitched Phoenix",
+    "name": "Titanic Glitched Phoenix",
+    "displayName": "Titanic Glitched Phoenix",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Glitched_Phoenix.png"
+  },
+  {
+    "id": "Titanic Empyrean Dragon",
+    "name": "Titanic Empyrean Dragon",
+    "displayName": "Titanic Empyrean Dragon",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Empyrean_Dragon.png"
+  },
+  {
+    "id": "Titanic Crackling Agony",
+    "name": "Titanic Crackling Agony",
+    "displayName": "Titanic Crackling Agony",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Crackling_Agony.png"
+  },
+  {
     "id": "Expedition Penguin",
     "name": "Expedition Penguin",
     "displayName": "Expedition Penguin",
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Expedition_Penguin.png"
+  },
+  {
+    "id": "Ranger Bear",
+    "name": "Ranger Bear",
+    "displayName": "Ranger Bear",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Ranger_Bear.png"
+  },
+  {
+    "id": "Summit Moose",
+    "name": "Summit Moose",
+    "displayName": "Summit Moose",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Summit_Moose.png"
   },
   {
     "id": "Ranger Skunk",
@@ -26086,22 +26102,6 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Crackling_Agony.png"
-  },
-  {
-    "id": "Summit Moose",
-    "name": "Summit Moose",
-    "displayName": "Summit Moose",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Summit_Moose.png"
-  },
-  {
-    "id": "Ranger Bear",
-    "name": "Ranger Bear",
-    "displayName": "Ranger Bear",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Ranger_Bear.png"
   },
   {
     "id": "Gargantuan Butler Penguin",
@@ -26128,28 +26128,12 @@
     "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Porcelain_Doll_Cat.png"
   },
   {
-    "id": "Huge Guard Rhino",
-    "name": "Huge Guard Rhino",
-    "displayName": "Huge Guard Rhino",
+    "id": "Huge Bedsheet Giraffe",
+    "name": "Huge Bedsheet Giraffe",
+    "displayName": "Huge Bedsheet Giraffe",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Guard_Rhino.png"
-  },
-  {
-    "id": "Huge Guard Elephant",
-    "name": "Huge Guard Elephant",
-    "displayName": "Huge Guard Elephant",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Guard_Elephant.png"
-  },
-  {
-    "id": "Gargantuan Chrome Unicorn",
-    "name": "Gargantuan Chrome Unicorn",
-    "displayName": "Gargantuan Chrome Unicorn",
-    "category": "gargantuan",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Chrome_Unicorn.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Bedsheet_Giraffe.png"
   },
   {
     "id": "Huge Trick Or Treat Piggy",
@@ -26160,6 +26144,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Trick_Or_Treat_Piggy.png"
   },
   {
+    "id": "Huge Guard Elephant",
+    "name": "Huge Guard Elephant",
+    "displayName": "Huge Guard Elephant",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Guard_Elephant.png"
+  },
+  {
     "id": "Huge Neon Skeleton Dino",
     "name": "Huge Neon Skeleton Dino",
     "displayName": "Huge Neon Skeleton Dino",
@@ -26168,20 +26160,20 @@
     "localPath": "PetSimulator99/images/huge/Huge_Neon_Skeleton_Dino.png"
   },
   {
-    "id": "Huge Bedsheet Giraffe",
-    "name": "Huge Bedsheet Giraffe",
-    "displayName": "Huge Bedsheet Giraffe",
-    "category": "huge",
+    "id": "Gargantuan Chrome Unicorn",
+    "name": "Gargantuan Chrome Unicorn",
+    "displayName": "Gargantuan Chrome Unicorn",
+    "category": "gargantuan",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Bedsheet_Giraffe.png"
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Chrome_Unicorn.png"
   },
   {
-    "id": "Huge Frankenpet Monkey",
-    "name": "Huge Frankenpet Monkey",
-    "displayName": "Huge Frankenpet Monkey",
+    "id": "Huge Guard Rhino",
+    "name": "Huge Guard Rhino",
+    "displayName": "Huge Guard Rhino",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Frankenpet_Monkey.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Guard_Rhino.png"
   },
   {
     "id": "Huge Ender Bunny",
@@ -26200,28 +26192,12 @@
     "localPath": "PetSimulator99/images/huge/Huge_Butler_Penguin.png"
   },
   {
-    "id": "Huge Chrome Monkey",
-    "name": "Huge Chrome Monkey",
-    "displayName": "Huge Chrome Monkey",
+    "id": "Huge Frankenpet Monkey",
+    "name": "Huge Frankenpet Monkey",
+    "displayName": "Huge Frankenpet Monkey",
     "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Chrome_Monkey.png"
-  },
-  {
-    "id": "Huge Chrome Axolotl",
-    "name": "Huge Chrome Axolotl",
-    "displayName": "Huge Chrome Axolotl",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Chrome_Axolotl.png"
-  },
-  {
-    "id": "Huge Witch Cat",
-    "name": "Huge Witch Cat",
-    "displayName": "Huge Witch Cat",
-    "category": "huge",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/huge/Huge_Witch_Cat.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Frankenpet_Monkey.png"
   },
   {
     "id": "Huge Guard Bat",
@@ -26232,6 +26208,14 @@
     "localPath": "PetSimulator99/images/huge/Huge_Guard_Bat.png"
   },
   {
+    "id": "Huge Witch Cat",
+    "name": "Huge Witch Cat",
+    "displayName": "Huge Witch Cat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Witch_Cat.png"
+  },
+  {
     "id": "Titanic Neon Skeleton Cat",
     "name": "Titanic Neon Skeleton Cat",
     "displayName": "Titanic Neon Skeleton Cat",
@@ -26240,12 +26224,20 @@
     "localPath": "PetSimulator99/images/titanic/Titanic_Neon_Skeleton_Cat.png"
   },
   {
-    "id": "Titanic Ender Goat",
-    "name": "Titanic Ender Goat",
-    "displayName": "Titanic Ender Goat",
-    "category": "titanic",
+    "id": "Huge Chrome Axolotl",
+    "name": "Huge Chrome Axolotl",
+    "displayName": "Huge Chrome Axolotl",
+    "category": "huge",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/titanic/Titanic_Ender_Goat.png"
+    "localPath": "PetSimulator99/images/huge/Huge_Chrome_Axolotl.png"
+  },
+  {
+    "id": "Huge Chrome Monkey",
+    "name": "Huge Chrome Monkey",
+    "displayName": "Huge Chrome Monkey",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Chrome_Monkey.png"
   },
   {
     "id": "Titanic Trick Or Treat Hippo",
@@ -26254,6 +26246,14 @@
     "category": "titanic",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/titanic/Titanic_Trick_Or_Treat_Hippo.png"
+  },
+  {
+    "id": "Titanic Ender Goat",
+    "name": "Titanic Ender Goat",
+    "displayName": "Titanic Ender Goat",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Ender_Goat.png"
   },
   {
     "id": "Titanic Bedsheet Giraffe",
@@ -26328,14 +26328,6 @@
     "localPath": "PetSimulator99/images/exotics/Bedsheet_Giraffe.png"
   },
   {
-    "id": "Trick Or Treat Hippo",
-    "name": "Trick Or Treat Hippo",
-    "displayName": "Trick Or Treat Hippo",
-    "category": "exotics",
-    "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Trick_Or_Treat_Hippo.png"
-  },
-  {
     "id": "Guard Rhino",
     "name": "Guard Rhino",
     "displayName": "Guard Rhino",
@@ -26352,12 +26344,12 @@
     "localPath": "PetSimulator99/images/exotics/Guard_Shark.png"
   },
   {
-    "id": "Trick Or Treat Piggy",
-    "name": "Trick Or Treat Piggy",
-    "displayName": "Trick Or Treat Piggy",
+    "id": "Trick Or Treat Hippo",
+    "name": "Trick Or Treat Hippo",
+    "displayName": "Trick Or Treat Hippo",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Trick_Or_Treat_Piggy.png"
+    "localPath": "PetSimulator99/images/exotics/Trick_Or_Treat_Hippo.png"
   },
   {
     "id": "Butler Penguin",
@@ -26368,12 +26360,12 @@
     "localPath": "PetSimulator99/images/exotics/Butler_Penguin.png"
   },
   {
-    "id": "Porcelain Doll Cat",
-    "name": "Porcelain Doll Cat",
-    "displayName": "Porcelain Doll Cat",
+    "id": "Trick Or Treat Piggy",
+    "name": "Trick Or Treat Piggy",
+    "displayName": "Trick Or Treat Piggy",
     "category": "exotics",
     "rarity": "Unknown",
-    "localPath": "PetSimulator99/images/exotics/Porcelain_Doll_Cat.png"
+    "localPath": "PetSimulator99/images/exotics/Trick_Or_Treat_Piggy.png"
   },
   {
     "id": "Neon Skeleton Cat",
@@ -26382,6 +26374,14 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Neon_Skeleton_Cat.png"
+  },
+  {
+    "id": "Porcelain Doll Cat",
+    "name": "Porcelain Doll Cat",
+    "displayName": "Porcelain Doll Cat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Porcelain_Doll_Cat.png"
   },
   {
     "id": "Neon Skeleton Dino",
