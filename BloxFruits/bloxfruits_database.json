@@ -180,24 +180,6 @@
     }
   },
   {
-    "id": "lightning",
-    "name": "Lightning",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/lightning.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "t_rex",
     "name": "T-rex",
     "category": "Fruits",
@@ -216,10 +198,10 @@
     }
   },
   {
-    "id": "mammoth",
-    "name": "Mammoth",
+    "id": "lightning",
+    "name": "Lightning",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/mammoth.webp",
+    "localPath": "BloxFruits/images/lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -234,10 +216,28 @@
     }
   },
   {
-    "id": "portal",
-    "name": "Portal",
+    "id": "spirit",
+    "name": "Spirit",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/portal.webp",
+    "localPath": "BloxFruits/images/spirit.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "mammoth",
+    "name": "Mammoth",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/mammoth.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -288,10 +288,10 @@
     }
   },
   {
-    "id": "spirit",
-    "name": "Spirit",
+    "id": "portal",
+    "name": "Portal",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/spirit.webp",
+    "localPath": "BloxFruits/images/portal.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1044,64 +1044,10 @@
     }
   },
   {
-    "id": "rubber",
-    "name": "Rubber",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/rubber.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "quake",
     "name": "Quake",
     "category": "Fruits",
     "localPath": "BloxFruits/images/quake.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "eagle",
-    "name": "Eagle",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/eagle.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "dark",
-    "name": "Dark",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/dark.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1152,10 +1098,10 @@
     }
   },
   {
-    "id": "light",
-    "name": "Light",
+    "id": "rubber",
+    "name": "Rubber",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/light.webp",
+    "localPath": "BloxFruits/images/rubber.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1170,10 +1116,10 @@
     }
   },
   {
-    "id": "ice",
-    "name": "Ice",
+    "id": "light",
+    "name": "Light",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/ice.webp",
+    "localPath": "BloxFruits/images/light.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1206,10 +1152,10 @@
     }
   },
   {
-    "id": "flame",
-    "name": "Flame",
+    "id": "eagle",
+    "name": "Eagle",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/flame.webp",
+    "localPath": "BloxFruits/images/eagle.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1224,10 +1170,10 @@
     }
   },
   {
-    "id": "spike",
-    "name": "Spike",
+    "id": "dark",
+    "name": "Dark",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/spike.webp",
+    "localPath": "BloxFruits/images/dark.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1246,6 +1192,60 @@
     "name": "Sand",
     "category": "Fruits",
     "localPath": "BloxFruits/images/sand.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "flame",
+    "name": "Flame",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/flame.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/ice.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "spike",
+    "name": "Spike",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/spike.webp",
     "variants": {
       "regular": {
         "value": "N/A",
