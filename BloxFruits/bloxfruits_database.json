@@ -612,6 +612,24 @@
     }
   },
   {
+    "id": "2x_boss_drops",
+    "name": "2x-boss-drops",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/2x_boss_drops.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "2x_mastery",
     "name": "2x-mastery",
     "category": "Fruits",
@@ -670,24 +688,6 @@
     "name": "Fast-boats",
     "category": "Fruits",
     "localPath": "BloxFruits/images/fast_boats.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "2x_boss_drops",
-    "name": "2x-boss-drops",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/2x_boss_drops.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1314,10 +1314,10 @@
     }
   },
   {
-    "id": "ice",
-    "name": "Ice",
+    "id": "flame",
+    "name": "Flame",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/ice.webp",
+    "localPath": "BloxFruits/images/flame.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1332,10 +1332,10 @@
     }
   },
   {
-    "id": "flame",
-    "name": "Flame",
+    "id": "ice",
+    "name": "Ice",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/flame.webp",
+    "localPath": "BloxFruits/images/ice.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1476,10 +1476,46 @@
     }
   },
   {
-    "id": "torment_pain",
-    "name": "Torment-pain",
+    "id": "lime_blade",
+    "name": "Lime-blade",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/torment_pain.webp",
+    "localPath": "BloxFruits/images/lime_blade.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "scarler_ghost",
+    "name": "Scarler-ghost",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/scarler_ghost.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "yellow_lightning",
+    "name": "Yellow-lightning",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/yellow_lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1530,28 +1566,10 @@
     }
   },
   {
-    "id": "yellow_lightning",
-    "name": "Yellow-lightning",
+    "id": "torment_pain",
+    "name": "Torment-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/yellow_lightning.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "requiem_eagle",
-    "name": "Requiem-eagle",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/requiem_eagle.webp",
+    "localPath": "BloxFruits/images/torment_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1584,46 +1602,28 @@
     }
   },
   {
+    "id": "requiem_eagle",
+    "name": "Requiem-eagle",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/requiem_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "celebration_bomb",
     "name": "Celebration-bomb",
     "category": "Fruits",
     "localPath": "BloxFruits/images/celebration_bomb.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "lime_blade",
-    "name": "Lime-blade",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/lime_blade.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "scarler_ghost",
-    "name": "Scarler-ghost",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/scarler_ghost.webp",
     "variants": {
       "regular": {
         "value": "N/A",
