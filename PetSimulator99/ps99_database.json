@@ -26390,5 +26390,133 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Neon_Skeleton_Dino.png"
+  },
+  {
+    "id": "Huge Thorn Dragon",
+    "name": "Huge Thorn Dragon",
+    "displayName": "Huge Thorn Dragon",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Thorn_Dragon.png"
+  },
+  {
+    "id": "Huge Spider Onesie Cat",
+    "name": "Huge Spider Onesie Cat",
+    "displayName": "Huge Spider Onesie Cat",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Spider_Onesie_Cat.png"
+  },
+  {
+    "id": "Thorn Dragon",
+    "name": "Thorn Dragon",
+    "displayName": "Thorn Dragon",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Thorn_Dragon.png"
+  },
+  {
+    "id": "Huge Witch Fox",
+    "name": "Huge Witch Fox",
+    "displayName": "Huge Witch Fox",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Witch_Fox.png"
+  },
+  {
+    "id": "Masquerade Agony",
+    "name": "Masquerade Agony",
+    "displayName": "Masquerade Agony",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Masquerade_Agony.png"
+  },
+  {
+    "id": "Jester Lion",
+    "name": "Jester Lion",
+    "displayName": "Jester Lion",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Jester_Lion.png"
+  },
+  {
+    "id": "Witch Fox",
+    "name": "Witch Fox",
+    "displayName": "Witch Fox",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Witch_Fox.png"
+  },
+  {
+    "id": "Huge Bat Hoodie Panda",
+    "name": "Huge Bat Hoodie Panda",
+    "displayName": "Huge Bat Hoodie Panda",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Bat_Hoodie_Panda.png"
+  },
+  {
+    "id": "Titanic Masquerade Agony",
+    "name": "Titanic Masquerade Agony",
+    "displayName": "Titanic Masquerade Agony",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Masquerade_Agony.png"
+  },
+  {
+    "id": "Huge Bat Hoodie Bunny",
+    "name": "Huge Bat Hoodie Bunny",
+    "displayName": "Huge Bat Hoodie Bunny",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Bat_Hoodie_Bunny.png"
+  },
+  {
+    "id": "Huge Jester Lion",
+    "name": "Huge Jester Lion",
+    "displayName": "Huge Jester Lion",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Jester_Lion.png"
+  },
+  {
+    "id": "Titanic Phantom Tiger",
+    "name": "Titanic Phantom Tiger",
+    "displayName": "Titanic Phantom Tiger",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Phantom_Tiger.png"
+  },
+  {
+    "id": "Phantom Tiger",
+    "name": "Phantom Tiger",
+    "displayName": "Phantom Tiger",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Phantom_Tiger.png"
+  },
+  {
+    "id": "Spider Onesie Cat",
+    "name": "Spider Onesie Cat",
+    "displayName": "Spider Onesie Cat",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Spider_Onesie_Cat.png"
+  },
+  {
+    "id": "Bat Hoodie Panda",
+    "name": "Bat Hoodie Panda",
+    "displayName": "Bat Hoodie Panda",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Bat_Hoodie_Panda.png"
+  },
+  {
+    "id": "Bat Hoodie Bunny",
+    "name": "Bat Hoodie Bunny",
+    "displayName": "Bat Hoodie Bunny",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Bat_Hoodie_Bunny.png"
   }
 ]
