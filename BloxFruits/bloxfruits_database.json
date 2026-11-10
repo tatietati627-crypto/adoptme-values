@@ -612,6 +612,24 @@
     }
   },
   {
+    "id": "2x_boss_drops",
+    "name": "2x-boss-drops",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/2x_boss_drops.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "2x_mastery",
     "name": "2x-mastery",
     "category": "Fruits",
@@ -634,24 +652,6 @@
     "name": "2x-money",
     "category": "Fruits",
     "localPath": "BloxFruits/images/2x_money.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "2x_boss_drops",
-    "name": "2x-boss-drops",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/2x_boss_drops.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1098,10 +1098,10 @@
     }
   },
   {
-    "id": "nuclear_bomb",
-    "name": "Nuclear-bomb",
+    "id": "frustration_pain",
+    "name": "Frustration-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/nuclear_bomb.webp",
+    "localPath": "BloxFruits/images/frustration_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1116,10 +1116,10 @@
     }
   },
   {
-    "id": "frustration_pain",
-    "name": "Frustration-pain",
+    "id": "nuclear_bomb",
+    "name": "Nuclear-bomb",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/frustration_pain.webp",
+    "localPath": "BloxFruits/images/nuclear_bomb.webp",
     "variants": {
       "regular": {
         "value": "N/A",
