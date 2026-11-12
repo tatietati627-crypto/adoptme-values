@@ -756,10 +756,10 @@
     }
   },
   {
-    "id": "permanent_dragon_token",
-    "name": "Permanent-dragon-token",
+    "id": "galaxy_kitsune",
+    "name": "Galaxy-kitsune",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/permanent_dragon_token.webp",
+    "localPath": "BloxFruits/images/galaxy_kitsune.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -774,10 +774,10 @@
     }
   },
   {
-    "id": "galaxy_kitsune",
-    "name": "Galaxy-kitsune",
+    "id": "permanent_dragon_token",
+    "name": "Permanent-dragon-token",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/galaxy_kitsune.webp",
+    "localPath": "BloxFruits/images/permanent_dragon_token.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -810,10 +810,10 @@
     }
   },
   {
-    "id": "ember_dragon",
-    "name": "Ember-dragon",
+    "id": "parrot_chromatic",
+    "name": "Parrot-chromatic",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/ember_dragon.webp",
+    "localPath": "BloxFruits/images/parrot_chromatic.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -828,10 +828,10 @@
     }
   },
   {
-    "id": "parrot_chromatic",
-    "name": "Parrot-chromatic",
+    "id": "ember_dragon",
+    "name": "Ember-dragon",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/parrot_chromatic.webp",
+    "localPath": "BloxFruits/images/ember_dragon.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -918,10 +918,10 @@
     }
   },
   {
-    "id": "arc_steel_magnet",
-    "name": "Arc-steel-magnet",
+    "id": "divine_portal",
+    "name": "Divine-portal",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/arc_steel_magnet.webp",
+    "localPath": "BloxFruits/images/divine_portal.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -936,10 +936,10 @@
     }
   },
   {
-    "id": "divine_portal",
-    "name": "Divine-portal",
+    "id": "arc_steel_magnet",
+    "name": "Arc-steel-magnet",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/divine_portal.webp",
+    "localPath": "BloxFruits/images/arc_steel_magnet.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1098,10 +1098,10 @@
     }
   },
   {
-    "id": "frustration_pain",
-    "name": "Frustration-pain",
+    "id": "nuclear_bomb",
+    "name": "Nuclear-bomb",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/frustration_pain.webp",
+    "localPath": "BloxFruits/images/nuclear_bomb.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1116,10 +1116,10 @@
     }
   },
   {
-    "id": "nuclear_bomb",
-    "name": "Nuclear-bomb",
+    "id": "frustration_pain",
+    "name": "Frustration-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/nuclear_bomb.webp",
+    "localPath": "BloxFruits/images/frustration_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1188,24 +1188,6 @@
     }
   },
   {
-    "id": "green_lightning",
-    "name": "Green-lightning",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/green_lightning.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "matrix_eagle",
     "name": "Matrix-eagle",
     "category": "Fruits",
@@ -1228,6 +1210,24 @@
     "name": "Emerald-diamond",
     "category": "Fruits",
     "localPath": "BloxFruits/images/emerald_diamond.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "green_lightning",
+    "name": "Green-lightning",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/green_lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
