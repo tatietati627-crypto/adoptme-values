@@ -1116,10 +1116,10 @@
     }
   },
   {
-    "id": "frustration_pain",
-    "name": "Frustration-pain",
+    "id": "thermite_bomb",
+    "name": "Thermite-bomb",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/frustration_pain.webp",
+    "localPath": "BloxFruits/images/thermite_bomb.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1134,10 +1134,10 @@
     }
   },
   {
-    "id": "thermite_bomb",
-    "name": "Thermite-bomb",
+    "id": "frustration_pain",
+    "name": "Frustration-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/thermite_bomb.webp",
+    "localPath": "BloxFruits/images/frustration_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1170,24 +1170,6 @@
     }
   },
   {
-    "id": "rose_quartz_diamond",
-    "name": "Rose-quartz-diamond",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/rose_quartz_diamond.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "matrix_eagle",
     "name": "Matrix-eagle",
     "category": "Fruits",
@@ -1206,10 +1188,10 @@
     }
   },
   {
-    "id": "emerald_diamond",
-    "name": "Emerald-diamond",
+    "id": "rose_quartz_diamond",
+    "name": "Rose-quartz-diamond",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/emerald_diamond.webp",
+    "localPath": "BloxFruits/images/rose_quartz_diamond.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1228,6 +1210,24 @@
     "name": "Green-lightning",
     "category": "Fruits",
     "localPath": "BloxFruits/images/green_lightning.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "requiem_eagle",
+    "name": "Requiem-eagle",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/requiem_eagle.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1530,6 +1530,24 @@
     }
   },
   {
+    "id": "emerald_diamond",
+    "name": "Emerald-diamond",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/emerald_diamond.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "topaz_diamond",
     "name": "Topaz-diamond",
     "category": "Fruits",
@@ -1588,24 +1606,6 @@
     "name": "Glacier-eagle",
     "category": "Fruits",
     "localPath": "BloxFruits/images/glacier_eagle.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "requiem_eagle",
-    "name": "Requiem-eagle",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/requiem_eagle.webp",
     "variants": {
       "regular": {
         "value": "N/A",
