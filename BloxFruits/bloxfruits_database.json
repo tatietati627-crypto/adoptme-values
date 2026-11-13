@@ -1314,10 +1314,10 @@
     }
   },
   {
-    "id": "flame",
-    "name": "Flame",
+    "id": "ice",
+    "name": "Ice",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/flame.webp",
+    "localPath": "BloxFruits/images/ice.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1332,10 +1332,10 @@
     }
   },
   {
-    "id": "ice",
-    "name": "Ice",
+    "id": "flame",
+    "name": "Flame",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/ice.webp",
+    "localPath": "BloxFruits/images/flame.webp",
     "variants": {
       "regular": {
         "value": "N/A",
