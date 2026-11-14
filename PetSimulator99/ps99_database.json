@@ -26518,5 +26518,261 @@
     "category": "exotics",
     "rarity": "Unknown",
     "localPath": "PetSimulator99/images/exotics/Spider_Onesie_Cat.png"
+  },
+  {
+    "id": "Gargantuan Pumpkin Dragon",
+    "name": "Gargantuan Pumpkin Dragon",
+    "displayName": "Gargantuan Pumpkin Dragon",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Pumpkin_Dragon.png"
+  },
+  {
+    "id": "Gargantuan Mythical Pixiu",
+    "name": "Gargantuan Mythical Pixiu",
+    "displayName": "Gargantuan Mythical Pixiu",
+    "category": "gargantuan",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/gargantuan/Gargantuan_Mythical_Pixiu.png"
+  },
+  {
+    "id": "Huge Maple Lion",
+    "name": "Huge Maple Lion",
+    "displayName": "Huge Maple Lion",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Maple_Lion.png"
+  },
+  {
+    "id": "Huge Gourd Toad",
+    "name": "Huge Gourd Toad",
+    "displayName": "Huge Gourd Toad",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Gourd_Toad.png"
+  },
+  {
+    "id": "Huge Toasty Otter",
+    "name": "Huge Toasty Otter",
+    "displayName": "Huge Toasty Otter",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Toasty_Otter.png"
+  },
+  {
+    "id": "Huge Orchard Hedgehog",
+    "name": "Huge Orchard Hedgehog",
+    "displayName": "Huge Orchard Hedgehog",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Orchard_Hedgehog.png"
+  },
+  {
+    "id": "Huge Gourd Piggy",
+    "name": "Huge Gourd Piggy",
+    "displayName": "Huge Gourd Piggy",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Gourd_Piggy.png"
+  },
+  {
+    "id": "Huge Toasty Capybara",
+    "name": "Huge Toasty Capybara",
+    "displayName": "Huge Toasty Capybara",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Toasty_Capybara.png"
+  },
+  {
+    "id": "Huge Nine Eyed Lion",
+    "name": "Huge Nine Eyed Lion",
+    "displayName": "Huge Nine Eyed Lion",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Nine_Eyed_Lion.png"
+  },
+  {
+    "id": "Huge Mythical Manticore",
+    "name": "Huge Mythical Manticore",
+    "displayName": "Huge Mythical Manticore",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Mythical_Manticore.png"
+  },
+  {
+    "id": "Huge Mythical Behemoth",
+    "name": "Huge Mythical Behemoth",
+    "displayName": "Huge Mythical Behemoth",
+    "category": "huge",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/huge/Huge_Mythical_Behemoth.png"
+  },
+  {
+    "id": "Titanic Orchard Pony",
+    "name": "Titanic Orchard Pony",
+    "displayName": "Titanic Orchard Pony",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Orchard_Pony.png"
+  },
+  {
+    "id": "Titanic Orchard Moose",
+    "name": "Titanic Orchard Moose",
+    "displayName": "Titanic Orchard Moose",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Orchard_Moose.png"
+  },
+  {
+    "id": "Titanic Nine Eyed Lion",
+    "name": "Titanic Nine Eyed Lion",
+    "displayName": "Titanic Nine Eyed Lion",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Nine_Eyed_Lion.png"
+  },
+  {
+    "id": "Titanic Maple Kitsune",
+    "name": "Titanic Maple Kitsune",
+    "displayName": "Titanic Maple Kitsune",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Maple_Kitsune.png"
+  },
+  {
+    "id": "Titanic Mythical Leviathan",
+    "name": "Titanic Mythical Leviathan",
+    "displayName": "Titanic Mythical Leviathan",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Mythical_Leviathan.png"
+  },
+  {
+    "id": "Titanic Gourd Koala",
+    "name": "Titanic Gourd Koala",
+    "displayName": "Titanic Gourd Koala",
+    "category": "titanic",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/titanic/Titanic_Gourd_Koala.png"
+  },
+  {
+    "id": "Gourd Toad",
+    "name": "Gourd Toad",
+    "displayName": "Gourd Toad",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Gourd_Toad.png"
+  },
+  {
+    "id": "Orchard Hedgehog",
+    "name": "Orchard Hedgehog",
+    "displayName": "Orchard Hedgehog",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Orchard_Hedgehog.png"
+  },
+  {
+    "id": "Gourd Piggy",
+    "name": "Gourd Piggy",
+    "displayName": "Gourd Piggy",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Gourd_Piggy.png"
+  },
+  {
+    "id": "Toasty Capybara",
+    "name": "Toasty Capybara",
+    "displayName": "Toasty Capybara",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Toasty_Capybara.png"
+  },
+  {
+    "id": "Gourd Koala",
+    "name": "Gourd Koala",
+    "displayName": "Gourd Koala",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Gourd_Koala.png"
+  },
+  {
+    "id": "Pumpkin Dragon",
+    "name": "Pumpkin Dragon",
+    "displayName": "Pumpkin Dragon",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Pumpkin_Dragon.png"
+  },
+  {
+    "id": "Toasty Otter",
+    "name": "Toasty Otter",
+    "displayName": "Toasty Otter",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Toasty_Otter.png"
+  },
+  {
+    "id": "Toasty Monkey",
+    "name": "Toasty Monkey",
+    "displayName": "Toasty Monkey",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Toasty_Monkey.png"
+  },
+  {
+    "id": "Maple Kitsune",
+    "name": "Maple Kitsune",
+    "displayName": "Maple Kitsune",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Maple_Kitsune.png"
+  },
+  {
+    "id": "Maple Lion",
+    "name": "Maple Lion",
+    "displayName": "Maple Lion",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Maple_Lion.png"
+  },
+  {
+    "id": "Orchard Moose",
+    "name": "Orchard Moose",
+    "displayName": "Orchard Moose",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Orchard_Moose.png"
+  },
+  {
+    "id": "Orchard Pony",
+    "name": "Orchard Pony",
+    "displayName": "Orchard Pony",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Orchard_Pony.png"
+  },
+  {
+    "id": "Mythical Basilisk",
+    "name": "Mythical Basilisk",
+    "displayName": "Mythical Basilisk",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Mythical_Basilisk.png"
+  },
+  {
+    "id": "Mythical Behemoth",
+    "name": "Mythical Behemoth",
+    "displayName": "Mythical Behemoth",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Mythical_Behemoth.png"
+  },
+  {
+    "id": "Mythical Manticore",
+    "name": "Mythical Manticore",
+    "displayName": "Mythical Manticore",
+    "category": "exotics",
+    "rarity": "Unknown",
+    "localPath": "PetSimulator99/images/exotics/Mythical_Manticore.png"
   }
 ]
