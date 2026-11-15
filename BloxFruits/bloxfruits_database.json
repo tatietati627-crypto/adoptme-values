@@ -702,24 +702,6 @@
     }
   },
   {
-    "id": "hellfire",
-    "name": "Hellfire",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/hellfire.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "chromatic_eclipse",
     "name": "Chromatic-eclipse",
     "category": "Fruits",
@@ -1224,24 +1206,6 @@
     }
   },
   {
-    "id": "requiem_eagle",
-    "name": "Requiem-eagle",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/requiem_eagle.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "rubber",
     "name": "Rubber",
     "category": "Fruits",
@@ -1476,6 +1440,24 @@
     }
   },
   {
+    "id": "hellfire",
+    "name": "Hellfire",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/hellfire.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "lime_blade",
     "name": "Lime-blade",
     "category": "Fruits",
@@ -1606,6 +1588,24 @@
     "name": "Glacier-eagle",
     "category": "Fruits",
     "localPath": "BloxFruits/images/glacier_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "requiem_eagle",
+    "name": "Requiem-eagle",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/requiem_eagle.webp",
     "variants": {
       "regular": {
         "value": "N/A",
