@@ -774,10 +774,10 @@
     }
   },
   {
-    "id": "crimson_kitsune",
-    "name": "Crimson-kitsune",
+    "id": "parrot_chromatic",
+    "name": "Parrot-chromatic",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/crimson_kitsune.webp",
+    "localPath": "BloxFruits/images/parrot_chromatic.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -792,10 +792,10 @@
     }
   },
   {
-    "id": "parrot_chromatic",
-    "name": "Parrot-chromatic",
+    "id": "crimson_kitsune",
+    "name": "Crimson-kitsune",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/parrot_chromatic.webp",
+    "localPath": "BloxFruits/images/crimson_kitsune.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -900,10 +900,10 @@
     }
   },
   {
-    "id": "divine_portal",
-    "name": "Divine-portal",
+    "id": "arc_steel_magnet",
+    "name": "Arc-steel-magnet",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/divine_portal.webp",
+    "localPath": "BloxFruits/images/arc_steel_magnet.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -918,10 +918,10 @@
     }
   },
   {
-    "id": "arc_steel_magnet",
-    "name": "Arc-steel-magnet",
+    "id": "divine_portal",
+    "name": "Divine-portal",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/arc_steel_magnet.webp",
+    "localPath": "BloxFruits/images/divine_portal.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -954,10 +954,10 @@
     }
   },
   {
-    "id": "dog_blade",
-    "name": "Dog-blade",
+    "id": "runic_yeti",
+    "name": "Runic-yeti",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/dog_blade.webp",
+    "localPath": "BloxFruits/images/runic_yeti.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -972,10 +972,10 @@
     }
   },
   {
-    "id": "runic_yeti",
-    "name": "Runic-yeti",
+    "id": "dog_blade",
+    "name": "Dog-blade",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/runic_yeti.webp",
+    "localPath": "BloxFruits/images/dog_blade.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1170,10 +1170,10 @@
     }
   },
   {
-    "id": "rose_quartz_diamond",
-    "name": "Rose-quartz-diamond",
+    "id": "green_lightning",
+    "name": "Green-lightning",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/rose_quartz_diamond.webp",
+    "localPath": "BloxFruits/images/green_lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1188,10 +1188,10 @@
     }
   },
   {
-    "id": "green_lightning",
-    "name": "Green-lightning",
+    "id": "rose_quartz_diamond",
+    "name": "Rose-quartz-diamond",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/green_lightning.webp",
+    "localPath": "BloxFruits/images/rose_quartz_diamond.webp",
     "variants": {
       "regular": {
         "value": "N/A",
