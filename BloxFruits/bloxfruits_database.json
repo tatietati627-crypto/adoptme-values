@@ -1440,6 +1440,24 @@
     }
   },
   {
+    "id": "requiem_eagle",
+    "name": "Requiem-eagle",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/requiem_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "hellfire",
     "name": "Hellfire",
     "category": "Fruits",
@@ -1512,6 +1530,24 @@
     }
   },
   {
+    "id": "torment_pain",
+    "name": "Torment-pain",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/torment_pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "emerald_diamond",
     "name": "Emerald-diamond",
     "category": "Fruits",
@@ -1566,46 +1602,10 @@
     }
   },
   {
-    "id": "torment_pain",
-    "name": "Torment-pain",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/torment_pain.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "glacier_eagle",
     "name": "Glacier-eagle",
     "category": "Fruits",
     "localPath": "BloxFruits/images/glacier_eagle.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "requiem_eagle",
-    "name": "Requiem-eagle",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/requiem_eagle.webp",
     "variants": {
       "regular": {
         "value": "N/A",
