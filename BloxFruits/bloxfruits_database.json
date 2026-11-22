@@ -702,42 +702,6 @@
     }
   },
   {
-    "id": "doghouse",
-    "name": "Doghouse",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/doghouse.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "vibe",
-    "name": "Vibe",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/vibe.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "chromatic_eclipse",
     "name": "Chromatic-eclipse",
     "category": "Fruits",
@@ -1476,24 +1440,6 @@
     }
   },
   {
-    "id": "scarlet_ghost",
-    "name": "Scarlet-ghost",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/scarlet_ghost.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "hellfire",
     "name": "Hellfire",
     "category": "Fruits",
@@ -1516,6 +1462,24 @@
     "name": "Lime-blade",
     "category": "Fruits",
     "localPath": "BloxFruits/images/lime_blade.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "scarler_ghost",
+    "name": "Scarler-ghost",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/scarler_ghost.webp",
     "variants": {
       "regular": {
         "value": "N/A",
