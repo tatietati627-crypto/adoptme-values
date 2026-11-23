@@ -666,24 +666,6 @@
     }
   },
   {
-    "id": "2x_boss_drops",
-    "name": "2x-boss-drops",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/2x_boss_drops.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "fast_boats",
     "name": "Fast-boats",
     "category": "Fruits",
@@ -702,28 +684,10 @@
     }
   },
   {
-    "id": "doghouse",
-    "name": "Doghouse",
+    "id": "2x_boss_drops",
+    "name": "2x-boss-drops",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/doghouse.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "vibe",
-    "name": "Vibe",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/vibe.webp",
+    "localPath": "BloxFruits/images/2x_boss_drops.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -810,10 +774,10 @@
     }
   },
   {
-    "id": "crimson_kitsune",
-    "name": "Crimson-kitsune",
+    "id": "parrot_chromatic",
+    "name": "Parrot-chromatic",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/crimson_kitsune.webp",
+    "localPath": "BloxFruits/images/parrot_chromatic.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -828,10 +792,10 @@
     }
   },
   {
-    "id": "parrot_chromatic",
-    "name": "Parrot-chromatic",
+    "id": "crimson_kitsune",
+    "name": "Crimson-kitsune",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/parrot_chromatic.webp",
+    "localPath": "BloxFruits/images/crimson_kitsune.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1044,10 +1008,10 @@
     }
   },
   {
-    "id": "werewolf",
-    "name": "Werewolf",
+    "id": "celestial_pain",
+    "name": "Celestial-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/werewolf.webp",
+    "localPath": "BloxFruits/images/celestial_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1062,10 +1026,10 @@
     }
   },
   {
-    "id": "celestial_pain",
-    "name": "Celestial-pain",
+    "id": "werewolf",
+    "name": "Werewolf",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/celestial_pain.webp",
+    "localPath": "BloxFruits/images/werewolf.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1170,24 +1134,6 @@
     }
   },
   {
-    "id": "matrix_eagle",
-    "name": "Matrix-eagle",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/matrix_eagle.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "starlight_gravity",
     "name": "Starlight-gravity",
     "category": "Fruits",
@@ -1206,10 +1152,28 @@
     }
   },
   {
-    "id": "requiem_eagle",
-    "name": "Requiem-eagle",
+    "id": "matrix_eagle",
+    "name": "Matrix-eagle",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/requiem_eagle.webp",
+    "localPath": "BloxFruits/images/matrix_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "green_lightning",
+    "name": "Green-lightning",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/green_lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1476,24 +1440,6 @@
     }
   },
   {
-    "id": "scarlet_ghost",
-    "name": "Scarlet-ghost",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/scarlet_ghost.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "hellfire",
     "name": "Hellfire",
     "category": "Fruits",
@@ -1530,10 +1476,10 @@
     }
   },
   {
-    "id": "yellow_lightning",
-    "name": "Yellow-lightning",
+    "id": "scarler_ghost",
+    "name": "Scarler-ghost",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/yellow_lightning.webp",
+    "localPath": "BloxFruits/images/scarler_ghost.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1548,10 +1494,10 @@
     }
   },
   {
-    "id": "torment_pain",
-    "name": "Torment-pain",
+    "id": "yellow_lightning",
+    "name": "Yellow-lightning",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/torment_pain.webp",
+    "localPath": "BloxFruits/images/yellow_lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1620,10 +1566,10 @@
     }
   },
   {
-    "id": "green_lightning",
-    "name": "Green-lightning",
+    "id": "torment_pain",
+    "name": "Torment-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/green_lightning.webp",
+    "localPath": "BloxFruits/images/torment_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1642,6 +1588,24 @@
     "name": "Glacier-eagle",
     "category": "Fruits",
     "localPath": "BloxFruits/images/glacier_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "requiem_eagle",
+    "name": "Requiem-eagle",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/requiem_eagle.webp",
     "variants": {
       "regular": {
         "value": "N/A",
