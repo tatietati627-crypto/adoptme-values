@@ -1440,42 +1440,6 @@
     }
   },
   {
-    "id": "glacier_eagle",
-    "name": "Glacier-eagle",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/glacier_eagle.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
-    "id": "celebration_bomb",
-    "name": "Celebration-bomb",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/celebration_bomb.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "hellfire",
     "name": "Hellfire",
     "category": "Fruits",
@@ -1548,10 +1512,10 @@
     }
   },
   {
-    "id": "torment_pain",
-    "name": "Torment-pain",
+    "id": "green_lightning",
+    "name": "Green-lightning",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/torment_pain.webp",
+    "localPath": "BloxFruits/images/green_lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1620,10 +1584,46 @@
     }
   },
   {
-    "id": "green_lightning",
-    "name": "Green-lightning",
+    "id": "torment_pain",
+    "name": "Torment-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/green_lightning.webp",
+    "localPath": "BloxFruits/images/torment_pain.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "glacier_eagle",
+    "name": "Glacier-eagle",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/glacier_eagle.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "celebration_bomb",
+    "name": "Celebration-bomb",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/celebration_bomb.webp",
     "variants": {
       "regular": {
         "value": "N/A",
