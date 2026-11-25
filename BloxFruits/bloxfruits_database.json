@@ -702,6 +702,42 @@
     }
   },
   {
+    "id": "doghouse",
+    "name": "Doghouse",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/doghouse.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
+    "id": "vibe",
+    "name": "Vibe",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/vibe.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "chromatic_eclipse",
     "name": "Chromatic-eclipse",
     "category": "Fruits",
@@ -774,10 +810,10 @@
     }
   },
   {
-    "id": "parrot_chromatic",
-    "name": "Parrot-chromatic",
+    "id": "crimson_kitsune",
+    "name": "Crimson-kitsune",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/parrot_chromatic.webp",
+    "localPath": "BloxFruits/images/crimson_kitsune.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -792,10 +828,10 @@
     }
   },
   {
-    "id": "crimson_kitsune",
-    "name": "Crimson-kitsune",
+    "id": "parrot_chromatic",
+    "name": "Parrot-chromatic",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/crimson_kitsune.webp",
+    "localPath": "BloxFruits/images/parrot_chromatic.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1008,10 +1044,10 @@
     }
   },
   {
-    "id": "celestial_pain",
-    "name": "Celestial-pain",
+    "id": "werewolf",
+    "name": "Werewolf",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/celestial_pain.webp",
+    "localPath": "BloxFruits/images/werewolf.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1026,10 +1062,10 @@
     }
   },
   {
-    "id": "werewolf",
-    "name": "Werewolf",
+    "id": "celestial_pain",
+    "name": "Celestial-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/werewolf.webp",
+    "localPath": "BloxFruits/images/celestial_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1440,6 +1476,24 @@
     }
   },
   {
+    "id": "scarlet_ghost",
+    "name": "Scarlet-ghost",
+    "category": "Fruits",
+    "localPath": "BloxFruits/images/scarlet_ghost.webp",
+    "variants": {
+      "regular": {
+        "value": "N/A",
+        "demand": "Stable",
+        "beliPrice": "N/A"
+      },
+      "permanent": {
+        "value": "N/A",
+        "demand": "High",
+        "robuxPrice": "N/A"
+      }
+    }
+  },
+  {
     "id": "hellfire",
     "name": "Hellfire",
     "category": "Fruits",
@@ -1476,24 +1530,6 @@
     }
   },
   {
-    "id": "scarler_ghost",
-    "name": "Scarler-ghost",
-    "category": "Fruits",
-    "localPath": "BloxFruits/images/scarler_ghost.webp",
-    "variants": {
-      "regular": {
-        "value": "N/A",
-        "demand": "Stable",
-        "beliPrice": "N/A"
-      },
-      "permanent": {
-        "value": "N/A",
-        "demand": "High",
-        "robuxPrice": "N/A"
-      }
-    }
-  },
-  {
     "id": "yellow_lightning",
     "name": "Yellow-lightning",
     "category": "Fruits",
@@ -1512,10 +1548,10 @@
     }
   },
   {
-    "id": "green_lightning",
-    "name": "Green-lightning",
+    "id": "torment_pain",
+    "name": "Torment-pain",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/green_lightning.webp",
+    "localPath": "BloxFruits/images/torment_pain.webp",
     "variants": {
       "regular": {
         "value": "N/A",
@@ -1584,10 +1620,10 @@
     }
   },
   {
-    "id": "torment_pain",
-    "name": "Torment-pain",
+    "id": "green_lightning",
+    "name": "Green-lightning",
     "category": "Fruits",
-    "localPath": "BloxFruits/images/torment_pain.webp",
+    "localPath": "BloxFruits/images/green_lightning.webp",
     "variants": {
       "regular": {
         "value": "N/A",
